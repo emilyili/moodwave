@@ -50,7 +50,8 @@ svg {
 <body>
   <div id='layout'>
     <div id='container'>
-      <svg/>
+      <svg id="1"></svg>
+      <svg id="2"></svg>
     </div>
   </div>
 
@@ -70,7 +71,8 @@ const margin = 10;
 const width = 1200 - 2 * margin
 const height = 800 - 2 * margin
 	
-var svg = d3.select('svg')
+// var svg = d3.select('svg')
+var svg = d3.select("#1")
 var svgContainer = d3.select('#container')
 	
 //   var svg = d3.select("#dataviz_area")
@@ -350,8 +352,8 @@ var svgContainer = d3.select('#container')
 //   const chart = svg.append('g')
 //        .attr('transform', `translate(${margin}, ${margin})`);
 //   var graph = svg.append("g");
-  
-  var bars = svg.append("g")
+  var svg2 = d3.select("#2")
+  var bars = svg2.append("g")
 //        .attr('transform', `translate(${margin}, ${margin})`);
 //   var bars = chart.selectAll()
 //   svg.selectAll("rect")
