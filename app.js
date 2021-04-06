@@ -1,61 +1,85 @@
 const express = require('express');
 const app = express();
 const cookieSession = require('cookie-session');
-const passport = require('passport');
-require('./passport');
 
 var request = require('request');
 
 var client_id = "93febf29f64649a8b1675c59304fa249";
 var client_secret = "7ee44bfbd5ae44d5a9597ae3da9c4743";
 
-var authOptions = {
-  url: 'https://accounts.spotify.com/api/token',
-  headers: {
-    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
-  },
-  form: {
-    grant_type: 'client_credentials'
-  },
-  json: true
-};
+var SpotifyWebApi = require('spotify-web-api-node');
 
-var image;
-var audio;
-
-request.post(authOptions, function (error, response, body) {
-  if (!error && response.statusCode === 200) {
-
-    // use the access token to access the Spotify Web API
-    var token = body.access_token;
-    var options = {
-      url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
-      headers: {
-        'Authorization': 'Bearer ' + token
-      },
-      json: true
-    };
-    request.get(options, function (error, response, body) {
-      console.log(body.tracks.items);
-      console.log(body.tracks.items[0].album.images[0].url); // image link
-      console.log(body.tracks.items[0].preview_url); // audio preview
-      image = body.tracks.items[0].album.images[0].url;
-      audio = body.tracks.items[0].preview_url;
-    });
-  }
+// Create the api object with the credentials
+var spotifyApi = new SpotifyWebApi({
+  clientId: client_id,
+  clientSecret: client_secret
 });
 
+// Retrieve an access token.
+spotifyApi.clientCredentialsGrant().then(
+  function (data) {
+    console.log('The access token expires in ' + data.body['expires_in']);
+    console.log('The access token is ' + data.body['access_token']);
 
-// const passport = require('passport');
-// const SpotifyStrategy = require('passport-spotify').Strategy;
+    // Save the access token so that it's used in future calls
+    spotifyApi.setAccessToken(data.body['access_token']);
+    console.log(spotifyApi);
+  },
+  function (err) {
+    console.log('Something went wrong when retrieving an access token', err);
+  }
+);
 
-// passport.serializeUser(function (user, done) {
-//   done(null, user);
+console.log(spotifyApi);
+
+// spotifyApi.searchTracks('track:Peaches artist:Justin Bieber', { limit: 1 })
+//   .then(function (data) {
+//     //console.log('Search tracks by "Alright" in the track name and "Kendrick Lamar" in the artist name', data.body);
+//     console.log(data.body['tracks']);
+//     console.log(data.body['tracks'].items[0].album.images[0].url);
+//     console.log(data.body['tracks'].items[0].preview_url);
+//   }, function (err) {
+//     console.log('Something went wrong!', err);
+//   });
+
+
+
+// var authOptions = {
+//   url: 'https://accounts.spotify.com/api/token',
+//   headers: {
+//     'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
+//   },
+//   form: {
+//     grant_type: 'client_credentials'
+//   },
+//   json: true
+// };
+
+// var image;
+// var audio;
+
+// request.post(authOptions, function (error, response, body) {
+//   if (!error && response.statusCode === 200) {
+
+//     // use the access token to access the Spotify Web API
+//     var token = body.access_token;
+//     var options = {
+//       url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
+//       headers: {
+//         'Authorization': 'Bearer ' + token
+//       },
+//       json: true
+//     };
+//     request.get(options, function (error, response, body) {
+//       console.log(body.tracks.items);
+//       console.log(body.tracks.items[0].album.images[0].url); // image link
+//       console.log(body.tracks.items[0].preview_url); // audio preview
+//       image = body.tracks.items[0].album.images[0].url;
+//       audio = body.tracks.items[0].preview_url;
+//     });
+//   }
 // });
 
-// passport.deserializeUser(function (user, done) {
-//   done(null, user);
-// });
 
 // passport.use(new SpotifyStrategy({
 //   clientID: "93febf29f64649a8b1675c59304fa249",
