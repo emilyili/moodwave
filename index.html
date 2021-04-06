@@ -36,7 +36,7 @@ div#layout {
 }
 
 div#container {
-  width: 100%;
+  width: 1000px;
   height: 800px;
   margin: auto;
   background-color: #34383A;
@@ -126,9 +126,9 @@ text.source {
 // //     .attr("viewBox", [0, 0, width + 100, height + 100])
 
 
-const margin = 10;
-const width = 1400 - 2 * margin;
-const height = 800 - 2 * margin;
+const margin = 80;
+const width = 1000 - 2 * margin;
+const height = 600 - 2 * margin;
 	
 const svg = d3.select('svg');
 const svgContainer = d3.select('#container');
@@ -351,9 +351,9 @@ const svgContainer = d3.select('#container');
       .range([height, 0])
       .domain([0, 100]);
 
-    vertical grid lines
-    const makeXLines = () => d3.axisBottom()
-      .scale(xScale)
+//     vertical grid lines
+//     const makeXLines = () => d3.axisBottom()
+//       .scale(xScale)
 
     const makeYLines = () => d3.axisLeft()
       .scale(yScale)
