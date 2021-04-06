@@ -26,10 +26,6 @@
     fill: #FFFFFF;
     overflow: hidden;
   }
-  
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
 div#layout {
   text-align: center;
@@ -46,61 +42,6 @@ svg {
   width: 100%;
   height: 100%;
 }
-
-.bar {
-  fill: #80cbc4;
-}
-
-text {
-  font-size: 12px;
-  fill: #fff;
-}
-
-path {
-  stroke: gray;
-}
-
-line {
-  stroke: gray;
-}
-
-line#limit {
-  stroke: #FED966;
-  stroke-width: 3;
-  stroke-dasharray: 3 6;
-}
-
-.grid path {
-  stroke-width: 0;
-}
-
-.grid .tick line {
-  stroke: #9FAAAE;
-  stroke-opacity: 0.3;
-}
-
-text.divergence {
-  font-size: 14px;
-  fill: #2F4A6D;
-}
-
-text.value {
-  font-size: 14px;
-}
-
-text.title {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-text.label {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-text.source {
-  font-size: 10px;
-}
 </style>
 
 <!-- Load d3.js -->
@@ -108,20 +49,19 @@ text.source {
 
 <body>
   <div id='layout'>
-    <!-- <h2>Bar chart example</h2> -->
     <div id='container'>
       <svg/>
     </div>
-    <!-- Add a svg area, empty -->
-<!-- <svg id="dataviz_area" height=1000 width=100%></svg> -->
   </div>
 
 </body>
 </html>
+
 <script>
 // 	const width = 1000;
 // 	const height = 600;
 // 	const margin = ({top: 30, right: -100, bottom: -50, left: 250})
+	
 // //   const svg = d3.create("svg")
 // //     .attr("viewBox", [0, 0, width + 100, height + 100])
 
@@ -411,7 +351,7 @@ var svgContainer = d3.select('#container')
 //        .attr('transform', `translate(${margin}, ${margin})`);
 //   var graph = svg.append("g");
   
-  var bars = svg.selectAll("rect")
+  var bars = svg.append('g')
 //        .attr('transform', `translate(${margin}, ${margin})`);
 //   var bars = chart.selectAll()
 //   svg.selectAll("rect")
@@ -419,7 +359,7 @@ var svgContainer = d3.select('#container')
 //             return a.date - b.date;
 //           }))
 //     .data(userData)
-  bars
+  bars.append("rect")
 //     .selectAll("rect")
     .data(userData)
     .join("rect")
@@ -691,21 +631,21 @@ var svgContainer = d3.select('#container')
       }
     })
 
-	const x = d3.scaleBand()
+	var x = d3.scaleBand()
 	    .domain(d3.range(dataset.length))
 	    .range([margin.left, width - margin.right])
 	    .padding(0.1)
 
-	const y = d3.scaleLinear()
+	var y = d3.scaleLinear()
 	    .domain([0, d3.max(dataset, d => d.frequency)]).nice()
 	    .range([height - margin.bottom, margin.top])
 
-	const xAxis = g => g
+	var xAxis = g => g
 	    .attr("transform", `translate(0,${height - margin.bottom})`)
 	    .attr("color", "white")
 	    .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dailyData[i].date))).tickSizeOuter(0))
 
-	const yAxis = g => g
+	var yAxis = g => g
 	    .attr("transform", `translate(${margin.left},0)`)
 	    .call(d3.axisLeft(y).ticks(null, data.format))
 	    .call(g => g.select(".domain").remove())
