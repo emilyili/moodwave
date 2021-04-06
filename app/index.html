@@ -65,6 +65,13 @@
 
   var chart = svg.append("g")
 
+    chart.append("rect")
+    .attr("x", 250)
+    .attr("y", 250)
+    .attr("width", 200)
+    .attr("height", 200)
+    .attr("fill", "green")
+  
   var legend = chart.append("g")
 
   legend.append("circle")
@@ -314,7 +321,7 @@
   //        .attr('transform', `translate(${margin}, ${margin})`);
   //   var graph = svg.append("g");
   //   var svg2 = d3.select("#2")
-  var bars = chart.append("g")
+  var bars = svg.append('g')
   //        .attr('transform', `translate(${margin}, ${margin})`);
   //   var bars = chart.selectAll()
   //   svg.selectAll("rect")
