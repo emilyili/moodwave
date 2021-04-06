@@ -1,0 +1,27 @@
+{
+  "name": "moodwave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyili/moodwave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyili/moodwave/issues"
+  },
+  "homepage": "https://github.com/emilyili/moodwave#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-spotify": "^2.0.0",
+    "request": "^2.88.2"
+  }
+}
