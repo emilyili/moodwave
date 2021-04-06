@@ -172,11 +172,13 @@
   
   //bar graph
   var graph = svg.append("g")
-  graph.selectAll("rect")
+  graph.selectAll()
 //     .data(userData.sort(function(a,b) {
 //             return a.date - b.date;
 //           }))
+    .append("rect")
     .data(userData)
+    .enter()
     .join("rect")
     .attr("fill", function(d) {
       if(d.quadrant == 1)
