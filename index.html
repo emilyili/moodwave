@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <style>
+  .g_main {
+  pointer-events: all;
+  }
   .title {  
     font-family: Montserrat;
     font-style: normal;
@@ -164,12 +167,12 @@
       .text("depressed, sad")
   
   //bar graph
-  svg.append("g")
+  var graph = svg.append("g")
     .selectAll("rect")
 //     .data(userData.sort(function(a,b) {
 //             return a.date - b.date;
 //           }))
-	.data(userData)
+    .data(userData)
     .join("rect")
     .attr("fill", function(d) {
       if(d.quadrant == 1)
@@ -415,7 +418,7 @@
 
   //x axis formatting
   var temp = []
-  svg.append("g")
+  var axis = svg.append("g")
     .call(xAxis)
     .selectAll(".tick text")
     .attr("fill", "white")
