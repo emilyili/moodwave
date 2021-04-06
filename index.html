@@ -162,13 +162,15 @@ var svgContainer = d3.select('#container');
   var colorScaleOut = ["#B459DE","#61ECDB","#3372D2","#FD3A3E"]
   var colorScaleIn = ["#E0BCF0","#B6F6EE","#B0C8ED","#FED2D2"]
   
-  svg.append("circle")
+  var legend = svg.append("circle")
+  
+  legend
     .attr("cx", 100)
     .attr("cy", 145)
     .attr("r", 3)
     .attr("fill", "white")
   
-  svg.selectAll("path")
+  legend.selectAll("path")
     .data(circ)
     .enter()
     .append("path")
@@ -178,7 +180,7 @@ var svgContainer = d3.select('#container');
       return colorScaleIn[d.index];
     })
   
-  svg.selectAll("path2")
+  legend.selectAll("path2")
     .data(circ)
     .enter()
     .append("path")
@@ -189,7 +191,7 @@ var svgContainer = d3.select('#container');
     })
   
   //legend descriptions
-  var tgrp = svg.append("g") 
+  var tgrp = legend.append("g") 
     tgrp.append("text")
       .attr("x", 25)
       .attr("y", 50)
@@ -259,60 +261,6 @@ var svgContainer = d3.select('#container');
       .attr("y", 450)
       .attr("class", "heading")
       .text("depressed, sad")
-
-// // https://insights.stackoverflow.com/survey/2018/#technology-most-loved-dreaded-and-wanted-languages
-//     const sample = [
-//       {
-//         language: 'Rust',
-//         value: 78.9,
-//         color: '#000000'
-//       },
-//       {
-//         language: 'Kotlin',
-//         value: 75.1,
-//         color: '#00a2ee'
-//       },
-//       {
-//         language: 'Python',
-//         value: 68.0,
-//         color: '#fbcb39'
-//       },
-//       {
-//         language: 'TypeScript',
-//         value: 67.0,
-//         color: '#007bc8'
-//       },
-//       {
-//         language: 'Go',
-//         value: 65.6,
-//         color: '#65cedb'
-//       },
-//       {
-//         language: 'Swift',
-//         value: 65.1,
-//         color: '#ff6e52'
-//       },
-//       {
-//         language: 'JavaScript',
-//         value: 61.9,
-//         color: '#f9de3f'
-//       },
-//       {
-//         language: 'C#',
-//         value: 60.4,
-//         color: '#5d2f8e'
-//       },
-//       {
-//         language: 'F#',
-//         value: 59.6,
-//         color: '#008fc9'
-//       },
-//       {
-//         language: 'Clojure',
-//         value: 59.6,
-//         color: '#507dca'
-//       }
-//     ];
 
 //     const chart = svg.append('g')
 //       .attr('transform', `translate(${margin}, ${margin})`);
