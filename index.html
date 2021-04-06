@@ -204,221 +204,221 @@
     .attr("width", x.bandwidth() + 1)
   
     //hover capabilities
-    .on("mouseover", function(d, i) {
-			d3.select(this)
-    .attr("opacity", "25%");
-      var xpos = 0;
-      var ypos = 0;
-      var tgrp = svg.append("g")
-        .attr("id", "tooltip")
-        tgrp.append("rect")
-          .attr("width", "249px")
-          .attr("height", "90%")
-          .attr("fill", "#34383A")
+//     .on("mouseover", function(d, i) {
+// 			d3.select(this)
+//     .attr("opacity", "25%");
+//       var xpos = 0;
+//       var ypos = 0;
+//       var tgrp = svg.append("g")
+//         .attr("id", "tooltip")
+//         tgrp.append("rect")
+//           .attr("width", "249px")
+//           .attr("height", "90%")
+//           .attr("fill", "#34383A")
     
-        //title
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 50)
-          .attr("class", "title")
-          .text("Mood Waves")
+//         //title
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 50)
+//           .attr("class", "title")
+//           .text("Mood Waves")
     
-          //circle chart
-          var pie = d3.pie()
-          var circ = pie([1,1,1,1])
-          var arcOut = d3.arc()
-            .innerRadius(25)
-            .outerRadius(50)
+//           //circle chart
+//           var pie = d3.pie()
+//           var circ = pie([1,1,1,1])
+//           var arcOut = d3.arc()
+//             .innerRadius(25)
+//             .outerRadius(50)
 
-          var arcIn = d3.arc()
-            .innerRadius(3)
-            .outerRadius(25)
+//           var arcIn = d3.arc()
+//             .innerRadius(3)
+//             .outerRadius(25)
 
-          var colorScaleOut = ["#B459DE","#61ECDB","#3372D2","#FD3A3E"]
-          var colorScaleIn = ["#E0BCF0","#B6F6EE","#B0C8ED","#FED2D2"]
+//           var colorScaleOut = ["#B459DE","#61ECDB","#3372D2","#FD3A3E"]
+//           var colorScaleIn = ["#E0BCF0","#B6F6EE","#B0C8ED","#FED2D2"]
 
-          tgrp.append("circle")
-            .attr("cx", 100)
-            .attr("cy", 145)
-            .attr("r", 3)
-            .attr("fill", "white")
+//           tgrp.append("circle")
+//             .attr("cx", 100)
+//             .attr("cy", 145)
+//             .attr("r", 3)
+//             .attr("fill", "white")
 
-          tgrp.selectAll("path")
-            .data(circ)
-            .enter()
-            .append("path")
-            .attr("transform", "translate(100,145)")
-            .attr("d", arcIn)
-            .attr("fill", function(d) {
-              return colorScaleIn[d.index];
-            })
-          tgrp.selectAll("path2")
-            .data(circ)
-            .enter()
-            .append("path")
-            .attr("transform", "translate(100,145)")
-            .attr("d", arcOut)
-            .attr("fill", function(d) {
-              return colorScaleOut[d.index];
-            })
+//           tgrp.selectAll("path")
+//             .data(circ)
+//             .enter()
+//             .append("path")
+//             .attr("transform", "translate(100,145)")
+//             .attr("d", arcIn)
+//             .attr("fill", function(d) {
+//               return colorScaleIn[d.index];
+//             })
+//           tgrp.selectAll("path2")
+//             .data(circ)
+//             .enter()
+//             .append("path")
+//             .attr("transform", "translate(100,145)")
+//             .attr("d", arcOut)
+//             .attr("fill", function(d) {
+//               return colorScaleOut[d.index];
+//             })
     
-        //details
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 250)
-          .attr("class", "heading")
-          .text(`${d3.timeFormat('%b %d, %Y')(i.date)}`)
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 270)
-          .attr("class", "body")
-          .text("You listened to " + `${i.frequency}` + " songs.")
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 300)
-          .attr("class", "heading")
-          .text("top songs")
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 325)
-          .attr("class", "heading")
-          .text(function() {
-            if(i.topsongs[0].name.length <= 25) {
-              return `${i.topsongs[0].name}`;
-            } else {
-              return `${i.topsongs[0].name}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 340)
-          .attr("class", "body")
-          .text(function() {
-            if(i.topsongs[0].singer.length <= 25) {
-              return `${i.topsongs[0].singer}`;
-            } else {
-              return `${i.topsongs[0].singer}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 365)
-          .attr("class", "heading")
-          .text(function() {
-            if(i.topsongs[1].name.length < 25) {
-              return `${i.topsongs[1].name}`;
-            } else {
-              return `${i.topsongs[1].name}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 380)
-          .attr("class", "body")
-          .text(function() {
-            if(i.topsongs[1].singer.length <= 25) {
-              return `${i.topsongs[1].singer}`;
-            } else {
-              return `${i.topsongs[1].singer}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 405)
-          .attr("class", "heading")
-          .text(function() {
-            if(i.topsongs[2].name.length < 25) {
-              return `${i.topsongs[2].name}`;
-            } else {
-              return `${i.topsongs[2].name}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 420)
-          .attr("class", "body")
-          .text(function() {
-            if(i.topsongs[2].singer.length <= 25) {
-              return `${i.topsongs[2].singer}`;
-            } else {
-              return `${i.topsongs[2].singer}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 445)
-          .attr("class", "heading")
-          .text(function() {
-            if(i.topsongs[3].name.length < 25) {
-              return `${i.topsongs[3].name}`;
-            } else {
-              return `${i.topsongs[3].name}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 460)
-          .attr("class", "body")
-          .text(function() {
-            if(i.topsongs[3].singer.length <= 25) {
-              return `${i.topsongs[3].singer}`;
-            } else {
-              return `${i.topsongs[3].singer}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 485)
-          .attr("class", "heading")
-          .text(function() {
-            if(i.topsongs[4].name.length < 25) {
-              return `${i.topsongs[4].name}`;
-            } else {
-              return `${i.topsongs[4].name}`.slice(0,22) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 65)
-          .attr("y", 500)
-          .attr("class", "body")
-          .text(function() {
-            if(i.topsongs[4].singer.length <= 25) {
-              return `${i.topsongs[4].singer}`;
-            } else {
-              return `${i.topsongs[4].singer}`.slice(0,22) + "...";
-          }})
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 530)
-          .attr("class", "heading")
-          .text("mood")
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 550)
-          .attr("class", "body")
-          .text(function() {
-             if(i.keywords == null) {
-              return "____";
-            } else if(i.keywords.length <= 30) {
-              return `${i.keywords}`;
-            } else {
-              return `${i.keywords}`.slice(0,30) + "...";
-            }})
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 580)
-          .attr("class", "heading")
-          .text("reflections")
-        tgrp.append("text")
-          .attr("x", 25)
-          .attr("y", 600)
-          .attr("class", "body")
-          .text(function() {
-            if(i.reflections == null) {
-              return "____";
-            } else {
-              return `${i.reflections}`;
-          }})
-          .attr("dy", 0)
-          .call(wrap, x.bandwidth());
-			})
-			.on("mouseout", function(d) {
-			  d3.select(this)
-			  .transition().duration(250)
-			  .attr("opacity", "100%");
-			  d3.select("#tooltip").remove();
-			});
+//         //details
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 250)
+//           .attr("class", "heading")
+//           .text(`${d3.timeFormat('%b %d, %Y')(i.date)}`)
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 270)
+//           .attr("class", "body")
+//           .text("You listened to " + `${i.frequency}` + " songs.")
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 300)
+//           .attr("class", "heading")
+//           .text("top songs")
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 325)
+//           .attr("class", "heading")
+//           .text(function() {
+//             if(i.topsongs[0].name.length <= 25) {
+//               return `${i.topsongs[0].name}`;
+//             } else {
+//               return `${i.topsongs[0].name}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 340)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.topsongs[0].singer.length <= 25) {
+//               return `${i.topsongs[0].singer}`;
+//             } else {
+//               return `${i.topsongs[0].singer}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 365)
+//           .attr("class", "heading")
+//           .text(function() {
+//             if(i.topsongs[1].name.length < 25) {
+//               return `${i.topsongs[1].name}`;
+//             } else {
+//               return `${i.topsongs[1].name}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 380)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.topsongs[1].singer.length <= 25) {
+//               return `${i.topsongs[1].singer}`;
+//             } else {
+//               return `${i.topsongs[1].singer}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 405)
+//           .attr("class", "heading")
+//           .text(function() {
+//             if(i.topsongs[2].name.length < 25) {
+//               return `${i.topsongs[2].name}`;
+//             } else {
+//               return `${i.topsongs[2].name}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 420)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.topsongs[2].singer.length <= 25) {
+//               return `${i.topsongs[2].singer}`;
+//             } else {
+//               return `${i.topsongs[2].singer}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 445)
+//           .attr("class", "heading")
+//           .text(function() {
+//             if(i.topsongs[3].name.length < 25) {
+//               return `${i.topsongs[3].name}`;
+//             } else {
+//               return `${i.topsongs[3].name}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 460)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.topsongs[3].singer.length <= 25) {
+//               return `${i.topsongs[3].singer}`;
+//             } else {
+//               return `${i.topsongs[3].singer}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 485)
+//           .attr("class", "heading")
+//           .text(function() {
+//             if(i.topsongs[4].name.length < 25) {
+//               return `${i.topsongs[4].name}`;
+//             } else {
+//               return `${i.topsongs[4].name}`.slice(0,22) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 65)
+//           .attr("y", 500)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.topsongs[4].singer.length <= 25) {
+//               return `${i.topsongs[4].singer}`;
+//             } else {
+//               return `${i.topsongs[4].singer}`.slice(0,22) + "...";
+//           }})
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 530)
+//           .attr("class", "heading")
+//           .text("mood")
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 550)
+//           .attr("class", "body")
+//           .text(function() {
+//              if(i.keywords == null) {
+//               return "____";
+//             } else if(i.keywords.length <= 30) {
+//               return `${i.keywords}`;
+//             } else {
+//               return `${i.keywords}`.slice(0,30) + "...";
+//             }})
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 580)
+//           .attr("class", "heading")
+//           .text("reflections")
+//         tgrp.append("text")
+//           .attr("x", 25)
+//           .attr("y", 600)
+//           .attr("class", "body")
+//           .text(function() {
+//             if(i.reflections == null) {
+//               return "____";
+//             } else {
+//               return `${i.reflections}`;
+//           }})
+//           .attr("dy", 0)
+//           .call(wrap, x.bandwidth());
+// 			})
+// 			.on("mouseout", function(d) {
+// 			  d3.select(this)
+// 			  .transition().duration(250)
+// 			  .attr("opacity", "100%");
+// 			  d3.select("#tooltip").remove();
+// 			});
 
   //x axis formatting
   var temp = []
