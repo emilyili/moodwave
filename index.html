@@ -162,9 +162,9 @@ var svgContainer = d3.select('#container');
   var colorScaleOut = ["#B459DE","#61ECDB","#3372D2","#FD3A3E"]
   var colorScaleIn = ["#E0BCF0","#B6F6EE","#B0C8ED","#FED2D2"]
   
-  var legend = svg.append("circle")
+  var legend = svg.append("g")
   
-  legend
+  legend.append("circle")
     .attr("cx", 100)
     .attr("cy", 145)
     .attr("r", 3)
