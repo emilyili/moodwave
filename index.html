@@ -127,11 +127,11 @@ text.source {
 
 
 const margin = 10;
-const width = 1200 - 2 * margin;
-const height = 800 - 2 * margin;
+const width = 1200 - 2 * margin
+const height = 800 - 2 * margin
 	
-var svg = d3.select('svg');
-var svgContainer = d3.select('#container');
+var svg = d3.select('svg')
+var svgContainer = d3.select('#container')
 	
 //   var svg = d3.select("#dataviz_area")
   
@@ -411,11 +411,18 @@ var svgContainer = d3.select('#container');
 //        .attr('transform', `translate(${margin}, ${margin})`);
 //   var graph = svg.append("g");
   
-  svg.selectAll("rect")
+  var chart = svg.append('g')
+//        .attr('transform', `translate(${margin}, ${margin})`);
+  var bars = chart.selectAll()
+      .data(userData)
+      .enter()
+      .append('g')
+//   svg.selectAll("rect")
 //     .data(userData.sort(function(a,b) {
 //             return a.date - b.date;
 //           }))
-    .data(userData)
+//     .data(userData)
+  bars
     .join("rect")
     .attr("fill", function(d) {
       if(d.quadrant == 1)
@@ -448,16 +455,16 @@ var svgContainer = d3.select('#container');
         .attr("opacity", "25%")
 	  
 
-      var tgrp = svg.append("g")
+      bars.append("g")
         .attr("id", "tooltip")
 	    
-      tgrp.append("rect")
+      bars.append("rect")
           .attr("width", "249px")
           .attr("height", "90%")
           .attr("fill", "#34383A")
     
         //title
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 50)
           .attr("class", "title")
@@ -477,13 +484,13 @@ var svgContainer = d3.select('#container');
           var colorScaleOut = ["#B459DE","#61ECDB","#3372D2","#FD3A3E"]
           var colorScaleIn = ["#E0BCF0","#B6F6EE","#B0C8ED","#FED2D2"]
 
-          tgrp.append("circle")
+          bars.append("circle")
             .attr("cx", 100)
             .attr("cy", 145)
             .attr("r", 3)
             .attr("fill", "white")
 
-          tgrp.selectAll("path")
+         bars.selectAll("path")
             .data(circ)
             .enter()
             .append("path")
@@ -492,7 +499,7 @@ var svgContainer = d3.select('#container');
             .attr("fill", function(d) {
               return colorScaleIn[d.index];
             })
-          tgrp.selectAll("path2")
+          bars.selectAll("path2")
             .data(circ)
             .enter()
             .append("path")
@@ -503,22 +510,22 @@ var svgContainer = d3.select('#container');
             })
     
         //details
-        tgrp.append("text")
+       bars.append("text")
           .attr("x", 25)
           .attr("y", 250)
           .attr("class", "heading")
           .text(`${d3.timeFormat('%b %d, %Y')(i.date)}`)
-        tgrp.append("text")
+       bars.append("text")
           .attr("x", 25)
           .attr("y", 270)
           .attr("class", "body")
           .text("You listened to " + `${i.frequency}` + " songs.")
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 300)
           .attr("class", "heading")
           .text("top songs")
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 325)
           .attr("class", "heading")
@@ -528,7 +535,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[0].name}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 340)
           .attr("class", "body")
@@ -538,7 +545,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[0].singer}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 365)
           .attr("class", "heading")
@@ -548,7 +555,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[1].name}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 380)
           .attr("class", "body")
@@ -558,7 +565,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[1].singer}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 405)
           .attr("class", "heading")
@@ -568,7 +575,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[2].name}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 420)
           .attr("class", "body")
@@ -578,7 +585,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[2].singer}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 445)
           .attr("class", "heading")
@@ -588,7 +595,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[3].name}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 460)
           .attr("class", "body")
@@ -598,7 +605,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[3].singer}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 485)
           .attr("class", "heading")
@@ -608,7 +615,7 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[4].name}`.slice(0,22) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 65)
           .attr("y", 500)
           .attr("class", "body")
@@ -618,12 +625,12 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.topsongs[4].singer}`.slice(0,22) + "...";
           }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 530)
           .attr("class", "heading")
           .text("mood")
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 550)
           .attr("class", "body")
@@ -635,12 +642,12 @@ var svgContainer = d3.select('#container');
             } else {
               return `${i.keywords}`.slice(0,30) + "...";
             }})
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 580)
           .attr("class", "heading")
           .text("reflections")
-        tgrp.append("text")
+        bars.append("text")
           .attr("x", 25)
           .attr("y", 600)
           .attr("class", "body")
