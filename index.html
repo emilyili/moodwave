@@ -7,8 +7,6 @@
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <script>
-var graph = {
-  
   const svg = d3.create("svg")
     .attr("viewBox", [0, 0, width + 100, height + 100])
     
@@ -397,7 +395,4 @@ var graph = {
         return d3.select(this).remove();
       }
     })
-
-  return svg.node();
-}
 </script>
