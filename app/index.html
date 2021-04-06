@@ -321,35 +321,41 @@
   //     .data(userData.sort(function(a,b) {
   //             return a.date - b.date;
   //           }))
-  bars
-    //     .append("rect")
-    .selectAll("rect")
-    .data(userData)
-    .join("rect")
-    .attr("fill", function (d) {
-      if (d.quadrant == 1)
-        return "#B459DE";
-      if (d.quadrant == 2)
-        return "#61ECDB";
-      if (d.quadrant == 3)
-        return "#3372D2";
-      if (d.quadrant == 4)
-        return "#FD3A3E";
-      if (d.quadrant == 5)
-        return "#E0BCF0";
-      if (d.quadrant == 6)
-        return "#B6F6EE";
-      if (d.quadrant == 7)
-        return "#B0C8ED";
-      if (d.quadrant == 8)
-        return "#FED2D2";
-      if (d.quadrant == 9)
-        return "white";
-    })
-    .attr("x", (d, i) => x(i))
-    .attr("y", d => ((y(d.frequency * 2) + height) / 5) + 100)
-    .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
-    .attr("width", x.bandwidth() + 1)
+  bars.append("rect")
+    .attr("x", 250)
+    .attr("y", 250)
+    .attr("width", 200)
+    .attr("height", 200)
+    .attr("fill", "yellow")
+    
+//     //     .append("rect")
+//     .selectAll("rect")
+//     .data(userData)
+//     .join("rect")
+//     .attr("fill", function (d) {
+//       if (d.quadrant == 1)
+//         return "#B459DE";
+//       if (d.quadrant == 2)
+//         return "#61ECDB";
+//       if (d.quadrant == 3)
+//         return "#3372D2";
+//       if (d.quadrant == 4)
+//         return "#FD3A3E";
+//       if (d.quadrant == 5)
+//         return "#E0BCF0";
+//       if (d.quadrant == 6)
+//         return "#B6F6EE";
+//       if (d.quadrant == 7)
+//         return "#B0C8ED";
+//       if (d.quadrant == 8)
+//         return "#FED2D2";
+//       if (d.quadrant == 9)
+//         return "white";
+//     })
+//     .attr("x", (d, i) => x(i))
+//     .attr("y", d => ((y(d.frequency * 2) + height) / 5) + 100)
+//     .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
+//     .attr("width", x.bandwidth() + 1)
 
   //     //hover capabilities
   //     .on("mouseover", function(d, i) {
@@ -577,22 +583,22 @@
   // //       .call(d3.axisLeft(yScale));
 
   //x axis formatting
-  var temp = []
-  var axis = svg.append("g")
+//   var temp = []
+//   var axis = svg.append("g")
 
-  axis
-    .call(xAxis)
-    .selectAll(".tick text")
-    .attr("fill", "white")
-    .data(dataset)
-    .each(function (d) {
-      if (temp[d3.timeFormat('%B')(d.date)] == undefined) {
-        temp[d3.timeFormat('%B')(d.date)] = 1;
-        return d3.timeFormat('%B')(d.date);
-      } else {
-        return d3.select(this).remove();
-      }
-    })
+//   axis
+//     .call(xAxis)
+//     .selectAll(".tick text")
+//     .attr("fill", "white")
+//     .data(dataset)
+//     .each(function (d) {
+//       if (temp[d3.timeFormat('%B')(d.date)] == undefined) {
+//         temp[d3.timeFormat('%B')(d.date)] = 1;
+//         return d3.timeFormat('%B')(d.date);
+//       } else {
+//         return d3.select(this).remove();
+//       }
+//     })
 
   var x = d3.scaleBand()
     .domain(d3.range(dataset.length))
@@ -603,22 +609,10 @@
     .domain([0, d3.max(dataset, d => d.frequency)]).nice()
     .range([height - margin.bottom, margin.top])
 
-  var xAxis = g => g
-    .attr("transform", `translate(0,${height - margin.bottom})`)
-    .attr("color", "white")
-    .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dailyData[i].date))).tickSizeOuter(0))
-
-  var yAxis = g => g
-    .attr("transform", `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(null, data.format))
-    .call(g => g.select(".domain").remove())
-    .call(g => g.append("text")
-      .attr("x", -margin.left)
-      .attr("y", 10)
-      .attr("fill", "white")
-      .attr("text-anchor", "start")
-      .text(dataset.y)
-    )
+//   var xAxis = g => g
+//     .attr("transform", `translate(0,${height - margin.bottom})`)
+//     .attr("color", "white")
+//     .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dailyData[i].date))).tickSizeOuter(0))
 
 
   function wrap(text) {
