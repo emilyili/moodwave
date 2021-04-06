@@ -39,7 +39,7 @@ div#container {
   width: 1200px;
   height: 800px;
   margin: auto;
-  background-color: #343123;
+  background-color: #34383A;
 }
 
 svg {
@@ -414,15 +414,14 @@ var svgContainer = d3.select('#container')
   var chart = svg.append('g')
 //        .attr('transform', `translate(${margin}, ${margin})`);
   var bars = chart.selectAll()
-      .data(userData)
-      .enter()
-      .append('g')
 //   svg.selectAll("rect")
 //     .data(userData.sort(function(a,b) {
 //             return a.date - b.date;
 //           }))
 //     .data(userData)
   bars
+    .selectAll("rect")
+    .data(userData)
     .join("rect")
     .attr("fill", function(d) {
       if(d.quadrant == 1)
@@ -677,7 +676,9 @@ var svgContainer = d3.select('#container')
   //x axis formatting
   var temp = []
   var axis = svg.append("g")
-    axis.call(xAxis)
+    
+  axis
+    .call(xAxis)
     .selectAll(".tick text")
     .attr("fill", "white")
     .data(dataset)
@@ -690,7 +691,7 @@ var svgContainer = d3.select('#container')
       }
     })
 
-		const x = d3.scaleBand()
+	const x = d3.scaleBand()
 	    .domain(d3.range(dataset.length))
 	    .range([margin.left, width - margin.right])
 	    .padding(0.1)
