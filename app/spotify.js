@@ -12,12 +12,18 @@ var authOptions = {
   json: true
 };
 
+var image;
+
 function getImageAndAudio(song, artist, album) {
   // retrieve access token with client credentials 
+
   request.post(authOptions, function (error, response, body) {
     if (!error && response.statusCode === 200) {
       // use the access token to access the Spotify Web API
       var token = body.access_token;
+      process.env.ACCESS_TOKEN = body.access_token;
+      console.log(process.env.ACCESS_TOKEN);
+
       var options = {
         url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
         headers: {
@@ -31,15 +37,21 @@ function getImageAndAudio(song, artist, album) {
         // console.log(body.tracks.items[0].preview_url); // audio preview
         image = body.tracks.items[0].album.images[0].url;
         audio = body.tracks.items[0].preview_url;
-        console.log(image);
-        return image;
+        // console.log(image);
+        // return image;
       });
     }
   });
 }
 
+console.log(image);
+
 var object = getImageAndAudio('', '', '');
-console.log(object);
+// console.log(object);
+
+console.log(image);
+
+// console.log(process.env.ACCESS_TOKEN);
 
 
 // var SpotifyWebApi = require('spotify-web-api-node');
