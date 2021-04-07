@@ -1,10 +1,17 @@
-$(document).ready(function () {
-  alert("Hello World!");
-});
-
 // SPOTIFY CLIENT CREDENTIALS AUTHORIZATION
-var client_id = "93febf29f64649a8b1675c59304fa249";
-var client_secret = "7ee44bfbd5ae44d5a9597ae3da9c4743";
+const client_id = "93febf29f64649a8b1675c59304fa249";
+const client_secret = "7ee44bfbd5ae44d5a9597ae3da9c4743";
+
+const authOptions = {
+  url: 'https://accounts.spotify.com/api/token',
+  headers: {
+    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
+  },
+  form: {
+    grant_type: 'client_credentials'
+  },
+  json: true
+};
 
 var SpotifyWebApi = require('spotify-web-api-node');
 
@@ -30,6 +37,24 @@ spotifyApi.clientCredentialsGrant().then(
 );
 
 console.log(spotifyApi);
+
+$(document).ready(function () {
+  alert("Hello World!");
+  $.ajax({
+    url: "https://accounts.spotify.com/api/token",
+    type: "GET",
+    beforeSend: function (xhr) {
+      xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+    },
+    success: function (data) {
+      // Once I get the user info, set up the template and run everything
+      document.body.innerHTML = Handlebars.templates.main({ name: data.display_name });
+
+      // startApp is everything
+      startApp();
+    }
+  });
+});
 
 
 // spotifyApi.searchTracks('track:Peaches artist:Justin Bieber', { limit: 1 })
