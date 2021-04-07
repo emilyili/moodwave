@@ -15,6 +15,8 @@
 //   },
 //   json: true
 // };
+var image = "https://i.scdn.co/image/ab67616d0000b27346fc3effbd1b9af4c69019ac";
+var sound = "https://p.scdn.co/mp3-preview/9d9f6fd3d7eb9654ecd4e0177ada97a0d573e1e8?cid=93febf29f64649a8b1675c59304fa249";
 
 $(document).ready(function () {
   alert("Hello World!");
@@ -26,29 +28,41 @@ $(document).ready(function () {
   var para = document.createElement("P");               // Create a <p> element
   para.innerText = "This is a paragraph";               // Insert text
   document.body.appendChild(para);
-  var ele = document.createElement("span");
-  var img = document.createElement("img");
 
-  request.post(authOptions, function (error, response, body) {
-    if (!error && response.statusCode === 200) {
-      // use the access token to access the Spotify Web API
-      var token = body.access_token;
-      var options = {
-        url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
-        headers: {
-          'Authorization': 'Bearer ' + token
-        },
-        json: true
-      };
-      request.get(options, function (error, response, body) {
-        console.log(body.tracks.items);
-        console.log(body.tracks.items[0].album.images[0].url); // image link
-        console.log(body.tracks.items[0].preview_url); // audio preview
-        image = body.tracks.items[0].album.images[0].url;
-        audio = body.tracks.items[0].preview_url;
-      });
-    }
-  });
+  // DISPLAY ALBUM IMAGE 
+  var img = document.createElement("img");
+  img.setAttribute("src", image);
+  document.body.appendChild(img);
+
+  // PLAY TRACK PREVIEW 
+  var audio = document.createElement("audio");
+  audio.controls = 'controls';
+  audio.src = sound;
+  audio.autoplay = true;
+  audio.type = 'audio/mpeg';
+  audio.load();
+  img.appendChild(audio);
+
+  // request.post(authOptions, function (error, response, body) {
+  //   if (!error && response.statusCode === 200) {
+  //     // use the access token to access the Spotify Web API
+  //     var token = body.access_token;
+  //     var options = {
+  //       url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
+  //       headers: {
+  //         'Authorization': 'Bearer ' + token
+  //       },
+  //       json: true
+  //     };
+  //     request.get(options, function (error, response, body) {
+  //       console.log(body.tracks.items);
+  //       console.log(body.tracks.items[0].album.images[0].url); // image link
+  //       console.log(body.tracks.items[0].preview_url); // audio preview
+  //       image = body.tracks.items[0].album.images[0].url;
+  //       audio = body.tracks.items[0].preview_url;
+  //     });
+  //   }
+  // });
   // // $.ajax({
   // //   url: "https://accounts.spotify.com/api/token",
   // //   type: "POST",
