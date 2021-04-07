@@ -27,9 +27,11 @@
   // 	const width = 1000;
   // 	const height = 600;
   // 	const margin = ({top: 30, right: -100, bottom: -50, left: 250})
-console.log(dailyData)
 
 var d3 = d3;
+
+var name = window.prompt("Enter your username: ");
+// alert("Your name is " + name);
 
   const margin = 40;
   const width = 1200 - 2 * margin
@@ -38,7 +40,10 @@ var d3 = d3;
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
 
-    var dataset = dailyData.sort(function(a,b) {
+  // console.log(name)
+  // console.log(window[name])
+
+    var dataset = window[name].sort(function(a,b) {
               return a.date - b.date;
             })
 
@@ -93,6 +98,11 @@ var d3 = d3;
     .attr("y", 50)
     .attr("class", "title")
     .text("Mood Waves")
+  tgrp.append("text")
+    .attr("x", 250)
+    .attr("y", 50)
+    .attr("class", "title")
+    .text("Welcome, " + name)  
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 240)
@@ -314,14 +324,12 @@ var d3 = d3;
     var xAxis = g => g
     .attr("transform", `translate(0,${height - margin})`)
     .attr("color", "white")
-    .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dailyData[i].date))).tickSizeOuter(0))
+    .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dataset[i].date))).tickSizeOuter(0))
 
   var bars = chart.append('g')
 
     bars.selectAll("bars")
-      .data(userData.sort(function(a,b) {
-            return a.date - b.date;
-          }))
+      .data(dataset)
       .enter()
       .append("rect")
       .join("rect")
