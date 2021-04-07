@@ -25,7 +25,7 @@
 
   var d3 = d3;
 
-var name = window.prompt("Enter your username: ");
+  var name = window.prompt("Enter your username: ");
 
   const margin = 40;
   const width = 1200 - 2 * margin
@@ -34,9 +34,9 @@ var name = window.prompt("Enter your username: ");
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
 
-    var dataset = window[name].sort(function(a,b) {
-              return a.date - b.date;
-            })
+  var dataset = window[name].sort(function (a, b) {
+    return a.date - b.date;
+  })
 
   //circle chart
   var pie = d3.pie()
@@ -89,7 +89,7 @@ var name = window.prompt("Enter your username: ");
     .attr("y", 50)
     .attr("class", "title")
     .text("Mood Waves")
-tgrp.append("text")
+  tgrp.append("text")
     .attr("x", 250)
     .attr("y", 50)
     .attr("class", "title")
@@ -175,11 +175,11 @@ tgrp.append("text")
 
   var bars = chart.append('g')
 
-    bars.selectAll("bars")
-      .data(dataset)
-      .enter()
-      .append("rect")
-      .join("rect")
+  bars.selectAll("bars")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .join("rect")
     .attr("fill", function (d) {
       if (d.quadrant == 1)
         return "#B459DE";
@@ -211,205 +211,217 @@ tgrp.append("text")
         .attr("opacity", "25%")
 
       var tooltip = bars.append("g")
-          .attr("id", "tooltip")
+        .attr("id", "tooltip")
 
-         tooltip.append("rect")
-            .attr("width", "249px")
-            .attr("height", "90%")
-            .attr("fill", "#34383A")
+      tooltip.append("rect")
+        .attr("width", "249px")
+        .attr("height", "90%")
+        .attr("fill", "#34383A")
 
-          //title
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 50)
-            .attr("class", "title")
-            .text("Mood Waves")
+      //title
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 50)
+        .attr("class", "title")
+        .text("Mood Waves")
 
-           //circle chart
-           tooltip.append("circle")
-              .attr("cx", 100)
-              .attr("cy", 145)
-              .attr("r", 3)
-              .attr("fill", "white")
+      //circle chart
+      tooltip.append("circle")
+        .attr("cx", 100)
+        .attr("cy", 145)
+        .attr("r", 3)
+        .attr("fill", "white")
 
-              tooltip.selectAll("path3")
-              .data(circ)
-              .enter()
-              .append("path")
-              .attr("transform", "translate(100,145)")
-              .attr("d", arcIn)
-              .attr("fill", function(d) {
-                return colorScaleIn[d.index];
-              })
-              tooltip.selectAll("path4")
-              .data(circ)
-              .enter()
-              .append("path")
-              .attr("transform", "translate(100,145)")
-              .attr("d", arcOut)
-              .attr("fill", function(d) {
-                return colorScaleOut[d.index];
-              })
+      tooltip.selectAll("path3")
+        .data(circ)
+        .enter()
+        .append("path")
+        .attr("transform", "translate(100,145)")
+        .attr("d", arcIn)
+        .attr("fill", function (d) {
+          return colorScaleIn[d.index];
+        })
+      tooltip.selectAll("path4")
+        .data(circ)
+        .enter()
+        .append("path")
+        .attr("transform", "translate(100,145)")
+        .attr("d", arcOut)
+        .attr("fill", function (d) {
+          return colorScaleOut[d.index];
+        })
 
-         var date = new Date(i.date)
+      var date = new Date(i.date)
 
-          //details
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 250)
-            .attr("class", "heading")
-            .text(`${date.toLocaleString('default', { month: 'short' })}` + " " + `${date.getDate()}` + ", " + `${date.getFullYear()}`)
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 270)
-            .attr("class", "body")
-            .text("You listened to " + `${i.frequency}` + " songs.")
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 300)
-            .attr("class", "heading")
-            .text("top songs")
-          tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 325)
-            .attr("class", "heading")
-            .text(function() {
-              if(i.topsongs[0].name.length <= 25) {
-                return `${i.topsongs[0].name}`;
-              } else {
-                return `${i.topsongs[0].name}`.slice(0,22) + "...";
-              }})
-         tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 340)
-            .attr("class", "body")
-            .text(function() {
-              if(i.topsongs[0].singer.length <= 25) {
-                return `${i.topsongs[0].singer}`;
-              } else {
-                return `${i.topsongs[0].singer}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 365)
-            .attr("class", "heading")
-            .text(function() {
-              if(i.topsongs[1].name.length < 25) {
-                return `${i.topsongs[1].name}`;
-              } else {
-                return `${i.topsongs[1].name}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 380)
-            .attr("class", "body")
-            .text(function() {
-              if(i.topsongs[1].singer.length <= 25) {
-                return `${i.topsongs[1].singer}`;
-              } else {
-                return `${i.topsongs[1].singer}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 405)
-            .attr("class", "heading")
-            .text(function() {
-              if(i.topsongs[2].name.length < 25) {
-                return `${i.topsongs[2].name}`;
-              } else {
-                return `${i.topsongs[2].name}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 420)
-            .attr("class", "body")
-            .text(function() {
-              if(i.topsongs[2].singer.length <= 25) {
-                return `${i.topsongs[2].singer}`;
-              } else {
-                return `${i.topsongs[2].singer}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 445)
-            .attr("class", "heading")
-            .text(function() {
-              if(i.topsongs[3].name.length < 25) {
-                return `${i.topsongs[3].name}`;
-              } else {
-                return `${i.topsongs[3].name}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 460)
-            .attr("class", "body")
-            .text(function() {
-              if(i.topsongs[3].singer.length <= 25) {
-                return `${i.topsongs[3].singer}`;
-              } else {
-                return `${i.topsongs[3].singer}`.slice(0,22) + "...";
-              }})
-             tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 485)
-            .attr("class", "heading")
-            .text(function() {
-              if(i.topsongs[4].name.length < 25) {
-                return `${i.topsongs[4].name}`;
-              } else {
-                return `${i.topsongs[4].name}`.slice(0,22) + "...";
-              }})
-              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 500)
-            .attr("class", "body")
-            .text(function() {
-              if(i.topsongs[4].singer.length <= 25) {
-                return `${i.topsongs[4].singer}`;
-              } else {
-                return `${i.topsongs[4].singer}`.slice(0,22) + "...";
-            }})
-            tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 530)
-            .attr("class", "heading")
-            .text("mood")
-            tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 550)
-            .attr("class", "body")
-            .text(function() {
-               if(i.keywords == null) {
-                return "____";
-              } else if(i.keywords.length <= 30) {
-                return `${i.keywords}`;
-              } else {
-                return `${i.keywords}`.slice(0,30) + "...";
-              }})
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 580)
-            .attr("class", "heading")
-            .text("reflections")
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 600)
-            .attr("class", "body")
-            .text(function() {
-              if(i.reflections == null) {
-                return "____";
-              } else {
-                return `${i.reflections}`;
-            }})
-            .attr("dy", 0)
-            .call(wrap, x.bandwidth());
-  			 })
-  			.on("mouseout", function(d) {
-  			  d3.select(this)
-  			  .transition().duration(250)
-  			  .attr("opacity", "100%");
-  			  d3.select("#tooltip").remove();
-  			});
+      //details
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 250)
+        .attr("class", "heading")
+        .text(`${date.toLocaleString('default', { month: 'short' })}` + " " + `${date.getDate()}` + ", " + `${date.getFullYear()}`)
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 270)
+        .attr("class", "body")
+        .text("You listened to " + `${i.frequency}` + " songs.")
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 300)
+        .attr("class", "heading")
+        .text("top songs")
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 325)
+        .attr("class", "heading")
+        .text(function () {
+          if (i.topsongs[0].name.length <= 25) {
+            return `${i.topsongs[0].name}`;
+          } else {
+            return `${i.topsongs[0].name}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 340)
+        .attr("class", "body")
+        .text(function () {
+          if (i.topsongs[0].singer.length <= 25) {
+            return `${i.topsongs[0].singer}`;
+          } else {
+            return `${i.topsongs[0].singer}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 365)
+        .attr("class", "heading")
+        .text(function () {
+          if (i.topsongs[1].name.length < 25) {
+            return `${i.topsongs[1].name}`;
+          } else {
+            return `${i.topsongs[1].name}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 380)
+        .attr("class", "body")
+        .text(function () {
+          if (i.topsongs[1].singer.length <= 25) {
+            return `${i.topsongs[1].singer}`;
+          } else {
+            return `${i.topsongs[1].singer}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 405)
+        .attr("class", "heading")
+        .text(function () {
+          if (i.topsongs[2].name.length < 25) {
+            return `${i.topsongs[2].name}`;
+          } else {
+            return `${i.topsongs[2].name}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 420)
+        .attr("class", "body")
+        .text(function () {
+          if (i.topsongs[2].singer.length <= 25) {
+            return `${i.topsongs[2].singer}`;
+          } else {
+            return `${i.topsongs[2].singer}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 445)
+        .attr("class", "heading")
+        .text(function () {
+          if (i.topsongs[3].name.length < 25) {
+            return `${i.topsongs[3].name}`;
+          } else {
+            return `${i.topsongs[3].name}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 460)
+        .attr("class", "body")
+        .text(function () {
+          if (i.topsongs[3].singer.length <= 25) {
+            return `${i.topsongs[3].singer}`;
+          } else {
+            return `${i.topsongs[3].singer}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 485)
+        .attr("class", "heading")
+        .text(function () {
+          if (i.topsongs[4].name.length < 25) {
+            return `${i.topsongs[4].name}`;
+          } else {
+            return `${i.topsongs[4].name}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 65)
+        .attr("y", 500)
+        .attr("class", "body")
+        .text(function () {
+          if (i.topsongs[4].singer.length <= 25) {
+            return `${i.topsongs[4].singer}`;
+          } else {
+            return `${i.topsongs[4].singer}`.slice(0, 22) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 530)
+        .attr("class", "heading")
+        .text("mood")
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 550)
+        .attr("class", "body")
+        .text(function () {
+          if (i.keywords == null) {
+            return "____";
+          } else if (i.keywords.length <= 30) {
+            return `${i.keywords}`;
+          } else {
+            return `${i.keywords}`.slice(0, 30) + "...";
+          }
+        })
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 580)
+        .attr("class", "heading")
+        .text("reflections")
+      tooltip.append("text")
+        .attr("x", 25)
+        .attr("y", 600)
+        .attr("class", "body")
+        .text(function () {
+          if (i.reflections == null) {
+            return "____";
+          } else {
+            return `${i.reflections}`;
+          }
+        })
+        .attr("dy", 0)
+        .call(wrap, x.bandwidth());
+    })
+    .on("mouseout", function (d) {
+      d3.select(this)
+        .transition().duration(250)
+        .attr("opacity", "100%");
+      d3.select("#tooltip").remove();
+    });
 
   //x axis formatting
   var temp = []

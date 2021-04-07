@@ -44,5 +44,46 @@ function getImageAndAudio(song, artist) {
   );
 }
 
-getImageAndAudio("Peaches", "Justin Bieber");
-getImageAndAudio("Confirmation", "Justin Bieber");
+const allData = require('../app/data.js');
+
+// retrieve list of all songs played by users 
+function getUniqueSongs(dataset) {
+  var allSongs = [];
+  for (const user in allData) {
+    userData = allData[user];
+    for (const day in userData) {
+      topsongs = userData[day].topsongs;
+      for (var i = 0; i < 5; i++) {
+        if (topsongs[i]) {
+          let songObj = {
+            name: topsongs[i].name,
+            artist: topsongs[i].singer
+          }
+          let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
+          if (!exist) {
+            allSongs.push(songObj);
+            getImageAndAudio(songObj.name, songObj.artist);
+          }
+
+        }
+      }
+    }
+  }
+  return allSongs;
+}
+
+getUniqueSongs(allData);
+
+function convertAll() {
+  var allSongs = getUniqueSongs(allData);
+  for (const item in allSongs) {
+    getImageAndAudio(allSongs[item].name, allSongs[item].singer);
+  }
+}
+
+convertAll();
+
+
+
+// getImageAndAudio("Peaches", "Justin Bieber");
+// getImageAndAudio("Confirmation", "Justin Bieber");
