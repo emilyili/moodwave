@@ -1,36 +1,70 @@
-const express = require('express');
-const app = express();
-const cookieSession = require('cookie-session');
+// SPOTIFY CLIENT CREDENTIALS AUTHORIZATION
+// require('dotenv').config();
+// var request = require('request');
 
-var request = require('request');
+//console.log(process.env.CLIENT_ID);
 
-var client_id = "93febf29f64649a8b1675c59304fa249";
-var client_secret = "7ee44bfbd5ae44d5a9597ae3da9c4743";
+// var authOptions = {
+//   url: 'https://accounts.spotify.com/api/token',
+//   type: 'POST',
+//   headers: {
+//     'Authorization': 'Basic ' + (new Buffer(process.env.CLIENT_ID + ':' + process.env.CLIENT_SECRET).toString('base64'))
+//   },
+//   form: {
+//     grant_type: 'client_credentials'
+//   },
+//   json: true
+// };
 
-var SpotifyWebApi = require('spotify-web-api-node');
+$(document).ready(function () {
+  alert("Hello World!");
+  // $.ajax({ authOptions },
+  //   success: function (data) {
+  //     // Once I get the user info, set up the template and run everything
+  //     console.log(data);
+  //   });
+  var para = document.createElement("P");               // Create a <p> element
+  para.innerText = "This is a paragraph";               // Insert text
+  document.body.appendChild(para);
+  var ele = document.createElement("span");
+  var img = document.createElement("img");
 
-// Create the api object with the credentials
-var spotifyApi = new SpotifyWebApi({
-  clientId: client_id,
-  clientSecret: client_secret
+  request.post(authOptions, function (error, response, body) {
+    if (!error && response.statusCode === 200) {
+      // use the access token to access the Spotify Web API
+      var token = body.access_token;
+      var options = {
+        url: 'https://api.spotify.com/v1/search?q=PALACE%2CBROCKHAMPTOM&type=track%2Cartist&market=US&limit=1',
+        headers: {
+          'Authorization': 'Bearer ' + token
+        },
+        json: true
+      };
+      request.get(options, function (error, response, body) {
+        console.log(body.tracks.items);
+        console.log(body.tracks.items[0].album.images[0].url); // image link
+        console.log(body.tracks.items[0].preview_url); // audio preview
+        image = body.tracks.items[0].album.images[0].url;
+        audio = body.tracks.items[0].preview_url;
+      });
+    }
+  });
+  // // $.ajax({
+  // //   url: "https://accounts.spotify.com/api/token",
+  // //   type: "POST",
+  // //   beforeSend: function (xhr) {
+  // //     xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+  // //   },
+  // success: function (data) {
+  //   // Once I get the user info, set up the template and run everything
+  //   document.body.innerHTML = Handlebars.templates.main({ name: data.display_name });
+
+  //   // startApp is everything
+  //   startApp();
+  // }
+  // });
 });
 
-// Retrieve an access token.
-spotifyApi.clientCredentialsGrant().then(
-  function (data) {
-    console.log('The access token expires in ' + data.body['expires_in']);
-    console.log('The access token is ' + data.body['access_token']);
-
-    // Save the access token so that it's used in future calls
-    spotifyApi.setAccessToken(data.body['access_token']);
-    console.log(spotifyApi);
-  },
-  function (err) {
-    console.log('Something went wrong when retrieving an access token', err);
-  }
-);
-
-console.log(spotifyApi);
 
 // spotifyApi.searchTracks('track:Peaches artist:Justin Bieber', { limit: 1 })
 //   .then(function (data) {
