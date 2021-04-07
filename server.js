@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
 
 // Static
 app.use('/app', express.static(__dirname + '/app'));

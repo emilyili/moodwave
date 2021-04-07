@@ -1,6 +1,6 @@
-var d3 = d3;
+import * as d3 from 'd3/build/d3';
 
-var svg = d3.select("#dataviz_area")
+var svg = d3.select("body");
 svg.append("circle")
   .attr("cx", 2).attr("cy", 2).attr("r", 40).style("fill", "blue");
 svg.append("circle")
@@ -8,4 +8,3 @@ svg.append("circle")
 svg.append("circle")
   .attr("cx", 300).attr("cy", 100).attr("r", 40).style("fill", "yellow");
 console.log("hello0");
-return svg;

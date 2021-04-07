@@ -9,23 +9,21 @@
 </head>
 
 <body>
-  <div id='layout'>
-    <div id='container'>
-      <svg id="svg" height=200 width=450></svg>
-    </div>
+  <div id='container'>
+    <svg id="svg" height=200 width=450></svg>
   </div>
-
   <script src="https://d3js.org/d3.v6.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- <script src="app.js" type="text/javascript"></script> -->
   <script src="data.js" type="text/javascript"></script>
 
 </body>
+
 </html>
 
 <script>
 
-var d3 = d3;
+  var d3 = d3;
 
 var name = window.prompt("Enter your username: ");
 
@@ -73,7 +71,7 @@ var name = window.prompt("Enter your username: ");
     .attr("fill", function (d) {
       return colorScaleIn[d.index];
     })
- 
+
   legend.selectAll("path2")
     .data(circ)
     .enter()
@@ -95,7 +93,7 @@ tgrp.append("text")
     .attr("x", 250)
     .attr("y", 50)
     .attr("class", "title")
-    .text("Welcome, " + name)  
+    .text("Welcome, " + name)
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 240)
@@ -170,7 +168,7 @@ tgrp.append("text")
     .domain([0, d3.max(dataset, d => d.frequency)]).nice()
     .range([height - margin, margin])
 
-    var xAxis = g => g
+  var xAxis = g => g
     .attr("transform", `translate(0,${height - margin})`)
     .attr("color", "white")
     .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dataset[i].date))).tickSizeOuter(0))
@@ -207,10 +205,10 @@ tgrp.append("text")
     .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
     .attr("width", x.bandwidth() + 1)
 
-      //hover capabilities
-    .on("mouseover", function(d, i) {
-  	  d3.select(this)
-          .attr("opacity", "25%")
+    //hover capabilities
+    .on("mouseover", function (d, i) {
+      d3.select(this)
+        .attr("opacity", "25%")
 
       var tooltip = bars.append("g")
           .attr("id", "tooltip")
