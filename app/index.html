@@ -25,7 +25,8 @@
 
   var d3 = d3;
 
-var name = window.prompt("Enter your username: ");
+var username = (window.prompt("Enter your username: "))
+  var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
 
   const margin = 40;
   const width = 1200 - 2 * margin
@@ -34,6 +35,10 @@ var name = window.prompt("Enter your username: ");
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
 
+  if(window[name] == undefined){
+    alert("This username does not exist! Please try again.");
+    window.location.reload();
+  }
     var dataset = window[name].sort(function(a,b) {
               return a.date - b.date;
             })
@@ -93,7 +98,7 @@ tgrp.append("text")
     .attr("x", 250)
     .attr("y", 50)
     .attr("class", "title")
-    .text("Welcome, " + name)
+    .text("Welcome, " + username)
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 240)
