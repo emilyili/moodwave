@@ -1,5 +1,4 @@
-import d3 from "d3";
-var d3 = d3;
+import * as d3 from "d3";
 
 function parseCSV(file) {
   var timeParser = d3.timeParse("%d %b %Y, %H:%M");

@@ -1,5 +1,10 @@
 var express = require('express');
+require('dotenv').config();
 var app = express();
+var bodyParser = require('body-parser');
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 // Static
 app.use('/app', express.static(__dirname + '/app'));
