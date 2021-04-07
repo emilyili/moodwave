@@ -48,15 +48,12 @@ p {
   fill: #6b0f0f;
 }
 
-div#layout {
-text-align: center;
-}
-
 div#container {
 width: 1200px;
 height: 800px;
 margin: auto;
 background-color: #34383A;
+text-align: center;
 }
 
 svg {
