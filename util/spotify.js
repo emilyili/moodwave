@@ -55,34 +55,41 @@ function getUniqueSongs(dataset) {
     userData = dataset[user];
     for (const day in userData) {
       topsongs = userData[day].topsongs;
-      for (var i = 0; i < 5; i++) {
-        if (topsongs[i]) {
-          let songObj = {
-            name: topsongs[i].name,
-            artist: topsongs[i].singer
-          }
-          let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
-          if (!exist) {
-            allSongs.push(songObj);
-            getImageAndAudio(songObj);
-          }
+      if (topsongs[0]) {
+        let songObj = {
+          name: topsongs[0].name,
+          artist: topsongs[0].singer
+        }
+        let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
+        if (!exist) {
+          allSongs.push(songObj);
+          getImageAndAudio(songObj);
         }
       }
+
+      // for (var i = 0; i < 5; i++) {
+      //   if (topsongs[i]) {
+      //     let songObj = {
+      //       name: topsongs[i].name,
+      //       artist: topsongs[i].singer
+      //     }
+      //     let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
+      //     if (!exist) {
+      //       allSongs.push(songObj);
+      //       getImageAndAudio(songObj);
+      //     }
+      //   }
+      // }
     }
   }
 }
 
-getUniqueSongs(allData);
+// getUniqueSongs(allData);
 
 // while missing.json still has items, then continue to loop through and 
 
-// function convertAll() {
-//   for (const item in allSongs) {
-//     getImageAndAudio(allSongs[item]);
-//   }
-// }
 
-// convertAll();
+
 
 // getImageAndAudio("Peaches", "Justin Bieber");
 // getImageAndAudio("Confirmation", "Justin Bieber");

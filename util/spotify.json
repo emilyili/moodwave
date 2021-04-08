@@ -1,686 +1,2900 @@
 [
   {
-    "name": "Shy",
-    "singer": "Hether",
-    "image": "https://i.scdn.co/image/ab67616d0000b273baa6d3abf4aed5d484803615",
-    "audio": "https://p.scdn.co/mp3-preview/16e20b9f18f9fe1d427665d7f000bd8a80190e93?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Confidant",
-    "singer": "BabyJake",
-    "image": "https://i.scdn.co/image/ab67616d0000b27313495130dccead15dfd71cfb",
+    "name": "Prá Onde Vai Você",
+    "singer": "Lô Borges",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736706d7eee1f18d918ab17b78",
     "audio": null
   },
   {
-    "name": "Good Days",
-    "singer": "SZA",
-    "image": "https://i.scdn.co/image/ab67616d0000b2733097b1375ab17ae5bf302a0a",
-    "audio": "https://p.scdn.co/mp3-preview/297942feb416d50b8ee69f760daf1e2a1f39dabc?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Silent, Still",
+    "singer": "C. Diab",
+    "image": "https://i.scdn.co/image/ab67616d0000b273064fc8a89097ac462033327e",
+    "audio": "https://p.scdn.co/mp3-preview/3c2097e830ec110df0ed2300a25bd2b3400a7254?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Successful",
-    "singer": "MASIWEI",
-    "image": "https://i.scdn.co/image/ab67616d0000b2730a63a3b2378ffb375d7ea826",
-    "audio": "https://p.scdn.co/mp3-preview/c708cd25dee92b2a78f0f7b528433652cfdc82a2?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "scorton's creek - re-imagined by filous",
-    "singer": "Isaac Dunbar",
-    "image": "https://i.scdn.co/image/ab67616d0000b27356ec1cc039e913c4013ef4f2",
-    "audio": "https://p.scdn.co/mp3-preview/50582f522402b4195e4ae86161ab82f2e85f8ffc?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Do U Wrong (feat. Syd)",
-    "singer": "Leven Kali",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cfb937f62fd28b050abe95ca",
+    "name": "Vai Vai Vai",
+    "singer": "Lô Borges",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736706d7eee1f18d918ab17b78",
     "audio": null
   },
   {
-    "name": "Nights Like This (feat. Ty Dolla $ign)",
-    "singer": "Kehlani",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cccb973e9ff7440fbaf8485e",
-    "audio": "https://p.scdn.co/mp3-preview/becd086dc3c299fa16cb92070c91fe8d6e9f9a5e?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Something to Believe",
+    "singer": "Weyes Blood",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730c64e752dec4c08362cc4a88",
+    "audio": "https://p.scdn.co/mp3-preview/f9466246b18ba8e400f46e749fbfdc5b27007063?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "No Takebacks.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
+    "name": "Everywhere - 2017 Remaster",
+    "singer": "Fleetwood Mac",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aaba065944cd82a6f15c86b6",
+    "audio": "https://p.scdn.co/mp3-preview/fc21d8858878cc332046baf964a9ef19f9510e99?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Blame It on Me",
+    "singer": "Morgan Wallen",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca",
     "audio": null
   },
   {
-    "name": "Dollaz On My Head (feat. Young Thug)",
-    "singer": "Gunna",
-    "image": "https://i.scdn.co/image/ab67616d0000b273d7547a7624116ac5f8a51fd2",
-    "audio": "https://p.scdn.co/mp3-preview/c0faf724612433e6a6c2f76047a18165151d0141?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Detach",
+    "singer": "Hans Zimmer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ac29a65e7ffcfa6f9cb0d342",
+    "audio": "https://p.scdn.co/mp3-preview/d01bfd4bc6be27d4d77d8db07eb2bc12c51ef065?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Harvest Moon",
-    "singer": "Neil Young",
-    "image": "https://i.scdn.co/image/ab67616d0000b273e7171a8d9c8bf1d8fb661e80",
-    "audio": "https://p.scdn.co/mp3-preview/3a07c2470cbfe33b9b429d6104eb9ae716647219?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Kolibri",
+    "singer": "Their Dogs Were Astronauts",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730fb569e19ecb4bde304d0c9f",
+    "audio": "https://p.scdn.co/mp3-preview/a8a61084aca97411fe0b226d525cc4d40b310e73?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Champion (feat. Travis Scott)",
-    "singer": "NAV",
-    "image": "https://i.scdn.co/image/ab67616d0000b2730231368c38cf69a722ed1d0b",
+    "name": "Accordion",
+    "singer": "Madvillain",
+    "image": "https://i.scdn.co/image/ab67616d0000b27302abe1eaf9da931f42629b4a",
+    "audio": "https://p.scdn.co/mp3-preview/af81f65d21129eae8c1629a63540be250be06f37?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Hex Omega",
+    "singer": "Opeth",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b3d0748332085d168b6e47d3",
+    "audio": "https://p.scdn.co/mp3-preview/0812174b7a92c0169071df25f286b490c02927dc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Eugene",
+    "singer": "Arlo Parks",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735fcd8793a97f15b365235441",
+    "audio": "https://p.scdn.co/mp3-preview/57fe58a9ccff1cf27b8ef2e00e1834f576816d04?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "To All the Dancers of the World, a Round Form of Fantasy",
+    "singer": "Sweet Trip",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732aa34d5906e01231eff70f82",
+    "audio": "https://p.scdn.co/mp3-preview/19a750235a512a0539dcfd367ec638350045955a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Give Life Back to Music",
+    "singer": "Daft Punk",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731d97ca7376f835055f828139",
+    "audio": "https://p.scdn.co/mp3-preview/29c9a5d90d26a12c9dd360aabc1d23b1d6435242?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Wandering Star",
+    "singer": "Portishead",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dc20397b139223620af148f6",
     "audio": null
   },
   {
-    "name": "Nothing in My Head",
-    "singer": "Richie Quake",
-    "image": "https://i.scdn.co/image/ab67616d0000b2738080fc15d209cec23df18e4f",
-    "audio": "https://p.scdn.co/mp3-preview/43b75b807d92b7115ca407da8ac2573ee410b5ef?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Lost in Time",
+    "singer": "Celldweller",
+    "image": "https://i.scdn.co/image/ab67616d0000b273504fe1149df1207cd5240ba0",
+    "audio": "https://p.scdn.co/mp3-preview/67eca0978b617d86face1127694d90cf52e814b2?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Second Emotion (feat. Travis Scott)",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
+    "name": "In the Morning of the Magicians",
+    "singer": "The Flaming Lips",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ca69f52416a728ebd0b9103c",
+    "audio": "https://p.scdn.co/mp3-preview/077d2f5411e5a3dee8b5f2be5691fb1f592f9d63?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Golden",
+    "singer": "Jill Scott",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b0f1fad7abfc5b059cbe1bbd",
     "audio": null
   },
   {
-    "name": "Suncity (feat. Empress Of)",
-    "singer": "Khalid",
-    "image": "https://i.scdn.co/image/ab67616d0000b273c43edd2cf01edf73bf0b97a3",
-    "audio": "https://p.scdn.co/mp3-preview/af0e70783652dbc8a8a27435b39ced4a9dacf196?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "The Lilac And The Apple - remix",
+    "singer": "Dntel",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed7ef7d2cf9c814f1921c3a7",
+    "audio": "https://p.scdn.co/mp3-preview/eaaeed6d078dd7e6592ed73cdad77cbf3510cc81?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "I Heard You Got Too Litt Last Night",
-    "singer": "SAINt JHN",
-    "image": "https://i.scdn.co/image/ab67616d0000b273148e1f0715c7e9c1034d722c",
-    "audio": "https://p.scdn.co/mp3-preview/b9b802d385ad940f3b091e637879e98b8bcde610?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Petit Pays",
+    "singer": "Cesária Évora",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c71cfff7ab49358d0d50e09d",
+    "audio": "https://p.scdn.co/mp3-preview/734d33ea9bf3ee209cff177440e0cbb2f8a51961?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Nicotine",
-    "singer": "Pretty Boy Aaron",
-    "image": "https://i.scdn.co/image/ab67616d0000b27353239cbe10385fafaf3de518",
-    "audio": "https://p.scdn.co/mp3-preview/d068fc111f8017594d3a5ed266cd98669813a97c?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "O My Heart",
+    "singer": "Mother Mother",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736d82586633548d5c122ee00c",
+    "audio": "https://p.scdn.co/mp3-preview/94b61742a7bbbd3af3c8e52cfc48a9aaf32cdb5a?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "21 (feat. YNG WeBB)",
-    "singer": "AUGUST 08",
-    "image": "https://i.scdn.co/image/ab67616d0000b27314dfea06d42987e175c2e5e6",
-    "audio": "https://p.scdn.co/mp3-preview/1a989f0c3efdd80e95699707c9c12918fa016d75?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "IDEA (理想)",
+    "singer": "TAEMIN",
+    "image": "https://i.scdn.co/image/ab67616d0000b27305f89e348fddab49cf572dd9",
+    "audio": "https://p.scdn.co/mp3-preview/5ab1c3be298764d4774be90c747578010cc693c3?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "White Tee (with NO1-NOAH)",
-    "singer": "Summer Walker",
-    "image": "https://i.scdn.co/image/ab67616d0000b2738423c8534a6a7a010f94bb47",
+    "name": "Heart On A String",
+    "singer": "22-20s",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b634cfd99ae8d9f5f92cca3b",
     "audio": null
   },
   {
-    "name": "What You Did (feat. Ella Mai)",
-    "singer": "Mahalia",
-    "image": "https://i.scdn.co/image/ab67616d0000b2735a608d7d78c49723499b715d",
-    "audio": "https://p.scdn.co/mp3-preview/66fd92a5d15e2ea822e7990639f4ada5ca9a0a25?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Shifting Sands",
+    "singer": "Baldocaster",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f7f22d855a35b87ef6918fda",
+    "audio": "https://p.scdn.co/mp3-preview/dc9a8c5ab3c5e04f41d96528a94a00146b215578?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Golden Linings",
-    "singer": "Anjali Taneja",
-    "image": "https://i.scdn.co/image/ab67616d0000b273e972799e533bc0c4b1bcd3e9",
-    "audio": "https://p.scdn.co/mp3-preview/02690998427e5c9390b4e34b0264ac79b778ffc8?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Sunset",
+    "singer": "Cosmo Sheldrake",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731782db286773baae81aaba99",
+    "audio": "https://p.scdn.co/mp3-preview/0a86a42b10fd89d75abe0c1c78a29b4bd6da599e?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Daddy Issues",
-    "singer": "The Neighbourhood",
-    "image": "https://i.scdn.co/image/ab67616d0000b2733066581d697fbdee4303d685",
-    "audio": "https://p.scdn.co/mp3-preview/087accb64df2f5e6bd13e00aa47a9ef84afbdea1?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Taking off",
+    "singer": "ONE OK ROCK",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730f94f53a1c9c60d953ffd2f2",
+    "audio": "https://p.scdn.co/mp3-preview/95a21168c5a7a34003905192b588026992ad20dc?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Do Mi Dirti",
-    "singer": "Jarna",
-    "image": "https://i.scdn.co/image/ab67616d0000b2733c58b1faf9d229337c466037",
-    "audio": "https://p.scdn.co/mp3-preview/4568e5d1f1d65aa42c813030b62fe870f61a8fe4?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Kept Woman",
+    "singer": "Fleet Foxes",
+    "image": "https://i.scdn.co/image/ab67616d0000b27371b24e854cdd7633cb5baaa7",
+    "audio": "https://p.scdn.co/mp3-preview/5617e54559d2fee7bf8747498c9543a603121823?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "sex money feelings die - slowed version",
-    "singer": "Lykke Li",
-    "image": "https://i.scdn.co/image/ab67616d0000b2734e520169fed8748fcb8317ad",
-    "audio": "https://p.scdn.co/mp3-preview/99eec4c526fea8f2e857e8038bad215c2a4d33d4?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "11 PM",
+    "singer": "Maluma",
+    "image": "https://i.scdn.co/image/ab67616d0000b273073bc2070f7fa02b2a6bda64",
+    "audio": "https://p.scdn.co/mp3-preview/2993254fae01c3abd401c55d9d30937a8b130c9e?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Girl With The Tattoo (Enter.Lewd)",
-    "singer": "Miguel",
-    "image": "https://i.scdn.co/image/ab67616d0000b273d5a8395b0d80b8c48a5d851c",
-    "audio": "https://p.scdn.co/mp3-preview/bfd5d08caeae344ccb137077ddc597be688b4b99?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Rude As Hell",
+    "singer": "BabyTron",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737f840cb31e0ea46d787e5a95",
+    "audio": "https://p.scdn.co/mp3-preview/6925cf2863552347d5ec136c1fa4ead874c54c55?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "F*CK YOU, GOODBYE (feat. Machine Gun Kelly)",
-    "singer": "The Kid LAROI",
-    "image": "https://i.scdn.co/image/ab67616d0000b273df16d539f508603bfb1efe02",
-    "audio": "https://p.scdn.co/mp3-preview/0e0821f6d0557db93498aa800c75ded5342876aa?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "HEARTBREAK ANNIVERSARY",
+    "singer": "Giveon",
+    "image": "https://i.scdn.co/image/ab67616d0000b27318ff322fcdd47c9400872da6",
+    "audio": "https://p.scdn.co/mp3-preview/680c39287fb49fdcb9e6690a1419a97fe67d8420?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Petty Lover",
-    "singer": "Jaz Karis",
-    "image": "https://i.scdn.co/image/ab67616d0000b273521504d0921fdc787573c690",
-    "audio": "https://p.scdn.co/mp3-preview/d2b30b7b02c6abf7e50b9d4a3e4e2d8514e46f05?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Am I Alive",
+    "singer": "Team",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736e9dc7d745b51e21ff2d2d2b",
+    "audio": "https://p.scdn.co/mp3-preview/7a054d04c6c4e882ae6a0615ac99a38f7240dcf5?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "From Time",
-    "singer": "Drake",
-    "image": "https://i.scdn.co/image/ab67616d0000b273a90d170c61fb7d063d47161d",
+    "name": "One Thing",
+    "singer": "One Direction",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734a5584795dc73860653a9a3e",
+    "audio": "https://p.scdn.co/mp3-preview/f211f125292ebc47b63b3112b8869c9c6089392e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Sólo Por Hoy",
+    "singer": "Azul Violeta",
+    "image": "https://i.scdn.co/image/ab67616d0000b273329a64654a6d27b4ce5b1351",
     "audio": null
   },
   {
-    "name": "Dream State",
-    "singer": "Dennis.",
-    "image": "https://i.scdn.co/image/ab67616d0000b2736dfa1afd5f07c4cfa36387a9",
-    "audio": "https://p.scdn.co/mp3-preview/13ceb44c565a74af48d63a9c0be833edbc6dadb3?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Wasted Time",
+    "singer": "Vance Joy",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a9929deb093a6617d2493b03",
+    "audio": "https://p.scdn.co/mp3-preview/1a51e4afce9c0a5204cc71c9e198aab097a35893?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Little Star",
-    "singer": "Standing Egg",
-    "image": "https://i.scdn.co/image/ab67616d0000b273e168b8741ed2a846c6ba4b48",
-    "audio": "https://p.scdn.co/mp3-preview/843ea535d96c7f3af0766aa4ff907df0564d00cc?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "The Violet Hour",
+    "singer": "Sea Wolf",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738cdc3315bbb5331eddf6a21d",
+    "audio": "https://p.scdn.co/mp3-preview/50bd37119b8177255d8f89d8444a490022e471b1?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Waltz in C-sharp minor, Op. 64 No. 2",
-    "singer": "Frédéric Chopin",
-    "image": "https://i.scdn.co/image/ab67616d0000b273aee049dfce2f674e4013e232",
-    "audio": "https://p.scdn.co/mp3-preview/63552b188d56629e0e3313aadcbeda5555544d90?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Summertime",
-    "singer": "Public Library Commute",
-    "image": "https://i.scdn.co/image/ab67616d0000b27323a37302ff3d1cb55902e5b6",
-    "audio": "https://p.scdn.co/mp3-preview/e1df7d2daca7c78716baa29ed221e2964d520225?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Stayback",
-    "singer": "Omar Apollo",
-    "image": "https://i.scdn.co/image/ab67616d0000b27373f6df727a4167d26d7b7f45",
-    "audio": "https://p.scdn.co/mp3-preview/6b80bba8756e6c390b905186a23f54df1c4a8b01?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Lie To Me (feat. Lil Durk)",
-    "singer": "Queen Naija",
-    "image": "https://i.scdn.co/image/ab67616d0000b27369a7329efc0f924b4814e822",
+    "name": "On The Ground",
+    "singer": "Rosé",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fdec91537c467efa0cd75e2f",
     "audio": null
   },
   {
-    "name": "Skiterlude.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
+    "name": "Last One in the World",
+    "singer": "Mark Lanegan",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733afa9d324a7dedcd5e27867d",
+    "audio": "https://p.scdn.co/mp3-preview/82e85b3496f95e95cca6b876890ac4692164f879?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Love Me Now",
+    "singer": "Gino Vannelli",
+    "image": "https://i.scdn.co/image/ab67616d0000b273806fea47fa1a3c0d85301748",
     "audio": null
   },
   {
-    "name": "69 Camaro",
-    "singer": "Kyle Dion",
-    "image": "https://i.scdn.co/image/ab67616d0000b273d39f6d14738ead8984f80abe",
-    "audio": "https://p.scdn.co/mp3-preview/680d1bace7a81d6cef43575fb905d36e6bf118e5?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "America",
+    "singer": "Simon & Garfunkel",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d8fb5b4308dc27f210064ef4",
+    "audio": "https://p.scdn.co/mp3-preview/e7f7d38624247155c573b7f24fdd937fbd70bae0?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Callaita",
+    "name": "09-15-00",
+    "singer": "Godspeed You! Black Emperor",
+    "image": "https://i.scdn.co/image/ab67616d0000b273505478d3b0790313f88460b5",
+    "audio": "https://p.scdn.co/mp3-preview/2f94d54c0a6b6d534526cfc5b1fcfe81008fe612?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "m00N",
+    "singer": "TOO YUGAN",
+    "image": "https://i.scdn.co/image/ab67616d0000b27316fc13dc11faa73f85a1b5c0",
+    "audio": "https://p.scdn.co/mp3-preview/80626444c8311f0ece2b1e6e7d56356c1fc10a65?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Feel It All Around",
+    "singer": "Washed Out",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cd4896d5151581d35aa1e5c0",
+    "audio": "https://p.scdn.co/mp3-preview/a91c56e62f94bc1993b80dddd45be94a8be23bc5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Weather On The Fen",
+    "singer": "K. Leimer",
+    "image": "https://i.scdn.co/image/ab67616d0000b27332fc90b7e3cdd3e3ed1f5435",
+    "audio": "https://p.scdn.co/mp3-preview/1fb68d2701b0a592281e4b9c354eb72a31dc05b0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Next Up - S2-E37",
+    "singer": "Mixtape Madness",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739fc306f190333d01daa92229",
+    "audio": "https://p.scdn.co/mp3-preview/6a28469529362b523d1a3a56f65c684f25d1eb75?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Spiders",
+    "singer": "Slipknot",
+    "image": "https://i.scdn.co/image/ab67616d0000b27326f20b4d67c0c7b0f137ce4f",
+    "audio": "https://p.scdn.co/mp3-preview/d458601aff5d748861af096bfe4273d07542678c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Emperatriz",
+    "singer": "Primavera de Praga",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bdd58d4e8d880a398d7b2b22",
+    "audio": "https://p.scdn.co/mp3-preview/8a240b920923fe811413f7266d6b9f978b92a3b7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Mending of the Gown",
+    "singer": "Sunset Rubdown",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dafc8fb7d995d46d147960d3",
+    "audio": "https://p.scdn.co/mp3-preview/363d1411c89d0ecc558add87128334f78263401a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Resonance",
+    "singer": "Home",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f421e4ca838fe19d8cdf934a",
+    "audio": "https://p.scdn.co/mp3-preview/5b86600b6de2e6121b48a9d86502003e097493e2?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ett Slag",
+    "singer": "Laleh",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738a55d540e62ed812259d7a73",
+    "audio": "https://p.scdn.co/mp3-preview/a55cd86d6c7387739ba7c4e98a68235b3fc16e3e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Without You (feat. Sandro Cavazza)",
+    "singer": "Avicii",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a26cc58b4d64c2ece3376389",
+    "audio": null
+  },
+  {
+    "name": "Returning The Crown",
+    "singer": "Toadeater",
+    "image": "https://i.scdn.co/image/ab67616d0000b273394906883f82718c8849ebe2",
+    "audio": "https://p.scdn.co/mp3-preview/8f9f77b3c815e4f5e9b4a0159471bbe00cb662c3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Land Locked Blues",
+    "singer": "Bright Eyes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273139726edb59ec75161e36e43",
+    "audio": "https://p.scdn.co/mp3-preview/6d9181f96ded03a8fae11aa70b7bcfb49f8a43df?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Gymnopédie No. 1",
+    "singer": "Erik Satie",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fa24c97b4c8aaf5ccdcccf08",
+    "audio": "https://p.scdn.co/mp3-preview/eaaf2d1b81679492103763af53ca811721fc75f9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Selfless",
+    "singer": "The Strokes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bfa99afb5ef0d26d5064b23b",
+    "audio": "https://p.scdn.co/mp3-preview/9e81d611f425dc915c185bf0278fbb675fe1b5e4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "(When You Wake) You're Still in a Dream",
+    "singer": "My Bloody Valentine",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733164437cb02167803e0f7f51",
+    "audio": "https://p.scdn.co/mp3-preview/de321ead25b837e53447ebae52dfa08777964b77?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "RADW",
+    "singer": "Haftbefehl",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735f55b85b8a266877a6e1bf64",
+    "audio": null
+  },
+  {
+    "name": "Crossing the Threshold",
+    "singer": "CharlestheFirst",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aef1394acaa26ad9c9143e88",
+    "audio": "https://p.scdn.co/mp3-preview/92c7e042d9eb4abd6708affab5ed5e6673ace214?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Keep Growing",
+    "singer": "Camp Cope",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734c972f0828cc2f705aa734a9",
+    "audio": "https://p.scdn.co/mp3-preview/c6384a6ec07064f39b88d1a91e18ccb9876a8bae?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Soul Sacrifice - Live",
+    "singer": "Santana",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c894463d06b775f87d57361b",
+    "audio": "https://p.scdn.co/mp3-preview/6d3ae43878953514baa829537c0ed1c62e13bf7f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Eyes Closed",
+    "singer": "Florida Georgia Line",
+    "image": "https://i.scdn.co/image/ab67616d0000b27396886c18aa65dbbdba9cb598",
+    "audio": null
+  },
+  {
+    "name": "QKThr",
+    "singer": "Aphex Twin",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5aef98a1762d0f64bb6ed9a",
+    "audio": "https://p.scdn.co/mp3-preview/1ea06224507f8953e169fd81d3641052f62614e5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mixed Drinks",
+    "singer": "Mitchell Tenpenny",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dd91851bfe56d07147dbf849",
+    "audio": "https://p.scdn.co/mp3-preview/9456105b3d564e29be52773292f07b269dd6d583?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Chicharonnes",
+    "singer": "Armand Hammer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ce7846efcfc5dc8c0e37ba14",
+    "audio": "https://p.scdn.co/mp3-preview/19709abbe0061c5b8644ee5d82329d4e9b426024?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Acoustic",
+    "singer": "Billy Raffoul",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b4ab6cd646e9359e07d0004c",
+    "audio": null
+  },
+  {
+    "name": "Mirror Shield",
+    "singer": "Perfume Advert",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738169838b12e796dcd912a58a",
+    "audio": "https://p.scdn.co/mp3-preview/a75b2ba158957aa4aecfea077229f75afded58c0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "NEVER AGAIN",
+    "singer": "PARTYNEXTDOOR",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d8082097058d4c44739b17dd",
+    "audio": "https://p.scdn.co/mp3-preview/158a9a26a33ef00d6c7fb5f0566986da0c30a697?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "FAKE LOVE",
+    "singer": "BTS",
+    "image": "https://i.scdn.co/image/ab67616d0000b27321108e396b83d171cc5c2692",
+    "audio": "https://p.scdn.co/mp3-preview/bc24526c6a5e4d2a63bdbf364705a6012ff2d649?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Devil Like Me",
+    "singer": "Rainbow Kitten Surprise",
+    "image": "https://i.scdn.co/image/ab67616d0000b27317d131d429c783666c929d6b",
+    "audio": "https://p.scdn.co/mp3-preview/5de0ff1cf0fa588440775840da4dd2fefd43fca5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "DÁKITI",
     "singer": "Bad Bunny",
-    "image": "https://i.scdn.co/image/ab67616d0000b2734aef420e62863ebf622c27f5",
-    "audio": "https://p.scdn.co/mp3-preview/23c0b25cf824c1bfd7a814fe7cd1264c31a5a9dc?cid=93febf29f64649a8b1675c59304fa249"
+    "image": "https://i.scdn.co/image/ab67616d0000b27334c8199b0b3b3fb42b8a98a8",
+    "audio": "https://p.scdn.co/mp3-preview/edd9bea2e66b14169f8bbfa45a78b6599b14160a?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Crush",
-    "singer": "Souly Had",
-    "image": "https://i.scdn.co/image/ab67616d0000b27372363335a223b634b11f7c5f",
+    "name": "Veneno en la Piel",
+    "singer": "Radio Futura",
+    "image": "https://i.scdn.co/image/ab67616d0000b273de6b94e35f05d52471551e69",
+    "audio": "https://p.scdn.co/mp3-preview/9126f80e1d312284d70d9613ebf32a9fa3af1dfa?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Sour Times",
+    "singer": "Portishead",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dc20397b139223620af148f6",
     "audio": null
   },
   {
-    "name": "Brown",
-    "singer": "Kyle Dion",
-    "image": "https://i.scdn.co/image/ab67616d0000b273d39f6d14738ead8984f80abe",
-    "audio": "https://p.scdn.co/mp3-preview/87614efb3020ded62322cadda0d68b2034da4fe2?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "REMEMBER THE FUTURE",
+    "singer": "ionnalee",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d8119ecca0d665b72ebb86e4",
+    "audio": "https://p.scdn.co/mp3-preview/0cd384e7ce66aafe77c8f551d59d9daf32bb780b?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "SAYONARA",
-    "singer": "Aries",
-    "image": "https://i.scdn.co/image/ab67616d0000b2735d084c9ce80631cbce8d84c2",
-    "audio": "https://p.scdn.co/mp3-preview/09b62f4cc232897b9247174aaf8a43eb1d7f69b3?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Armistice",
+    "singer": "Phoenix",
+    "image": "https://i.scdn.co/image/ab67616d0000b273738f2371ae0c10a381aa5052",
+    "audio": "https://p.scdn.co/mp3-preview/e2b8919784e901766496d1ca31991608db8fe8c8?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Safe With Me (with Audrey Mika)",
-    "singer": "Gryffin",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ef67b5f76eacede43f847b57",
+    "name": "Troubled Paradise",
+    "singer": "Slayyyter",
+    "image": "https://i.scdn.co/image/ab67616d0000b273796bc666f1c30208a9fce72e",
     "audio": null
   },
   {
-    "name": "Yes I'm Changing",
-    "singer": "Tame Impala",
-    "image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    "name": "pink diamond",
+    "singer": "Charli XCX",
+    "image": "https://i.scdn.co/image/ab67616d0000b273664e38c99d077cc52ab48914",
+    "audio": "https://p.scdn.co/mp3-preview/f7618273860c787eaae72662b35accaa9f0121f0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Shit Twins",
+    "singer": "Dads",
+    "image": "https://i.scdn.co/image/ab67616d0000b27387dedf49f7f5d4572d0f0ffd",
+    "audio": "https://p.scdn.co/mp3-preview/65896caa15433d7209c62f024fac00718f8a4406?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Expectations",
+    "singer": "Belle and Sebastian",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737732be923fc9f29eef8cac96",
     "audio": null
   },
   {
-    "name": "Politics & Violence",
-    "singer": "Dominic Fike",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cfc824b65a3b1755d98a7e23",
-    "audio": "https://p.scdn.co/mp3-preview/ad1554acd5412b8e4569042398e2e508f085decd?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "GET IT OUT",
+    "singer": "APOKI",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af3aa3b39f221d40dfc72753",
+    "audio": "https://p.scdn.co/mp3-preview/22c46fdb4d80f1eda8b2be2b337ba56f8c5bdc32?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Attention.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
+    "name": "Going Out Of My Head",
+    "singer": "Sérgio Mendes & Brasil '66",
+    "image": "https://i.scdn.co/image/ab67616d0000b27357146472d28ad182fcbc4ba0",
     "audio": null
   },
   {
-    "name": "Hit Different",
-    "singer": "SZA",
-    "image": "https://i.scdn.co/image/ab67616d0000b273a135dd969dce9f38ed32ef98",
-    "audio": "https://p.scdn.co/mp3-preview/cd7368843d732d9840103014ca92de28572a3880?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Can I Sit Next to You Girl",
+    "singer": "AC/DC",
+    "image": "https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a",
+    "audio": "https://p.scdn.co/mp3-preview/d1eed7849602f5e24c3d54f53c93052a7e72be9b?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Morocco (feat. 6LACK)",
-    "singer": "Alina Baraz",
-    "image": "https://i.scdn.co/image/ab67616d0000b273853d572fe2eb13f70bad74dd",
-    "audio": "https://p.scdn.co/mp3-preview/b9c5504538e24f156cdd4ef2722e2c5d0b009789?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Clutch (feat. Kiana Ledé)",
-    "singer": "Col3trane",
-    "image": "https://i.scdn.co/image/ab67616d0000b2738fedee27130cfe50bdf8d3a7",
+    "name": "To Spite the Face",
+    "singer": "Anaal Nathrakh",
+    "image": "https://i.scdn.co/image/ab67616d0000b273139b47564abbb45a709c8feb",
     "audio": null
   },
   {
-    "name": "Unravel Me",
-    "singer": "Sabrina Claudio",
-    "image": "https://i.scdn.co/image/ab67616d0000b27376165991d7aeecce3634f554",
-    "audio": "https://p.scdn.co/mp3-preview/c764ab65b8859a50c65a8c850f0b1946df55e437?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Corduroy Dreams",
+    "singer": "Rex Orange County",
+    "image": "https://i.scdn.co/image/ab67616d0000b273dbf3c10406ac999c39bf4a97",
+    "audio": "https://p.scdn.co/mp3-preview/f2d1f2500bdff083647307b5f976dbe7e0d36403?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "when the world is on fire",
-    "singer": "Greek",
-    "image": "https://i.scdn.co/image/ab67616d0000b2738ab93df25b728a4455b2a802",
-    "audio": "https://p.scdn.co/mp3-preview/2174de9e5f3c5eb07cfcd6f0c5ea2f747206ce41?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Dream Girl",
+    "singer": "SHINee",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734cf1b2f98c24018d8349b7eb",
+    "audio": "https://p.scdn.co/mp3-preview/5f4da4b1df830cd2b8e18e0c8598b2092168aa20?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Peng Black Girls Remix - A COLORS SHOW",
-    "singer": "Enny",
-    "image": "https://i.scdn.co/image/ab67616d0000b273de89f2afe49afaf3499e57dc",
+    "name": "Tonight Tonight",
+    "singer": "Bill Champlin",
+    "image": "https://i.scdn.co/image/ab67616d0000b273664825f8138657bc98cbcb1d",
+    "audio": "https://p.scdn.co/mp3-preview/f9e6c222421bf9aac8c2a613459555b6510d780a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Fellow Feeling",
+    "singer": "Porter Robinson",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731f675e7b8bae408653346dd9",
     "audio": null
   },
   {
-    "name": "Dirty",
-    "singer": "AQVOL",
-    "image": "https://i.scdn.co/image/ab67616d0000b27302c9d23e3167d7fc5707d56b",
-    "audio": "https://p.scdn.co/mp3-preview/873739cec038ce6f23d9883019934e4b8116d354?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Advertencia",
+    "singer": "Primavera de Praga",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739700e5ca380631c0c16600c0",
+    "audio": "https://p.scdn.co/mp3-preview/5b80c4960fe75558e02015dba89d6ca554d92369?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Chocolate. (ft. Ari Lennox)",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
+    "name": "Bunker Buster",
+    "singer": "Preoccupations",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c052567bd504cf4de9e899e0",
+    "audio": "https://p.scdn.co/mp3-preview/819f38b72df0b30b865a6c3dee6f603cf1fa30c3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Off the Lot (feat. Mereba)",
+    "singer": "EarthGang",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e374c5ca6c78943c4d000480",
+    "audio": "https://p.scdn.co/mp3-preview/f5782d3768e402a9b0d871c80110b677a5ed4c7c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Baby Blue",
+    "singer": "Martina Topley-Bird",
+    "image": "https://i.scdn.co/image/ab67616d0000b27337ec1e13847eb27e671c825c",
+    "audio": "https://p.scdn.co/mp3-preview/80af48c2459ef331518613231788478c0c1da1cc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "If I Could Fly",
+    "singer": "Joe Satriani",
+    "image": "https://i.scdn.co/image/ab67616d0000b273713206eb63f3a8fe33deb827",
+    "audio": "https://p.scdn.co/mp3-preview/20e647bfacd30a5e4151c0425e1bb93c35598bec?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Illinois",
+    "singer": "Brett Eldredge",
+    "image": "https://i.scdn.co/image/ab67616d0000b273364629238e53a5e5fb6113be",
+    "audio": "https://p.scdn.co/mp3-preview/fa45f7f3195f2c6a9ef8763915096bc9784bc47a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Replay (PM 01:27)",
+    "singer": "NCT 127",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734931057cec0d2e85751f8e48",
+    "audio": "https://p.scdn.co/mp3-preview/b32556c41ad49ab5de6869ec1e61eee819b6ac07?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Erase",
+    "singer": "Disciple",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b0e0e5bfd5852b8a5654a2e7",
+    "audio": "https://p.scdn.co/mp3-preview/7bb1bda0d1e9427a5c673b81a5e5b0e76725b0b8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Walking In Memphis",
+    "singer": "Marc Cohn",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735908f448fb4605e4eba3dbf9",
+    "audio": "https://p.scdn.co/mp3-preview/dfca660c74d6459a663d3ab173814a3f043669be?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Joder, No Sé",
+    "singer": "Carolina Durante",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c8e90dfefad9d4bb769cf50d",
     "audio": null
   },
   {
-    "name": "E.T.A.",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
+    "name": "Vajrabhairava: The Summoning",
+    "singer": "NEPTUNIAN MAXIMALISM",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fa421a4d2c2063cb80313879",
+    "audio": "https://p.scdn.co/mp3-preview/f701a4b915ed75cb89cc3185bef706cf2e6c8946?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "What up!",
+    "singer": "Jay Park",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f5cf978749288bea05f9deb4",
+    "audio": "https://p.scdn.co/mp3-preview/cf0d59e859ad18431df122958d0652f9d26bf281?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "No Time To Hesitate",
+    "singer": "Lovebites",
+    "image": "https://i.scdn.co/image/ab67616d0000b273903b547dbb7a60106c2758a9",
+    "audio": "https://p.scdn.co/mp3-preview/469278aa58110293de40baae23d48994189be2e9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Epitome XIV",
+    "singer": "Blut aus Nord",
+    "image": "https://i.scdn.co/image/ab67616d0000b273710d96b08f47566ea6884173",
+    "audio": "https://p.scdn.co/mp3-preview/9ba9bff3904000940971265d064f9a38b9a49156?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Wretch",
+    "singer": "Autoheart",
+    "image": "https://i.scdn.co/image/ab67616d0000b273df7357000623225c2340c7f8",
+    "audio": "https://p.scdn.co/mp3-preview/4f1fa27c05ce3eb3603ed4555e2a34f9f81aba7e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "LA NOCHE DE ANOCHE",
+    "singer": "Bad Bunny",
+    "image": "https://i.scdn.co/image/ab67616d0000b273005ee342f4eef2cc6e8436ab",
+    "audio": "https://p.scdn.co/mp3-preview/a98b639351290bdb69b865ad10c2e0f5dbe0c4cd?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "La Vida Y El Corazon",
+    "singer": "Primavera de Praga",
+    "image": "https://i.scdn.co/image/ab67616d0000b27366aa6c63a80e2fc2c873f15f",
+    "audio": "https://p.scdn.co/mp3-preview/4586c351898758d8fb27ca45e2e56b1b84e2cd2c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Virtues",
+    "singer": "Dedekind Cut",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732cd0f2e9726c736ebb54b5d3",
+    "audio": "https://p.scdn.co/mp3-preview/ad9ec0c1ce6aaf9b8e731d8565b58a771e632526?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Nanou2",
+    "singer": "Aphex Twin",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5aef98a1762d0f64bb6ed9a",
+    "audio": "https://p.scdn.co/mp3-preview/1977f0e69f35a546228930be996f597332cf463d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Loading",
+    "singer": "Central Cee",
+    "image": "https://i.scdn.co/image/ab67616d0000b27349bddfb3b0d8f94ae2e7043a",
+    "audio": "https://p.scdn.co/mp3-preview/682c782b624fe4e128065ed9e3c2cc5a3cf14c17?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Cow Cud is a Twin",
+    "singer": "Aphex Twin",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c34c84629aa6f6e1c8ba5ac7",
+    "audio": "https://p.scdn.co/mp3-preview/ef11ef02639ed06b9636a217efceeb757b9f6bd7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Hello There - Live at Nippon Budokan, Tokyo, JPN - April 1978",
+    "singer": "Cheap Trick",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e8d8639f8f99d2302f7bc46f",
+    "audio": "https://p.scdn.co/mp3-preview/27f50355bceb9ad3171723db2a1cb9cc39da7255?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Stay Tonight",
+    "singer": "CHUNG HA",
+    "image": "https://i.scdn.co/image/ab67616d0000b27328e5351049de8f6ee39111f5",
+    "audio": "https://p.scdn.co/mp3-preview/acbdfe7729bcda5e178a7774c5615e690c408f5f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Left This Town",
+    "singer": "Josh Thompson",
+    "image": "https://i.scdn.co/image/ab67616d0000b273adc897d4bab8b17aea11a6dc",
     "audio": null
   },
   {
-    "name": "telepatía",
-    "singer": "Kali Uchis",
-    "image": "https://i.scdn.co/image/ab67616d0000b273044a5466dac00f7b3c570b99",
-    "audio": null
+    "name": "A.D.H.D",
+    "singer": "Kendrick Lamar",
+    "image": "https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe",
+    "audio": "https://p.scdn.co/mp3-preview/a43c464f49bf8f074d95b2457e467c55728b48d1?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "That's On You",
-    "singer": "Joyce Wrice",
-    "image": "https://i.scdn.co/image/ab67616d0000b273aca6898b80cb3d1fb3f6e8a5",
-    "audio": "https://p.scdn.co/mp3-preview/7e56d1b354873302657816e38f63d8e95702d03d?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Sinfonietta: I. Allegretto - Allegro maestoso (Fanfare) - Live",
-    "singer": "Leoš Janáček",
-    "image": "https://i.scdn.co/image/ab67616d0000b27325309b79d9eecc28f9527303",
-    "audio": "https://p.scdn.co/mp3-preview/424a94212d9221a6ff9391d8ce4c716a7c2f08ff?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "The Weekend",
-    "singer": "SZA",
-    "image": "https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25",
-    "audio": "https://p.scdn.co/mp3-preview/f4eb81aee870f719442004e9d66e9c2603ea4819?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Used To",
-    "singer": "SAYGRACE",
-    "image": "https://i.scdn.co/image/ab67616d0000b273327e285514471811725f321b",
-    "audio": "https://p.scdn.co/mp3-preview/6d3d47f9a1582d103c799d6800a3a36fa5742e09?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "White Ferrari",
-    "singer": "Frank Ocean",
-    "image": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
-    "audio": "https://p.scdn.co/mp3-preview/83113c9aeb6c26cc53fa07cd2a1c6782afed3a2d?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "At My Worst",
-    "singer": "Pink Sweat$",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387bb1da05f3491eea3401de5",
-    "audio": "https://p.scdn.co/mp3-preview/0dbced3f3ee65199a46a5c346304e54c52a0da75?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Electric Love",
-    "singer": "BØRNS",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cc2cf912462d8ae4ef856434",
-    "audio": null
-  },
-  {
-    "name": "Back to the Streets (feat. Jhené Aiko)",
-    "singer": "Saweetie",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ba200e818b41aa680a6c629c",
-    "audio": "https://p.scdn.co/mp3-preview/89cb78504d7f50774f06e9a2ed448c03277f3ede?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Available",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
-    "audio": null
-  },
-  {
-    "name": "Honest.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
-    "audio": null
-  },
-  {
-    "name": "On the Low",
-    "singer": "Justin Park",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737b58a365796533f2d8ea6b67",
-    "audio": "https://p.scdn.co/mp3-preview/2ad3a57881a258a6591129b78fe87fdc8b92e0f3?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Butterfly",
-    "singer": "UMI",
-    "image": "https://i.scdn.co/image/ab67616d0000b27391b31078c799a3fbb05dd180",
-    "audio": "https://p.scdn.co/mp3-preview/961884e1a86d9174435ef3a879d7440cddf72c1a?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Yummy - Summer Walker Remix",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
-    "audio": null
-  },
-  {
-    "name": "Moon",
-    "singer": "Amaria",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cee8abd530aafe6d82081ef5",
-    "audio": "https://p.scdn.co/mp3-preview/6bffa35dbb25e4753ec58153ac5b0fbf8985a09a?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Step",
-    "singer": "Vampire Weekend",
-    "image": "https://i.scdn.co/image/ab67616d0000b27363fcc0d5defd6b6da534b002",
-    "audio": "https://p.scdn.co/mp3-preview/37ae580d695b940c49c83c400a1b654e27b1011b?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "waves - Tame Impala Remix",
-    "singer": "Miguel",
-    "image": "https://i.scdn.co/image/ab67616d0000b273c4daf0fda7e16ba5b0f86830",
-    "audio": "https://p.scdn.co/mp3-preview/ae9a6446d61c4bd30a7993a8c0e9836c9f3a4aa3?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Falling in Love",
-    "singer": "Cigarettes After Sex",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ced182a9a86195e9ba2a5183",
-    "audio": "https://p.scdn.co/mp3-preview/b99534447943c33a206c56cffb0b63f818aa7e1e?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Saturday Nights",
-    "singer": "Khalid",
-    "image": "https://i.scdn.co/image/ab67616d0000b27360624c0781fd787c9aa4699c",
-    "audio": "https://p.scdn.co/mp3-preview/8c9de7d1a1da28f8e1da8bad0c7ce58f97da9f71?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "SUGAR (Remix) [feat. Dua Lipa]",
-    "singer": "BROCKHAMPTON",
-    "image": "https://i.scdn.co/image/ab67616d0000b27375749984b974abb6354b18e7",
-    "audio": "https://p.scdn.co/mp3-preview/9168dd5986646f5361c384d466b6cdd88cf8efb1?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Orbit",
-    "singer": "Nao",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ce1455251bfb5e0245c77bc8",
-    "audio": "https://p.scdn.co/mp3-preview/848f17656303bd0dba7286e6cdcaba0dbbf1e745?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "DHL",
-    "singer": "Frank Ocean",
-    "image": "https://i.scdn.co/image/ab67616d0000b273e9d76d49bcfdd620fe031148",
-    "audio": "https://p.scdn.co/mp3-preview/f775f9feca8da04049751874010c4ddead14dd41?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Sinfonietta: II. Andante - Allegretto (The Castle, Brno) - Live",
-    "singer": "Leoš Janáček",
-    "image": "https://i.scdn.co/image/ab67616d0000b27325309b79d9eecc28f9527303",
-    "audio": "https://p.scdn.co/mp3-preview/4c777afbb87cd3a90f0c6994407e7ca5f747d044?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Hips",
-    "singer": "Gallant",
-    "image": "https://i.scdn.co/image/ab67616d0000b273eb63df1beb1e8837b3cda5ad",
-    "audio": "https://p.scdn.co/mp3-preview/2dbdfc66837fcb7ada3641949cad0919de159f5f?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "A Storm on a Summers Day",
-    "singer": "Full Crate",
-    "image": "https://i.scdn.co/image/ab67616d0000b27384c1a4b0b7a29f95cf454062",
-    "audio": "https://p.scdn.co/mp3-preview/5510d973d40db8c020cd92b691f0c0639cef592d?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Cayendo (Side A - Acoustic)",
-    "singer": "Frank Ocean",
-    "image": "https://i.scdn.co/image/ab67616d0000b27335d8be841e9f7f777fbca446",
-    "audio": "https://p.scdn.co/mp3-preview/c02a27fe9516ac43ebb7ef9aefd7c6d361385424?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Feel a Way.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
-    "audio": null
-  },
-  {
-    "name": "when the party's over",
-    "singer": "Billie Eilish",
-    "image": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
-    "audio": null
-  },
-  {
-    "name": "Get You (feat. Kali Uchis)",
+    "name": "Best Part (feat. H.E.R.)",
     "singer": "Daniel Caesar",
     "image": "https://i.scdn.co/image/ab67616d0000b2733138f891f3075c9c5d944037",
-    "audio": "https://p.scdn.co/mp3-preview/004e53a751e628eba8eff49946e90afb640b8c5f?cid=93febf29f64649a8b1675c59304fa249"
+    "audio": "https://p.scdn.co/mp3-preview/9daee70846dca6c7d4a7614bfb8a04faf8793f66?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Sept. 16",
-    "singer": "Kid Cudi",
-    "image": "https://i.scdn.co/image/ab67616d0000b2739bf7698a1737bc7c2e4a14f3",
+    "name": "Disasterology",
+    "singer": "Pierce The Veil",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733c8674afa47336f571b13ebd",
+    "audio": "https://p.scdn.co/mp3-preview/dcbb80728d5cfce10b6f89514c9b48a2b38446ec?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Loomer",
+    "singer": "My Bloody Valentine",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730ede770070357575bc050511",
+    "audio": "https://p.scdn.co/mp3-preview/254022fc1c7e5cfe6f5b08c3d3212c399938d4c1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "All the Things She Said",
+    "singer": "t.A.T.u.",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733b27e1cd8a6bc6804c2e5fd2",
     "audio": null
   },
   {
-    "name": "Baby Powder",
-    "singer": "Jenevieve",
-    "image": "https://i.scdn.co/image/ab67616d0000b27307a560f0504f9de0af5e0a33",
-    "audio": "https://p.scdn.co/mp3-preview/fdebee7a3c778c2d446937011c247c83762dc3eb?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Close To A World Below",
+    "singer": "Immolation",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733bc6bbc1e7a33612a4c596f2",
+    "audio": "https://p.scdn.co/mp3-preview/a66f6a55e2e27bc95f0d34a4562baa6c93c413d3?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "October",
-    "singer": "The Helio Sequence",
-    "image": "https://i.scdn.co/image/ab67616d0000b273cc8b7fc2a7ece0eb717cecf5",
-    "audio": "https://p.scdn.co/mp3-preview/08d304a0b47a1b13c7bf83018a05f8a80905cc83?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Avery Island / April 1st",
+    "singer": "Neutral Milk Hotel",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e34ae31c8397f2fee736259",
+    "audio": "https://p.scdn.co/mp3-preview/51148d1f84dba522213b21fd2d0d9a0eb66a188d?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "What You Need",
-    "singer": "KAYTRANADA",
-    "image": "https://i.scdn.co/image/ab67616d0000b2739b6375bad39943011986c247",
-    "audio": "https://p.scdn.co/mp3-preview/f6e61b92a2e73a7a7634e932608359621b584b4b?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Empty Spaces",
+    "singer": "Pink Floyd",
+    "image": "https://i.scdn.co/image/ab67616d0000b273288d32d88a616b9a278ddc07",
+    "audio": "https://p.scdn.co/mp3-preview/ec839681e25c7b6034b41871def81722eef8a4fd?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Tommy Lee (feat. SAINt JHN & Post Malone) - Remix",
-    "singer": "Tyla Yaweh",
-    "image": "https://i.scdn.co/image/ab67616d0000b273eca2e67b444d35b3ba00ca53",
-    "audio": "https://p.scdn.co/mp3-preview/6bc374e9f6258540e24145bd65957efbf4d54086?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Movin.",
-    "singer": "Kiana Ledé",
-    "image": "https://i.scdn.co/image/ab67616d0000b27387edea951eda6b132e3b677f",
+    "name": "When It Rains",
+    "singer": "Eli Young Band",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735d44c84751fd5f704c781814",
     "audio": null
   },
   {
-    "name": "Stay with Me",
-    "singer": "Sam Smith",
-    "image": "https://i.scdn.co/image/ab67616d0000b273b11bdc91cb9ac6b14f5c1dae",
+    "name": "Money Is Flesh",
+    "singer": "Swans",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c2971e08b7da3c129e5d7bf1",
+    "audio": "https://p.scdn.co/mp3-preview/d537d3c6229566ae70422460233088008302271e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "self love",
+    "singer": "Mavi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273655aaf07642a3042adb4ae89",
+    "audio": "https://p.scdn.co/mp3-preview/6d828fbcc586f2c28a08fde7e4c35d121e7c864c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Hammer Strings",
+    "singer": "James",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bd8280c0a35184e404d34904",
     "audio": null
   },
   {
-    "name": "Ride (feat. Kehlani)",
-    "singer": "YK Osiris",
-    "image": "https://i.scdn.co/image/ab67616d0000b273a3203e33022c466a7977e545",
+    "name": "ketchup and po'boys (outro)",
+    "singer": "Dawn Richard",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e69496e54db5d77fb7e4ff50",
+    "audio": "https://p.scdn.co/mp3-preview/a74f317d892a8bdf69f2cc4ebed3aeb1dd482b55?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Brooklyn Girls - Remastered",
+    "singer": "Robbie Dupree",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b9ad25366bc490e3bb6de222",
+    "audio": "https://p.scdn.co/mp3-preview/cf479271257698e070c11af789b846e8cb9bcb8e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Can’t Do Much",
+    "singer": "Waxahatchee",
+    "image": "https://i.scdn.co/image/ab67616d0000b27368814a90f45d0f20ca62b1d0",
+    "audio": "https://p.scdn.co/mp3-preview/df58ef4c9d314a05af301c53a4b3ab632b52dd13?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dick Filet",
+    "singer": "Sanguisugabogg",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f26ea471191405395c99debc",
+    "audio": "https://p.scdn.co/mp3-preview/d99416cc5d3476176a8de55ac84cb8fd8682a4f8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Roots Bloody Roots",
+    "singer": "Sepultura",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730bd5e7cce9765c2ef519424e",
+    "audio": "https://p.scdn.co/mp3-preview/a3b7397847ad377bbf0614d33790a28cefc3ca2a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mothership",
+    "singer": "Aurora",
+    "image": "https://i.scdn.co/image/ab67616d0000b27348199fdadb13f3fa851fafa8",
+    "audio": "https://p.scdn.co/mp3-preview/9c34ba3a422e6746cc72de9d0621f73dc2b71bac?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Other Black Dog",
+    "singer": "Genesis Owusu",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e25afbfa377ad84d5675566d",
+    "audio": "https://p.scdn.co/mp3-preview/c9a101aa912a72703dbc2d9a1f91b8a9f9fcc309?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Join the Ranks",
+    "singer": "Rise Against",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733eeac09aa1b78ddbfbd9798d",
+    "audio": "https://p.scdn.co/mp3-preview/3b08baf2581d20d36d9c322842d20b5669f1810b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Let's Do It (Let's Fall In Love)",
+    "singer": "Alanis Morissette",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d00e49003543a5bb5aa5b873",
+    "audio": "https://p.scdn.co/mp3-preview/c6398377886a4f3a1130bd073026c63179babdce?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Lordship",
+    "singer": "Bladee",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b6698e821aa02a4e4df00817",
+    "audio": "https://p.scdn.co/mp3-preview/013f41f968ee4c49e2564196e0957e1af07fc683?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Affection",
+    "singer": "Önigirisu",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e3bdc8709fbabf8174c302b1",
+    "audio": "https://p.scdn.co/mp3-preview/d152ae3067b947969fde40c10125984aaba401ab?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Thinking of You",
+    "singer": "Sister Sledge",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739c6d5c505e6197defb750428",
+    "audio": "https://p.scdn.co/mp3-preview/6b878c0e2cdcd7991ce50628f59e7c31135c7d04?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "IDK You Yet",
+    "singer": "Alexander 23",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fe03064db12346c962cd0c56",
     "audio": null
   },
   {
-    "name": "THINGS & SUCH",
-    "singer": "PARTYNEXTDOOR",
-    "image": "https://i.scdn.co/image/ab67616d0000b273b1782942b7bcf5d05befece6",
-    "audio": "https://p.scdn.co/mp3-preview/ba32e5c26ac03ddf71fe098641af771237d864f8?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "1000 Nights",
+    "singer": "Frenship",
+    "image": "https://i.scdn.co/image/ab67616d0000b273149a66763ab8cae20d794b82",
+    "audio": "https://p.scdn.co/mp3-preview/731e9fab29b741b145aa5c45ca18953e977181aa?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Here Now (Intro)",
-    "singer": "Snoh Aalegra",
-    "image": "https://i.scdn.co/image/ab67616d0000b27353c8eea457ff7ca8fbe32d68",
-    "audio": "https://p.scdn.co/mp3-preview/3197ab9a44821d9c375ab7c78d39944b55f808da?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "1970 Somethin' (feat. The Game & Faith Evans)",
+    "singer": "The Notorious B.I.G.",
+    "image": "https://i.scdn.co/image/ab67616d0000b273373970875cab6dc30b36f10c",
+    "audio": "https://p.scdn.co/mp3-preview/57fc1ab1c320f125736f8d7d3c770e01aae55f57?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Imperfections (Interlude)",
-    "singer": "Pop Smoke",
-    "image": "https://i.scdn.co/image/ab67616d0000b27346e1307c35579c3483ea7b03",
+    "name": "Bishops Knife Trick",
+    "singer": "Fall Out Boy",
+    "image": "https://i.scdn.co/image/ab67616d0000b27350bd47cf6d44bddcd546a951",
     "audio": null
   },
   {
-    "name": "Beige",
-    "singer": "Terrace Martin",
-    "image": "https://i.scdn.co/image/ab67616d0000b27313c7b5a02687028035b24453",
-    "audio": "https://p.scdn.co/mp3-preview/41e0ac1a8d1e65fc3fbf9b2582b5a7bb53cd124f?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Disco",
+    "singer": "Dezzie",
+    "image": "https://i.scdn.co/image/ab67616d0000b27341e328cf597540e08c8df2a2",
+    "audio": "https://p.scdn.co/mp3-preview/efa08961da21829cc404b331e7bdfae46511f75b?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Sanctuary",
-    "singer": "Joji",
-    "image": "https://i.scdn.co/image/ab67616d0000b273a67b20cc424172b849896a99",
-    "audio": "https://p.scdn.co/mp3-preview/d7f259f680fd18e4bb673013e257ab58967ed725?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "The Chihuahua",
+    "singer": "Alex Cameron",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732f874bee036b29f2e6f956ac",
+    "audio": "https://p.scdn.co/mp3-preview/ecfb9110e16d8c71ea3a291519f00c52e4872070?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Nostalgic - filous Remix",
-    "singer": "A R I Z O N A",
-    "image": "https://i.scdn.co/image/ab67616d0000b27396c7c89edf3a42c71820810e",
-    "audio": "https://p.scdn.co/mp3-preview/cd796993855089e3094b5d11a2d410d180fcf748?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Fall into the Light",
+    "singer": "Dream Theater",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736fae515dba921acd636abb71",
+    "audio": "https://p.scdn.co/mp3-preview/55814aeb688bb3863c7b1a20ba9dd53c43c22516?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "You Still Take Me To The Light",
-    "singer": "Francis and the Lights",
-    "image": "https://i.scdn.co/image/ab67616d0000b273e8892eeec1eaa7ac8c70d693",
-    "audio": "https://p.scdn.co/mp3-preview/afbd11fad23116a2c2fdf367e697e01609fc8d40?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Rollin'",
+    "singer": "Brave Girls",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736bd680eb0e5ce61e83b691b1",
+    "audio": "https://p.scdn.co/mp3-preview/580e1a10362d335fbb2a7f1d0f1d7d1221915444?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Last Night",
-    "singer": "L.Dre",
-    "image": "https://i.scdn.co/image/ab67616d0000b2734900a8759513e5a89b45106d",
-    "audio": "https://p.scdn.co/mp3-preview/1b6fc410a53c7a8a1c81249daef34bbdacc92c5f?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "Walking on a Dream",
-    "singer": "Empire of the Sun",
-    "image": "https://i.scdn.co/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+    "name": "Everything I Am",
+    "singer": "Kanye West",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739bbd79106e510d13a9a5ec33",
     "audio": null
   },
   {
-    "name": "Forever (feat. Post Malone & Clever)",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
+    "name": "The Shrine / An Argument",
+    "singer": "Fleet Foxes",
+    "image": "https://i.scdn.co/image/ab67616d0000b27375ff22a37b0cc0381d11c2c1",
+    "audio": "https://p.scdn.co/mp3-preview/a199f0b03640a57f5febd5800c9d0c50a382db7c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Graceland Too",
+    "singer": "Phoebe Bridgers",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733040ca980277cf1445934add",
+    "audio": "https://p.scdn.co/mp3-preview/a78aa71ba1455d4e7aba301c3ceecbc92c087761?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "God Given",
+    "singer": "Nine Inch Nails",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a04f1b1ec2f2f7f74107342",
     "audio": null
   },
   {
-    "name": "Needed Me - Salva Remix",
+    "name": "Day 1 ◑",
+    "singer": "HONNE",
+    "image": "https://i.scdn.co/image/ab67616d0000b273210933bff4e6e68dc23472b0",
+    "audio": "https://p.scdn.co/mp3-preview/3453e6507200833e555109a80082d8207c2148de?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Let's Get Caught (feat. Jidenna)",
+    "singer": "Deep Cotton",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ecc5717a66434ec98e3a8cf3",
+    "audio": "https://p.scdn.co/mp3-preview/ed7537b4aecf04adc29f9b29e3b3c2798a394443?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Trouble",
+    "singer": "Cage the Elephant",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e7dd69ac32cf313fde62cbad",
+    "audio": "https://p.scdn.co/mp3-preview/fba9b803c09939ea2c9f451afa4da733bb2b54ed?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "A Heart Full Of Love",
+    "singer": "Eddie Redmayne",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739c0f9e625ee5cac9e2abfc6e",
+    "audio": null
+  },
+  {
+    "name": "Venus in Fleurs",
+    "singer": "Grimes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fcf08591df007c694ec0c211",
+    "audio": "https://p.scdn.co/mp3-preview/90e476931a96c12e3da0a1f98d48bebaacedb787?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "50 In. Zenith feat. Skyzoo",
+    "singer": "Westside Gunn",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b4b2f31921c8665026be4fd4",
+    "audio": "https://p.scdn.co/mp3-preview/6826608c683dc552bba829c3851d131b3054f581?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Amarillo",
+    "singer": "Gorillaz",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bfcb1c9ce002a2c2cd5e9f34",
+    "audio": "https://p.scdn.co/mp3-preview/489afc012a3b999be3ae87d0aef44acc6dfced56?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Lovers Rock",
+    "singer": "TV Girl",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733cfca71bb96dacbb1c0fb2bf",
+    "audio": "https://p.scdn.co/mp3-preview/0bff4610283fa89508a19ec1a5ba4ff3691eb640?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Stay",
     "singer": "Rihanna",
-    "image": "https://i.scdn.co/image/ab67616d0000b27370e1e9139a18d76caa354dad",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e6cedee56e37a9a65f2164d",
     "audio": null
   },
   {
-    "name": "girl in new york",
-    "singer": "Role Model",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ad266cc086a2dc67bdf507dd",
-    "audio": "https://p.scdn.co/mp3-preview/abe5f6aadc80fbb696f1f0640b76ddbc0e588243?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Make You Feel My Love",
+    "singer": "Adele",
+    "image": "https://i.scdn.co/image/ab67616d0000b273143deb1f113bf5c7352234d9",
+    "audio": "https://p.scdn.co/mp3-preview/2add0ce5d920bcd3166437d14db34bc42768fa44?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Cautious",
-    "singer": "Destin Conrad",
-    "image": "https://i.scdn.co/image/ab67616d0000b27384b52b75d4585b7a00f27a5d",
-    "audio": "https://p.scdn.co/mp3-preview/497b86287470c9e2b15006cfebbf6946c3bf586a?cid=93febf29f64649a8b1675c59304fa249"
-  },
-  {
-    "name": "That's What Love Is",
-    "singer": "Justin Bieber",
-    "image": "https://i.scdn.co/image/ab67616d0000b2737fe4a82a08c4f0decbeddbc6",
+    "name": "Bone",
+    "singer": "Sonic Youth",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f14a81ecf5c04d1cf6a55343",
     "audio": null
   },
   {
-    "name": "Stars In The Sky (feat. Jhené Aiko)",
-    "singer": "Phora",
-    "image": "https://i.scdn.co/image/ab67616d0000b27338f6585da5389c4ab7dd515f",
-    "audio": "https://p.scdn.co/mp3-preview/0354d36530ce6d0b8c197b829e14ed907519f8d6?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Light",
+    "singer": "San Holo",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5c1582e2b2b087ee7862758",
+    "audio": "https://p.scdn.co/mp3-preview/5f7ee64a3b07b9523505439dcb3c588381ab1224?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Carousel",
-    "singer": "Aries",
-    "image": "https://i.scdn.co/image/ab67616d0000b2735d084c9ce80631cbce8d84c2",
-    "audio": "https://p.scdn.co/mp3-preview/177df6759d0d4a08f8a3c05d4e3ca4a0f5c4ef3c?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Fireworks (Reprise)",
+    "singer": "Radiator Hospital",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c00f64dccd468241125f9b65",
+    "audio": "https://p.scdn.co/mp3-preview/a1e6dad33fba56f5ad2893a48a3f8d0f71ed853f?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Daylight",
-    "singer": "KOTA The Friend",
-    "image": "https://i.scdn.co/image/ab67616d0000b273a03fc19dda6d3bcc01f88187",
-    "audio": "https://p.scdn.co/mp3-preview/14351e012c6fab069beba7e606b9685423d3eedb?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Suspicious Minds",
+    "singer": "Elvis Presley",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fdc0aa7765f3197ac9179ec7",
+    "audio": "https://p.scdn.co/mp3-preview/7a298f247198d8736393e166cb9f9e32227f1886?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Language",
-    "singer": "Paperboy Fabe",
-    "image": "https://i.scdn.co/image/ab67616d0000b273514cf65903e09649d7672c53",
-    "audio": "https://p.scdn.co/mp3-preview/9da5e3414bf1da222838bf49fef24cb8e5074cf0?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Grounded",
+    "singer": "Pavement",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fceeb2db4c318f571df04a1f",
+    "audio": "https://p.scdn.co/mp3-preview/99423733f046639a00ba12a0cce2f0bf10503264?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Tangerine Summer",
-    "singer": "Oliver Francis",
-    "image": "https://i.scdn.co/image/ab67616d0000b273672e4d5969dc57a480abb6a2",
-    "audio": "https://p.scdn.co/mp3-preview/121b31b33bd4f18a5d7f114268bd7d6703b61784?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Killers of the Wild",
+    "singer": "Mort Garson",
+    "image": "https://i.scdn.co/image/ab67616d0000b273404a51b76f34ac212faef5df",
+    "audio": "https://p.scdn.co/mp3-preview/1bbc89e5635de7b9cc8a9273312ddde933592162?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Come Thru (with Usher)",
-    "singer": "Summer Walker",
-    "image": "https://i.scdn.co/image/ab67616d0000b273b5ed9187ac7f8aa281a547e3",
+    "name": "Lady Bird",
+    "singer": "Jon Brion",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e387add49d01d17f529f3b70",
+    "audio": "https://p.scdn.co/mp3-preview/31980675d6711b77077bd6d5ae70ec23fb9a47c0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "bad habits",
+    "singer": "goreshit",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732bf84b433e9fda4f7f509573",
+    "audio": "https://p.scdn.co/mp3-preview/3d2e218fe75af87cc5c46bc8842eefda240bd9bb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "They Don't Know",
+    "singer": "Ariana Grande",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d965d29d7dcf46ade5a8a7e4",
+    "audio": "https://p.scdn.co/mp3-preview/8458d2cac99f91cc0619e9e2dd80598e1b55fd3d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Line Without A Hook",
+    "singer": "Ricky Montgomery",
+    "image": "https://i.scdn.co/image/ab67616d0000b27367ee332af483acd134fd6fd0",
+    "audio": "https://p.scdn.co/mp3-preview/f33b9063e8da2ccbc4f842fdd4319ecdadfe5868?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "I Wanna Be Yours",
+    "singer": "Arctic Monkeys",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+    "audio": "https://p.scdn.co/mp3-preview/5d1d62b38720459927a1ceb2f59d4e5c7b172170?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Into The Red",
+    "singer": "James Blake",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739af56a54edacb6237b49fa2e",
     "audio": null
   },
   {
-    "name": "everything i wanted",
-    "singer": "Billie Eilish",
-    "image": "https://i.scdn.co/image/ab67616d0000b273f2248cf6dad1d6c062587249",
+    "name": "Ready, Able",
+    "singer": "Grizzly Bear",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f5819f138439b3ac881a2a6b",
+    "audio": "https://p.scdn.co/mp3-preview/cccc3f7396cfe5168ab7f16c22cd5887b2dfe5e4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Fine Line",
+    "singer": "Harry Styles",
+    "image": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
+    "audio": "https://p.scdn.co/mp3-preview/31d591f73a4f5a01d2748893712984e44daad7f6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Passing Through",
+    "singer": "Taylor Haskins",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739674df2eb1584601db39ee47",
+    "audio": "https://p.scdn.co/mp3-preview/2faaa2b801d46f9fc99eb3502ac3e1e6cade348a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "UK",
+    "singer": "Burial",
+    "image": "https://i.scdn.co/image/ab67616d0000b27326bb752c0e7d3399957edab8",
+    "audio": "https://p.scdn.co/mp3-preview/834288f7e438cae3080a93a4175367380b23fc25?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Who Wants What (feat. Ab-Soul)",
+    "singer": "Russ",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc20c5dacda34b8609bcbe78",
+    "audio": "https://p.scdn.co/mp3-preview/0dd901df508d53601e2575c551a07ec539d2cc97?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "DEAD",
+    "singer": "slowthai",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736256c5303a98e9aefdf07127",
     "audio": null
   },
   {
-    "name": "Dreamland",
-    "singer": "Glass Animals",
-    "image": "https://i.scdn.co/image/ab67616d0000b273712701c5e263efc8726b1464",
+    "name": "No Cure For The Lonely - Swans",
+    "singer": "Nadja",
+    "image": "https://i.scdn.co/image/ab67616d0000b27326bdab06ed7ae8bccb9a6c1d",
+    "audio": "https://p.scdn.co/mp3-preview/1c7079d649ade197f759f4943dba3c80a59c4ba4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "MOVIE",
+    "singer": "Junny",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731f4f14c30d1da4d9a7f40ff7",
+    "audio": "https://p.scdn.co/mp3-preview/c02629ff479e763627a3978ad1e1765bcf0a1c5e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Just One of Those Things",
+    "singer": "Louis Armstrong",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f7a8ca334bcb8fb831958ed1",
     "audio": null
   },
   {
-    "name": "No Idea - Dj Purpberry Chopped and Screwed",
-    "singer": "Don Toliver",
-    "image": "https://i.scdn.co/image/ab67616d0000b273ef4c92cb237dfe38bc007d89",
-    "audio": "https://p.scdn.co/mp3-preview/192b766e17a71486ec03830b0ebc4822b6d633e6?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "The yodel song",
+    "singer": "Kurt Cobain",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c12bfed88d8f44ed506832e8",
+    "audio": null
   },
   {
-    "name": "NO HALO",
+    "name": "Figure 8",
+    "singer": "Peach Pit",
+    "image": "https://i.scdn.co/image/ab67616d0000b27335c3de6175656a6abf864ce5",
+    "audio": "https://p.scdn.co/mp3-preview/c31347100bff5bff1dd9a4851c074b4ee8c1d5bd?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The New Brick",
+    "singer": "Sleaford Mods",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732e1b69471450c6ae3a13d8c3",
+    "audio": "https://p.scdn.co/mp3-preview/e2bf031bfa57729b72d290320767afea0a6d6ab9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Plough the Shit",
+    "singer": "Ben Caplan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ea50d44eb3be0d557b8154a8",
+    "audio": "https://p.scdn.co/mp3-preview/ef48a39a48b92dc2b58e06b29597b96274600a86?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Trip On It",
+    "singer": "AllBlack",
+    "image": "https://i.scdn.co/image/ab67616d0000b273270036b0162ee4662e0dd5ae",
+    "audio": "https://p.scdn.co/mp3-preview/a9dc29b7268a76364c5682357f4dc8ef8613bcfe?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Let’s Get Lost",
+    "singer": "Carly Rae Jepsen",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739aaa999f62cd7309e30fdad4",
+    "audio": null
+  },
+  {
+    "name": "Armina",
+    "singer": "Wagner Tiso",
+    "image": "https://i.scdn.co/image/ab67616d0000b27302279864c91543d945168ed5",
+    "audio": null
+  },
+  {
+    "name": "Bitch to the Boys",
+    "singer": "Shakatak",
+    "image": "https://i.scdn.co/image/ab67616d0000b27383b6932e52f8191ed1d6b84b",
+    "audio": "https://p.scdn.co/mp3-preview/cbfdd1b388b126362bc1bfc3e491db0b705cb8cc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mr Understanding",
+    "singer": "Pete and the Pirates",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aee0d6de27a4b83949cb2c8a",
+    "audio": "https://p.scdn.co/mp3-preview/54c3da1b3943bb612ddb687c1d85c87412e158dd?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Livvin",
+    "singer": "Nxworries",
+    "image": "https://i.scdn.co/image/ab67616d0000b27313160a2de88c7be0adebb043",
+    "audio": "https://p.scdn.co/mp3-preview/7fb59088eed1630429e4984368f2d5743e39b586?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Un Rey Y Un Diez",
+    "singer": "Manuel García",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f9a917d6a842cac3dbe299e3",
+    "audio": "https://p.scdn.co/mp3-preview/648f49d3e83844e4c927f015820c16794b20b8e1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Cock/Ver10",
+    "singer": "Aphex Twin",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5aef98a1762d0f64bb6ed9a",
+    "audio": "https://p.scdn.co/mp3-preview/4df0bbe5a6bc102354d59321e6773cd0abaaccbe?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "London",
+    "singer": "Mokita",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731777e322253991f51d0bc59a",
+    "audio": "https://p.scdn.co/mp3-preview/64afbf509a0b4b3f640bcbbff2144b0dafa120b3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Happening",
+    "singer": "Pixies",
+    "image": "https://i.scdn.co/image/ab67616d0000b273344db70acb6e01f66fc9b3df",
+    "audio": "https://p.scdn.co/mp3-preview/c32a39149148af52eff2ff6df09cf47cf23ba29e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Tomorrow",
+    "singer": "Silverchair",
+    "image": "https://i.scdn.co/image/ab67616d0000b27372c3447a562fc7be1c8e1255",
+    "audio": "https://p.scdn.co/mp3-preview/ae334eda7afb258681a4e937c05f17239457bce9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Si Estuvieras Aquí",
+    "singer": "Los Amigos Invisibles",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733f80ba30f122d8b3e89e086f",
+    "audio": "https://p.scdn.co/mp3-preview/6b9320387c6ddc197fcc7540761288c9227140e6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Back in School",
+    "singer": "Räre Birds",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a44f56d62b797890d2bc73ca",
+    "audio": "https://p.scdn.co/mp3-preview/d10792c32c0ccf6771478d88f757a4adf2aaf632?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Wicked Annabella - 2018 Stereo Remaster",
+    "singer": "The Kinks",
+    "image": "https://i.scdn.co/image/ab67616d0000b27359778f5ff386eda871ee61b7",
+    "audio": "https://p.scdn.co/mp3-preview/8cff366c8ef72e8905ccab38b9a5d23dfd426382?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "EL MUNDO ES MÍO",
+    "singer": "Bad Bunny",
+    "image": "https://i.scdn.co/image/ab67616d0000b273005ee342f4eef2cc6e8436ab",
+    "audio": "https://p.scdn.co/mp3-preview/57e1150ecb0dca8d7856309dab38bd4f896e2aec?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Skylla",
+    "singer": "Confusing Paradise",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739f0d8fff5833c18501cdda10",
+    "audio": "https://p.scdn.co/mp3-preview/1c24a880c3c43f5059cc0090e0b38a004ebdad65?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "I Like the Flowers",
+    "singer": "Beat Boppers",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ce01d573a60db0d0b5f79e63",
+    "audio": "https://p.scdn.co/mp3-preview/479f958e8054b282d4c3641f8326fd4e1e5fd648?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "It Never Was The Same",
+    "singer": "The Twilight Sad",
+    "image": "https://i.scdn.co/image/ab67616d0000b27346ba19ab290dc965e9292e5a",
+    "audio": "https://p.scdn.co/mp3-preview/666443620ac76ea708b93c73b51b014c47dd7195?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Brother To Brother",
+    "singer": "Gino Vannelli",
+    "image": "https://i.scdn.co/image/ab67616d0000b273697c76eeeb7de3fab4d55ea9",
+    "audio": null
+  },
+  {
+    "name": "IOU",
+    "singer": "EMAN8",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736c31cf2fe2714efc01ef494d",
+    "audio": "https://p.scdn.co/mp3-preview/f7dd19b32074a0cf09772d38906255cb57dc9aa1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ballad of the Whale",
+    "singer": "Yellowjackets",
+    "image": "https://i.scdn.co/image/ab67616d0000b27352b05d5070745b356fdf155e",
+    "audio": null
+  },
+  {
+    "name": "Good Place",
+    "singer": "Jeebanoff",
+    "image": "https://i.scdn.co/image/ab67616d0000b27377bcbd0719daad484ade6ace",
+    "audio": "https://p.scdn.co/mp3-preview/cf931319bca60620b1cf9e0a5303125cce68df06?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Let Me Out",
+    "singer": "JONGHYUN",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f9188f2ef472584851591023",
+    "audio": "https://p.scdn.co/mp3-preview/5c34833ad53f3579efc713cee9c36bafeb0016c2?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dashboard",
+    "singer": "Modest Mouse",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed8a70a92499e619895646e8",
+    "audio": "https://p.scdn.co/mp3-preview/d7f5e3c3882c6ba3e2e6face8796db1a2df3e9d4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Auchma",
+    "singer": "Boogarins",
+    "image": "https://i.scdn.co/image/ab67616d0000b273867a61127de317090c507a1d",
+    "audio": "https://p.scdn.co/mp3-preview/6497abbce99ab0e546e1edf220bc4abfca713956?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Challas",
+    "singer": "Mowat",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d0b796251be18fb288a11ff9",
+    "audio": "https://p.scdn.co/mp3-preview/2c8a9337514df88ca443b2d175b2c433cecee6e6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Try",
+    "singer": "Wingtip",
+    "image": "https://i.scdn.co/image/ab67616d0000b273173eb20f6cd05ceee4854998",
+    "audio": "https://p.scdn.co/mp3-preview/5dfd1cd79392ec5dff99809a7b79900023c84f62?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Click (feat. Kim Petras and Slayyyter) [No Boys Remix]",
+    "singer": "Charli XCX",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b6ed1eefca4525f19333fee8",
+    "audio": "https://p.scdn.co/mp3-preview/560e8fbc5aecb0dbdc70575a00b220b79f65ad87?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "feel away (feat. James Blake & Mount Kimbie)",
+    "singer": "slowthai",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736256c5303a98e9aefdf07127",
+    "audio": null
+  },
+  {
+    "name": "Raining Blood",
+    "singer": "Slayer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fd833375c806981a61bb82ec",
+    "audio": null
+  },
+  {
+    "name": "The Cat's Pajamas",
+    "singer": "iwrestledabearonce",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5376a609a1e2ec8316ef8cb",
+    "audio": "https://p.scdn.co/mp3-preview/4b25004b3bb0586c86f9514dbccea2df087a8e4e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Sleep Clinic",
+    "singer": "Charles Bernstein",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739c3938772d551396550aeead",
+    "audio": "https://p.scdn.co/mp3-preview/1557abfb8ae5846e96a08f6fa5e7504e240d422e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Map",
+    "singer": "The Microphones",
+    "image": "https://i.scdn.co/image/ab67616d0000b27300c91ccec6800014b8513717",
+    "audio": "https://p.scdn.co/mp3-preview/e316aecbeb8a5c42d94ebc720504bbb9ba54a91a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "100 Miles",
+    "singer": "Skinbone",
+    "image": "https://i.scdn.co/image/ab67616d0000b27304126f9be23fdb7238cfc784",
+    "audio": "https://p.scdn.co/mp3-preview/12602e6ca6bca509a25a63e7247a8f0028573794?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Gravity (feat. Tyler, The Creator)",
+    "singer": "Brent Faiyaz",
+    "image": "https://i.scdn.co/image/ab67616d0000b27312bb288c1f093c654fb3563f",
+    "audio": "https://p.scdn.co/mp3-preview/509716985e7dd16d6f6949b9df7bc30859086b42?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "No Surprises",
+    "singer": "Radiohead",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+    "audio": "https://p.scdn.co/mp3-preview/478f760b7f810d8cd8cfd990083a0000808ab25c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "By Any Means",
+    "singer": "Jorja Smith",
+    "image": "https://i.scdn.co/image/ab67616d0000b273572fb51dc5446d6922dfe998",
+    "audio": "https://p.scdn.co/mp3-preview/3aa28fafce3ffd2287191f4d534c4f8376d34bbb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "By Your Color (feat. Nucksal & Don Mills)",
+    "singer": "GroovyRoom",
+    "image": "https://i.scdn.co/image/ab67616d0000b27366b60f88efb7cad3b056c372",
+    "audio": "https://p.scdn.co/mp3-preview/61fd8ac513663cda5159d1ff65a77e81c5e85f19?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "There's A Girl In The Corner",
+    "singer": "The Twilight Sad",
+    "image": "https://i.scdn.co/image/ab67616d0000b27346ba19ab290dc965e9292e5a",
+    "audio": "https://p.scdn.co/mp3-preview/a8792b6fea33eeade371f36349ee9f40e292fcc4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Circo Beat",
+    "singer": "Fito Páez",
+    "image": "https://i.scdn.co/image/ab67616d0000b27301760d9291c8a82283da1013",
+    "audio": "https://p.scdn.co/mp3-preview/347182107d990fb7ada349465686b3378ad2a2c0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "High Times",
+    "singer": "Elliott Smith",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ddf56f1e7ff466716371e8ca",
+    "audio": "https://p.scdn.co/mp3-preview/6b1afafaf3290f6c37e0de6d1307dc0e66efbeac?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "無限的我 무한적아; LIMITLESS",
+    "singer": "NCT 127",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ca74d3d623930d10f2c3c1f1",
+    "audio": "https://p.scdn.co/mp3-preview/c85a0312aa4b5b3aec36977c7bae2590d282db45?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "дома молчат",
+    "singer": "Molchat Doma",
+    "image": "https://i.scdn.co/image/ab67616d0000b27346304d5208a59365ab06e589",
+    "audio": "https://p.scdn.co/mp3-preview/45ff08d4b2b1ca35b040064a36e61b4a34c9535a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ramones",
+    "singer": "Motörhead",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731550f6d6d7c226710f7b0d20",
+    "audio": "https://p.scdn.co/mp3-preview/f773fd996ad1e4ce87ae643698d808302d396e8e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "You All Over Me (feat. Maren Morris) (Taylor’s Version) (From The Vault)",
+    "singer": "Taylor Swift",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b7afb31fe699dae7c34eea1b",
+    "audio": null
+  },
+  {
+    "name": "Something In My Heart - Prologue",
+    "singer": "Röyksopp",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a59ae6662bb7610e99d7fdb4",
+    "audio": null
+  },
+  {
+    "name": "Abrázame",
+    "singer": "Los York's",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738cee56ebbf036b90f5a918df",
+    "audio": "https://p.scdn.co/mp3-preview/2ada44c413fcb061eea1b83e2e1359c26da00978?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Waiting for You",
+    "singer": "Verzache",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736680d3f6fd5f70ef3f71288a",
+    "audio": "https://p.scdn.co/mp3-preview/3e9f0930274d63aa75de43e2b78da72c9e94b2df?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Love?",
+    "singer": "Strapping Young Lad",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b28b618acf8097d9de9c4dbc",
+    "audio": "https://p.scdn.co/mp3-preview/fd74c6337d90966a046e208c09e911d27b573759?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mirage (Don’t Stop)",
+    "singer": "Jessie Ware",
+    "image": "https://i.scdn.co/image/ab67616d0000b27315a8ce875e83f1134d225aab",
+    "audio": null
+  },
+  {
+    "name": "Girls",
+    "singer": "Teesy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735dffb8c0a3e9b0f2c80b4d16",
+    "audio": "https://p.scdn.co/mp3-preview/c3fa946d184f293d56a2e25164d9602bc4b7652e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Pretty Savage",
+    "singer": "BLACKPINK",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737dd8f95320e8ef08aa121dfe",
+    "audio": null
+  },
+  {
+    "name": "Tangerine Warrior (Freestyle)",
+    "singer": "Jonatan Leandoer96",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737451d4c8e125c8936962f7ba",
+    "audio": "https://p.scdn.co/mp3-preview/abe07dc166c081f4f9805e3b464f4bb4a175cb8d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "money machine",
+    "singer": "100 gecs",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734123c0f9b6689205d20f350f",
+    "audio": "https://p.scdn.co/mp3-preview/c2daaf55e5a1726da4b2d191108c6089fb59a7d4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Girls & Boys",
+    "singer": "Good Charlotte",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a9bae94ddb20a71f573931c0",
+    "audio": "https://p.scdn.co/mp3-preview/bbede97bc1af23d9dbefbed672a7599f8ee2c27b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Shoulder the Weight",
+    "singer": "Justin Courtney Pierre",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b59b0414edbeb2933b00becb",
+    "audio": "https://p.scdn.co/mp3-preview/a39d5f444e5e261f24394d259fd168756f9ab68a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mountains",
+    "singer": "Prince",
+    "image": "https://i.scdn.co/image/ab67616d0000b27323cc0f0a925845a3de4aca38",
+    "audio": "https://p.scdn.co/mp3-preview/881031e921ca6d08a52c0a70477c341b128476d8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Unloveable - 2011 Remaster",
+    "singer": "The Smiths",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed3953f8af1f764a146b7583",
+    "audio": "https://p.scdn.co/mp3-preview/3706fb2c9b503faaaf7775981530fcb1a1b547f3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "$hindy",
+    "singer": "Bushido",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e35a8cb0f25186e675052e76",
+    "audio": "https://p.scdn.co/mp3-preview/ffe1c7d33cab51b4a7693a02fa65c8c07349ed9f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Low Lands",
+    "singer": "Gojira",
+    "image": "https://i.scdn.co/image/ab67616d0000b273422c622517ea0bd7eda33e08",
+    "audio": "https://p.scdn.co/mp3-preview/d3fdd721fd4b40e4e23fb98334627e3832d5ef48?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Band on the Run - Remastered 2010",
+    "singer": "Wings",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733bfeed5916a64f63b4e25ce2",
+    "audio": null
+  },
+  {
+    "name": "Wishing Wells",
+    "singer": "The Colourist",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732a22038794e51ba7d1907b6b",
+    "audio": null
+  },
+  {
+    "name": "Too Rolling Stoned",
+    "singer": "Robin Trower",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736233307d080fb3bfdb8506ea",
+    "audio": "https://p.scdn.co/mp3-preview/16a2ce65bf543010a5258f42d0bf5cdc9119963a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Day With Nothing",
+    "singer": "PassCode",
+    "image": "https://i.scdn.co/image/ab67616d0000b273796d2a7c80691b83b164871b",
+    "audio": null
+  },
+  {
+    "name": "Lemon Pepper Freestyle (feat. Rick Ross)",
+    "singer": "Drake",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738b20e4631fa15d3953528bbc",
+    "audio": null
+  },
+  {
+    "name": "Tender",
+    "singer": "Blur",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf2d790a9c0db632cbadbf4b",
+    "audio": "https://p.scdn.co/mp3-preview/86f00165c56a20a7c5839a91728a969d0fdbdb18?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "One of Them",
+    "singer": "Eric Bellinger",
+    "image": "https://i.scdn.co/image/ab67616d0000b27357b5e1c0ec12a19ae3471c80",
+    "audio": "https://p.scdn.co/mp3-preview/9d6b55c9b15750c5f43415e1b27383e0ca644070?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Take Comfort",
+    "singer": "Bread",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed804121889655ca03722024",
+    "audio": "https://p.scdn.co/mp3-preview/0e668fa36e236c20033d840b6a604c3c119869c3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "VICTOR ROBERTS",
     "singer": "BROCKHAMPTON",
     "image": "https://i.scdn.co/image/ab67616d0000b27346f07fa4f28bf824840ddacb",
-    "audio": "https://p.scdn.co/mp3-preview/e01b636ebca3317b599dcf82a45ae8d31158e1fb?cid=93febf29f64649a8b1675c59304fa249"
+    "audio": "https://p.scdn.co/mp3-preview/3f1f90c72943bf0268a3dc6d60e00c341113f677?cid=93febf29f64649a8b1675c59304fa249"
   },
   {
-    "name": "Long Beach",
-    "singer": "KOTA The Friend",
-    "image": "https://i.scdn.co/image/ab67616d0000b27327298ef27ce2c39f8177d1af",
-    "audio": "https://p.scdn.co/mp3-preview/a508672abee07dd6194ec4723a56591a8d4f4c0a?cid=93febf29f64649a8b1675c59304fa249"
+    "name": "Harder, Better, Faster, Stronger",
+    "singer": "Daft Punk",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738b56fd8fb9f486c7ebd2303a",
+    "audio": "https://p.scdn.co/mp3-preview/92a04c7c0e96bf93a1b1b1cae7dfff1921969a7b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ulvetid",
+    "singer": "Kvelertak",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738b76b667fc902e0e3477227c",
+    "audio": "https://p.scdn.co/mp3-preview/37c649106ebaac9afc6f46813e2635b3b73999fa?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Something in the Way",
+    "singer": "Nirvana",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+    "audio": null
+  },
+  {
+    "name": "Blue Girl",
+    "singer": "Lô Borges",
+    "image": "https://i.scdn.co/image/ab67616d0000b27397d030789cbd1222b4d51949",
+    "audio": null
+  },
+  {
+    "name": "it's good to see you again!!",
+    "singer": "Adrianwave",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739eae675024d9c6d0fe9f31bf",
+    "audio": "https://p.scdn.co/mp3-preview/7ff3991cf0fef117d75c0ae628ddac0014423b89?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Cool Cat - Remastered 2011",
+    "singer": "Queen",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a1e05e1048e2cf2737adf742",
+    "audio": null
+  },
+  {
+    "name": "Corrupt",
+    "singer": "Depeche Mode",
+    "image": "https://i.scdn.co/image/ab67616d0000b27329a5ddad99bc6ec6cc4a512a",
+    "audio": "https://p.scdn.co/mp3-preview/c9fe5bb2ad82f849c685b7df4ee105a52fb60ff0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "U Should Know Better",
+    "singer": "Robyn",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b4375effb23372cc8cff5045",
+    "audio": null
+  },
+  {
+    "name": "A Forest (Live In France June 1980)",
+    "singer": "The Cure",
+    "image": "https://i.scdn.co/image/ab67616d0000b27399027d2948260fdb37436d5d",
+    "audio": "https://p.scdn.co/mp3-preview/a550dd7e49e00ac5cfd522d0f474fb283ebdeaa0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dignity",
+    "singer": "Opeth",
+    "image": "https://i.scdn.co/image/ab67616d0000b27397cfe29ded7e55ba0d390a94",
+    "audio": "https://p.scdn.co/mp3-preview/1a5fffc6a9214e89e7ce24308147d708f77096c9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Da Mob",
+    "singer": "Doughboyz Cashout",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d8bad20903aa5332c9c33d6e",
+    "audio": "https://p.scdn.co/mp3-preview/de78b2a6dfdd8fa0a269c51954d37159e00076b4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Africa",
+    "singer": "Toto",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734a052b99c042dc15f933145b",
+    "audio": "https://p.scdn.co/mp3-preview/4551544dbf630ad584de356432e8afbd84b96914?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Love Sensation",
+    "singer": "Loleatta Holloway",
+    "image": "https://i.scdn.co/image/ab67616d0000b273736ef4460ed484486a2ede51",
+    "audio": "https://p.scdn.co/mp3-preview/847a15024e63f8060541f96968955270496de627?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Explota! (La Bomba En Mi Cabeza)",
+    "singer": "Rabia Sorda",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735077552ef7830fc31e7420d6",
+    "audio": "https://p.scdn.co/mp3-preview/18774bf75553a47078d5f49cc4224d25e3008518?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "1967, I Miss You, I'm Lonely",
+    "singer": "Martha",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735bf32abe86e75e7e0a291f43",
+    "audio": "https://p.scdn.co/mp3-preview/0bc8e168c276d106f77b46d595b061f9b3544231?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "I Stay Away",
+    "singer": "Twinkle Twinkle Little Rock Star",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ab35029db51ec75fb4d7c249",
+    "audio": "https://p.scdn.co/mp3-preview/659f08e41287fad05c3d6f9e8e3451dfefab1b6a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "HAPPY TO DIE",
+    "singer": "I.M",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736fbc157657976f68d59928a0",
+    "audio": "https://p.scdn.co/mp3-preview/71c9deab7772247c9e6dbdd6b35c5406be4bedbb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "How to Disappear Completely",
+    "singer": "Radiohead",
+    "image": "https://i.scdn.co/image/ab67616d0000b273674c2b8b77e1e9259a2fcb87",
+    "audio": "https://p.scdn.co/mp3-preview/d9d7e09cc64edfcd116f4e01663e0b79e30a3c3b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "197 - Live",
+    "singer": "Major Parkinson",
+    "image": "https://i.scdn.co/image/ab67616d0000b27300332dbbb22ccef091dbad36",
+    "audio": "https://p.scdn.co/mp3-preview/66fb38920aa8dc65c8b0c51e092e153a851c8aab?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Raingurl",
+    "singer": "Yaeji",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737221095f90342abffbe8372e",
+    "audio": "https://p.scdn.co/mp3-preview/4e4447816d373c40301a51a44667b6ad3315bf3a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Undoing a Luciferian Towers",
+    "singer": "Godspeed You! Black Emperor",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a0a1f4e70c43dd8fb06a48ea",
+    "audio": "https://p.scdn.co/mp3-preview/808730de1a297c523c4f1178efa6f522f7eab3e1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "False Confidence",
+    "singer": "Noah Kahan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a82b6363eb1895f2e9aae530",
+    "audio": null
+  },
+  {
+    "name": "Riverside",
+    "singer": "James Spaite",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738a700b3e0f246bf6edd9a7da",
+    "audio": "https://p.scdn.co/mp3-preview/9b50954a9040b2a233f1bb19a93ea04fc69dc984?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Onça / Docilmente Selvagem",
+    "singer": "As Baías",
+    "image": "https://i.scdn.co/image/ab67616d0000b273594ede760e3502a237fcc4b3",
+    "audio": null
+  },
+  {
+    "name": "Beautiful",
+    "singer": "Walker Hayes",
+    "image": "https://i.scdn.co/image/ab67616d0000b27338ac6698ff96c71b7b4dec08",
+    "audio": "https://p.scdn.co/mp3-preview/05d0b5fccb23eb91b10e63caef13b62eb41aa9e9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Race Mixing",
+    "singer": "Teenage Jesus and the Jerks",
+    "image": "https://i.scdn.co/image/ab67616d0000b27374e9605cec713659300dcc98",
+    "audio": "https://p.scdn.co/mp3-preview/6b4b6e663a22ac9a363bc7a21a33ee4e9e195336?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Faded in My Last Song",
+    "singer": "NCT U",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734525dae431a233a077d2395c",
+    "audio": null
+  },
+  {
+    "name": "Lasso",
+    "singer": "Phoenix",
+    "image": "https://i.scdn.co/image/ab67616d0000b273738f2371ae0c10a381aa5052",
+    "audio": "https://p.scdn.co/mp3-preview/37351998aa3c1f4ceb75469ef9adbe0d41be28fb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Earth Moon Transit",
+    "singer": "Duster",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d27d0d7dfbdb9a0a101383a4",
+    "audio": "https://p.scdn.co/mp3-preview/57d8d0ae110c9bc94e7fbfbed651ad11e7e1a7ed?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Bleed",
+    "singer": "Meshuggah",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738d2812ce4b9d9eb009711000",
+    "audio": "https://p.scdn.co/mp3-preview/dc17594ca5e1840558e11ce57c45394b7b3175cc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "mea culpa",
+    "singer": "Brian Eno",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733f59ebf677c575904a9b489a",
+    "audio": "https://p.scdn.co/mp3-preview/5240d004611a0ec7c0b395e95562e43366706af6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "When The Catholic Girls Go Camping, The Nicotine Vampires Rule Supreme.",
+    "singer": "Giraffes? Giraffes!",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a385d32217feba9537fecbc3",
+    "audio": "https://p.scdn.co/mp3-preview/0ac6a8031a0c86fb76fa9414db1120d527c2a46d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Shy Girls",
+    "singer": "Anavae",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a748e30144015667ee526751",
+    "audio": "https://p.scdn.co/mp3-preview/0093e7e6af7c0f5bfebfb0e0a9c3cf57f3244d26?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Pungee Stick",
+    "singer": "Creepxotica",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c49af2d0e2f4024f6315fcc4",
+    "audio": "https://p.scdn.co/mp3-preview/fe6f3ad763c248515f41b7d61d7a2d1590c38cfa?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Breathe",
+    "singer": "Mako",
+    "image": "https://i.scdn.co/image/ab67616d0000b27341ff3be33107d12aecf7c919",
+    "audio": "https://p.scdn.co/mp3-preview/54a0cc53c24d580903c7234cd48e3188eb068d07?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Don Dada",
+    "singer": "Cakes Da Killa",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730afaa5625747780b4a79345d",
+    "audio": "https://p.scdn.co/mp3-preview/f2c7985c2637d0b88d1f3c0c06f76a7b61f5bfb2?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Duende",
+    "singer": "The Tarantula Waltz",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a1449d5b88f24b681e38afb8",
+    "audio": "https://p.scdn.co/mp3-preview/e3756932ba6331f56313ac73b329d4708c4aa6ef?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Moon Age",
+    "singer": "Duster",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d27d0d7dfbdb9a0a101383a4",
+    "audio": "https://p.scdn.co/mp3-preview/b117da0015ffebc6463a48a9e1287fcec8f75562?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "push (feat. Deb Never)",
+    "singer": "slowthai",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736256c5303a98e9aefdf07127",
+    "audio": null
+  },
+  {
+    "name": "Creep In a T-Shirt",
+    "singer": "Portugal. The Man",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a1dfbbbaf24e01e0f1964d77",
+    "audio": "https://p.scdn.co/mp3-preview/1c42b3824c46bf0a6c1403e70ccd4e6ca91cfe52?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Saturnz Barz (feat. Popcaan)",
+    "singer": "Gorillaz",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a5952c0e2e649f588603b743",
+    "audio": "https://p.scdn.co/mp3-preview/458af51828c1550e4928d6bce492e35079e50fd8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "In the Future",
+    "singer": "Brent de la Cruz",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730dae78f9c395cb67d458e024",
+    "audio": "https://p.scdn.co/mp3-preview/dc76edc86b3f2e4ef26ba7fecd3ba5c74098c882?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Rather Be (feat. Jess Glynne)",
+    "singer": "Clean Bandit",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737e519297d9876b6afff2ab7b",
+    "audio": "https://p.scdn.co/mp3-preview/a9d9d2d68603e22dd2f04693c8e29e4f5823e09f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Distorted Records",
+    "singer": "A$AP Rocky",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739feadc48ab0661e9b3a9170b",
+    "audio": "https://p.scdn.co/mp3-preview/77749d705569e2ace8683dd94e32f873f365f086?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "1878",
+    "singer": "The Dear Hunter",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b91c0c18aca5cea7c18b7f07",
+    "audio": "https://p.scdn.co/mp3-preview/c8e59405aec4f2933901df212d464b85d0a26e7a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Bo Zycie Takie Jest",
+    "singer": "Michal Szpak",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730cd2fb38bbd7f6dfa89f573a",
+    "audio": "https://p.scdn.co/mp3-preview/b8bc07da46b1a5cb0239cc5ed0df5579bd1708ab?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Death Of A King",
+    "singer": "Amorphis",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e0da2ff6b3a3c71f8423c514",
+    "audio": "https://p.scdn.co/mp3-preview/4c17504ca727c05a45f5eb8fcd8eba0346cb1e4a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Feel First Life",
+    "singer": "Jon Hopkins",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739d9126ec04bb005c687291a5",
+    "audio": "https://p.scdn.co/mp3-preview/b9edd28a737051bced9868993491b0ef33f32261?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Zanzibar",
+    "singer": "Billy Joel",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731d4675d5a0345bb93686e4b6",
+    "audio": "https://p.scdn.co/mp3-preview/c7a4a386701267c47119ff1ec4a16113544cb4e6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Magic Carpet Ride",
+    "singer": "Steppenwolf",
+    "image": "https://i.scdn.co/image/ab67616d0000b273626d1849afa1bc27a8743dfe",
+    "audio": null
+  },
+  {
+    "name": "I Know Sometimes a Man Is Wrong / Don't Worry About the Government - Live",
+    "singer": "David Byrne",
+    "image": "https://i.scdn.co/image/ab67616d0000b273749793fc3a84afee22f01747",
+    "audio": "https://p.scdn.co/mp3-preview/a8f8481284dbccba79771017a7025cbf565753d5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "If You Had My Love",
+    "singer": "Jennifer Lopez",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735c34d7a87663652675cf3264",
+    "audio": "https://p.scdn.co/mp3-preview/044024003a62bfcddff14658005aee0cc5533510?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "SHE BUMPED HER HEAD (feat. Gunna)",
+    "singer": "Chris Brown",
+    "image": "https://i.scdn.co/image/ab67616d0000b27363e0ddbb488d0eeec0e738fc",
+    "audio": "https://p.scdn.co/mp3-preview/48623659eeb774cbcaa5240f4d55729c4173c081?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "3:ans spårvagn genom ljuva livet - Så mycket bättre 2020",
+    "singer": "Markus Krunegård",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737e08651c242a35d1be04fedf",
+    "audio": null
+  },
+  {
+    "name": "The Eternal Tao 2.0",
+    "singer": "The Voidz",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734c1a7efd4af2b36dc13a6b79",
+    "audio": "https://p.scdn.co/mp3-preview/1add75d21647a34ac7c6965d56ed8bbf15e008c8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "claws",
+    "singer": "Charli XCX",
+    "image": "https://i.scdn.co/image/ab67616d0000b273664e38c99d077cc52ab48914",
+    "audio": "https://p.scdn.co/mp3-preview/f9a5f6834190d172745ace9423b365c11136ae8c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Creep",
+    "singer": "Radiohead",
+    "image": "https://i.scdn.co/image/ab67616d0000b273df55e326ed144ab4f5cecf95",
+    "audio": "https://p.scdn.co/mp3-preview/c82f6b69411ca73eba8f401621d8ead3c4dfa9da?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "God knows...",
+    "singer": "涼宮ハルヒ (CV.平野 綾)",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736000c4be87226736248c5c35",
+    "audio": "https://p.scdn.co/mp3-preview/10e2f525a463b26b23c09ad3f86b334756a73beb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "ZahlTag",
+    "singer": "Kalim",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d56bb698a3b388113ee5b0ce",
+    "audio": null
+  },
+  {
+    "name": "Swoon",
+    "singer": "Imogen Heap",
+    "image": "https://i.scdn.co/image/ab67616d0000b27317dc79c9dc42ed849bba7020",
+    "audio": "https://p.scdn.co/mp3-preview/52fbeb13f4ce3eae4148eb6b4372b35843f3d5ca?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Greaze Mode",
+    "singer": "Skepta",
+    "image": "https://i.scdn.co/image/ab67616d0000b27348f2487a18a735f457404eb9",
+    "audio": "https://p.scdn.co/mp3-preview/a2659d702e85da3e149e1dbcf8d21acfc5f82dbc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Snap Your Fingers, Snap Your Neck",
+    "singer": "Demon Hunter",
+    "image": "https://i.scdn.co/image/ab67616d0000b273092be054275ae740147adb1e",
+    "audio": "https://p.scdn.co/mp3-preview/1af85a24b2783c647aed6c6dbb564a478dcaf567?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dump",
+    "singer": "Kero Kero Bonito",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732432a36f607cad4f664d8c86",
+    "audio": "https://p.scdn.co/mp3-preview/201ae0258c2629969a9f9b689dcd7dde5fa81fd3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Stay Home",
+    "singer": "American Football",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d6dfafe62fef3ad433ff77d8",
+    "audio": "https://p.scdn.co/mp3-preview/0d1d8ef8bd93132bf336cb640bf26e68b6282c15?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "DTLA",
+    "singer": "Pink Roses",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730ffcc4c1b8b4d787d14c1638",
+    "audio": "https://p.scdn.co/mp3-preview/342b17d39338e820726da740e61aa42084f3660d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Both",
+    "singer": "Ingrid Andress",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734dcf101b9169329cf61ef522",
+    "audio": "https://p.scdn.co/mp3-preview/d476ffed7010de26ee8e4a5749d28f5c02f49f67?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dead Roses",
+    "singer": "Weezer",
+    "image": "https://i.scdn.co/image/ab67616d0000b27347a7b58f664585430ced451e",
+    "audio": "https://p.scdn.co/mp3-preview/e1520c61e9207766b2760dbc9a3bdd87d73eacc7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "TIME FLIES",
+    "singer": "Kahlil blu",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735494e3224895c4042bcf2e0e",
+    "audio": "https://p.scdn.co/mp3-preview/558fe57ec9fc31becd41340d0936f8d68516a140?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "My House",
+    "singer": "Flo Rida",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737947bf3e8af32378de181b41",
+    "audio": "https://p.scdn.co/mp3-preview/afa94edef4dec2eda16e99153ccd513ef4306d06?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Elephant Love Medley - From \"Moulin Rouge\" Soundtrack",
+    "singer": "Nicole Kidman",
+    "image": "https://i.scdn.co/image/ab67616d0000b273687e8a165b272440a68a480f",
+    "audio": null
+  },
+  {
+    "name": "Rainy Mornings",
+    "singer": "HyperParadise",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731c9bc086c608bc1af50c8ce0",
+    "audio": "https://p.scdn.co/mp3-preview/4857aacb3215345e696b8d35bd52e0ccedcfdb95?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "A Dreamer Who is Too Weak to Face Up to",
+    "singer": "Melt-Banana",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f628fd0bd3aece83e4a71ff4",
+    "audio": "https://p.scdn.co/mp3-preview/d1c18bf011b6b09c70fa94824cb20f1ef3c53ee1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Cherry Bracelets",
+    "singer": "Bladee",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b6698e821aa02a4e4df00817",
+    "audio": "https://p.scdn.co/mp3-preview/505fcf881980a11f532b9fea9e9f5c4cf8a3a3a5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Nazi Punks Fuck Off",
+    "singer": "Dead Kennedys",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af5c4ff7aec50efc0b1d85db",
+    "audio": "https://p.scdn.co/mp3-preview/3cf1f87168c0bcf115f4930723a8d172764e519f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Signs",
+    "singer": "Running Touch",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a06b9aaed889f36589b41cba",
+    "audio": null
+  },
+  {
+    "name": "Ohio Tpke",
+    "singer": "Jeff Rosenstock",
+    "image": "https://i.scdn.co/image/ab67616d0000b273207b18558a2e261899d950b0",
+    "audio": "https://p.scdn.co/mp3-preview/2ea57a52098e071899cf62b486401f50a1e18f6c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "My Song",
+    "singer": "Jerry Cantrell",
+    "image": "https://i.scdn.co/image/ab67616d0000b273633bbbc0a1a7fff4ef3296cf",
+    "audio": "https://p.scdn.co/mp3-preview/cb66c75e73c05da6c42f1735896673e4f53d54d9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Silk Sonic Intro",
+    "singer": "Bruno Mars",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732538f73dc9489ef576e6640f",
+    "audio": "https://p.scdn.co/mp3-preview/4e9428d1ef539eba91b6c89ad6c85532b8dc7457?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "I Can't Give You Anything but Love",
+    "singer": "Django Reinhardt",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a0de817af17630babf65b3a",
+    "audio": "https://p.scdn.co/mp3-preview/b0611921e2161c2f12ab2b6b0cb11616682718ee?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Sunglasses",
+    "singer": "Black Country, New Road",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730ffaa4f75b2297d36ff1e0ad",
+    "audio": "https://p.scdn.co/mp3-preview/eec1a0873760866c494c6f076f8af2b82b3008d7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "missing u from quarantine",
+    "singer": "Aldn",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734b269d5e6a6a19e37c3bc91b",
+    "audio": "https://p.scdn.co/mp3-preview/ae99f68e67516c4aea42cfeec6dc2f403043ffad?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Clark Kent",
+    "singer": "Sub-Radio",
+    "image": "https://i.scdn.co/image/ab67616d0000b273faa2f04cb3bf72a72c0616a4",
+    "audio": "https://p.scdn.co/mp3-preview/24255f6f73fa05043303486b1499726bee2f5e4e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Pale Blue Dot",
+    "singer": "Red Vox",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d739adcc2c5fe035e6a2d9f3",
+    "audio": "https://p.scdn.co/mp3-preview/523f67c4a664d737fa8cc078c4d993eebd2deccc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Bentayga",
+    "singer": "Boldy James",
+    "image": "https://i.scdn.co/image/ab67616d0000b27336f60193ba7de9568775b2e1",
+    "audio": "https://p.scdn.co/mp3-preview/f2678a2be490205a06f9c81c87232163b31ddf3f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Doc Martens",
+    "singer": "1NONLY",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736b77ffd431151c23abc36ecf",
+    "audio": "https://p.scdn.co/mp3-preview/9f2a5f3ef803445c53ad626f180a372c277b9e23?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "It's Good to Be King",
+    "singer": "Tom Petty and The Heartbreakers",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730130d132122c260db2bebfab",
+    "audio": "https://p.scdn.co/mp3-preview/edafaeeaafe614d3e67a03bbdbf1eaf662525e53?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Water From a Vine Leaf",
+    "singer": "William Orbit",
+    "image": "https://i.scdn.co/image/ab67616d0000b273077640fd23233ace44f8d8d3",
+    "audio": null
+  },
+  {
+    "name": "Take Some Time - Gus alt-J Remix",
+    "singer": "Wilderado",
+    "image": "https://i.scdn.co/image/ab67616d0000b27377e46ea3d897674ba046f121",
+    "audio": "https://p.scdn.co/mp3-preview/aa872896ef878b282ee8e2e198b37e1e0d1d19f3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Guyliner",
+    "singer": "Dorian Electra",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730bd2dd0041256bcca30a1d9a",
+    "audio": "https://p.scdn.co/mp3-preview/500fa10baada8aea9c83080ab4166ec5939fae70?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Where We Belong",
+    "singer": "Devin Townsend Project",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cea0d3447f76631f0df8d737",
+    "audio": "https://p.scdn.co/mp3-preview/5278a266541df45ce57cbeb12b4aaa49280c70d6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Made of Metal",
+    "singer": "Grouper",
+    "image": "https://i.scdn.co/image/ab67616d0000b273763effbf66f2511b6f850de6",
+    "audio": "https://p.scdn.co/mp3-preview/6ea007398d043412ddca6f9397f5b3cf88ba6a33?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Machine Gun",
+    "singer": "Slowdive",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f6e31941d10e4819d290af41",
+    "audio": "https://p.scdn.co/mp3-preview/2fe72a4399aec4b64d02028fac6913e5e7aba8d7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Troll (Feat. DEAN)",
+    "singer": "IU",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734ed058b71650a6ca2c04adff",
+    "audio": "https://p.scdn.co/mp3-preview/dd81ff3312e6e8371afb9ee5c65233fc74bbd2c9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Aftermath",
+    "singer": "Rolo Tomassi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ccbe0011daae5c84da947d90",
+    "audio": "https://p.scdn.co/mp3-preview/af9ebc3aa455955786e52827d2971f484f24acf5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Pressure and Time",
+    "singer": "Rival Sons",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731989b4727337562a3f36c78f",
+    "audio": "https://p.scdn.co/mp3-preview/5a9561715fa0bce35a95e233b8c30418d8d3df5d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dead is the New Alive - Manipulator Mix by Dope Stars Inc.",
+    "singer": "Emilie Autumn",
+    "image": "https://i.scdn.co/image/ab67616d0000b27382d7afbd1adb786cbcf2b4b9",
+    "audio": "https://p.scdn.co/mp3-preview/633e924c2788dceaf601fa34bf6962852f3ca8a7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "All the Small Things",
+    "singer": "blink-182",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736da502e35a7a3e48de2b0f74",
+    "audio": null
+  },
+  {
+    "name": "El Chupa Nibre",
+    "singer": "DANGERDOOM",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738f4944a3d77dd680bde9fd10",
+    "audio": "https://p.scdn.co/mp3-preview/b68d911fd5d959ec7471cfb012f10e4385ec8c25?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Beyond the Permafrost",
+    "singer": "Skeletonwitch",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fe472e92de230d13ca071d2f",
+    "audio": "https://p.scdn.co/mp3-preview/4ff9291d228177a0c26554ca3767b9d039b2ecfe?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Blood Orange",
+    "singer": "The Wldlfe",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b273a11e46b66a87033495ca",
+    "audio": "https://p.scdn.co/mp3-preview/0cf57e7326857e9a1c130d460c920ac2a79d294c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dumb Dumb",
+    "singer": "Red Velvet",
+    "image": "https://i.scdn.co/image/ab67616d0000b27371a70331062453ece06f8b79",
+    "audio": "https://p.scdn.co/mp3-preview/9120c4098cf3f5d89fa7c2663b176a63c30fa9a9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "You Make Me Feel (Mighty Real) - DJ Meme's Mix of Epic Proportions",
+    "singer": "Frankie Knuckles",
+    "image": "https://i.scdn.co/image/ab67616d0000b273634332ba8cc679afe9ca8de5",
+    "audio": "https://p.scdn.co/mp3-preview/8c9135d2cea9e3b4349859929033df4d09229ce7?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "My Cocaine",
+    "singer": "Smash Into Pieces",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a64188552a56664b1f39c236",
+    "audio": "https://p.scdn.co/mp3-preview/11afc6f33c1541ca63785163e2653bf2a00e249c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "2 Of Amerikaz Most Wanted",
+    "singer": "2Pac",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d81a092eb373ded457d94eec",
+    "audio": null
+  },
+  {
+    "name": "Close to You",
+    "singer": "The Avalanches",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e7cdd0cb1c3e6419c637549d",
+    "audio": null
+  },
+  {
+    "name": "Fånge i universum",
+    "singer": "Kungens Män",
+    "image": "https://i.scdn.co/image/ab67616d0000b27382625086bfab414bef488403",
+    "audio": "https://p.scdn.co/mp3-preview/fa281909141475ec8040ad145046fee5282affc1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Alison",
+    "singer": "Slowdive",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f6e31941d10e4819d290af41",
+    "audio": "https://p.scdn.co/mp3-preview/0ad8903e83facaee81f45854f6aa356a9b93b54b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ms. Holy Water",
+    "singer": "Luke Christopher",
+    "image": "https://i.scdn.co/image/ab67616d0000b27308c4be29c84741b7f7b96bc2",
+    "audio": "https://p.scdn.co/mp3-preview/c4ab79bbe53d32f3d1b0aa64261465c9ef6e76e0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Motorgan",
+    "singer": "The Voodoo Organist",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731b99f9bf05450b390a9913ec",
+    "audio": "https://p.scdn.co/mp3-preview/0b7b402224a03ada754af4befdc86989f1d21919?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Der letzte Hilfeschrei",
+    "singer": "Lacrimosa",
+    "image": "https://i.scdn.co/image/ab67616d0000b27330318b0227c28b7e3df191bb",
+    "audio": "https://p.scdn.co/mp3-preview/f4d07598bc58533471640b4e014ac9498655824c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "All Night Long (Touch Me)",
+    "singer": "Cathy Dennis",
+    "image": "https://i.scdn.co/image/ab67616d0000b27349fbf03e762b0424bc08c76e",
+    "audio": null
+  },
+  {
+    "name": "Burnin'",
+    "singer": "Daft Punk",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738ac778cc7d88779f74d33311",
+    "audio": "https://p.scdn.co/mp3-preview/147cd050bcdf4806e944ca712616472659ec22b0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Whoopy",
+    "singer": "Westside Gunn",
+    "image": "https://i.scdn.co/image/ab67616d0000b273da175555b71ee5914209b45c",
+    "audio": null
+  },
+  {
+    "name": "Beautiful Ammunition",
+    "singer": "Adrian Borland",
+    "image": "https://i.scdn.co/image/ab67616d0000b27312984225861b3e31f64d2b54",
+    "audio": "https://p.scdn.co/mp3-preview/571071c3b2f4e65e59cff44441be0720a0f1ef01?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Say You Will",
+    "singer": "Kanye West",
+    "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
+    "audio": null
+  },
+  {
+    "name": "Momentum (feat. Black Thought & Benny The Butcher)",
+    "singer": "Russ",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc20c5dacda34b8609bcbe78",
+    "audio": "https://p.scdn.co/mp3-preview/5a79f24ed64729fe5f3cbb43ba3f4d8f28bb26e9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Neptune Estate",
+    "singer": "King Krule",
+    "image": "https://i.scdn.co/image/ab67616d0000b27380ff9e4af1ae3b50e3b451dc",
+    "audio": "https://p.scdn.co/mp3-preview/a670cc1dd6a33e963fe762bc441e379067ef823f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Seaweed",
+    "singer": "Mount Eerie",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e9e262c288b2e13e8f81d2ae",
+    "audio": "https://p.scdn.co/mp3-preview/4a7b3869276c17209d5ed24ca11533d15bc37929?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Xtal",
+    "singer": "Aphex Twin",
+    "image": "https://i.scdn.co/image/ab67616d0000b27338906032688bb13b135ce19a",
+    "audio": "https://p.scdn.co/mp3-preview/8691f6920f0781c46e42b2914ef771e648c3e1f5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Buzzcut Season",
+    "singer": "Lorde",
+    "image": "https://i.scdn.co/image/ab67616d0000b27333a859e36fdc9a27ed86516e",
+    "audio": null
+  },
+  {
+    "name": "Cherry Street",
+    "singer": "The Icarus Account",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d7ecd193b1b02ba5feeb9dc3",
+    "audio": "https://p.scdn.co/mp3-preview/848301f0ed2732a6897932c606a206ec337c3404?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "La La Lost You - Acoustic Version",
+    "singer": "Niki",
+    "image": "https://i.scdn.co/image/ab67616d0000b27347669a9be7d201ea97bbd3ee",
+    "audio": "https://p.scdn.co/mp3-preview/1dd77dd4f51f66b3ad525c554e0712ac7f89f871?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "detonate",
+    "singer": "Charli XCX",
+    "image": "https://i.scdn.co/image/ab67616d0000b273664e38c99d077cc52ab48914",
+    "audio": "https://p.scdn.co/mp3-preview/34978481aa376f928a6d98a7c4a00ccb14d905a3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
+    "singer": "Maroon 5",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a6c1dea2b83a2309d9e0adc3",
+    "audio": null
+  },
+  {
+    "name": "Dragonball Durag",
+    "singer": "Thundercat",
+    "image": "https://i.scdn.co/image/ab67616d0000b27323fb02f383f3bef16ab9d092",
+    "audio": "https://p.scdn.co/mp3-preview/231fa999ddc33d19a2a17d041d19148d1497b122?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "1996",
+    "singer": "Marilyn Manson",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c61d3a663bd18fe8cd97c947",
+    "audio": null
+  },
+  {
+    "name": "Survivor Guilt",
+    "singer": "Rise Against",
+    "image": "https://i.scdn.co/image/ab67616d0000b27398f415abb90d728279f056ac",
+    "audio": null
+  },
+  {
+    "name": "Kingdom",
+    "singer": "Devin Townsend Project",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cea0d3447f76631f0df8d737",
+    "audio": "https://p.scdn.co/mp3-preview/5efc044117e6b9a472e7e4eeaf2b6ec5494e2731?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "No Rain",
+    "singer": "Blind Melon",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737ed1df1690df31d094d7c2bc",
+    "audio": null
+  },
+  {
+    "name": "I H8 U!!!!",
+    "singer": "Alice Gas",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ed0647094377dffe80a913ca",
+    "audio": "https://p.scdn.co/mp3-preview/58ba0c52e5c92d5bb252b3c716fcad6f34e5e13b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "As I Lay Dying",
+    "singer": "Jurrivh",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a29dab46b77cf1a17170df50",
+    "audio": "https://p.scdn.co/mp3-preview/03d2c3872deb1b696ec8acd57697d4b0862a1d3f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Overcome",
+    "singer": "The Avalanches",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b0b3bd1a5f3967705579e6f1",
+    "audio": null
+  },
+  {
+    "name": "SANDMANN",
+    "singer": "Reezy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736e2d689e6612c0adb3d10d4f",
+    "audio": "https://p.scdn.co/mp3-preview/6ce6f10581866326b48433bcaa8d92b1cc8eaff0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Bloom",
+    "singer": "Great Grandpa",
+    "image": "https://i.scdn.co/image/ab67616d0000b273edd910d6d667fb53fd9cb1f7",
+    "audio": "https://p.scdn.co/mp3-preview/1ba2c9bb02f91c0ea1ae5678e93dfc0c9c331621?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The General Specific",
+    "singer": "Band of Horses",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732b87b0858c3bbf5261698326",
+    "audio": "https://p.scdn.co/mp3-preview/0df060492c0e2c26cc36ee43ef2d81c78249c4eb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Now I'm In It - Bonus Track",
+    "singer": "HAIM",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731bff3b5284c581b83e918d19",
+    "audio": "https://p.scdn.co/mp3-preview/4432536f0b6054a2cb4b953db8647cdb659142cb?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Black Star",
+    "singer": "Carcass",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b45da87a79b455b1600dc77e",
+    "audio": "https://p.scdn.co/mp3-preview/3f669ceda1bca72759ab1e21ba84142e41a12fec?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Motherfucker=Redeemer",
+    "singer": "Godspeed You! Black Emperor",
+    "image": "https://i.scdn.co/image/ab67616d0000b273505478d3b0790313f88460b5",
+    "audio": "https://p.scdn.co/mp3-preview/691cfd1dd6079a6733484c37e5ed9a62d7c69b49?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Where Evening's Dream Goes",
+    "singer": "The Music Tapes",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737948acd33787a644e2992ea6",
+    "audio": "https://p.scdn.co/mp3-preview/1e153de75e62fce7535c3365c97105486b1c6557?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Murder On My Mind",
+    "singer": "YNW Melly",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730f5397dc6aa91374897182e0",
+    "audio": "https://p.scdn.co/mp3-preview/b681a45cf2f796326f42bed43a6e419cd88ef92c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Black Book Of Fear",
+    "singer": "Mad Season",
+    "image": "https://i.scdn.co/image/ab67616d0000b273abd52298c520930f69950ccf",
+    "audio": "https://p.scdn.co/mp3-preview/5b1b7e33353761fbe4f77d8264464fe469a60039?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Reminder - Remix",
+    "singer": "The Weeknd",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b152de74d9768ef0ce44cfed",
+    "audio": null
+  },
+  {
+    "name": "Feel Good (feat. Daya)",
+    "singer": "Gryffin",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736362397987db1fbf17f3d9b5",
+    "audio": null
+  },
+  {
+    "name": "My Own Face Inside The Trees",
+    "singer": "The Clientele",
+    "image": "https://i.scdn.co/image/ab67616d0000b27392830da2261a18fb56e99148",
+    "audio": "https://p.scdn.co/mp3-preview/57f2c3b99b14ec3d8fd20deb3a33af70c4fc6847?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "2all",
+    "singer": "Catfish and the Bottlemen",
+    "image": "https://i.scdn.co/image/ab67616d0000b273835a9e77dae1c928f871ac73",
+    "audio": null
+  },
+  {
+    "name": "Rabbit Heart (Raise It Up)",
+    "singer": "Florence + the Machine",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730672b0f8756ae2af86e8a5ce",
+    "audio": null
+  },
+  {
+    "name": "Away",
+    "singer": "Trapdoor Social",
+    "image": "https://i.scdn.co/image/ab67616d0000b273eb9365fe39d3efb470f1d568",
+    "audio": "https://p.scdn.co/mp3-preview/c9f634a300c415379b7d72940709fc47cd45f2a0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Sleep in while you're doing your best",
+    "singer": "Weatherday",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731968b11017438f6d67ed700f",
+    "audio": "https://p.scdn.co/mp3-preview/40ea8ea84d87925936391492532e8137354f302f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Movement",
+    "singer": "damaa.beats",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aac22014fc838871cb529114",
+    "audio": "https://p.scdn.co/mp3-preview/804a70d66c82acc784818f11aea32c13fc74e8b1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "ARTERIES",
+    "singer": "Joyryde",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af76c5802026c1f59205016e",
+    "audio": "https://p.scdn.co/mp3-preview/db103a9112b0b30b7e48c6849e9f9b57c65cb7d5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "June 21st",
+    "singer": "Jeff Rosenstock",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731eba6b9bc5d8ae15dd6df79a",
+    "audio": "https://p.scdn.co/mp3-preview/2d0cdba25555665a823878b482f39908d70fb91c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Jordans & a Gold Chain",
+    "singer": "Apollo Brown",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ae0b519c3166f133bf52ca8a",
+    "audio": "https://p.scdn.co/mp3-preview/7bba453b5531309709f95ba2920dc7d339534e60?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "fwb",
+    "singer": "brakence",
+    "image": "https://i.scdn.co/image/ab67616d0000b273eb88e3c32c3bb61e318695b3",
+    "audio": "https://p.scdn.co/mp3-preview/3f5032342e5c44d7a31a07c803cb5b32c0164a7f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Where the Wild Wolves Have Gone",
+    "singer": "Powerwolf",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732697397e12a13945596d0d15",
+    "audio": "https://p.scdn.co/mp3-preview/2aeb8ed4eff6b04f03d31d2c0dcee8460ae82ce8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Wednesday (Really Want)",
+    "singer": "AgaJon",
+    "image": "https://i.scdn.co/image/ab67616d0000b273db31ca57a1535c05db6389bb",
+    "audio": null
+  },
+  {
+    "name": "Reverse Faults",
+    "singer": "Sampha",
+    "image": "https://i.scdn.co/image/ab67616d0000b273839b8b5af099682d34bf171d",
+    "audio": "https://p.scdn.co/mp3-preview/94868a8291b4920949caa10a7e20bc1fb15850a4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Cheer Up Baby",
+    "singer": "Inhaler",
+    "image": "https://i.scdn.co/image/ab67616d0000b27317646badb24f6241a635bbf6",
+    "audio": null
+  },
+  {
+    "name": "There is a Serpent Coming",
+    "singer": "Earth",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f54d5629f8e67c54fc836bd6",
+    "audio": "https://p.scdn.co/mp3-preview/666bd9927a2bb4ab120f176fd7f4da5a7a909e63?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mona Lisa",
+    "singer": "Booba",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b7c26131d453d1d9afb81aa0",
+    "audio": null
+  },
+  {
+    "name": "Seeing Blind",
+    "singer": "Niall Horan",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735bac234d5511248b248caf36",
+    "audio": null
+  },
+  {
+    "name": "Te necesito - Acústico",
+    "singer": "Amaral",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b81c9b4c54c332c41fc41ead",
+    "audio": "https://p.scdn.co/mp3-preview/f8c069386323246aae4eec3e09a4de9e95e535a3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "You Calling My Name",
+    "singer": "GOT7",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e4d85babdbdecf2c21568ea0",
+    "audio": "https://p.scdn.co/mp3-preview/cf4a00ddb5cd944c1091ca31b3e70a69a913fd7b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Out on the Town - Bonus Track",
+    "singer": "fun.",
+    "image": "https://i.scdn.co/image/ab67616d0000b27305fb4e9947c6edaf3836766e",
+    "audio": "https://p.scdn.co/mp3-preview/3580838cd502aa3781e29d57c4c222269bdc2fd1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Maria Maria",
+    "singer": "Milton Nascimento",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bfbfbf3201ecd4d56ac3c155",
+    "audio": null
+  },
+  {
+    "name": "Sometimes",
+    "singer": "Snoh Aalegra",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734fd546baade2ca3e56dab768",
+    "audio": "https://p.scdn.co/mp3-preview/4f71f6d3d62f17a51ae68a4158ad7affbd69a66b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mad Love",
+    "singer": "Honest Men",
+    "image": "https://i.scdn.co/image/ab67616d0000b273246780eccf23e69ab6a5b99e",
+    "audio": "https://p.scdn.co/mp3-preview/434f3a26d01b4456a5960de43c42d2217b99e107?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Territorial Pissings",
+    "singer": "Nirvana",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+    "audio": null
+  },
+  {
+    "name": "Forever Wavvy",
+    "singer": "Broke For Free",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d6fc05ac3a417496c7eef912",
+    "audio": "https://p.scdn.co/mp3-preview/d5949ee3b512c70ff91845c4c58faa347b0da5ac?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "It Must Have Been Love",
+    "singer": "Roxette",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730a4453f744afafa3e6198172",
+    "audio": "https://p.scdn.co/mp3-preview/a76b97080dee3bd95b1fb99b592910c976fd55f3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Oso del sueño",
+    "singer": "Invisible",
+    "image": "https://i.scdn.co/image/ab67616d0000b27333f2d6ff6a21d1d6d1a142fe",
+    "audio": "https://p.scdn.co/mp3-preview/70c6368be5b1047fcd9c6e330fe07fd07126b682?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Coldest Winter",
+    "singer": "Kanye West",
+    "image": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
+    "audio": null
+  },
+  {
+    "name": "Vivaldi: The New Four Seasons: Spring: 1 Melodious Incantation",
+    "singer": "Nigel Kennedy",
+    "image": "https://i.scdn.co/image/ab67616d0000b27325aeb8cbcef6af9c23bcfec2",
+    "audio": "https://p.scdn.co/mp3-preview/b2df328fbe959b7366b6945d393cd1246958a0cd?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Antediluvian",
+    "singer": "Khemmis",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730198c165b98e0ac124b250b6",
+    "audio": "https://p.scdn.co/mp3-preview/f66f7e81c83582f5a8edd7af97a664453c75a9c1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Storm",
+    "singer": "Godspeed You! Black Emperor",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730791c8a2dc44008c52b4883a",
+    "audio": "https://p.scdn.co/mp3-preview/a71a88ded16564d37e985c28e89584d880b6830a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Dark Stone",
+    "singer": "Holy Fawn",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e54dae908464ccf3d1a89027",
+    "audio": "https://p.scdn.co/mp3-preview/4146e0985dfd37f1b32e709f538e8665bccbc6ed?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "She's Thunderstorms",
+    "singer": "Arctic Monkeys",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734e1e57eb66ed6b41ac8badd1",
+    "audio": "https://p.scdn.co/mp3-preview/b4c3a65e64c36b025ba8486abe7addcbd43df944?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Convenient Parking",
+    "singer": "Modest Mouse",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732b865645168d8ac76a93578a",
+    "audio": "https://p.scdn.co/mp3-preview/4f05209d516bb5ef7f30e03fde62ef868b967abe?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Having a Good Time, Sometimes",
+    "singer": "Bakar",
+    "image": "https://i.scdn.co/image/ab67616d0000b27353f1d91691275d0a6e916bd8",
+    "audio": "https://p.scdn.co/mp3-preview/b95ddae2416cdacdfa8bcbd4602a220451befb50?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "DITTO",
+    "singer": "Aries",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739e1b13e2849c0f457f8085f3",
+    "audio": "https://p.scdn.co/mp3-preview/4e41c32a3334ed55cfcc5d9c29df22835e324a4d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Violet",
+    "singer": "Daniel Caesar",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739865e5fe5d0691d600678542",
+    "audio": "https://p.scdn.co/mp3-preview/2306d09d5cb05c07fd3cbc14dfbf274a4b4c2b7c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "O CORRE - Bixurdia Remix",
+    "singer": "JUP do Bairro",
+    "image": "https://i.scdn.co/image/ab67616d0000b273510ac4089af4b36f0b999ea2",
+    "audio": "https://p.scdn.co/mp3-preview/c46f2c19ea7084414a23b34173d4494ab703aa7a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Mourn",
+    "singer": "Hell",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731268d92186f77adfe995890e",
+    "audio": "https://p.scdn.co/mp3-preview/d0b3bb525d336e82c8ff0fe737cd5d323791c3ac?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "XS",
+    "singer": "Rina Sawayama",
+    "image": "https://i.scdn.co/image/ab67616d0000b27366a89b08608325d5a34f31d2",
+    "audio": "https://p.scdn.co/mp3-preview/9aa3b7ac5b0794413ec0bd1e6e541b31b839879e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Fortress Around Your Heart",
+    "singer": "Sting",
+    "image": "https://i.scdn.co/image/ab67616d0000b273804c1bb88d714079e12d80e1",
+    "audio": null
+  },
+  {
+    "name": "Ballzout - 2005 Demo",
+    "singer": "Celldweller",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cc492eaca25abfaa34bf6280",
+    "audio": "https://p.scdn.co/mp3-preview/94ec3e2441e38dd65f7bca942e8f34771b107966?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "ダイキライ feat. ちゃんみな",
+    "singer": "TeddyLoid",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ea72d9ef04eefac5bf071b0d",
+    "audio": "https://p.scdn.co/mp3-preview/ac22ef3260fb8da586d2005989683ee6334a21d5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "The Clearing",
+    "singer": "Snarky Puppy",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d191b3bcffb6d342838b48f1",
+    "audio": null
+  },
+  {
+    "name": "Bambina",
+    "singer": "PNL",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738ebfb654b1d20182942bd131",
+    "audio": "https://p.scdn.co/mp3-preview/a00bbe66d359561417f2d14ae6152666a51516f3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Stained Glass Body",
+    "singer": "Jefre Cantu-Ledesma",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b76fc78f70afc39bb0445639",
+    "audio": "https://p.scdn.co/mp3-preview/7c104a5f7db457f1aee69b95b916bc175ee1e955?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Someplace",
+    "singer": "Jake Bugg",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731f028a147500800d81ac1b32",
+    "audio": null
+  },
+  {
+    "name": "Love Is a Drug",
+    "singer": "Empress Of",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf72dc2a124841eba8572621",
+    "audio": "https://p.scdn.co/mp3-preview/04db05dbfeadcd71386c6f6c3adf149cc8be9fb8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Bigger Than Christmas",
+    "singer": "Wild Pink",
+    "image": "https://i.scdn.co/image/ab67616d0000b273654eb518dc3501e94e305623",
+    "audio": "https://p.scdn.co/mp3-preview/892de25719e2d8c2c2c615f68fd7125ac09a62cd?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "What's Up?",
+    "singer": "4 Non Blondes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273381371cb8ce680d0dc324600",
+    "audio": null
+  },
+  {
+    "name": "Opus",
+    "singer": "Black Country, New Road",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730ffaa4f75b2297d36ff1e0ad",
+    "audio": "https://p.scdn.co/mp3-preview/eee6fa13e563a76be8ba2460099916c2017e89a3?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "FIGHT",
+    "singer": "BROCKHAMPTON",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737d15fb20303a589acc1ab98b",
+    "audio": "https://p.scdn.co/mp3-preview/dc6099412aa3acdcca65deef655a4b54e9f856b6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Journey in Satchidananda",
+    "singer": "Alice Coltrane",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bf6d139c329626e73ca9a8af",
+    "audio": null
+  },
+  {
+    "name": "Si tu n'étais pas là",
+    "singer": "Fréhel",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734f86656a875d0530c94c0649",
+    "audio": "https://p.scdn.co/mp3-preview/4ad84296bfb2788a1b90ae82ecb2f88d450b0d02?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "I Found You",
+    "singer": "Andy Grammer",
+    "image": "https://i.scdn.co/image/ab67616d0000b273de1ef6794bce2d9e397717bf",
+    "audio": "https://p.scdn.co/mp3-preview/e07acbae978376793a7c954f6ba388246c886ba5?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Liability",
+    "singer": "Lorde",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f8553e18a11209d4becd0336",
+    "audio": null
+  },
+  {
+    "name": "Modern Love",
+    "singer": "David Bowie",
+    "image": "https://i.scdn.co/image/ab67616d0000b273db0917ddd4139153bc1d1a1a",
+    "audio": "https://p.scdn.co/mp3-preview/4ed645d4c2a804d8c43e811a0bace45e14baf8df?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Peaches (feat. Daniel Caesar & Giveon)",
+    "singer": "Justin Bieber",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+    "audio": null
+  },
+  {
+    "name": "Trust Nobody (2 My Brothers)",
+    "singer": "Dj Scheme",
+    "image": "https://i.scdn.co/image/ab67616d0000b27362700bbd5fe234b42d40b63c",
+    "audio": "https://p.scdn.co/mp3-preview/d27b70201d29096a736ee1cd4dd6bf56fe846f0f?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "スキ",
+    "singer": "ミドリ",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a95fd5df3fecee78f771111c",
+    "audio": "https://p.scdn.co/mp3-preview/96fccdce9e1d493e8251c0335344445884141866?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Wolves",
+    "singer": "Kanye West",
+    "image": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
+    "audio": null
+  },
+  {
+    "name": "Hurt Somebody",
+    "singer": "Noah Kahan",
+    "image": "https://i.scdn.co/image/ab67616d0000b273940ebd3d132f33acd9a54d95",
+    "audio": null
+  },
+  {
+    "name": "Mequetrefe",
+    "singer": "Arca",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738c894fac3d113f98885d3117",
+    "audio": "https://p.scdn.co/mp3-preview/810170170858889a910df516bb0b0b078fe6aa8c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Alterlife",
+    "singer": "Rina Sawayama",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730e44ad85723d06e1ecd65712",
+    "audio": "https://p.scdn.co/mp3-preview/3c34a6477928a31870bff213886e59cd698a24d9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Love U Betta",
+    "singer": "Neon Hitch",
+    "image": "https://i.scdn.co/image/ab67616d0000b27395605172d262b241ab05407c",
+    "audio": "https://p.scdn.co/mp3-preview/93c3f4a855a001abbaedb27cbc59e67e59c18cae?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Rarotonga",
+    "singer": "Café Tacvba",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ba7aaeff50950cd8a6ced4f1",
+    "audio": "https://p.scdn.co/mp3-preview/da94e103f382148b91ad0a4e974286aa96a3b3f6?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Ivory Black",
+    "singer": "Oliver Riot",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735c65952069883b511fde5f3c",
+    "audio": "https://p.scdn.co/mp3-preview/d7f27a2b8ec1c29b60bbb9a25d95b74f53168e3a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Adam & Steve",
+    "singer": "Dorian Electra",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730bd2dd0041256bcca30a1d9a",
+    "audio": "https://p.scdn.co/mp3-preview/7735238828deb53944eff21042e0ffdd20c2240b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Altars of Nothingness",
+    "singer": "Rorcal",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e1e8f2b755bffea78b4f6a20",
+    "audio": "https://p.scdn.co/mp3-preview/1d30889540b60f223dab608692777a0767a0e150?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "SHIV",
+    "singer": "HAARPER",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ec7b2803c27df53f3e0fbc27",
+    "audio": "https://p.scdn.co/mp3-preview/a568be0a5b00f17ee8f7f4293be5372f1858c2d1?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Worldstar Money (Interlude)",
+    "singer": "Joji",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738e947f66f6d4eeaa56a28767",
+    "audio": "https://p.scdn.co/mp3-preview/09f670f51d5fa9db0cdb5499a661d5445026fc38?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Run to the Hills - 2015 Remaster",
+    "singer": "Iron Maiden",
+    "image": "https://i.scdn.co/image/ab67616d0000b273312f2e71ea2ffd2d6bae1c90",
+    "audio": "https://p.scdn.co/mp3-preview/66a6b7102df35ce9e83d29f8f5092ad529eaa14e?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Heights",
+    "singer": "Nick Jonas",
+    "image": "https://i.scdn.co/image/ab67616d0000b273f17a48336d1a01731cea9a6d",
+    "audio": null
+  },
+  {
+    "name": "Theme of the Celestials",
+    "singer": "T’s Music",
+    "image": "https://i.scdn.co/image/ab67616d0000b273afefeba6fec868cc07a4bd9d",
+    "audio": "https://p.scdn.co/mp3-preview/84c9424ee6ae81138b41c0e5a7936fb644a7995d?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Harbinger of Nothing",
+    "singer": "Vile Creature",
+    "image": "https://i.scdn.co/image/ab67616d0000b27374d39cade4f4b8f4e00e287d",
+    "audio": "https://p.scdn.co/mp3-preview/d445e49750debee7270612211f8cbb7026fb744c?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Drama",
+    "singer": "Bladee",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e510fefb5484842ad19185b0",
+    "audio": "https://p.scdn.co/mp3-preview/26d6fad5e1becab65bfa17621cd385f232f37c37?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "From The Sky",
+    "singer": "Gojira",
+    "image": "https://i.scdn.co/image/ab67616d0000b27373620e8ba892439f46120b87",
+    "audio": "https://p.scdn.co/mp3-preview/d2118997b34a998f6bb5cd415d7cd20d5e5f75a9?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Takeshi and Elijah",
+    "singer": "The Music Tapes",
+    "image": "https://i.scdn.co/image/ab67616d0000b273aeb9cd768734dd4f0165d899",
+    "audio": "https://p.scdn.co/mp3-preview/d49c22e0724cc183823fd1d834ab422d26668b0a?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Brown Trout Blues (Live at the Roundhouse)",
+    "singer": "Johnny Flynn",
+    "image": "https://i.scdn.co/image/ab67616d0000b27391c25eb156176c01f86abbbe",
+    "audio": "https://p.scdn.co/mp3-preview/563e1b5bdc64fd3bc86c0e239926589665fe1fe4?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Frag mich nicht",
+    "singer": "Miksu / Macloud",
+    "image": "https://i.scdn.co/image/ab67616d0000b2738bf8038f7f9584aec9f7d180",
+    "audio": "https://p.scdn.co/mp3-preview/430bf356c6636475f688320e35f56eb0ae4ecd4b?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Summerbreeze",
+    "singer": "Johnossi",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c31a99ff1f230bee5ee347fa",
+    "audio": null
+  },
+  {
+    "name": "One Watch (feat. Young Thug)",
+    "singer": "Gunna",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fae944bd93dd1e47591a0df9",
+    "audio": "https://p.scdn.co/mp3-preview/ab3135c28f0ab9bd261498e777b6aec17958bf85?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Like Attack",
+    "singer": "Luísa e Os Alquimistas",
+    "image": "https://i.scdn.co/image/ab67616d0000b273355f0a97cd7ba23bcd5fc1f2",
+    "audio": "https://p.scdn.co/mp3-preview/8664783c0ea954e52d0f4f71926cc8ce8b127247?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "All Nite (Don't Stop)",
+    "singer": "Janet Jackson",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731ef94f1386aa243402a51112",
+    "audio": null
+  },
+  {
+    "name": "Gardenia",
+    "singer": "Kyuss",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e14537a9543655496d648bad",
+    "audio": "https://p.scdn.co/mp3-preview/60d60d8cf17d5839ca2df504f10c5184cfa18474?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Home (KOD)",
+    "singer": "Playboi Carti",
+    "image": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "audio": null
+  },
+  {
+    "name": "In Your House",
+    "singer": "The Cure",
+    "image": "https://i.scdn.co/image/ab67616d0000b27329935216b69c7721582eab4c",
+    "audio": "https://p.scdn.co/mp3-preview/ee3fcb40c96fa9f14d5455ac4df0370e3dcd66ce?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "All Over Again",
+    "singer": "Caitlyn Smith",
+    "image": "https://i.scdn.co/image/ab67616d0000b27394d08d834cb88a18c029c5aa",
+    "audio": "https://p.scdn.co/mp3-preview/3a90e40e6a19f3946bd153d100a6665bd70e6831?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Close to You",
+    "singer": "Frank Ocean",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+    "audio": "https://p.scdn.co/mp3-preview/85e0dc7b40bf3b0786195d6c78a06ff95743ebcc?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Clench",
+    "singer": "Redveil",
+    "image": "https://i.scdn.co/image/ab67616d0000b27334d0138bb75a2cd47adc8690",
+    "audio": "https://p.scdn.co/mp3-preview/038ebd4faa98180fc860ceb0b3e5a41bc561aaa0?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Twilight Horizon",
+    "singer": "Twilight Force",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731c5d4e4695659ec7a046364b",
+    "audio": "https://p.scdn.co/mp3-preview/28eacd4e5ed2b58e66869d6c4515c8e13a519db8?cid=93febf29f64649a8b1675c59304fa249"
+  },
+  {
+    "name": "Open Up",
+    "singer": "UMI",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c2c45365952a0e85f6b40d31",
+    "audio": "https://p.scdn.co/mp3-preview/72dcb71230a0c16fe296ac4712e853081f1ad01c?cid=93febf29f64649a8b1675c59304fa249"
   }
 ]
