@@ -24,6 +24,7 @@ function getImageAndAudio(obj) {
       // Save the access token so that it's used in future calls
       spotifyApi.setAccessToken(data.body['access_token']);
       process.env.ACCESS_TOKEN = data.body['access_token'];
+      setTimeout(() => { console.log(obj); }, 3);
       spotifyApi.searchTracks('track:' + obj.name + ' artist:' + obj.artist, { limit: 1 })
         .then(function (data) {
           let object = {
@@ -114,8 +115,8 @@ async function getMissing() {
 //   }
 // );
 
-const READ_FILE = 'util/missing.json';
-const MISSING_FILE = 'util/missing2.json';
+const READ_FILE = 'util/missing2.json';
+const MISSING_FILE = 'util/missing.json';
 
 function retrieveMissing() {
   var f = fs.readFileSync(READ_FILE);
@@ -131,7 +132,7 @@ function retrieveMissing() {
 retrieveMissing();
 
 
-// var dataset = fs.readFileSync('util/missing.json');
+// var dataset = fs.readFileSync('util/missing2.json');
 // var updatedDataset = JSON.parse(dataset);
 // console.log(updatedDataset);
 
