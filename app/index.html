@@ -433,61 +433,85 @@
       .attr("y", 600)
       .attr("width", 30)
       .attr("height", 30)
-      .attr("fill", "#000000")
       .attr("class", "button")
-      .text("reset")
-      .on("click", function () {
-        returnColors()
-        d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
-        isClicked = false
+      .on("click", function(){
+          returnColors()
+          d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
+          isClicked = false
       })
-      .on("mouseover", function () {
-        d3.select(this).attr("opacity", 0.5)
+        .on("mouseover", function() { 
+            d3.select(this).attr("opacity", 0.5)
       })
       .on("mouseout", function () {
         d3.select(this).attr("opacity", 1)
       })
+  tgrp.append("text")
+      .attr("x", 60)
+      .attr("y", 620)
+      .text("reset")
+      .attr("class", "subheading")
+    
+  
+  var x = d3.scaleBand()
+    .domain(d3.range(dataset.length))
+    .range([margin + 200, width - (margin - 50)])
+    .padding(0.1)
 
-    var x = d3.scaleBand()
-      .domain(d3.range(dataset.length))
-      .range([margin + 200, width - (margin - 50)])
-      .padding(0.1)
+  var y = d3.scaleLinear()
+    .domain([0, d3.max(dataset, d => d.frequency)]).nice()
+    .range([height - margin, margin + 40])
 
-    var y = d3.scaleLinear()
-      .domain([0, d3.max(dataset, d => d.frequency)]).nice()
-      .range([height - margin, margin + 40])
+  var xAxis = g => g
+    .attr("transform", `translate(0,${height - margin})`)
+    .attr("color", "white")
+    .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dataset[i].date))).tickSizeOuter(0))
 
-    var xAxis = g => g
-      .attr("transform", `translate(0,${height - margin})`)
-      .attr("color", "white")
-      .call(d3.axisBottom(x).tickFormat(i => d3.timeFormat('%B')(new Date(dataset[i].date))).tickSizeOuter(0))
+  var bars = chart.append('g')
 
-    var bars = chart.append('g')
-
-    bars.selectAll("bars")
-      .data(dataset)
-      .enter()
-      .append("rect")
-      .join("rect")
-      .attr("fill", function (d) {
-        if (d.quadrant == 1)
-          return "#B459DE";
-        if (d.quadrant == 2)
-          return "#61ECDB";
-        if (d.quadrant == 3)
-          return "#3372D2";
-        if (d.quadrant == 4)
-          return "#FD3A3E";
-        if (d.quadrant == 5)
-          return "#E0BCF0";
-        if (d.quadrant == 6)
-          return "#B6F6EE";
-        if (d.quadrant == 7)
-          return "#B0C8ED";
-        if (d.quadrant == 8)
-          return "#FED2D2";
-        if (d.quadrant == 9)
-          return "white";
+  bars.selectAll("bars")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .join("rect")
+    .attr("fill", function (d) {
+      if (d.quadrant == 1)
+        return "#B459DE";
+      if (d.quadrant == 2)
+        return "#61ECDB";
+      if (d.quadrant == 3)
+        return "#3372D2";
+      if (d.quadrant == 4)
+        return "#FD3A3E";
+      if (d.quadrant == 5)
+        return "#E0BCF0";
+      if (d.quadrant == 6)
+        return "#B6F6EE";
+      if (d.quadrant == 7)
+        return "#B0C8ED";
+      if (d.quadrant == 8)
+        return "#FED2D2";
+      if (d.quadrant == 9)
+        return "white";
+    })
+    .attr("class", function(d) {
+      if(d.quadrant == 1)
+        return "purple";
+      if(d.quadrant == 2)
+        return "teal";
+      if(d.quadrant == 3)
+        return "blue";
+      if(d.quadrant == 4)
+        return "red";
+      if(d.quadrant == 5)
+        return "lightPurple";
+      if(d.quadrant == 6)
+        return "lightTeal";
+      if(d.quadrant == 7)
+        return "lightBlue";
+      if(d.quadrant == 8)
+        return "lightRed";
+      if(d.quadrant == 9)
+        return "white";
       })
       .attr("class", function (d) {
         if (d.quadrant == 1)
