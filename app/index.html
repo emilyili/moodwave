@@ -422,18 +422,12 @@ var username = (window.prompt("Enter your username: "))
     .text("depressed, sad")
 
   //reset button
-  tgrp.append("text")
-      .attr("x", 30)
-      .attr("y", 630)
-      .text("reset")
-      .attr("class", "heading")
   tgrp.append("rect")
       .attr("x", 0)
       .attr("y", 600)
-      .attr("width", 110)
-      .attr("height", 50)
+      .attr("width", 30)
+      .attr("height", 30)
       .attr("class", "button")
-      .text("reset")
       .on("click", function(){
           returnColors()
           d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
@@ -445,6 +439,11 @@ var username = (window.prompt("Enter your username: "))
       .on("mouseout", function() { 
             d3.select(this).attr("opacity", 1)
       })
+  tgrp.append("text")
+      .attr("x", 60)
+      .attr("y", 620)
+      .text("reset")
+      .attr("class", "heading")
     
   
   var x = d3.scaleBand()
