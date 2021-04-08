@@ -47,8 +47,10 @@ function getImageAndAudio(obj) {
   );
 }
 
-var allSongs = [];
+var f = fs.readFileSync('util/spotify.json');
+var allSongs = JSON.parse(f);
 // const allData = require('../app/data.js');
+// console.log(allData);
 
 // retrieve list of all songs played by users 
 function getUniqueSongs(dataset) {
@@ -63,7 +65,7 @@ function getUniqueSongs(dataset) {
         }
         let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
         if (!exist) {
-          allSongs.push(songObj);
+          
           getImageAndAudio(songObj);
         }
       }
@@ -71,49 +73,15 @@ function getUniqueSongs(dataset) {
   }
 }
 
-// getUniqueSongs(allData);
+// const a = require('../app/data.js');
 
+// var missing = { 
+//   'wjung98': a.wjung98, 
+//   'carafo_': a.carafo_, 
+//   'tieszofant': a.tieszofant, 
+//   'oblvr8': a.oblvr8};
 
-// let getSpotify = async (obj) => {
-//   // Retrieve an access token.
-//   spotifyApi.clientCredentialsGrant().then(
-//     function (data) {
-//       // Save the access token so that it's used in future calls
-//       spotifyApi.setAccessToken(data.body['access_token']);
-//       process.env.ACCESS_TOKEN = data.body['access_token'];
-//       await spotifyApi.searchTracks('track:' + obj.name + ' artist:' + obj.artist, { limit: 1 })
-//         .then(function (data) {
-//           let object = {
-//             name: obj.name,
-//             singer: obj.artist,
-//             image: data.body['tracks'].items[0].album.images[0].url,
-//             audio: data.body['tracks'].items[0].preview_url
-//           };
-//           // console.log(object);
-//           writeToJSON(object, 'util/spotify.json');
-//         }, function (err) {
-//           //console.log('Something went wrong!', err);
-//           writeToJSON(obj, MISSING_FILE);
-//         });
-//     },
-//     function (err) {
-//       console.log('Something went wrong when retrieving an access token', err);
-//       writeToJSON(obj, MISSING_FILE);
-//     }
-//   );
-// }
-
-// while missing.json still has items, then continue to loop through and 
-
-async function getMissing() {
-  return "Hello";
-}
-
-// myFunction().then(
-//   function (value) {
-//     console.log('yay');
-//   }
-// );
+// getUniqueSongs(missing);
 
 const READ_FILE = 'util/missing2.json';
 const MISSING_FILE = 'util/missing.json';
@@ -121,10 +89,9 @@ const MISSING_FILE = 'util/missing.json';
 function retrieveMissing() {
   var f = fs.readFileSync(READ_FILE);
   var missing = JSON.parse(f);
-
   for (const item in missing) {
     setTimeout(() => { console.log(missing[item]); }, 3);
-    getImageAndAudio(missing[item]);
+      getImageAndAudio(missing[item]);
   }
 
 }
