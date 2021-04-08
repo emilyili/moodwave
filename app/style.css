@@ -16,7 +16,7 @@
  fill: #ffffff;
 }
 
-.subheading, .quadrant1, .quadrant2, .quadrant3, .quadrant4 {
+.subheading {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -38,7 +38,7 @@
     justify-content: center;
 }
 
-.subtitle {
+.subtitle, .quadrant1, .quadrant2, .quadrant3, .quadrant4 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
