@@ -114,7 +114,7 @@ async function getMissing() {
 //   }
 // );
 
-const READ_FILE = 'util/missing2.json'
+const READ_FILE = 'util/missing2.json';
 const MISSING_FILE = 'util/missing3.json';
 
 function retrieveMissing() {
