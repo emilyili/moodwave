@@ -208,8 +208,11 @@
       })
       .on("mouseout", mouseout)
       .on("click", function() { 
+        console.log("clicked on red")
         if(!isClicked){
-          isClicked = true; d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+          console.log("show only red")
+          isClicked = true
+          d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
           d3.select(this).attr("opacity", 1)
           showRed() 
         }
@@ -327,9 +330,9 @@
       .on("click", function() {
           if(!isClicked){
           isClicked = true
-            d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
-            d3.select(this).attr("opacity", 1)
-            showTeal()
+          d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+          d3.select(this).attr("opacity", 1)
+          showTeal()
           }
       })
   
@@ -433,20 +436,24 @@
       .attr("y", 600)
       .attr("width", 30)
       .attr("height", 30)
-      .attr("fill", "#000000")
       .attr("class", "button")
-      .text("reset")
       .on("click", function(){
-        returnColors()
-       d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
-      isClicked = false
+          returnColors()
+          d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
+          isClicked = false
       })
-      .on("mouseover", function() { 
+        .on("mouseover", function() { 
             d3.select(this).attr("opacity", 0.5)
       })
       .on("mouseout", function() { 
             d3.select(this).attr("opacity", 1)
       })
+  tgrp.append("text")
+      .attr("x", 60)
+      .attr("y", 620)
+      .text("reset")
+      .attr("class", "heading")
+    
   
   var x = d3.scaleBand()
     .domain(d3.range(dataset.length))
