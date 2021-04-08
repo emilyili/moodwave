@@ -725,7 +725,7 @@
           audio.src = spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).audio;
           console.log(audio.src);
           audio.autoplay = true;
-          audio.volume = 0.5;
+          audio.volume = 0.05;
           audio.type = 'audio/mpeg';
           document.getElementById("tooltip").appendChild(audio);
 
