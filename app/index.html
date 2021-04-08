@@ -25,11 +25,10 @@
 
   var d3 = d3;
 
+
 var username = (window.prompt("Enter your username: "))
   var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
 
-// var name = "carafo_"
-// var username = "carafo_"
   const margin = 40;
   const width = (screen.availWidth * 0.8) - 2 * margin
   // const width = 1200 - 2 * margin
@@ -37,6 +36,7 @@ var username = (window.prompt("Enter your username: "))
 
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
+
 
   if(window[name] == undefined){
     alert("This username does not exist! Please try again.");
@@ -444,11 +444,11 @@ var username = (window.prompt("Enter your username: "))
 
   var bars = chart.append('g')
 
-    bars.selectAll("bars")
-      .data(dataset)
-      .enter()
-      .append("rect")
-      .join("rect")
+  bars.selectAll("bars")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .join("rect")
     .attr("fill", function (d) {
       if (d.quadrant == 1)
         return "#B459DE";
