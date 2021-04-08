@@ -7,7 +7,7 @@
   fill: #FFFFFF;
 }
 
-.heading {
+.heading, .quadrant1, .quadrant2, .quadrant3, .quadrant4, .button {
  font-family: Montserrat;
  font-style: normal;
  font-weight: bold;
