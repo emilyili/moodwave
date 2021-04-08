@@ -1,0 +1,4580 @@
+[
+    {
+        "utc_time": "2021-04-03T18:26:00Z",
+        "artist": "Tyler, The Creator",
+        "album": "IGOR",
+        "track": "EARFQUAKE"
+    },
+    {
+        "utc_time": "2021-04-03T18:24:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Limbo (Deluxe)",
+        "track": "Zack & Cody (feat. Valee)"
+    },
+    {
+        "utc_time": "2021-04-03T18:21:00Z",
+        "artist": "Pell",
+        "album": "girasoul",
+        "track": "throwback (feat. Saba)"
+    },
+    {
+        "utc_time": "2021-04-03T02:01:00Z",
+        "artist": "\ud604\uc544",
+        "album": "A Talk",
+        "track": "\ube68\uac1c\uc694"
+    },
+    {
+        "utc_time": "2021-04-03T01:58:00Z",
+        "artist": "Kehlani",
+        "album": "You Should Be Here",
+        "track": "How That Taste"
+    },
+    {
+        "utc_time": "2021-04-03T01:54:00Z",
+        "artist": "GD X TAEYANG",
+        "album": "Good Boy",
+        "track": "GOOD BOY"
+    },
+    {
+        "utc_time": "2021-04-03T01:50:00Z",
+        "artist": "Taylor Swift",
+        "album": "1989",
+        "track": "Blank Space"
+    },
+    {
+        "utc_time": "2021-04-03T01:48:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Breathe"
+    },
+    {
+        "utc_time": "2021-04-03T01:46:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Star"
+    },
+    {
+        "utc_time": "2021-04-03T01:42:00Z",
+        "artist": "GB9",
+        "album": "I hope It's breeze",
+        "track": "I hope It's breeze"
+    },
+    {
+        "utc_time": "2021-04-03T01:38:00Z",
+        "artist": "40KWETHENICEST",
+        "album": "My Baby",
+        "track": "My Baby"
+    },
+    {
+        "utc_time": "2021-04-03T01:34:00Z",
+        "artist": "Rihanna",
+        "album": "ANTI",
+        "track": "Love on the Brain"
+    },
+    {
+        "utc_time": "2021-04-03T01:31:00Z",
+        "artist": "Kendrick Lamar",
+        "album": "DAMN.",
+        "track": "LOVE. FEAT. ZACARI."
+    },
+    {
+        "utc_time": "2021-04-03T01:25:00Z",
+        "artist": "Mac Miller",
+        "album": "GO:OD AM",
+        "track": "ROS"
+    },
+    {
+        "utc_time": "2021-04-03T01:16:00Z",
+        "artist": "Cordae",
+        "album": "The Lost Boy",
+        "track": "RNP (feat. Anderson .Paak)"
+    },
+    {
+        "utc_time": "2021-04-03T01:11:00Z",
+        "artist": "Troy",
+        "album": "High School Musical 2 (Original Soundtrack)",
+        "track": "Everyday"
+    },
+    {
+        "utc_time": "2021-04-03T01:08:00Z",
+        "artist": "One Direction",
+        "album": "Take Me Home: Yearbook Edition",
+        "track": "Kiss You"
+    },
+    {
+        "utc_time": "2021-04-03T01:05:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "i feel bad"
+    },
+    {
+        "utc_time": "2021-04-03T01:03:00Z",
+        "artist": "Kanye West",
+        "album": "I Love It",
+        "track": "I Love It (& Lil Pump)"
+    },
+    {
+        "utc_time": "2021-04-03T01:00:00Z",
+        "artist": "Block B",
+        "album": "HER",
+        "track": "HER"
+    },
+    {
+        "utc_time": "2021-04-03T00:57:00Z",
+        "artist": "Eddie Redmayne",
+        "album": "Les Mis\u00e9rables: The Motion Picture Soundtrack Deluxe (Deluxe Edition)",
+        "track": "Empty Chairs At Empty Tables"
+    },
+    {
+        "utc_time": "2021-04-03T00:53:00Z",
+        "artist": "\u6797\u61b6\u84ee",
+        "album": "\u6797\u61b6\u84ee",
+        "track": "\u81f3\u5c11\u9084\u6709\u4f60"
+    },
+    {
+        "utc_time": "2021-04-03T00:49:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "thank u, next"
+    },
+    {
+        "utc_time": "2021-04-03T00:45:00Z",
+        "artist": "John Legend",
+        "album": "Love In The Future (Expanded Edition)",
+        "track": "All of Me"
+    },
+    {
+        "utc_time": "2021-04-03T00:42:00Z",
+        "artist": "Sam Smith",
+        "album": "In the Lonely Hour",
+        "track": "Stay with Me"
+    },
+    {
+        "utc_time": "2021-04-03T00:38:00Z",
+        "artist": "beabadoobee",
+        "album": "Loveworm",
+        "track": "Apple Cider"
+    },
+    {
+        "utc_time": "2021-04-03T00:32:00Z",
+        "artist": "Daniel Caesar",
+        "album": "CASE STUDY 01",
+        "track": "SUPERPOSITION"
+    },
+    {
+        "utc_time": "2021-04-03T00:30:00Z",
+        "artist": "Kanye West",
+        "album": "ye",
+        "track": "All Mine"
+    },
+    {
+        "utc_time": "2021-04-03T00:25:00Z",
+        "artist": "Lauren Ambrose",
+        "album": "My Fair Lady (2018 Broadway Cast Recording)",
+        "track": "Wouldn't It Be Loverly?"
+    },
+    {
+        "utc_time": "2021-04-03T00:21:00Z",
+        "artist": "Dane Amar",
+        "album": "Green Tea & Honey",
+        "track": "Green Tea & Honey"
+    },
+    {
+        "utc_time": "2021-04-03T00:18:00Z",
+        "artist": "JUTO",
+        "album": "Wayback (Remix)",
+        "track": "Wayback - Remix"
+    },
+    {
+        "utc_time": "2021-04-02T23:47:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Keep Me"
+    },
+    {
+        "utc_time": "2021-04-02T23:44:00Z",
+        "artist": "Keshi",
+        "album": "skeletons",
+        "track": "atlas"
+    },
+    {
+        "utc_time": "2021-04-02T23:40:00Z",
+        "artist": "Gucci Mane",
+        "album": "Wake Up in the Sky",
+        "track": "Wake Up in the Sky"
+    },
+    {
+        "utc_time": "2021-04-02T23:36:00Z",
+        "artist": "Kehlani",
+        "album": "You Should Be Here",
+        "track": "The Way (feat. Chance the Rapper)"
+    },
+    {
+        "utc_time": "2021-04-02T22:30:00Z",
+        "artist": "Kim Bum Soo",
+        "album": "HIM",
+        "track": "Home meal (feat.Geeks, Mrs.Lee)"
+    },
+    {
+        "utc_time": "2021-04-02T22:27:00Z",
+        "artist": "Bazanji",
+        "album": "Beachside",
+        "track": "Beachside"
+    },
+    {
+        "utc_time": "2021-04-01T22:26:00Z",
+        "artist": "Pixie Labrador",
+        "album": "You Are",
+        "track": "You Are"
+    },
+    {
+        "utc_time": "2021-04-01T22:22:00Z",
+        "artist": "SAYGRACE",
+        "album": "Memo",
+        "track": "The Honey"
+    },
+    {
+        "utc_time": "2021-04-01T22:18:00Z",
+        "artist": "Ledapple",
+        "album": "With The Wind",
+        "track": "With the Wind"
+    },
+    {
+        "utc_time": "2021-04-01T22:14:00Z",
+        "artist": "The Legend",
+        "album": "Sound Up!",
+        "track": "Crush On You"
+    },
+    {
+        "utc_time": "2021-04-01T22:11:00Z",
+        "artist": "K. Michelle",
+        "album": "Kimberly: The People I Used To Know",
+        "track": "Crazy Like You"
+    },
+    {
+        "utc_time": "2021-04-01T22:07:00Z",
+        "artist": "Avenue Beat",
+        "album": "F2020",
+        "track": "F2020"
+    },
+    {
+        "utc_time": "2021-04-01T19:58:00Z",
+        "artist": "Lee Juck",
+        "album": "The Meaning of Solitude",
+        "track": "Lie Lie Lie"
+    },
+    {
+        "utc_time": "2021-04-01T19:53:00Z",
+        "artist": "Desiigner",
+        "album": "Panda",
+        "track": "Panda"
+    },
+    {
+        "utc_time": "2021-04-01T19:50:00Z",
+        "artist": "Selena Gomez",
+        "album": "Bad Liar",
+        "track": "Bad Liar"
+    },
+    {
+        "utc_time": "2021-04-01T19:46:00Z",
+        "artist": "88Rising",
+        "album": "Head In The Clouds",
+        "track": "History"
+    },
+    {
+        "utc_time": "2021-04-01T19:43:00Z",
+        "artist": "Dane Amar",
+        "album": "Green Tea & Honey",
+        "track": "Green Tea & Honey"
+    },
+    {
+        "utc_time": "2021-04-01T19:39:00Z",
+        "artist": "HI SUHYUN",
+        "album": "I'm Different",
+        "track": "I'm Different"
+    },
+    {
+        "utc_time": "2021-04-01T19:36:00Z",
+        "artist": "Sara Bareilles",
+        "album": "Kaleidoscope Heart",
+        "track": "King of Anything"
+    },
+    {
+        "utc_time": "2021-04-01T19:33:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "2 The Face"
+    },
+    {
+        "utc_time": "2021-04-01T19:31:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Limbo (Deluxe)",
+        "track": "Zack & Cody (feat. Valee)"
+    },
+    {
+        "utc_time": "2021-04-01T19:27:00Z",
+        "artist": "Bernard Park",
+        "album": "\ub09c\u2026 I'm\u2026",
+        "track": "Before The Rain"
+    },
+    {
+        "utc_time": "2021-04-01T19:23:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Trip",
+        "track": "While We're Young"
+    },
+    {
+        "utc_time": "2021-04-01T19:20:00Z",
+        "artist": "\uc11c\uc778\uad6d",
+        "album": "Master`s sun OST Part 7",
+        "track": "No Matter What"
+    },
+    {
+        "utc_time": "2021-04-01T19:15:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-04-01T13:00:00Z",
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "track": "Versace on the Floor"
+    },
+    {
+        "utc_time": "2021-04-01T04:12:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "Lucky"
+    },
+    {
+        "utc_time": "2021-04-01T04:08:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-04-01T04:05:00Z",
+        "artist": "Keshi",
+        "album": "skeletons",
+        "track": "atlas"
+    },
+    {
+        "utc_time": "2021-03-31T23:26:00Z",
+        "artist": "Bruno Mars",
+        "album": "Versace on the Floor",
+        "track": "Versace on the Floor"
+    },
+    {
+        "utc_time": "2021-03-31T23:23:00Z",
+        "artist": "K. Michelle",
+        "album": "Kimberly: The People I Used To Know",
+        "track": "Crazy Like You"
+    },
+    {
+        "utc_time": "2021-03-31T23:19:00Z",
+        "artist": "Jonny Brenns",
+        "album": "Blue Jeans",
+        "track": "Blue Jeans"
+    },
+    {
+        "utc_time": "2021-03-31T23:16:00Z",
+        "artist": "Pentatonix",
+        "album": "That's Christmas to Me (Deluxe Edition)",
+        "track": "That's Christmas to Me"
+    },
+    {
+        "utc_time": "2021-03-31T23:13:00Z",
+        "artist": "Kehlani",
+        "album": "You Should Be Here",
+        "track": "How That Taste"
+    },
+    {
+        "utc_time": "2021-03-31T23:09:00Z",
+        "artist": "Imogen Heap",
+        "album": "Speak for Yourself",
+        "track": "Hide and Seek"
+    },
+    {
+        "utc_time": "2021-03-31T23:06:00Z",
+        "artist": "CommonMinds",
+        "album": "The Wave",
+        "track": "The Wave"
+    },
+    {
+        "utc_time": "2021-03-31T23:02:00Z",
+        "artist": "Galantis",
+        "album": "Church",
+        "track": "We Can Get High (with Yellow Claw)"
+    },
+    {
+        "utc_time": "2021-03-31T22:58:00Z",
+        "artist": "Jay Park",
+        "album": "V",
+        "track": "V"
+    },
+    {
+        "utc_time": "2021-03-31T22:55:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "Lucky"
+    },
+    {
+        "utc_time": "2021-03-31T22:52:00Z",
+        "artist": "Lauv",
+        "album": "Drugs & The Internet",
+        "track": "Drugs & the Internet"
+    },
+    {
+        "utc_time": "2021-03-31T22:50:00Z",
+        "artist": "Khalid",
+        "album": "Suncity",
+        "track": "Better"
+    },
+    {
+        "utc_time": "2021-03-31T22:49:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Walking (feat. Swae Lee & Major Lazer)"
+    },
+    {
+        "utc_time": "2021-03-31T22:46:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "Lucky"
+    },
+    {
+        "utc_time": "2021-03-31T22:42:00Z",
+        "artist": "Winnie Hsin",
+        "album": "\u5473\u9053",
+        "track": "\u5473\u9053"
+    },
+    {
+        "utc_time": "2021-03-31T22:38:00Z",
+        "artist": "\uc545\ub3d9\ubba4\uc9c0\uc158",
+        "album": "PLAY",
+        "track": "Melted"
+    },
+    {
+        "utc_time": "2021-03-31T22:33:00Z",
+        "artist": "\uc545\ub3d9\ubba4\uc9c0\uc158",
+        "album": "PLAY",
+        "track": "Melted"
+    },
+    {
+        "utc_time": "2021-03-31T22:30:00Z",
+        "artist": "88Rising",
+        "album": "Head In The Clouds",
+        "track": "Let It Go"
+    },
+    {
+        "utc_time": "2021-03-31T22:27:00Z",
+        "artist": "BLACKPINK",
+        "album": "AS IF IT'S YOUR LAST",
+        "track": "AS IF IT'S YOUR LAST"
+    },
+    {
+        "utc_time": "2021-03-31T22:23:00Z",
+        "artist": "Landon Cube",
+        "album": "Orange",
+        "track": "17"
+    },
+    {
+        "utc_time": "2021-03-31T22:18:00Z",
+        "artist": "Twenty One Pilots",
+        "album": "Blurryface",
+        "track": "Stressed Out"
+    },
+    {
+        "utc_time": "2021-03-31T22:13:00Z",
+        "artist": "Ashton Edminster",
+        "album": "Break the Distance 2.0",
+        "track": "Break the Distance 2.0"
+    },
+    {
+        "utc_time": "2021-03-31T22:09:00Z",
+        "artist": "Eddie Redmayne",
+        "album": "Les Mis\u00e9rables: The Motion Picture Soundtrack Deluxe (Deluxe Edition)",
+        "track": "Empty Chairs At Empty Tables"
+    },
+    {
+        "utc_time": "2021-03-31T22:05:00Z",
+        "artist": "Delaney Jane",
+        "album": "Howl",
+        "track": "Howl"
+    },
+    {
+        "utc_time": "2021-03-31T22:01:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "B.S. (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-31T21:57:00Z",
+        "artist": "Jason Mraz",
+        "album": "Love Is A Four Letter Word (Deluxe Edition)",
+        "track": "I Won't Give Up"
+    },
+    {
+        "utc_time": "2021-03-31T21:52:00Z",
+        "artist": "G.NA",
+        "album": "Hitman Project : A Tribute To The Hitman, David Foster",
+        "track": "Mornin' (feat.Phantom)"
+    },
+    {
+        "utc_time": "2021-03-31T21:48:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Summerhouse"
+    },
+    {
+        "utc_time": "2021-03-31T21:45:00Z",
+        "artist": "Lady Gaga",
+        "album": "A Star Is Born Soundtrack (Without Dialogue)",
+        "track": "Always Remember Us This Way"
+    },
+    {
+        "utc_time": "2021-03-31T21:26:00Z",
+        "artist": "Quality Control",
+        "album": "Quality Control: Control the Streets Volume 1",
+        "track": "She For Keeps"
+    },
+    {
+        "utc_time": "2021-03-31T21:23:00Z",
+        "artist": "Pentatonix",
+        "album": "Pentatonix (Deluxe Version)",
+        "track": "Can't Sleep Love"
+    },
+    {
+        "utc_time": "2021-03-31T21:20:00Z",
+        "artist": "The Beatles",
+        "album": "Abbey Road (Remastered)",
+        "track": "Something - Remastered 2009"
+    },
+    {
+        "utc_time": "2021-03-30T20:00:00Z",
+        "artist": "Ariana Grande",
+        "album": "Trolls (Original Motion Picture Soundtrack)",
+        "track": "They Don't Know"
+    },
+    {
+        "utc_time": "2021-03-30T19:56:00Z",
+        "artist": "Kim Yeon Woo",
+        "album": "Melt Away",
+        "track": "Melt Away"
+    },
+    {
+        "utc_time": "2021-03-30T19:44:00Z",
+        "artist": "Louis The Child",
+        "album": "Every Color (Remixes)",
+        "track": "Every Color (with Foster The People) - Dombresky Remix"
+    },
+    {
+        "utc_time": "2021-03-30T19:40:00Z",
+        "artist": "SHINee",
+        "album": "Sherlock - The 4th Mini Album",
+        "track": "Honesty"
+    },
+    {
+        "utc_time": "2021-03-30T03:07:00Z",
+        "artist": "Sam Smith",
+        "album": "Dancing With a Stranger (with Normani)",
+        "track": "Dancing With a Stranger (with Normani)"
+    },
+    {
+        "utc_time": "2021-03-30T03:03:00Z",
+        "artist": "Rihanna",
+        "album": "ANTI",
+        "track": "Love on the Brain"
+    },
+    {
+        "utc_time": "2021-03-29T20:05:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Finish Line / Drown (feat. T-Pain, Kirk Franklin, Eryn Allen Kane & Noname)"
+    },
+    {
+        "utc_time": "2021-03-29T15:49:00Z",
+        "artist": "Eden",
+        "album": "no future",
+        "track": "hertz"
+    },
+    {
+        "utc_time": "2021-03-29T15:46:00Z",
+        "artist": "Pentatonix",
+        "album": "Pentatonix (Deluxe Version)",
+        "track": "Can't Sleep Love"
+    },
+    {
+        "utc_time": "2021-03-29T15:43:00Z",
+        "artist": "Winner",
+        "album": "2014 S/S",
+        "track": "\uacf5\ud5c8\ud574 Empty"
+    },
+    {
+        "utc_time": "2021-03-29T15:39:00Z",
+        "artist": "Winner",
+        "album": "2014 S/S",
+        "track": "\uceec\ub7ec\ub9c1 Color Ring"
+    },
+    {
+        "utc_time": "2021-03-29T15:35:00Z",
+        "artist": "taeyeon",
+        "album": "I - The 1st Mini Album",
+        "track": "I"
+    },
+    {
+        "utc_time": "2021-03-29T15:32:00Z",
+        "artist": "KOTA The Friend",
+        "album": "Anything.",
+        "track": "Daylight"
+    },
+    {
+        "utc_time": "2021-03-29T15:29:00Z",
+        "artist": "Charlie Puth",
+        "album": "Nine Track Mind",
+        "track": "One Call Away"
+    },
+    {
+        "utc_time": "2021-03-29T15:27:00Z",
+        "artist": "Lil Baby",
+        "album": "Harder Than Ever",
+        "track": "Yes Indeed"
+    },
+    {
+        "utc_time": "2021-03-29T15:23:00Z",
+        "artist": "Bill Mitchell",
+        "album": "Little Shop of Horrors (Original Motion Picture Soundtrack)",
+        "track": "Prologue (Little Shop of Horrors)"
+    },
+    {
+        "utc_time": "2021-03-29T15:19:00Z",
+        "artist": "B.A.P",
+        "album": "Coffee Shop",
+        "track": "Coffee Shop"
+    },
+    {
+        "utc_time": "2021-03-29T15:16:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "half alive"
+    },
+    {
+        "utc_time": "2021-03-29T15:13:00Z",
+        "artist": "Lany",
+        "album": "kinda",
+        "track": "current location"
+    },
+    {
+        "utc_time": "2021-03-29T15:09:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "BURNT AF"
+    },
+    {
+        "utc_time": "2021-03-29T15:05:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Hollywood"
+    },
+    {
+        "utc_time": "2021-03-29T15:03:00Z",
+        "artist": "Kid Travis",
+        "album": "Sad!",
+        "track": "Sad!"
+    },
+    {
+        "utc_time": "2021-03-29T14:58:00Z",
+        "artist": "\ubc15\ud6a8\uc2e0",
+        "album": "I am A Dreamer",
+        "track": "Wild Flower"
+    },
+    {
+        "utc_time": "2021-03-29T14:54:00Z",
+        "artist": "High School Musical Cast",
+        "album": "High School Musical 3: Senior Year",
+        "track": "Can I Have This Dance - Original Version"
+    },
+    {
+        "utc_time": "2021-03-29T14:50:00Z",
+        "artist": "Billie Marten",
+        "album": "La Lune",
+        "track": "La Lune"
+    },
+    {
+        "utc_time": "2021-03-29T14:46:00Z",
+        "artist": "fun.",
+        "album": "Some Nights",
+        "track": "Some Nights"
+    },
+    {
+        "utc_time": "2021-03-29T14:43:00Z",
+        "artist": "Aurora",
+        "album": "All My Demons Greeting Me As A Friend (Deluxe Version)",
+        "track": "Running with the Wolves"
+    },
+    {
+        "utc_time": "2021-03-29T14:40:00Z",
+        "artist": "bbno$",
+        "album": "recess",
+        "track": "jurassic"
+    },
+    {
+        "utc_time": "2021-03-29T14:36:00Z",
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "track": "That's What I Like"
+    },
+    {
+        "utc_time": "2021-03-29T14:33:00Z",
+        "artist": "Kehlani",
+        "album": "Honey",
+        "track": "Honey"
+    },
+    {
+        "utc_time": "2021-03-29T14:29:00Z",
+        "artist": "Lady Gaga",
+        "album": "A Star Is Born Soundtrack (Without Dialogue)",
+        "track": "Always Remember Us This Way"
+    },
+    {
+        "utc_time": "2021-03-29T14:25:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Church"
+    },
+    {
+        "utc_time": "2021-03-29T14:21:00Z",
+        "artist": "SZA",
+        "album": "Ctrl",
+        "track": "Drew Barrymore"
+    },
+    {
+        "utc_time": "2021-03-29T14:18:00Z",
+        "artist": "Rex Orange County",
+        "album": "Pony",
+        "track": "Always"
+    },
+    {
+        "utc_time": "2021-03-29T14:14:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "listen before i go"
+    },
+    {
+        "utc_time": "2021-03-29T14:10:00Z",
+        "artist": "Mikky Ekko",
+        "album": "Time (Spotify Exclusive)",
+        "track": "Smile"
+    },
+    {
+        "utc_time": "2021-03-29T14:07:00Z",
+        "artist": "beabadoobee",
+        "album": "Loveworm",
+        "track": "Apple Cider"
+    },
+    {
+        "utc_time": "2021-03-29T14:04:00Z",
+        "artist": "Lauren Ambrose",
+        "album": "My Fair Lady (2018 Broadway Cast Recording)",
+        "track": "Wouldn't It Be Loverly?"
+    },
+    {
+        "utc_time": "2021-03-29T03:31:00Z",
+        "artist": "A Great Big World",
+        "album": "Is There Anybody Out There?",
+        "track": "Say Something"
+    },
+    {
+        "utc_time": "2021-03-29T03:28:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "nasty"
+    },
+    {
+        "utc_time": "2021-03-29T03:24:00Z",
+        "artist": "Jay Park",
+        "album": "Everything You Wanted",
+        "track": "All I Wanna Do (feat. Hoody & \ub85c\uaf2c Loco) [Korean Version]"
+    },
+    {
+        "utc_time": "2021-03-29T03:20:00Z",
+        "artist": "Troy",
+        "album": "High School Musical 2 (Original Soundtrack)",
+        "track": "Everyday"
+    },
+    {
+        "utc_time": "2021-03-29T03:16:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Triggered (Freestyle)"
+    },
+    {
+        "utc_time": "2021-03-29T03:13:00Z",
+        "artist": "moonmoon",
+        "album": "Life Is Beauty Full",
+        "track": "\ube44\ud589\uc6b4 Contrail"
+    },
+    {
+        "utc_time": "2021-03-28T19:48:00Z",
+        "artist": "Lauren Ambrose",
+        "album": "My Fair Lady (2018 Broadway Cast Recording)",
+        "track": "Wouldn't It Be Loverly?"
+    },
+    {
+        "utc_time": "2021-03-27T21:05:00Z",
+        "artist": "G-Eazy",
+        "album": "When It's Dark Out",
+        "track": "Me, Myself & I"
+    },
+    {
+        "utc_time": "2021-03-27T21:03:00Z",
+        "artist": "blackbear",
+        "album": "deadroses",
+        "track": "4u"
+    },
+    {
+        "utc_time": "2021-03-27T21:00:00Z",
+        "artist": "Zayn",
+        "album": "Fingers",
+        "track": "Fingers"
+    },
+    {
+        "utc_time": "2021-03-27T20:57:00Z",
+        "artist": "Kendrick Lamar",
+        "album": "DAMN.",
+        "track": "HUMBLE."
+    },
+    {
+        "utc_time": "2021-03-27T20:54:00Z",
+        "artist": "Rich the Kid",
+        "album": "The World is Yours",
+        "track": "Plug Walk"
+    },
+    {
+        "utc_time": "2021-03-27T20:51:00Z",
+        "artist": "347aidan",
+        "album": "Dancing in My Room",
+        "track": "Dancing in My Room"
+    },
+    {
+        "utc_time": "2021-03-27T20:48:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "hot girl bummer"
+    },
+    {
+        "utc_time": "2021-03-27T20:43:00Z",
+        "artist": "Ziv Zaifman",
+        "album": "The Greatest Showman (Original Motion Picture Soundtrack)",
+        "track": "A Million Dreams"
+    },
+    {
+        "utc_time": "2021-03-27T20:39:00Z",
+        "artist": "Amanda Seyfried",
+        "album": "Les Mis\u00e9rables: Highlights From The Motion Picture Soundtrack",
+        "track": "In My Life / A Heart Full Of Love"
+    },
+    {
+        "utc_time": "2021-03-27T20:35:00Z",
+        "artist": "Exo",
+        "album": "SING FOR YOU - Winter Special Album, 2015",
+        "track": "SING FOR YOU"
+    },
+    {
+        "utc_time": "2021-03-27T20:32:00Z",
+        "artist": "Jonas Blue",
+        "album": "Polaroid",
+        "track": "Polaroid"
+    },
+    {
+        "utc_time": "2021-03-27T20:29:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Star"
+    },
+    {
+        "utc_time": "2021-03-27T20:26:00Z",
+        "artist": "Jess Glynne",
+        "album": "I'll Be There",
+        "track": "I'll Be There"
+    },
+    {
+        "utc_time": "2021-03-27T20:02:00Z",
+        "artist": "Exo",
+        "album": "Universe \u2013 Winter Special Album, 2017",
+        "track": "Universe"
+    },
+    {
+        "utc_time": "2021-03-27T19:59:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "La La Lost You"
+    },
+    {
+        "utc_time": "2021-03-27T19:56:00Z",
+        "artist": "Pink Sweat$",
+        "album": "17",
+        "track": "17"
+    },
+    {
+        "utc_time": "2021-03-27T19:52:00Z",
+        "artist": "Charlie Puth",
+        "album": "Nine Track Mind",
+        "track": "We Don't Talk Anymore (feat. Selena Gomez)"
+    },
+    {
+        "utc_time": "2021-03-27T16:44:00Z",
+        "artist": "\ud604\uc544",
+        "album": "A Talk",
+        "track": "\ube68\uac1c\uc694"
+    },
+    {
+        "utc_time": "2021-03-27T16:40:00Z",
+        "artist": "Brandi Carlile",
+        "album": "Party Of One (feat. Sam Smith)",
+        "track": "Party Of One (feat. Sam Smith)"
+    },
+    {
+        "utc_time": "2021-03-27T16:32:00Z",
+        "artist": "Dua Lipa",
+        "album": "Dua Lipa (Deluxe)",
+        "track": "IDGAF"
+    },
+    {
+        "utc_time": "2021-03-27T16:29:00Z",
+        "artist": "Ariana Grande",
+        "album": "Sweetener",
+        "track": "God is a woman"
+    },
+    {
+        "utc_time": "2021-03-27T16:26:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "shut up"
+    },
+    {
+        "utc_time": "2021-03-27T04:08:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX Vol. IV - Classics",
+        "track": "Bohemian Rhapsody"
+    },
+    {
+        "utc_time": "2021-03-27T03:24:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX Vol. IV - Classics",
+        "track": "Bohemian Rhapsody"
+    },
+    {
+        "utc_time": "2021-03-27T03:20:00Z",
+        "artist": "Ledapple",
+        "album": "With The Wind",
+        "track": "With the Wind"
+    },
+    {
+        "utc_time": "2021-03-27T03:17:00Z",
+        "artist": "Bruno Major",
+        "album": "Nothing",
+        "track": "Nothing"
+    },
+    {
+        "utc_time": "2021-03-27T03:14:00Z",
+        "artist": "Suzy",
+        "album": "Dream",
+        "track": "Dream"
+    },
+    {
+        "utc_time": "2021-03-27T03:11:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX Vol. IV - Classics",
+        "track": "Can't Help Falling in Love"
+    },
+    {
+        "utc_time": "2021-03-27T00:18:00Z",
+        "artist": "Ross David",
+        "album": "Run Before We Walk",
+        "track": "Goddess"
+    },
+    {
+        "utc_time": "2021-03-27T00:14:00Z",
+        "artist": "blackbear",
+        "album": "digital druglord",
+        "track": "moodz (feat. 24hrs)"
+    },
+    {
+        "utc_time": "2021-03-27T00:11:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hopscotch (feat. Barney Bones & Rich Brian)"
+    },
+    {
+        "utc_time": "2021-03-27T00:07:00Z",
+        "artist": "Hyolyn",
+        "album": "ERASE",
+        "track": "Erase"
+    },
+    {
+        "utc_time": "2021-03-27T00:04:00Z",
+        "artist": "Dominic Fike",
+        "album": "A\u00e7a\u00ed Bowl",
+        "track": "A\u00e7a\u00ed Bowl"
+    },
+    {
+        "utc_time": "2021-03-27T00:00:00Z",
+        "artist": "SoYou & JunggiGo",
+        "album": "SOME",
+        "track": "Some (feat.Geeks Lil Boi)"
+    },
+    {
+        "utc_time": "2021-03-26T23:58:00Z",
+        "artist": "Kehlani",
+        "album": "You Should Be Here",
+        "track": "How That Taste"
+    },
+    {
+        "utc_time": "2021-03-26T23:53:00Z",
+        "artist": "Bigbang",
+        "album": "MADE",
+        "track": "LAST DANCE"
+    },
+    {
+        "utc_time": "2021-03-26T23:50:00Z",
+        "artist": "Rich the Kid",
+        "album": "Splashin",
+        "track": "Splashin"
+    },
+    {
+        "utc_time": "2021-03-26T23:47:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Backyard"
+    },
+    {
+        "utc_time": "2021-03-26T23:43:00Z",
+        "artist": "Charlie Puth",
+        "album": "Nine Track Mind",
+        "track": "We Don't Talk Anymore (feat. Selena Gomez)"
+    },
+    {
+        "utc_time": "2021-03-26T23:39:00Z",
+        "artist": "Sam Smith",
+        "album": "In The Lonely Hour (Drowning Shadows Edition)",
+        "track": "Lay Me Down"
+    },
+    {
+        "utc_time": "2021-03-26T23:36:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Beautiful"
+    },
+    {
+        "utc_time": "2021-03-26T22:58:00Z",
+        "artist": "Pixie Labrador",
+        "album": "You Are",
+        "track": "You Are"
+    },
+    {
+        "utc_time": "2021-03-26T22:53:00Z",
+        "artist": "Exo",
+        "album": "Miracles In December (Chinese Version)",
+        "track": "Miracles in December - Chinese Version"
+    },
+    {
+        "utc_time": "2021-03-26T22:49:00Z",
+        "artist": "Ashton Edminster",
+        "album": "Break the Distance 2.0",
+        "track": "Break the Distance 2.0"
+    },
+    {
+        "utc_time": "2021-03-26T22:45:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Angels (feat. Saba)"
+    },
+    {
+        "utc_time": "2021-03-26T22:42:00Z",
+        "artist": "Keshi",
+        "album": "always",
+        "track": "drunk"
+    },
+    {
+        "utc_time": "2021-03-25T14:58:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "We Find Love"
+    },
+    {
+        "utc_time": "2021-03-25T14:55:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Good for You",
+        "track": "Caroline"
+    },
+    {
+        "utc_time": "2021-03-25T14:52:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Breathe"
+    },
+    {
+        "utc_time": "2021-03-25T14:49:00Z",
+        "artist": "Laura Dreyfuss",
+        "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+        "track": "Only Us"
+    },
+    {
+        "utc_time": "2021-03-25T14:46:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "KOALA"
+    },
+    {
+        "utc_time": "2021-03-25T14:43:00Z",
+        "artist": "Jeremy Passion",
+        "album": "For More Than a Feeling",
+        "track": "Lemonade - Ukulele Version"
+    },
+    {
+        "utc_time": "2021-03-25T14:40:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Morocco"
+    },
+    {
+        "utc_time": "2021-03-25T14:36:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Blessed"
+    },
+    {
+        "utc_time": "2021-03-25T14:34:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Limbo (Deluxe)",
+        "track": "Zack & Cody (feat. Valee)"
+    },
+    {
+        "utc_time": "2021-03-25T14:10:00Z",
+        "artist": "Emma Watson",
+        "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+        "track": "Belle"
+    },
+    {
+        "utc_time": "2021-03-25T14:07:00Z",
+        "artist": "Louis Tomlinson",
+        "album": "Back to You (feat. Bebe Rexha & Digital Farm Animals)",
+        "track": "Back to You (feat. Bebe Rexha & Digital Farm Animals)"
+    },
+    {
+        "utc_time": "2021-03-25T14:03:00Z",
+        "artist": "Frank Ocean",
+        "album": "Moon River",
+        "track": "Moon River"
+    },
+    {
+        "utc_time": "2021-03-25T14:00:00Z",
+        "artist": "Exo",
+        "album": "EX'ACT - The 3rd Album",
+        "track": "Lucky One"
+    },
+    {
+        "utc_time": "2021-03-25T13:56:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "imagine"
+    },
+    {
+        "utc_time": "2021-03-25T13:53:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Loose"
+    },
+    {
+        "utc_time": "2021-03-25T13:49:00Z",
+        "artist": "Bruno Mars",
+        "album": "Doo-Wops & Hooligans",
+        "track": "Talking to the Moon"
+    },
+    {
+        "utc_time": "2021-03-25T13:47:00Z",
+        "artist": "Maude Latour",
+        "album": "Superfruit",
+        "track": "Superfruit"
+    },
+    {
+        "utc_time": "2021-03-25T13:40:00Z",
+        "artist": "The Beatles",
+        "album": "1 (Remastered)",
+        "track": "Hey Jude - Remastered 2015"
+    },
+    {
+        "utc_time": "2021-03-25T13:38:00Z",
+        "artist": "Chance the Rapper",
+        "album": "The Big Day",
+        "track": "Hot Shower"
+    },
+    {
+        "utc_time": "2021-03-25T02:28:00Z",
+        "artist": "FlowSik",
+        "album": "\uc816\uc5b4'S (Wet)",
+        "track": "\uc816\uc5b4'S (Wet)"
+    },
+    {
+        "utc_time": "2021-03-25T02:25:00Z",
+        "artist": "Hyolyn",
+        "album": "Love & Hate",
+        "track": "One Way Love"
+    },
+    {
+        "utc_time": "2021-03-25T02:18:00Z",
+        "artist": "347aidan",
+        "album": "Dancing in My Room",
+        "track": "Dancing in My Room"
+    },
+    {
+        "utc_time": "2021-03-25T02:15:00Z",
+        "artist": "Winner",
+        "album": "2014 S/S",
+        "track": "\uacf5\ud5c8\ud574 Empty"
+    },
+    {
+        "utc_time": "2021-03-25T02:11:00Z",
+        "artist": "Shawn Mendes",
+        "album": "Illuminate (Deluxe)",
+        "track": "Roses"
+    },
+    {
+        "utc_time": "2021-03-25T02:08:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "needy"
+    },
+    {
+        "utc_time": "2021-03-24T17:35:00Z",
+        "artist": "Chance the Rapper",
+        "album": "The Big Day",
+        "track": "Hot Shower"
+    },
+    {
+        "utc_time": "2021-03-24T17:02:00Z",
+        "artist": "Travie McCoy",
+        "album": "Billionaire (Feat. Bruno Mars)",
+        "track": "Billionaire (feat. Bruno Mars)"
+    },
+    {
+        "utc_time": "2021-03-24T16:56:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Trip",
+        "track": "OLLA (Only Lovers Left Alive)"
+    },
+    {
+        "utc_time": "2021-03-24T16:53:00Z",
+        "artist": "Alina Baraz",
+        "album": "The Color of You",
+        "track": "Floating (feat. Khalid)"
+    },
+    {
+        "utc_time": "2021-03-24T16:48:00Z",
+        "artist": "Nick Wilson",
+        "album": "Bright Eyes",
+        "track": "Stay"
+    },
+    {
+        "utc_time": "2021-03-24T16:43:00Z",
+        "artist": "Childish Gambino",
+        "album": "\"Awaken, My Love!\"",
+        "track": "Redbone"
+    },
+    {
+        "utc_time": "2021-03-24T16:38:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Transform (feat. Charlotte Day Wilson)"
+    },
+    {
+        "utc_time": "2021-03-24T16:35:00Z",
+        "artist": "Ella Isaacson",
+        "album": "King",
+        "track": "King"
+    },
+    {
+        "utc_time": "2021-03-24T16:32:00Z",
+        "artist": "Billie Eilish",
+        "album": "dont smile at me",
+        "track": "idontwannabeyouanymore"
+    },
+    {
+        "utc_time": "2021-03-24T16:28:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Mi Casa"
+    },
+    {
+        "utc_time": "2021-03-24T16:25:00Z",
+        "artist": "Olivia O'Brien",
+        "album": "RIP (feat. G-Eazy & Drew Love)",
+        "track": "RIP (feat. G-Eazy & Drew Love)"
+    },
+    {
+        "utc_time": "2021-03-24T16:22:00Z",
+        "artist": "Lauv",
+        "album": "~how i'm feeling~",
+        "track": "Sims"
+    },
+    {
+        "utc_time": "2021-03-24T16:18:00Z",
+        "artist": "SZA",
+        "album": "Ctrl",
+        "track": "Doves in the Wind (feat. Kendrick Lamar)"
+    },
+    {
+        "utc_time": "2021-03-24T16:14:00Z",
+        "artist": "Jay Park",
+        "album": "V",
+        "track": "V"
+    },
+    {
+        "utc_time": "2021-03-24T16:10:00Z",
+        "artist": "mansionz",
+        "album": "Mansionz",
+        "track": "stfu"
+    },
+    {
+        "utc_time": "2021-03-24T16:06:00Z",
+        "artist": "Wingtip",
+        "album": "Space For Us",
+        "track": "Space For Us"
+    },
+    {
+        "utc_time": "2021-03-24T16:03:00Z",
+        "artist": "Marshmello",
+        "album": "FRIENDS",
+        "track": "FRIENDS"
+    },
+    {
+        "utc_time": "2021-03-24T16:00:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX Vol. IV - Classics",
+        "track": "Can't Help Falling in Love"
+    },
+    {
+        "utc_time": "2021-03-24T15:57:00Z",
+        "artist": "Vibe",
+        "album": "\uc378\ud0c0 Lil' Something - SM STATION",
+        "track": "\uc378\ud0c0 Lil' Something"
+    },
+    {
+        "utc_time": "2021-03-24T15:53:00Z",
+        "artist": "BLACKPINK",
+        "album": "SQUARE TWO",
+        "track": "STAY"
+    },
+    {
+        "utc_time": "2021-03-24T15:49:00Z",
+        "artist": "Galantis",
+        "album": "Church",
+        "track": "Bones (feat. OneRepublic)"
+    },
+    {
+        "utc_time": "2021-03-24T15:45:00Z",
+        "artist": "Christina Perri",
+        "album": "Lovestrong.",
+        "track": "Jar of Hearts"
+    },
+    {
+        "utc_time": "2021-03-24T15:42:00Z",
+        "artist": "Troye Sivan",
+        "album": "Blue Neighbourhood (Deluxe)",
+        "track": "BITE"
+    },
+    {
+        "utc_time": "2021-03-24T15:39:00Z",
+        "artist": "Jessie Reyez",
+        "album": "Figures, a Reprise",
+        "track": "Figures, a Reprise"
+    },
+    {
+        "utc_time": "2021-03-24T15:35:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Location"
+    },
+    {
+        "utc_time": "2021-03-24T15:30:00Z",
+        "artist": "Beyonc\u00e9",
+        "album": "4",
+        "track": "Love on Top"
+    },
+    {
+        "utc_time": "2021-03-24T15:26:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Away Park"
+    },
+    {
+        "utc_time": "2021-03-24T15:23:00Z",
+        "artist": "Aries",
+        "album": "WELCOME HOME",
+        "track": "SANTA MONICA"
+    },
+    {
+        "utc_time": "2021-03-24T15:19:00Z",
+        "artist": "P!nk",
+        "album": "The Truth About Love",
+        "track": "Just Give Me a Reason (feat. Nate Ruess)"
+    },
+    {
+        "utc_time": "2021-03-24T15:15:00Z",
+        "artist": "Adam Levine",
+        "album": "Lost Stars",
+        "track": "Lost Stars"
+    },
+    {
+        "utc_time": "2021-03-24T15:11:00Z",
+        "artist": "Lady Antebellum",
+        "album": "Own the Night",
+        "track": "Just a Kiss"
+    },
+    {
+        "utc_time": "2021-03-24T15:08:00Z",
+        "artist": "Pentatonix",
+        "album": "Pentatonix (Deluxe Version)",
+        "track": "Misbehavin'"
+    },
+    {
+        "utc_time": "2021-03-24T15:03:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "American Teen"
+    },
+    {
+        "utc_time": "2021-03-24T15:00:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "me & ur ghost"
+    },
+    {
+        "utc_time": "2021-03-22T20:00:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hopscotch (feat. Barney Bones & Rich Brian)"
+    },
+    {
+        "utc_time": "2021-03-22T19:57:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Everything"
+    },
+    {
+        "utc_time": "2021-03-22T19:54:00Z",
+        "artist": "Moses Sumney",
+        "album": "Aromanticism",
+        "track": "Plastic"
+    },
+    {
+        "utc_time": "2021-03-22T19:50:00Z",
+        "artist": "Boyfriend",
+        "album": "WITCH",
+        "track": "You've Moved On"
+    },
+    {
+        "utc_time": "2021-03-22T19:46:00Z",
+        "artist": "Shawn Mendes",
+        "album": "Illuminate (Deluxe)",
+        "track": "Roses"
+    },
+    {
+        "utc_time": "2021-03-22T19:43:00Z",
+        "artist": "Jodi Benson",
+        "album": "Little Mermaid (Special Edition)",
+        "track": "Part of Your World - From \"The Little Mermaid\" / Soundtrack Version"
+    },
+    {
+        "utc_time": "2021-03-22T19:36:00Z",
+        "artist": "Kid Ink",
+        "album": "Tell Somebody",
+        "track": "Tell Somebody"
+    },
+    {
+        "utc_time": "2021-03-22T19:32:00Z",
+        "artist": "blackbear",
+        "album": "Help",
+        "track": "Hustler"
+    },
+    {
+        "utc_time": "2021-03-22T19:28:00Z",
+        "artist": "GB9",
+        "album": "I hope It's breeze",
+        "track": "I hope It's breeze"
+    },
+    {
+        "utc_time": "2021-03-22T19:25:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "positions"
+    },
+    {
+        "utc_time": "2021-03-22T19:22:00Z",
+        "artist": "Delaney Jane",
+        "album": "Howl",
+        "track": "Howl"
+    },
+    {
+        "utc_time": "2021-03-22T19:18:00Z",
+        "artist": "Winner",
+        "album": "2014 S/S",
+        "track": "\uacf5\ud5c8\ud574 Empty"
+    },
+    {
+        "utc_time": "2021-03-22T19:15:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "i feel bad"
+    },
+    {
+        "utc_time": "2021-03-22T19:12:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "Lucky"
+    },
+    {
+        "utc_time": "2021-03-22T19:08:00Z",
+        "artist": "\uc11c\uc778\uad6d",
+        "album": "Master`s sun OST Part 7",
+        "track": "No Matter What"
+    },
+    {
+        "utc_time": "2021-03-22T19:05:00Z",
+        "artist": "High School Musical Cast",
+        "album": "High School Musical 3: Senior Year",
+        "track": "Just Wanna Be With You - Original Version"
+    },
+    {
+        "utc_time": "2021-03-22T19:02:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "half alive"
+    },
+    {
+        "utc_time": "2021-03-22T18:59:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Summerhouse"
+    },
+    {
+        "utc_time": "2021-03-22T18:55:00Z",
+        "artist": "Lauv",
+        "album": "I Like Me Better",
+        "track": "I Like Me Better"
+    },
+    {
+        "utc_time": "2021-03-22T18:53:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "shut up"
+    },
+    {
+        "utc_time": "2021-03-22T17:28:00Z",
+        "artist": "Rex Orange County",
+        "album": "Pony",
+        "track": "Face to Face"
+    },
+    {
+        "utc_time": "2021-03-22T17:25:00Z",
+        "artist": "Zion.T",
+        "album": "ZZZ",
+        "track": "Hello Tutorial"
+    },
+    {
+        "utc_time": "2021-03-22T17:21:00Z",
+        "artist": "James Arthur",
+        "album": "Say You Won't Let Go",
+        "track": "Say You Won't Let Go"
+    },
+    {
+        "utc_time": "2021-03-22T17:18:00Z",
+        "artist": "Travie McCoy",
+        "album": "Billionaire (Feat. Bruno Mars)",
+        "track": "Billionaire (feat. Bruno Mars)"
+    },
+    {
+        "utc_time": "2021-03-22T17:14:00Z",
+        "artist": "Noel",
+        "album": "The Day",
+        "track": "The Day"
+    },
+    {
+        "utc_time": "2021-03-22T17:10:00Z",
+        "artist": "Rae Sremmurd",
+        "album": "SremmLife",
+        "track": "Come Get Her"
+    },
+    {
+        "utc_time": "2021-03-22T17:07:00Z",
+        "artist": "Pentatonix",
+        "album": "That's Christmas to Me (Deluxe Edition)",
+        "track": "That's Christmas to Me"
+    },
+    {
+        "utc_time": "2021-03-22T17:04:00Z",
+        "artist": "Pentatonix",
+        "album": "Pentatonix (Deluxe Version)",
+        "track": "Can't Sleep Love"
+    },
+    {
+        "utc_time": "2021-03-22T17:01:00Z",
+        "artist": "Meghan Trainor",
+        "album": "All About That Bass",
+        "track": "All About That Bass"
+    },
+    {
+        "utc_time": "2021-03-22T16:58:00Z",
+        "artist": "Aaron May",
+        "album": "CHASE",
+        "track": "Closed Hands"
+    },
+    {
+        "utc_time": "2021-03-22T16:55:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Strange Land"
+    },
+    {
+        "utc_time": "2021-03-22T16:53:00Z",
+        "artist": "The Beatles",
+        "album": "Help! (Remastered)",
+        "track": "Yesterday - Remastered 2009"
+    },
+    {
+        "utc_time": "2021-03-22T16:49:00Z",
+        "artist": "Charli XCX",
+        "album": "Out Of My Head (feat. Tove Lo and ALMA)",
+        "track": "Out of My Head (feat. Tove Lo and ALMA)"
+    },
+    {
+        "utc_time": "2021-03-22T16:47:00Z",
+        "artist": "88Rising",
+        "album": "Head In The Clouds",
+        "track": "Let It Go"
+    },
+    {
+        "utc_time": "2021-03-22T16:43:00Z",
+        "artist": "Lauv",
+        "album": "~how i'm feeling~",
+        "track": "Modern Loneliness"
+    },
+    {
+        "utc_time": "2021-03-22T16:39:00Z",
+        "artist": "Super Junior-D&E",
+        "album": "'The Beat Goes On' Special Edition",
+        "track": "\uc544\uc9c1\ub3c4 \ub09c (Still You)"
+    },
+    {
+        "utc_time": "2021-03-22T16:35:00Z",
+        "artist": "Rihanna",
+        "album": "ANTI",
+        "track": "Love on the Brain"
+    },
+    {
+        "utc_time": "2021-03-22T16:31:00Z",
+        "artist": "Exo",
+        "album": "Universe \u2013 Winter Special Album, 2017",
+        "track": "Universe"
+    },
+    {
+        "utc_time": "2021-03-22T16:05:00Z",
+        "artist": "Camila Cabello",
+        "album": "Real Friends",
+        "track": "Real Friends"
+    },
+    {
+        "utc_time": "2021-03-22T16:01:00Z",
+        "artist": "Khalid",
+        "album": "Suncity",
+        "track": "Better"
+    },
+    {
+        "utc_time": "2021-03-22T15:58:00Z",
+        "artist": "Rex Orange County",
+        "album": "Pony",
+        "track": "Face to Face"
+    },
+    {
+        "utc_time": "2021-03-22T15:54:00Z",
+        "artist": "Nell",
+        "album": "Green Nocturne",
+        "track": "Green Nocturne"
+    },
+    {
+        "utc_time": "2021-03-22T15:48:00Z",
+        "artist": "Mac Miller",
+        "album": "GO:OD AM",
+        "track": "ROS"
+    },
+    {
+        "utc_time": "2021-03-22T15:45:00Z",
+        "artist": "Dumbfoundead",
+        "album": "CAFE BLEU",
+        "track": "WASHED (PROD. BY SHAWN WASABI)"
+    },
+    {
+        "utc_time": "2021-03-22T15:42:00Z",
+        "artist": "Lauren Aquilina",
+        "album": "Fools",
+        "track": "King"
+    },
+    {
+        "utc_time": "2021-03-21T21:58:00Z",
+        "artist": "Pyotr Ilyich Tchaikovsky",
+        "album": "Tchaikovsky: Swan Lake",
+        "track": "Tchaikovsky: Swan Lake, Op. 20, Act 2: No. 10, Sc\u00e8ne (Moderato)"
+    },
+    {
+        "utc_time": "2021-03-21T21:47:00Z",
+        "artist": "Shannon",
+        "album": "Hatred Farewell",
+        "track": "Hatred Farewell"
+    },
+    {
+        "utc_time": "2021-03-21T21:44:00Z",
+        "artist": "Troye Sivan",
+        "album": "Blue Neighbourhood (Deluxe)",
+        "track": "BITE"
+    },
+    {
+        "utc_time": "2021-03-21T19:28:00Z",
+        "artist": "Maroon 5",
+        "album": "Girls Like You (feat. Cardi B)",
+        "track": "Girls Like You (feat. Cardi B)"
+    },
+    {
+        "utc_time": "2021-03-21T19:26:00Z",
+        "artist": "\u5468\u6770\u502b",
+        "album": "\u6211\u5f88\u5fd9",
+        "track": "\u5f69\u8679"
+    },
+    {
+        "utc_time": "2021-03-21T16:35:00Z",
+        "artist": "Keshi",
+        "album": "skeletons",
+        "track": "skeletons"
+    },
+    {
+        "utc_time": "2021-03-21T14:34:00Z",
+        "artist": "Galantis",
+        "album": "The Aviary",
+        "track": "True Feeling"
+    },
+    {
+        "utc_time": "2021-03-21T14:30:00Z",
+        "artist": "Exo",
+        "album": "EX'ACT - The 3rd Album",
+        "track": "Lucky One"
+    },
+    {
+        "utc_time": "2021-03-21T14:27:00Z",
+        "artist": "Julia Michaels",
+        "album": "Nervous System",
+        "track": "Issues"
+    },
+    {
+        "utc_time": "2021-03-20T13:11:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Angels (feat. Saba)"
+    },
+    {
+        "utc_time": "2021-03-20T13:09:00Z",
+        "artist": "Auli'i Cravalho",
+        "album": "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
+        "track": "How Far I'll Go"
+    },
+    {
+        "utc_time": "2021-03-20T13:05:00Z",
+        "artist": "Amanda Seyfried",
+        "album": "Les Mis\u00e9rables: Highlights From The Motion Picture Soundtrack",
+        "track": "In My Life / A Heart Full Of Love"
+    },
+    {
+        "utc_time": "2021-03-20T13:01:00Z",
+        "artist": "GD X TAEYANG",
+        "album": "Good Boy",
+        "track": "GOOD BOY"
+    },
+    {
+        "utc_time": "2021-03-20T12:58:00Z",
+        "artist": "Block B",
+        "album": "HER",
+        "track": "HER"
+    },
+    {
+        "utc_time": "2021-03-20T12:55:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Location"
+    },
+    {
+        "utc_time": "2021-03-20T02:06:00Z",
+        "artist": "Jess Glynne",
+        "album": "I'll Be There",
+        "track": "I'll Be There"
+    },
+    {
+        "utc_time": "2021-03-20T02:01:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Transform (feat. Charlotte Day Wilson)"
+    },
+    {
+        "utc_time": "2021-03-20T01:57:00Z",
+        "artist": "Rihanna",
+        "album": "Unapologetic (Deluxe)",
+        "track": "Stay"
+    },
+    {
+        "utc_time": "2021-03-19T18:58:00Z",
+        "artist": "BTS",
+        "album": "You Never Walk Alone",
+        "track": "Lost"
+    },
+    {
+        "utc_time": "2021-03-19T18:50:00Z",
+        "artist": "Mac Miller",
+        "album": "GO:OD AM",
+        "track": "ROS"
+    },
+    {
+        "utc_time": "2021-03-19T18:46:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-03-19T18:42:00Z",
+        "artist": "Little Mix",
+        "album": "Glory Days: The Platinum Edition",
+        "track": "Nobody Like You"
+    },
+    {
+        "utc_time": "2021-03-19T18:38:00Z",
+        "artist": "B\u00fclow",
+        "album": "Damaged Vol. 2",
+        "track": "Honor Roll"
+    },
+    {
+        "utc_time": "2021-03-19T18:35:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Angels (feat. Saba)"
+    },
+    {
+        "utc_time": "2021-03-19T18:30:00Z",
+        "artist": "B.o.B",
+        "album": "B.o.B Presents: The Adventures of Bobby Ray",
+        "track": "Nothin' on You (feat. Bruno Mars)"
+    },
+    {
+        "utc_time": "2021-03-19T18:25:00Z",
+        "artist": "Drake",
+        "album": "More Life",
+        "track": "Passionfruit"
+    },
+    {
+        "utc_time": "2021-03-19T18:22:00Z",
+        "artist": "Jeremy Passion",
+        "album": "For More Than a Feeling",
+        "track": "Lemonade - Ukulele Version"
+    },
+    {
+        "utc_time": "2021-03-19T18:18:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Blessed"
+    },
+    {
+        "utc_time": "2021-03-19T18:15:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "I Love You 3000 II"
+    },
+    {
+        "utc_time": "2021-03-19T18:11:00Z",
+        "artist": "James Arthur",
+        "album": "Say You Won't Let Go",
+        "track": "Say You Won't Let Go"
+    },
+    {
+        "utc_time": "2021-03-19T15:19:00Z",
+        "artist": "G-Eazy",
+        "album": "When It's Dark Out",
+        "track": "Me, Myself & I"
+    },
+    {
+        "utc_time": "2021-03-19T15:13:00Z",
+        "artist": "Travis Scott",
+        "album": "ASTROWORLD",
+        "track": "SICKO MODE"
+    },
+    {
+        "utc_time": "2021-03-19T15:10:00Z",
+        "artist": "Dumbfoundead",
+        "album": "CAFE BLEU",
+        "track": "WASHED (PROD. BY SHAWN WASABI)"
+    },
+    {
+        "utc_time": "2021-03-19T15:08:00Z",
+        "artist": "Hans Zimmer",
+        "album": "The Little Prince (Original Motion Picture Soundtrack)",
+        "track": "Turnaround"
+    },
+    {
+        "utc_time": "2021-03-19T14:01:00Z",
+        "artist": "Hans Zimmer",
+        "album": "The Little Prince (Original Motion Picture Soundtrack)",
+        "track": "Turnaround"
+    },
+    {
+        "utc_time": "2021-03-19T13:50:00Z",
+        "artist": "Winnie Hsin",
+        "album": "\u5473\u9053",
+        "track": "\u5473\u9053"
+    },
+    {
+        "utc_time": "2021-03-19T13:46:00Z",
+        "artist": "Bo Shim",
+        "album": "Bloomfield",
+        "track": "Bloomfield"
+    },
+    {
+        "utc_time": "2021-03-19T13:43:00Z",
+        "artist": "Charlie Puth",
+        "album": "Attention",
+        "track": "Attention"
+    },
+    {
+        "utc_time": "2021-03-19T13:39:00Z",
+        "artist": "Rae Sremmurd",
+        "album": "SremmLife",
+        "track": "Come Get Her"
+    },
+    {
+        "utc_time": "2021-03-19T13:35:00Z",
+        "artist": "Noel",
+        "album": "The Day",
+        "track": "The Day"
+    },
+    {
+        "utc_time": "2021-03-19T13:32:00Z",
+        "artist": "SZA",
+        "album": "Ctrl",
+        "track": "Drew Barrymore"
+    },
+    {
+        "utc_time": "2021-03-19T13:15:00Z",
+        "artist": "Lyn",
+        "album": "Le Grand Bleu",
+        "track": "Miss You\u2026 Crying"
+    },
+    {
+        "utc_time": "2021-03-19T13:10:00Z",
+        "artist": "6LACK",
+        "album": "East Atlanta Love Letter",
+        "track": "Stan"
+    },
+    {
+        "utc_time": "2021-03-19T13:06:00Z",
+        "artist": "Lady Antebellum",
+        "album": "Own the Night",
+        "track": "Just a Kiss"
+    },
+    {
+        "utc_time": "2021-03-19T13:03:00Z",
+        "artist": "moonmoon",
+        "album": "Life Is Beauty Full",
+        "track": "\ube44\ud589\uc6b4 Contrail"
+    },
+    {
+        "utc_time": "2021-03-19T12:59:00Z",
+        "artist": "gnash",
+        "album": "us",
+        "track": "I Hate U, I Love U (feat. Olivia O'Brien)"
+    },
+    {
+        "utc_time": "2021-03-19T12:57:00Z",
+        "artist": "Surfaces",
+        "album": "Surf",
+        "track": "Falling"
+    },
+    {
+        "utc_time": "2021-03-19T01:59:00Z",
+        "artist": "Gucci Mane",
+        "album": "Wake Up in the Sky",
+        "track": "Wake Up in the Sky"
+    },
+    {
+        "utc_time": "2021-03-19T01:55:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Church"
+    },
+    {
+        "utc_time": "2021-03-19T01:52:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Morocco"
+    },
+    {
+        "utc_time": "2021-03-19T01:49:00Z",
+        "artist": "Pell",
+        "album": "girasoul",
+        "track": "throwback (feat. Saba)"
+    },
+    {
+        "utc_time": "2021-03-19T01:45:00Z",
+        "artist": "Demi Lovato",
+        "album": "Don't Forget",
+        "track": "Don't Forget"
+    },
+    {
+        "utc_time": "2021-03-19T01:41:00Z",
+        "artist": "Delaney Jane",
+        "album": "Howl",
+        "track": "Howl"
+    },
+    {
+        "utc_time": "2021-03-19T01:38:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Star"
+    },
+    {
+        "utc_time": "2021-03-19T01:35:00Z",
+        "artist": "Olivia O'Brien",
+        "album": "RIP (feat. G-Eazy & Drew Love)",
+        "track": "RIP (feat. G-Eazy & Drew Love)"
+    },
+    {
+        "utc_time": "2021-03-19T01:32:00Z",
+        "artist": "Louis Tomlinson",
+        "album": "Back to You (feat. Bebe Rexha & Digital Farm Animals)",
+        "track": "Back to You (feat. Bebe Rexha & Digital Farm Animals)"
+    },
+    {
+        "utc_time": "2021-03-19T01:29:00Z",
+        "artist": "MARC WAVY",
+        "album": "Daydreaming",
+        "track": "Daydreaming"
+    },
+    {
+        "utc_time": "2021-03-19T01:26:00Z",
+        "artist": "Pentatonix",
+        "album": "Pentatonix (Deluxe Version)",
+        "track": "Can't Sleep Love"
+    },
+    {
+        "utc_time": "2021-03-19T01:21:00Z",
+        "artist": "KOTA The Friend",
+        "album": "Anything.",
+        "track": "Nola (feat. Khary & Hello Oshay)"
+    },
+    {
+        "utc_time": "2021-03-19T01:17:00Z",
+        "artist": "\ub098\uc724\uad8c",
+        "album": "If Only",
+        "track": "If Only"
+    },
+    {
+        "utc_time": "2021-03-19T01:14:00Z",
+        "artist": "Dumbfoundead",
+        "album": "Take the Stares",
+        "track": "It\u2019s Not You (feat. David Choi)"
+    },
+    {
+        "utc_time": "2021-03-19T01:10:00Z",
+        "artist": "Sara Bareilles",
+        "album": "Kaleidoscope Heart",
+        "track": "King of Anything"
+    },
+    {
+        "utc_time": "2021-03-19T01:07:00Z",
+        "artist": "5 Seconds of Summer",
+        "album": "5 Seconds of Summer",
+        "track": "She Looks So Perfect"
+    },
+    {
+        "utc_time": "2021-03-19T01:04:00Z",
+        "artist": "Keshi",
+        "album": "always",
+        "track": "always"
+    },
+    {
+        "utc_time": "2021-03-19T01:01:00Z",
+        "artist": "Pink Sweat$",
+        "album": "17",
+        "track": "17"
+    },
+    {
+        "utc_time": "2021-03-19T00:57:00Z",
+        "artist": "Crush",
+        "album": "\uc78a\uc5b4\ubc84\ub9ac\uc9c0\ub9c8 Don't Forget (feat. \ud0dc\uc5f0 Taeyeon) - Single",
+        "track": "Don\u2019t Forget"
+    },
+    {
+        "utc_time": "2021-03-19T00:54:00Z",
+        "artist": "Winner",
+        "album": "2014 S/S",
+        "track": "\uceec\ub7ec\ub9c1 Color Ring"
+    },
+    {
+        "utc_time": "2021-03-18T23:45:00Z",
+        "artist": "Gavy NJ",
+        "album": "Gavy NJ The 6th Album Part.2 'She'",
+        "track": "I Wish"
+    },
+    {
+        "utc_time": "2021-03-18T23:42:00Z",
+        "artist": "Lorde",
+        "album": "Pure Heroine",
+        "track": "Royals"
+    },
+    {
+        "utc_time": "2021-03-18T23:40:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "just like magic"
+    },
+    {
+        "utc_time": "2021-03-18T23:37:00Z",
+        "artist": "Keshi",
+        "album": "THE REAPER",
+        "track": "like i need u"
+    },
+    {
+        "utc_time": "2021-03-18T23:34:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Best Part (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-18T21:38:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Keep Me"
+    },
+    {
+        "utc_time": "2021-03-18T21:34:00Z",
+        "artist": "Nell",
+        "album": "Green Nocturne",
+        "track": "Green Nocturne"
+    },
+    {
+        "utc_time": "2021-03-18T21:30:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "I'm Yours"
+    },
+    {
+        "utc_time": "2021-03-18T20:08:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Best Part (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-18T20:04:00Z",
+        "artist": "beabadoobee",
+        "album": "Patched Up",
+        "track": "Art Class"
+    },
+    {
+        "utc_time": "2021-03-18T17:53:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Born Tired"
+    },
+    {
+        "utc_time": "2021-03-18T17:48:00Z",
+        "artist": "Exo",
+        "album": "Universe \u2013 Winter Special Album, 2017",
+        "track": "Universe"
+    },
+    {
+        "utc_time": "2021-03-18T17:45:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Acid Rap",
+        "track": "NaNa"
+    },
+    {
+        "utc_time": "2021-03-18T17:07:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "xanny"
+    },
+    {
+        "utc_time": "2021-03-18T17:02:00Z",
+        "artist": "Christina Perri",
+        "album": "A Thousand Years",
+        "track": "A Thousand Years"
+    },
+    {
+        "utc_time": "2021-03-18T16:59:00Z",
+        "artist": "bbno$",
+        "album": "recess",
+        "track": "jurassic"
+    },
+    {
+        "utc_time": "2021-03-18T16:56:00Z",
+        "artist": "Galantis",
+        "album": "The Aviary",
+        "track": "No Money"
+    },
+    {
+        "utc_time": "2021-03-18T16:51:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Triggered (Freestyle)"
+    },
+    {
+        "utc_time": "2021-03-18T16:47:00Z",
+        "artist": "High School Musical Cast",
+        "album": "High School Musical 3: Senior Year",
+        "track": "Can I Have This Dance - Original Version"
+    },
+    {
+        "utc_time": "2021-03-18T16:44:00Z",
+        "artist": "\uc5d0\uc77c\ub9ac",
+        "album": "Heaven",
+        "track": "Heaven"
+    },
+    {
+        "utc_time": "2021-03-18T16:40:00Z",
+        "artist": "Billie Marten",
+        "album": "La Lune",
+        "track": "La Lune"
+    },
+    {
+        "utc_time": "2021-03-18T16:37:00Z",
+        "artist": "Keshi",
+        "album": "skeletons",
+        "track": "atlas"
+    },
+    {
+        "utc_time": "2021-03-18T16:33:00Z",
+        "artist": "\u6797\u4fca\u5091",
+        "album": "\u6a02\u884c\u8005",
+        "track": "\u4e0d\u61c2"
+    },
+    {
+        "utc_time": "2021-03-18T03:11:00Z",
+        "artist": "Ed Sheeran",
+        "album": "x (Deluxe Edition)",
+        "track": "Thinking Out Loud"
+    },
+    {
+        "utc_time": "2021-03-18T03:05:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX Vol. IV - Classics",
+        "track": "Bohemian Rhapsody"
+    },
+    {
+        "utc_time": "2021-03-18T03:02:00Z",
+        "artist": "Navi",
+        "album": "Gone Too Far",
+        "track": "Gone Too Far"
+    },
+    {
+        "utc_time": "2021-03-17T15:55:00Z",
+        "artist": "Billie Eilish",
+        "album": "lovely (with Khalid)",
+        "track": "lovely (with Khalid)"
+    },
+    {
+        "utc_time": "2021-03-17T15:51:00Z",
+        "artist": "Khalid",
+        "album": "Suncity",
+        "track": "Saturday Nights"
+    },
+    {
+        "utc_time": "2021-03-17T15:48:00Z",
+        "artist": "Lea Salonga",
+        "album": "Aladdin Special Edition",
+        "track": "A Whole New World - From \"Aladdin\" / Soundtrack Version"
+    },
+    {
+        "utc_time": "2021-03-17T15:45:00Z",
+        "artist": "Nick Jonas",
+        "album": "Last Year Was Complicated",
+        "track": "Unhinged"
+    },
+    {
+        "utc_time": "2021-03-17T15:41:00Z",
+        "artist": "TEEN TOP",
+        "album": "TEEN TOP CLASS ADDITION",
+        "track": "Date"
+    },
+    {
+        "utc_time": "2021-03-17T14:15:00Z",
+        "artist": "Elle King",
+        "album": "Love Stuff",
+        "track": "Ex's & Oh's"
+    },
+    {
+        "utc_time": "2021-03-17T14:12:00Z",
+        "artist": "Bruno Mars",
+        "album": "Doo-Wops & Hooligans",
+        "track": "Talking to the Moon"
+    },
+    {
+        "utc_time": "2021-03-17T14:08:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Best Part (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-17T14:06:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Best Part (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-17T14:02:00Z",
+        "artist": "Maroon 5",
+        "album": "Girls Like You (feat. Cardi B)",
+        "track": "Girls Like You (feat. Cardi B)"
+    },
+    {
+        "utc_time": "2021-03-17T01:44:00Z",
+        "artist": "Exo",
+        "album": "Universe \u2013 Winter Special Album, 2017",
+        "track": "Universe"
+    },
+    {
+        "utc_time": "2021-03-17T01:39:00Z",
+        "artist": "\u6797\u61b6\u84ee",
+        "album": "\u6797\u61b6\u84ee",
+        "track": "\u81f3\u5c11\u9084\u6709\u4f60"
+    },
+    {
+        "utc_time": "2021-03-17T01:34:00Z",
+        "artist": "Passenger",
+        "album": "All the Little Lights",
+        "track": "Let Her Go"
+    },
+    {
+        "utc_time": "2021-03-17T01:31:00Z",
+        "artist": "Super Junior-D&E",
+        "album": "'The Beat Goes On' Special Edition",
+        "track": "\uc544\uc9c1\ub3c4 \ub09c (Still You)"
+    },
+    {
+        "utc_time": "2021-03-17T01:27:00Z",
+        "artist": "taeyeon",
+        "album": "I - The 1st Mini Album",
+        "track": "I"
+    },
+    {
+        "utc_time": "2021-03-16T22:57:00Z",
+        "artist": "mansionz",
+        "album": "Mansionz",
+        "track": "stfu"
+    },
+    {
+        "utc_time": "2021-03-16T22:52:00Z",
+        "artist": "Khalid",
+        "album": "Suncity",
+        "track": "Vertigo"
+    },
+    {
+        "utc_time": "2021-03-16T22:48:00Z",
+        "artist": "\uc11c\uc778\uad6d",
+        "album": "Master`s sun OST Part 7",
+        "track": "No Matter What"
+    },
+    {
+        "utc_time": "2021-03-16T22:45:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "7 rings"
+    },
+    {
+        "utc_time": "2021-03-16T22:42:00Z",
+        "artist": "Twenty One Pilots",
+        "album": "Blurryface",
+        "track": "Stressed Out"
+    },
+    {
+        "utc_time": "2021-03-16T22:38:00Z",
+        "artist": "Keshi",
+        "album": "always",
+        "track": "us"
+    },
+    {
+        "utc_time": "2021-03-16T22:30:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "i love you"
+    },
+    {
+        "utc_time": "2021-03-16T22:27:00Z",
+        "artist": "moonmoon",
+        "album": "Life Is Beauty Full",
+        "track": "\ube44\ud589\uc6b4 Contrail"
+    },
+    {
+        "utc_time": "2021-03-16T22:24:00Z",
+        "artist": "Whethan",
+        "album": "So Good (feat. b\u00fclow)",
+        "track": "So Good (feat. b\u00fclow)"
+    },
+    {
+        "utc_time": "2021-03-16T22:20:00Z",
+        "artist": "blackbear",
+        "album": "digital druglord",
+        "track": "moodz (feat. 24hrs)"
+    },
+    {
+        "utc_time": "2021-03-16T22:18:00Z",
+        "artist": "The Beatles",
+        "album": "Help! (Remastered)",
+        "track": "Yesterday - Remastered 2009"
+    },
+    {
+        "utc_time": "2021-03-16T22:16:00Z",
+        "artist": "Kanye West",
+        "album": "I Love It",
+        "track": "I Love It (& Lil Pump)"
+    },
+    {
+        "utc_time": "2021-03-16T22:12:00Z",
+        "artist": "Quality Control",
+        "album": "Quality Control: Control the Streets Volume 1",
+        "track": "She For Keeps"
+    },
+    {
+        "utc_time": "2021-03-16T22:09:00Z",
+        "artist": "Lany",
+        "album": "kinda",
+        "track": "current location"
+    },
+    {
+        "utc_time": "2021-03-16T22:06:00Z",
+        "artist": "Troye Sivan",
+        "album": "Blue Neighbourhood (Deluxe)",
+        "track": "BITE"
+    },
+    {
+        "utc_time": "2021-03-16T22:03:00Z",
+        "artist": "B.A.P",
+        "album": "CARNIVAL",
+        "track": "FEEL SO GOOD"
+    },
+    {
+        "utc_time": "2021-03-16T22:03:00Z",
+        "artist": "Rich the Kid",
+        "album": "The World is Yours",
+        "track": "Plug Walk"
+    },
+    {
+        "utc_time": "2021-03-16T21:59:00Z",
+        "artist": "Julia Michaels",
+        "album": "Nervous System",
+        "track": "Issues"
+    },
+    {
+        "utc_time": "2021-03-16T21:53:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "ITS ALL GONNA BURN"
+    },
+    {
+        "utc_time": "2021-03-16T21:47:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Backyard"
+    },
+    {
+        "utc_time": "2021-03-16T14:55:00Z",
+        "artist": "One Direction",
+        "album": "FOUR (Deluxe)",
+        "track": "Fireproof"
+    },
+    {
+        "utc_time": "2021-03-16T14:51:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Good for You",
+        "track": "Caroline"
+    },
+    {
+        "utc_time": "2021-03-16T14:47:00Z",
+        "artist": "Halsey",
+        "album": "hopeless fountain kingdom (Deluxe)",
+        "track": "Strangers"
+    },
+    {
+        "utc_time": "2021-03-16T14:43:00Z",
+        "artist": "Shawn Mendes",
+        "album": "Illuminate (Deluxe)",
+        "track": "Roses"
+    },
+    {
+        "utc_time": "2021-03-16T14:41:00Z",
+        "artist": "Maude Latour",
+        "album": "Walk Backwards",
+        "track": "Walk Backwards"
+    },
+    {
+        "utc_time": "2021-03-16T14:36:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Always"
+    },
+    {
+        "utc_time": "2021-03-16T14:33:00Z",
+        "artist": "Rex Orange County",
+        "album": "Apricot Princess",
+        "track": "Happiness"
+    },
+    {
+        "utc_time": "2021-03-15T21:23:00Z",
+        "artist": "James Newton Howard",
+        "album": "The Hunger Games: Original Motion Picture Score",
+        "track": "Rue's Farewell"
+    },
+    {
+        "utc_time": "2021-03-15T20:51:00Z",
+        "artist": "Klaus Badelt",
+        "album": "Pirates of the Caribbean: The Curse of the Black Pearl (Original Motion Picture Soundtrack)",
+        "track": "He's a Pirate"
+    },
+    {
+        "utc_time": "2021-03-15T20:49:00Z",
+        "artist": "John Powell",
+        "album": "How to Train Your Dragon 2 (Music from the Motion Picture)",
+        "track": "Together We Map the World"
+    },
+    {
+        "utc_time": "2021-03-15T20:48:00Z",
+        "artist": "Alexandre Desplat",
+        "album": "Little Women (Original Motion Picture Soundtrack)",
+        "track": "Laurie and Jo on the Hill"
+    },
+    {
+        "utc_time": "2021-03-15T20:46:00Z",
+        "artist": "Danny Elfman",
+        "album": "Tim Burton's Corpse Bride Original Motion Picture Soundtrack (U.S. Release)",
+        "track": "The Piano Duet"
+    },
+    {
+        "utc_time": "2021-03-15T20:43:00Z",
+        "artist": "Ramin Djawadi",
+        "album": "The Mountain Between Us (Original Motion Picture Soundtrack)",
+        "track": "I Feel Alive"
+    },
+    {
+        "utc_time": "2021-03-15T20:40:00Z",
+        "artist": "John Powell",
+        "album": "How to Train Your Dragon: The Hidden World (Original Motion Picture Soundtrack)",
+        "track": "Furies in Love"
+    },
+    {
+        "utc_time": "2021-03-15T20:36:00Z",
+        "artist": "John Powell",
+        "album": "How to Train Your Dragon 2 (Music from the Motion Picture)",
+        "track": "Toothless Found"
+    },
+    {
+        "utc_time": "2021-03-15T20:35:00Z",
+        "artist": "Michael Giacchino",
+        "album": "Up (Original Motion Picture Soundtrack)",
+        "track": "The Ellie Badge"
+    },
+    {
+        "utc_time": "2021-03-15T20:33:00Z",
+        "artist": "Alexandre Desplat",
+        "album": "Little Women (Original Motion Picture Soundtrack)",
+        "track": "Amy"
+    },
+    {
+        "utc_time": "2021-03-15T20:31:00Z",
+        "artist": "James Newton Howard",
+        "album": "Fantastic Beasts and Where to Find Them (Original Motion Picture Soundtrack)",
+        "track": "A Close Friend"
+    },
+    {
+        "utc_time": "2021-03-15T20:29:00Z",
+        "artist": "John Powell",
+        "album": "How to Train Your Dragon (Music from the Motion Picture)",
+        "track": "This Is Berk"
+    },
+    {
+        "utc_time": "2021-03-15T20:27:00Z",
+        "artist": "John Debney",
+        "album": "The Princess Diaries",
+        "track": "The Princess Diaries Waltz - Score"
+    },
+    {
+        "utc_time": "2021-03-15T20:23:00Z",
+        "artist": "Dario Marianelli",
+        "album": "Pride And Prejudice - OST",
+        "track": "Mrs Darcy - From \"Pride & Prejudice\" Soundtrack"
+    },
+    {
+        "utc_time": "2021-03-15T20:06:00Z",
+        "artist": "Michael Giacchino",
+        "album": "Up (Original Motion Picture Soundtrack)",
+        "track": "Stuff We Did"
+    },
+    {
+        "utc_time": "2021-03-15T19:01:00Z",
+        "artist": "Craig Armstrong",
+        "album": "Me Before You (Original Motion Picture Score)",
+        "track": "Me Before You Orchestral"
+    },
+    {
+        "utc_time": "2021-03-15T19:00:00Z",
+        "artist": "John Powell",
+        "album": "How to Train Your Dragon (Music from the Motion Picture)",
+        "track": "The Cove"
+    },
+    {
+        "utc_time": "2021-03-15T17:53:00Z",
+        "artist": "Bo Shim",
+        "album": "Bloomfield",
+        "track": "Bloomfield"
+    },
+    {
+        "utc_time": "2021-03-15T17:49:00Z",
+        "artist": "GOT7",
+        "album": "GOT\u2661",
+        "track": "Forever Young"
+    },
+    {
+        "utc_time": "2021-03-15T17:45:00Z",
+        "artist": "Elton John",
+        "album": "Elton John",
+        "track": "Your Song"
+    },
+    {
+        "utc_time": "2021-03-15T17:41:00Z",
+        "artist": "Bigbang",
+        "album": "Special Edition 'Still Alive'",
+        "track": "Ego"
+    },
+    {
+        "utc_time": "2021-03-15T17:37:00Z",
+        "artist": "PARTYNEXTDOOR",
+        "album": "Loyal (feat. Drake and Bad Bunny) [Remix]",
+        "track": "LOYAL (feat. Drake and Bad Bunny) - Remix"
+    },
+    {
+        "utc_time": "2021-03-15T17:33:00Z",
+        "artist": "Kyuhyun",
+        "album": "\uba40\uc5b4\uc9c0\ub358 \ub0a0 The day we felt the distance",
+        "track": "\uba40\uc5b4\uc9c0\ub358 \ub0a0 The day we felt the distance"
+    },
+    {
+        "utc_time": "2021-03-15T17:25:00Z",
+        "artist": "The Beatles",
+        "album": "1 (Remastered)",
+        "track": "Hey Jude - Remastered 2015"
+    },
+    {
+        "utc_time": "2021-03-15T17:22:00Z",
+        "artist": "Ariana Grande",
+        "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+        "track": "Beauty and the Beast"
+    },
+    {
+        "utc_time": "2021-03-15T17:17:00Z",
+        "artist": "fun.",
+        "album": "Some Nights",
+        "track": "Some Nights"
+    },
+    {
+        "utc_time": "2021-03-15T17:13:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Bagels"
+    },
+    {
+        "utc_time": "2021-03-15T17:09:00Z",
+        "artist": "Miley Cyrus",
+        "album": "The Time of Our Lives",
+        "track": "When I Look at You"
+    },
+    {
+        "utc_time": "2021-03-15T17:06:00Z",
+        "artist": "VALNTN",
+        "album": "Mona Lisa",
+        "track": "Mona Lisa"
+    },
+    {
+        "utc_time": "2021-03-15T15:31:00Z",
+        "artist": "Kid Ink",
+        "album": "Tell Somebody",
+        "track": "Tell Somebody"
+    },
+    {
+        "utc_time": "2021-03-15T15:31:00Z",
+        "artist": "Martin Garrix",
+        "album": "Scared to Be Lonely",
+        "track": "Scared to Be Lonely"
+    },
+    {
+        "utc_time": "2021-03-15T15:27:00Z",
+        "artist": "Meghan Trainor",
+        "album": "All About That Bass",
+        "track": "All About That Bass"
+    },
+    {
+        "utc_time": "2021-03-15T15:24:00Z",
+        "artist": "SAYGRACE",
+        "album": "Memo",
+        "track": "Dirty Harry"
+    },
+    {
+        "utc_time": "2021-03-15T15:21:00Z",
+        "artist": "Cheat Codes",
+        "album": "Hate You + Love You (feat. AJ Mitchell)",
+        "track": "Hate You + Love You (feat. AJ Mitchell)"
+    },
+    {
+        "utc_time": "2021-03-15T15:20:00Z",
+        "artist": "Jonny Brenns",
+        "album": "Blue Jeans",
+        "track": "Blue Jeans"
+    },
+    {
+        "utc_time": "2021-03-15T14:58:00Z",
+        "artist": "Surfaces",
+        "album": "Surf",
+        "track": "Falling"
+    },
+    {
+        "utc_time": "2021-03-15T14:53:00Z",
+        "artist": "6LACK",
+        "album": "East Atlanta Love Letter",
+        "track": "Stan"
+    },
+    {
+        "utc_time": "2021-03-15T14:50:00Z",
+        "artist": "Lennon Stella",
+        "album": "Bad (Acoustic)",
+        "track": "Bad"
+    },
+    {
+        "utc_time": "2021-03-15T14:46:00Z",
+        "artist": "Cheat Codes",
+        "album": "Hate You + Love You (feat. AJ Mitchell)",
+        "track": "Hate You + Love You (feat. AJ Mitchell)"
+    },
+    {
+        "utc_time": "2021-03-15T14:42:00Z",
+        "artist": "Lucas Miguel",
+        "album": "Hold Tight",
+        "track": "Hold Tight"
+    },
+    {
+        "utc_time": "2021-03-15T14:36:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-03-15T14:34:00Z",
+        "artist": "Rihanna",
+        "album": "ANTI (Deluxe)",
+        "track": "Consideration"
+    },
+    {
+        "utc_time": "2021-03-15T14:31:00Z",
+        "artist": "Justin Bieber",
+        "album": "Changes",
+        "track": "E.T.A."
+    },
+    {
+        "utc_time": "2021-03-15T04:30:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "nasty"
+    },
+    {
+        "utc_time": "2021-03-15T04:26:00Z",
+        "artist": "Crush",
+        "album": "Sofa - Single",
+        "track": "Sofa"
+    },
+    {
+        "utc_time": "2021-03-15T04:22:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hold Me Down"
+    },
+    {
+        "utc_time": "2021-03-15T04:19:00Z",
+        "artist": "James Arthur",
+        "album": "Say You Won't Let Go",
+        "track": "Say You Won't Let Go"
+    },
+    {
+        "utc_time": "2021-03-15T04:14:00Z",
+        "artist": "Rex Orange County",
+        "album": "Apricot Princess",
+        "track": "Sycamore Girl"
+    },
+    {
+        "utc_time": "2021-03-15T04:11:00Z",
+        "artist": "Kehlani",
+        "album": "You Should Be Here",
+        "track": "Niggas"
+    },
+    {
+        "utc_time": "2021-03-14T23:50:00Z",
+        "artist": "LANY",
+        "album": "kinda",
+        "track": "pink skies"
+    },
+    {
+        "utc_time": "2021-03-14T23:47:00Z",
+        "artist": "blackbear",
+        "album": "deadroses",
+        "track": "waste away (feat. Devon Baldwin)"
+    },
+    {
+        "utc_time": "2021-03-14T23:46:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Lotus - intro"
+    },
+    {
+        "utc_time": "2021-03-14T23:43:00Z",
+        "artist": "Maude Latour",
+        "album": "Superfruit",
+        "track": "Superfruit"
+    },
+    {
+        "utc_time": "2021-03-14T23:39:00Z",
+        "artist": "Daniel Caesar",
+        "album": "CASE STUDY 01",
+        "track": "SUPERPOSITION"
+    },
+    {
+        "utc_time": "2021-03-14T23:37:00Z",
+        "artist": "Maude Latour",
+        "album": "Walk Backwards",
+        "track": "Walk Backwards"
+    },
+    {
+        "utc_time": "2021-03-14T23:11:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Tryna Smoke"
+    },
+    {
+        "utc_time": "2021-03-14T21:52:00Z",
+        "artist": "Tiffany Young",
+        "album": "Lips On Lips",
+        "track": "Lips On Lips"
+    },
+    {
+        "utc_time": "2021-03-14T21:47:00Z",
+        "artist": "Dumbfoundead",
+        "album": "CAFE BLEU",
+        "track": "WASHED (PROD. BY SHAWN WASABI)"
+    },
+    {
+        "utc_time": "2021-03-14T21:43:00Z",
+        "artist": "FlowSik",
+        "album": "\uc816\uc5b4'S (Wet)",
+        "track": "\uc816\uc5b4'S (Wet)"
+    },
+    {
+        "utc_time": "2021-03-14T21:41:00Z",
+        "artist": "DPR LIVE",
+        "album": "HER",
+        "track": "Text Me"
+    },
+    {
+        "utc_time": "2021-03-14T21:38:00Z",
+        "artist": "Zion.T",
+        "album": "ZZZ",
+        "track": "Hello Tutorial"
+    },
+    {
+        "utc_time": "2021-03-14T21:33:00Z",
+        "artist": "\ubc15\ud6a8\uc2e0",
+        "album": "I am A Dreamer",
+        "track": "Wild Flower"
+    },
+    {
+        "utc_time": "2021-03-14T21:33:00Z",
+        "artist": "Suzy",
+        "album": "Dream",
+        "track": "Dream"
+    },
+    {
+        "utc_time": "2021-03-14T21:28:00Z",
+        "artist": "Suzy",
+        "album": "Dream",
+        "track": "Dream"
+    },
+    {
+        "utc_time": "2021-03-14T21:24:00Z",
+        "artist": "Khalid",
+        "album": "Black Panther the Album Music From and Inspired By",
+        "track": "The Ways (with Swae Lee)"
+    },
+    {
+        "utc_time": "2021-03-14T21:21:00Z",
+        "artist": "Rex Orange County",
+        "album": "Apricot Princess",
+        "track": "Sycamore Girl"
+    },
+    {
+        "utc_time": "2021-03-13T15:14:00Z",
+        "artist": "Frankie Valli & the Four Seasons",
+        "album": "Reunited Live",
+        "track": "Can't Take My Eyes off You - Live"
+    },
+    {
+        "utc_time": "2021-03-13T15:10:00Z",
+        "artist": "Frank Ocean",
+        "album": "Moon River",
+        "track": "Moon River"
+    },
+    {
+        "utc_time": "2021-03-13T15:06:00Z",
+        "artist": "Claude-Michel Sch\u00f6nberg",
+        "album": "Les Mis\u00e9rables: The Motion Picture Soundtrack Deluxe (Deluxe Edition)",
+        "track": "One Day More"
+    },
+    {
+        "utc_time": "2021-03-12T21:05:00Z",
+        "artist": "Rex Orange County",
+        "album": "Apricot Princess",
+        "track": "Happiness"
+    },
+    {
+        "utc_time": "2021-03-12T19:32:00Z",
+        "artist": "orion sun",
+        "album": "A Collection of Fleeting Moments and Daydreams",
+        "track": "Mirage"
+    },
+    {
+        "utc_time": "2021-03-12T19:29:00Z",
+        "artist": "orion sun",
+        "album": "A Collection of Fleeting Moments and Daydreams",
+        "track": "antidote"
+    },
+    {
+        "utc_time": "2021-03-12T19:26:00Z",
+        "artist": "Aries",
+        "album": "WELCOME HOME",
+        "track": "SANTA MONICA"
+    },
+    {
+        "utc_time": "2021-03-12T19:24:00Z",
+        "artist": "Aries",
+        "album": "DITTO",
+        "track": "DITTO"
+    },
+    {
+        "utc_time": "2021-03-12T17:18:00Z",
+        "artist": "Adele",
+        "album": "21",
+        "track": "Someone Like You"
+    },
+    {
+        "utc_time": "2021-03-12T16:30:00Z",
+        "artist": "Sam Smith",
+        "album": "In the Lonely Hour",
+        "track": "Stay with Me"
+    },
+    {
+        "utc_time": "2021-03-12T16:26:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "B.S. (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-03-12T16:22:00Z",
+        "artist": "Charli XCX",
+        "album": "Out Of My Head (feat. Tove Lo and ALMA)",
+        "track": "Out of My Head (feat. Tove Lo and ALMA)"
+    },
+    {
+        "utc_time": "2021-03-12T16:18:00Z",
+        "artist": "Chance the Rapper",
+        "album": "10 Day",
+        "track": "Long time"
+    },
+    {
+        "utc_time": "2021-03-12T16:15:00Z",
+        "artist": "blackbear",
+        "album": "digital druglord",
+        "track": "moodz (feat. 24hrs)"
+    },
+    {
+        "utc_time": "2021-03-12T15:36:00Z",
+        "artist": "Lady Gaga",
+        "album": "A Star Is Born Soundtrack (Without Dialogue)",
+        "track": "Always Remember Us This Way"
+    },
+    {
+        "utc_time": "2021-03-12T15:31:00Z",
+        "artist": "Daniel Caesar",
+        "album": "CASE STUDY 01",
+        "track": "LOVE AGAIN"
+    },
+    {
+        "utc_time": "2021-03-12T15:27:00Z",
+        "artist": "Maroon 5",
+        "album": "Songs About Jane",
+        "track": "She Will Be Loved"
+    },
+    {
+        "utc_time": "2021-03-12T15:21:00Z",
+        "artist": "Adele",
+        "album": "25",
+        "track": "Hello"
+    },
+    {
+        "utc_time": "2021-03-12T15:16:00Z",
+        "artist": "Han Dong Geun",
+        "album": "The 1st Digital Single \"Making a new ending for this story\"",
+        "track": "Making A New Ending For This Story"
+    },
+    {
+        "utc_time": "2021-03-12T15:13:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Who Hurt You?",
+        "track": "Who Hurt You?"
+    },
+    {
+        "utc_time": "2021-03-12T15:08:00Z",
+        "artist": "Ledapple",
+        "album": "With The Wind",
+        "track": "With the Wind"
+    },
+    {
+        "utc_time": "2021-03-12T15:04:00Z",
+        "artist": "SHINee",
+        "album": "Sherlock - The 4th Mini Album",
+        "track": "Honesty"
+    },
+    {
+        "utc_time": "2021-03-12T15:02:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Mourning Doves"
+    },
+    {
+        "utc_time": "2021-03-12T15:01:00Z",
+        "artist": "Sam Smith",
+        "album": "In The Lonely Hour (Drowning Shadows Edition)",
+        "track": "Lay Me Down"
+    },
+    {
+        "utc_time": "2021-03-12T14:58:00Z",
+        "artist": "Sam Smith",
+        "album": "In The Lonely Hour (Drowning Shadows Edition)",
+        "track": "Lay Me Down"
+    },
+    {
+        "utc_time": "2021-03-12T14:54:00Z",
+        "artist": "Noel",
+        "album": "The Day",
+        "track": "The Day"
+    },
+    {
+        "utc_time": "2021-03-12T14:51:00Z",
+        "artist": "blackbear",
+        "album": "deadroses",
+        "track": "waste away (feat. Devon Baldwin)"
+    },
+    {
+        "utc_time": "2021-03-12T14:35:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "BURNT AF"
+    },
+    {
+        "utc_time": "2021-03-12T14:31:00Z",
+        "artist": "B.A.P",
+        "album": "Coffee Shop",
+        "track": "Coffee Shop"
+    },
+    {
+        "utc_time": "2021-03-12T14:25:00Z",
+        "artist": "Before You Exit",
+        "album": "Clouds",
+        "track": "Clouds"
+    },
+    {
+        "utc_time": "2021-03-12T14:21:00Z",
+        "artist": "The Legend",
+        "album": "Sound Up!",
+        "track": "Crush On You"
+    },
+    {
+        "utc_time": "2021-03-12T14:17:00Z",
+        "artist": "Lil Pump",
+        "album": "Harverd Dropout",
+        "track": "Be Like Me (feat. Lil Wayne)"
+    },
+    {
+        "utc_time": "2021-03-12T14:12:00Z",
+        "artist": "Rex Orange County",
+        "album": "Apricot Princess",
+        "track": "Sycamore Girl"
+    },
+    {
+        "utc_time": "2021-03-12T14:09:00Z",
+        "artist": "bbno$",
+        "album": "recess",
+        "track": "jurassic"
+    },
+    {
+        "utc_time": "2021-03-12T14:05:00Z",
+        "artist": "Chinychon",
+        "album": "Should We",
+        "track": "Should We"
+    },
+    {
+        "utc_time": "2021-03-12T14:02:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "ITS ALL GONNA BURN"
+    },
+    {
+        "utc_time": "2021-03-12T13:58:00Z",
+        "artist": "lewloh",
+        "album": "Loved You So",
+        "track": "Loved You So"
+    },
+    {
+        "utc_time": "2021-03-12T13:55:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "i felt that"
+    },
+    {
+        "utc_time": "2021-03-12T13:50:00Z",
+        "artist": "Jaden",
+        "album": "Rainbow Bap",
+        "track": "Rainbow Bap"
+    },
+    {
+        "utc_time": "2021-03-12T13:30:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Sailing Soul(s)",
+        "track": "Popular"
+    },
+    {
+        "utc_time": "2021-03-12T13:26:00Z",
+        "artist": "Quality Control",
+        "album": "Quality Control: Control the Streets Volume 1",
+        "track": "She For Keeps"
+    },
+    {
+        "utc_time": "2021-03-12T13:23:00Z",
+        "artist": "One Direction",
+        "album": "FOUR (Deluxe)",
+        "track": "Fireproof"
+    },
+    {
+        "utc_time": "2021-03-12T13:20:00Z",
+        "artist": "Mikky Ekko",
+        "album": "Time (Spotify Exclusive)",
+        "track": "Smile"
+    },
+    {
+        "utc_time": "2021-03-12T13:15:00Z",
+        "artist": "Charlie Puth",
+        "album": "Attention",
+        "track": "Attention"
+    },
+    {
+        "utc_time": "2021-03-12T13:12:00Z",
+        "artist": "Maude Latour",
+        "album": "Superfruit",
+        "track": "Superfruit"
+    },
+    {
+        "utc_time": "2021-03-12T13:08:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Lightning & Thunder (feat. John Legend)"
+    },
+    {
+        "utc_time": "2021-03-12T13:03:00Z",
+        "artist": "Bruno Mars",
+        "album": "Doo-Wops & Hooligans",
+        "track": "Just the Way You Are"
+    },
+    {
+        "utc_time": "2021-03-12T12:25:00Z",
+        "artist": "Bill Mitchell",
+        "album": "Little Shop of Horrors (Original Motion Picture Soundtrack)",
+        "track": "Prologue (Little Shop of Horrors)"
+    },
+    {
+        "utc_time": "2021-03-12T12:21:00Z",
+        "artist": "John Legend",
+        "album": "Love In The Future (Expanded Edition)",
+        "track": "All of Me"
+    },
+    {
+        "utc_time": "2021-03-12T12:19:00Z",
+        "artist": "Shy Baldwin",
+        "album": "The Marvelous Mrs. Maisel: Season 3 (Music From The Amazon Original Series)",
+        "track": "One Less Angel"
+    },
+    {
+        "utc_time": "2021-03-12T12:15:00Z",
+        "artist": "Jason Mraz",
+        "album": "Love Is A Four Letter Word (Deluxe Edition)",
+        "track": "I Won't Give Up"
+    },
+    {
+        "utc_time": "2021-03-12T12:12:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "positions"
+    },
+    {
+        "utc_time": "2021-03-12T12:04:00Z",
+        "artist": "The Beatles",
+        "album": "1 (Remastered)",
+        "track": "Hey Jude - Remastered 2015"
+    },
+    {
+        "utc_time": "2021-03-12T12:00:00Z",
+        "artist": "Winnie Hsin",
+        "album": "\u5473\u9053",
+        "track": "\u5473\u9053"
+    },
+    {
+        "utc_time": "2021-03-12T11:56:00Z",
+        "artist": "\ud0dc\uc591",
+        "album": "Rise",
+        "track": "\ub208,\ucf54,\uc785 (EYES, NOSE, LIPS)"
+    },
+    {
+        "utc_time": "2021-03-12T11:53:00Z",
+        "artist": "\u00c9dith Piaf",
+        "album": "Edith Piaf - The Best Of",
+        "track": "La vie en rose"
+    },
+    {
+        "utc_time": "2021-03-12T11:49:00Z",
+        "artist": "Lady Gaga",
+        "album": "A Star Is Born Soundtrack (Without Dialogue)",
+        "track": "Always Remember Us This Way"
+    },
+    {
+        "utc_time": "2021-03-12T11:46:00Z",
+        "artist": "Xavier Om\u00e4r",
+        "album": "Runnin' Round",
+        "track": "Runnin' Round"
+    },
+    {
+        "utc_time": "2021-03-12T00:45:00Z",
+        "artist": "blackbear",
+        "album": "Help",
+        "track": "Help (feat. Maejor)"
+    },
+    {
+        "utc_time": "2021-03-12T00:42:00Z",
+        "artist": "Red Velvet",
+        "album": "Be Natural - The 2nd Single",
+        "track": "Be Natural"
+    },
+    {
+        "utc_time": "2021-03-12T00:42:00Z",
+        "artist": "Lauv",
+        "album": "~how i'm feeling~",
+        "track": "Sims"
+    },
+    {
+        "utc_time": "2021-03-12T00:37:00Z",
+        "artist": "Red Velvet",
+        "album": "Be Natural - The 2nd Single",
+        "track": "Be Natural"
+    },
+    {
+        "utc_time": "2021-03-12T00:35:00Z",
+        "artist": "Kid Travis",
+        "album": "Sad!",
+        "track": "Sad!"
+    },
+    {
+        "utc_time": "2021-03-12T00:32:00Z",
+        "artist": "Russ",
+        "album": "There's Really a Wolf",
+        "track": "Ride Slow"
+    },
+    {
+        "utc_time": "2021-03-12T00:29:00Z",
+        "artist": "Aaron May",
+        "album": "CHASE",
+        "track": "Closed Hands"
+    },
+    {
+        "utc_time": "2021-03-12T00:24:00Z",
+        "artist": "Vhs Collection",
+        "album": "Sign",
+        "track": "Sign"
+    },
+    {
+        "utc_time": "2021-03-12T00:06:00Z",
+        "artist": "Kid Ink",
+        "album": "Tell Somebody",
+        "track": "Tell Somebody"
+    },
+    {
+        "utc_time": "2021-03-12T00:03:00Z",
+        "artist": "Rei Ami",
+        "album": "do it right (feat. Amin\u00e9)",
+        "track": "do it right (feat. Amin\u00e9)"
+    },
+    {
+        "utc_time": "2021-03-11T23:58:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX, Vol. III",
+        "track": "Rather Be"
+    },
+    {
+        "utc_time": "2021-03-11T23:55:00Z",
+        "artist": "Masta Wu",
+        "album": "Come here",
+        "track": "Come Here"
+    },
+    {
+        "utc_time": "2021-03-11T23:51:00Z",
+        "artist": "BLACKPINK",
+        "album": "SQUARE TWO",
+        "track": "STAY"
+    },
+    {
+        "utc_time": "2021-03-11T23:47:00Z",
+        "artist": "\ud0dc\uc591",
+        "album": "Rise",
+        "track": "\ub208,\ucf54,\uc785 (EYES, NOSE, LIPS)"
+    },
+    {
+        "utc_time": "2021-03-11T23:44:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "La La Lost You"
+    },
+    {
+        "utc_time": "2021-03-11T23:40:00Z",
+        "artist": "Tiffany Young",
+        "album": "Lips On Lips",
+        "track": "Lips On Lips"
+    },
+    {
+        "utc_time": "2021-03-11T23:37:00Z",
+        "artist": "Niki",
+        "album": "Sugarplum Elegy",
+        "track": "Sugarplum Elegy"
+    },
+    {
+        "utc_time": "2021-03-11T23:32:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "10k Hours (feat. Nas)"
+    },
+    {
+        "utc_time": "2021-03-11T23:28:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "me & ur ghost"
+    },
+    {
+        "utc_time": "2021-03-11T18:06:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Same Drugs"
+    },
+    {
+        "utc_time": "2021-03-11T18:03:00Z",
+        "artist": "MARC WAVY",
+        "album": "Daydreaming",
+        "track": "Daydreaming"
+    },
+    {
+        "utc_time": "2021-03-11T17:59:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "hot girl bummer"
+    },
+    {
+        "utc_time": "2021-03-11T17:56:00Z",
+        "artist": "Jessie Reyez",
+        "album": "Figures, a Reprise",
+        "track": "Figures, a Reprise"
+    },
+    {
+        "utc_time": "2021-03-11T17:51:00Z",
+        "artist": "Slodown",
+        "album": "Nomance",
+        "track": "Khaled"
+    },
+    {
+        "utc_time": "2021-03-11T17:37:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Winter"
+    },
+    {
+        "utc_time": "2021-03-11T17:32:00Z",
+        "artist": "Nick Wilson",
+        "album": "Bright Eyes",
+        "track": "Stay"
+    },
+    {
+        "utc_time": "2021-03-11T17:29:00Z",
+        "artist": "Dua Lipa",
+        "album": "Dua Lipa (Deluxe)",
+        "track": "IDGAF"
+    },
+    {
+        "utc_time": "2021-03-11T17:25:00Z",
+        "artist": "\uc6b8\ub784\ub77c\uc138\uc158",
+        "album": "reJOYce",
+        "track": "Best Girl"
+    },
+    {
+        "utc_time": "2021-03-11T17:22:00Z",
+        "artist": "The Script",
+        "album": "#3",
+        "track": "Hall of Fame (feat. will.i.am)"
+    },
+    {
+        "utc_time": "2021-03-11T17:17:00Z",
+        "artist": "Coldplay",
+        "album": "Parachutes",
+        "track": "Yellow"
+    },
+    {
+        "utc_time": "2021-03-11T17:13:00Z",
+        "artist": "Rand",
+        "album": "I Think We Danced (But I Can't Be Sure)",
+        "track": "I Think We Danced (But I Can't Be Sure)"
+    },
+    {
+        "utc_time": "2021-03-11T17:11:00Z",
+        "artist": "88Rising",
+        "album": "Head In The Clouds",
+        "track": "Beam (feat. Playboi Carti)"
+    },
+    {
+        "utc_time": "2021-03-11T17:07:00Z",
+        "artist": "Exo",
+        "album": "Miracles in December",
+        "track": "My Turn To Cry"
+    },
+    {
+        "utc_time": "2021-03-11T17:03:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Good for You",
+        "track": "Caroline"
+    },
+    {
+        "utc_time": "2021-03-11T16:59:00Z",
+        "artist": "Adam Levine",
+        "album": "Lost Stars",
+        "track": "Lost Stars"
+    },
+    {
+        "utc_time": "2021-03-11T16:56:00Z",
+        "artist": "347aidan",
+        "album": "Dancing in My Room",
+        "track": "Dancing in My Room"
+    },
+    {
+        "utc_time": "2021-03-11T16:52:00Z",
+        "artist": "Nvdes",
+        "album": "Vol. 2",
+        "track": "Everyday"
+    },
+    {
+        "utc_time": "2021-03-11T16:47:00Z",
+        "artist": "Chance the Rapper",
+        "album": "10 Day",
+        "track": "Brain Cells"
+    },
+    {
+        "utc_time": "2021-03-11T16:44:00Z",
+        "artist": "Frankie Valli & the Four Seasons",
+        "album": "The Greatest 70's Hits",
+        "track": "December, 1963 (Oh What A Night!)"
+    },
+    {
+        "utc_time": "2021-03-11T15:54:00Z",
+        "artist": "Little Mix",
+        "album": "Glory Days: The Platinum Edition",
+        "track": "Nobody Like You"
+    },
+    {
+        "utc_time": "2021-03-11T14:53:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "imagine"
+    },
+    {
+        "utc_time": "2021-03-11T14:49:00Z",
+        "artist": "Jaden",
+        "album": "Rainbow Bap",
+        "track": "Rainbow Bap"
+    },
+    {
+        "utc_time": "2021-03-11T14:46:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "One Way St. (feat. Ab-Soul)"
+    },
+    {
+        "utc_time": "2021-03-11T14:41:00Z",
+        "artist": "BTS",
+        "album": "SKOOL LUV AFFAIR",
+        "track": "Just One Day"
+    },
+    {
+        "utc_time": "2021-03-11T14:36:00Z",
+        "artist": "Adele",
+        "album": "25",
+        "track": "Hello"
+    },
+    {
+        "utc_time": "2021-03-11T14:32:00Z",
+        "artist": "Michelle Weeks",
+        "album": "Little Shop of Horrors (Original Motion Picture Soundtrack)",
+        "track": "Skid Row (Downtown)"
+    },
+    {
+        "utc_time": "2021-03-11T14:29:00Z",
+        "artist": "Avenue Beat",
+        "album": "F2020",
+        "track": "F2020"
+    },
+    {
+        "utc_time": "2021-03-11T14:26:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Long Beach"
+    },
+    {
+        "utc_time": "2021-03-10T12:30:00Z",
+        "artist": "Adele",
+        "album": "25",
+        "track": "Hello"
+    },
+    {
+        "utc_time": "2021-03-10T01:22:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "i love you"
+    },
+    {
+        "utc_time": "2021-03-10T01:20:00Z",
+        "artist": "Hunter Foster",
+        "album": "Little Shop Of Horrors (New Broadway Cast)",
+        "track": "Suddenly Seymour"
+    },
+    {
+        "utc_time": "2021-03-10T01:16:00Z",
+        "artist": "Camila Cabello",
+        "album": "Real Friends",
+        "track": "Real Friends"
+    },
+    {
+        "utc_time": "2021-03-10T01:12:00Z",
+        "artist": "Bigbang",
+        "album": "MADE",
+        "track": "Loser"
+    },
+    {
+        "utc_time": "2021-03-10T01:08:00Z",
+        "artist": "Jason Mraz",
+        "album": "We Sing. We Dance. We Steal Things.",
+        "track": "I'm Yours"
+    },
+    {
+        "utc_time": "2021-03-10T01:04:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Born Tired"
+    },
+    {
+        "utc_time": "2021-03-10T00:51:00Z",
+        "artist": "\uc545\ub3d9\ubba4\uc9c0\uc158",
+        "album": "PLAY",
+        "track": "Melted"
+    },
+    {
+        "utc_time": "2021-03-10T00:48:00Z",
+        "artist": "Khalid",
+        "album": "Suncity",
+        "track": "Saturday Nights"
+    },
+    {
+        "utc_time": "2021-03-10T00:44:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "fake smile"
+    },
+    {
+        "utc_time": "2021-03-10T00:41:00Z",
+        "artist": "Daniel Caesar",
+        "album": "CASE STUDY 01",
+        "track": "LOVE AGAIN"
+    },
+    {
+        "utc_time": "2021-03-10T00:37:00Z",
+        "artist": "BLACKPINK",
+        "album": "SQUARE TWO",
+        "track": "STAY"
+    },
+    {
+        "utc_time": "2021-03-10T00:35:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "CHANGES"
+    },
+    {
+        "utc_time": "2021-03-10T00:17:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX, Vol. 2",
+        "track": "Valentine"
+    },
+    {
+        "utc_time": "2021-03-10T00:14:00Z",
+        "artist": "James Arthur",
+        "album": "Say You Won't Let Go",
+        "track": "Say You Won't Let Go"
+    },
+    {
+        "utc_time": "2021-03-10T00:12:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Walking (feat. Swae Lee & Major Lazer)"
+    },
+    {
+        "utc_time": "2021-03-10T00:09:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "shut up"
+    },
+    {
+        "utc_time": "2021-03-10T00:05:00Z",
+        "artist": "gnash",
+        "album": "us",
+        "track": "I Hate U, I Love U (feat. Olivia O'Brien)"
+    },
+    {
+        "utc_time": "2021-03-10T00:01:00Z",
+        "artist": "Pentatonix",
+        "album": "PTX, Vol. III",
+        "track": "Rather Be"
+    },
+    {
+        "utc_time": "2021-03-09T23:59:00Z",
+        "artist": "Offset",
+        "album": "Without Warning",
+        "track": "Ric Flair Drip (& Metro Boomin)"
+    },
+    {
+        "utc_time": "2021-03-09T23:55:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hopscotch (feat. Barney Bones & Rich Brian)"
+    },
+    {
+        "utc_time": "2021-03-09T22:47:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Acid Rap",
+        "track": "Favorite Song"
+    },
+    {
+        "utc_time": "2021-03-09T22:44:00Z",
+        "artist": "Lauv",
+        "album": "~how i'm feeling~",
+        "track": "Modern Loneliness"
+    },
+    {
+        "utc_time": "2021-03-09T22:36:00Z",
+        "artist": "Laura Dreyfuss",
+        "album": "Dear Evan Hansen (Original Broadway Cast Recording)",
+        "track": "Only Us"
+    },
+    {
+        "utc_time": "2021-03-09T22:31:00Z",
+        "artist": "Little Mix",
+        "album": "Glory Days (Deluxe)",
+        "track": "Nobody Like You"
+    },
+    {
+        "utc_time": "2021-03-09T20:49:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "BURNT AF"
+    },
+    {
+        "utc_time": "2021-03-09T20:46:00Z",
+        "artist": "Keshi",
+        "album": "THE REAPER",
+        "track": "like i need u"
+    },
+    {
+        "utc_time": "2021-03-09T20:43:00Z",
+        "artist": "Rex Orange County",
+        "album": "Pony",
+        "track": "Always"
+    },
+    {
+        "utc_time": "2021-03-09T20:40:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Star"
+    },
+    {
+        "utc_time": "2021-03-09T13:46:00Z",
+        "artist": "Jessie Reyez",
+        "album": "Figures, a Reprise",
+        "track": "Figures, a Reprise"
+    },
+    {
+        "utc_time": "2021-03-09T13:42:00Z",
+        "artist": "Troye Sivan",
+        "album": "Blue Neighbourhood (Deluxe)",
+        "track": "for him."
+    },
+    {
+        "utc_time": "2021-03-09T13:39:00Z",
+        "artist": "MARC WAVY",
+        "album": "Daydreaming",
+        "track": "Daydreaming"
+    },
+    {
+        "utc_time": "2021-03-09T13:36:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Mourning Doves"
+    },
+    {
+        "utc_time": "2021-03-09T13:33:00Z",
+        "artist": "Twenty One Pilots",
+        "album": "Blurryface",
+        "track": "Stressed Out"
+    },
+    {
+        "utc_time": "2021-03-09T02:40:00Z",
+        "artist": "Sam Smith",
+        "album": "In The Lonely Hour (Deluxe)",
+        "track": "Leave Your Lover"
+    },
+    {
+        "utc_time": "2021-03-09T02:36:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Pilgrim's Paradise",
+        "track": "Streetcar"
+    },
+    {
+        "utc_time": "2021-03-09T02:31:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "listen before i go"
+    },
+    {
+        "utc_time": "2021-03-09T02:27:00Z",
+        "artist": "Niki",
+        "album": "Lose",
+        "track": "Lose"
+    },
+    {
+        "utc_time": "2021-03-09T02:23:00Z",
+        "artist": "Kendrick Lamar",
+        "album": "Swimming Pools (Drank)",
+        "track": "Swimming Pools (Drank)"
+    },
+    {
+        "utc_time": "2021-03-09T02:19:00Z",
+        "artist": "2 Chainz",
+        "album": "Pretty Girls Like Trap Music",
+        "track": "It's a Vibe"
+    },
+    {
+        "utc_time": "2021-03-09T02:16:00Z",
+        "artist": "Jonas Blue",
+        "album": "Polaroid",
+        "track": "Polaroid"
+    },
+    {
+        "utc_time": "2021-03-08T21:19:00Z",
+        "artist": "tobi lou",
+        "album": "Pretty Much",
+        "track": "Pretty Much"
+    },
+    {
+        "utc_time": "2021-03-08T21:10:00Z",
+        "artist": "John Legend",
+        "album": "Love In The Future (Expanded Edition)",
+        "track": "All of Me"
+    },
+    {
+        "utc_time": "2021-03-08T21:06:00Z",
+        "artist": "Billie Eilish",
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "track": "wish you were gay"
+    },
+    {
+        "utc_time": "2021-03-08T21:02:00Z",
+        "artist": "347aidan",
+        "album": "Dancing in My Room",
+        "track": "Dancing in My Room"
+    },
+    {
+        "utc_time": "2021-03-08T20:59:00Z",
+        "artist": "Lauv",
+        "album": "Superhero",
+        "track": "Superhero"
+    },
+    {
+        "utc_time": "2021-03-08T20:57:00Z",
+        "artist": "Aaron May",
+        "album": "CHASE",
+        "track": "Closed Hands"
+    },
+    {
+        "utc_time": "2021-03-08T20:50:00Z",
+        "artist": "KOTA The Friend",
+        "album": "FOTO",
+        "track": "Hollywood"
+    },
+    {
+        "utc_time": "2021-03-07T18:06:00Z",
+        "artist": "Victorious Cast",
+        "album": "Victorious 2.0: More Music From the Hit TV Show",
+        "track": "Take A Hint"
+    },
+    {
+        "utc_time": "2021-03-07T18:03:00Z",
+        "artist": "Sabrina Carpenter",
+        "album": "Singular Act I",
+        "track": "Sue Me"
+    },
+    {
+        "utc_time": "2021-03-07T17:59:00Z",
+        "artist": "Jarreau Vandal",
+        "album": "Anthology",
+        "track": "Westside"
+    },
+    {
+        "utc_time": "2021-03-07T17:56:00Z",
+        "artist": "Hyolyn",
+        "album": "\ub2ec\ub9ac",
+        "track": "Dally (feat. Gray)"
+    },
+    {
+        "utc_time": "2021-03-07T17:53:00Z",
+        "artist": "Quincy Mumford",
+        "album": "Cruisin'",
+        "track": "Cruisin'"
+    },
+    {
+        "utc_time": "2021-03-07T17:50:00Z",
+        "artist": "Joji",
+        "album": "Nectar",
+        "track": "Ew"
+    },
+    {
+        "utc_time": "2021-03-07T17:47:00Z",
+        "artist": "DaBaby",
+        "album": "KIRK",
+        "track": "TOES (feat. Lil Baby & Moneybagg Yo)"
+    },
+    {
+        "utc_time": "2021-03-07T17:44:00Z",
+        "artist": "Cardi B",
+        "album": "WAP (feat. Megan Thee Stallion)",
+        "track": "WAP (feat. Megan Thee Stallion)"
+    },
+    {
+        "utc_time": "2021-03-07T17:42:00Z",
+        "artist": "Tiagz",
+        "album": "My Heart Went Oops",
+        "track": "My Heart Went Oops"
+    },
+    {
+        "utc_time": "2021-03-07T17:37:00Z",
+        "artist": "Rick Bridges",
+        "album": "Cinderella",
+        "track": "Cinderella"
+    },
+    {
+        "utc_time": "2021-03-07T17:33:00Z",
+        "artist": "khai dreams",
+        "album": "Nice Colors",
+        "track": "Nice Colors"
+    },
+    {
+        "utc_time": "2021-03-07T17:30:00Z",
+        "artist": "Jakubi",
+        "album": "Couch Potato",
+        "track": "Couch Potato"
+    },
+    {
+        "utc_time": "2021-03-07T17:28:00Z",
+        "artist": "llusion",
+        "album": "walk but in a garden",
+        "track": "walk but in a garden (with mxmtoon)"
+    },
+    {
+        "utc_time": "2021-03-07T17:26:00Z",
+        "artist": "ppcocaine",
+        "album": "Hugh Hefner",
+        "track": "Hugh Hefner"
+    },
+    {
+        "utc_time": "2021-03-07T17:22:00Z",
+        "artist": "Crush",
+        "album": "Interlude",
+        "track": "woo ah"
+    },
+    {
+        "utc_time": "2021-03-07T17:20:00Z",
+        "artist": "Bohan Phoenix",
+        "album": "when i mmhmm",
+        "track": "when i mmhmm"
+    },
+    {
+        "utc_time": "2021-03-07T17:15:00Z",
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "track": "Versace on the Floor"
+    },
+    {
+        "utc_time": "2021-03-07T17:12:00Z",
+        "artist": "Sik-K",
+        "album": "H.A.L.F (Have.A.Little.Fun)",
+        "track": "Have a Little Fun"
+    },
+    {
+        "utc_time": "2021-03-07T17:09:00Z",
+        "artist": "Tekno",
+        "album": "The Lion King: The Gift [Deluxe Edition]",
+        "track": "DON'T JEALOUS ME"
+    },
+    {
+        "utc_time": "2021-03-07T17:06:00Z",
+        "artist": "Sonny",
+        "album": "Tryna",
+        "track": "Tryna"
+    },
+    {
+        "utc_time": "2021-03-07T17:03:00Z",
+        "artist": "Madison Beer",
+        "album": "Dear Society",
+        "track": "Dear Society"
+    },
+    {
+        "utc_time": "2021-03-07T17:00:00Z",
+        "artist": "Kreayshawn",
+        "album": "Somethin 'Bout Kreay",
+        "track": "Gucci Gucci"
+    },
+    {
+        "utc_time": "2021-03-07T16:56:00Z",
+        "artist": "6LACK",
+        "album": "East Atlanta Love Letter",
+        "track": "Pretty Little Fears (feat. J. Cole)"
+    },
+    {
+        "utc_time": "2021-03-07T16:33:00Z",
+        "artist": "That Kid",
+        "album": "Crush",
+        "track": "Taco Bell"
+    },
+    {
+        "utc_time": "2021-03-07T16:29:00Z",
+        "artist": "Bohan Phoenix",
+        "album": "OVERSEAS",
+        "track": "FALLING \u5730\u7403\u4eba"
+    },
+    {
+        "utc_time": "2021-03-07T16:22:00Z",
+        "artist": "blackbear",
+        "album": "ANONYMOUS",
+        "track": "BURNT AF"
+    },
+    {
+        "utc_time": "2021-03-07T16:18:00Z",
+        "artist": "Bo Shim",
+        "album": "Bloomfield",
+        "track": "Bloomfield"
+    },
+    {
+        "utc_time": "2021-03-07T16:16:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "Love"
+    },
+    {
+        "utc_time": "2021-03-06T21:12:00Z",
+        "artist": "SZA",
+        "album": "Ctrl",
+        "track": "Drew Barrymore"
+    },
+    {
+        "utc_time": "2021-03-06T21:09:00Z",
+        "artist": "Ryn Weaver",
+        "album": "The Fool",
+        "track": "Pierre"
+    },
+    {
+        "utc_time": "2021-03-06T21:05:00Z",
+        "artist": "One Direction",
+        "album": "FOUR (Deluxe)",
+        "track": "Night Changes"
+    },
+    {
+        "utc_time": "2021-03-06T20:12:00Z",
+        "artist": "Olivia Rodrigo",
+        "album": "drivers license",
+        "track": "drivers license"
+    },
+    {
+        "utc_time": "2021-03-06T20:09:00Z",
+        "artist": "88Rising",
+        "album": "Indigo",
+        "track": "Indigo"
+    },
+    {
+        "utc_time": "2021-03-06T20:06:00Z",
+        "artist": "Ariana Grande",
+        "album": "34+35 (Remix)",
+        "track": "34+35 Remix (feat. Doja Cat, Megan Thee Stallion) - Remix"
+    },
+    {
+        "utc_time": "2021-03-06T17:37:00Z",
+        "artist": "Sech",
+        "album": "Sue\u00f1os",
+        "track": "Otro Trago"
+    },
+    {
+        "utc_time": "2021-03-06T17:25:00Z",
+        "artist": "DJ Snake",
+        "album": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)",
+        "track": "Taki Taki (with Selena Gomez, Ozuna & Cardi B)"
+    },
+    {
+        "utc_time": "2021-03-06T17:21:00Z",
+        "artist": "Sabrina Claudio",
+        "album": "Truth Is",
+        "track": "Take One to the Head"
+    },
+    {
+        "utc_time": "2021-03-05T20:24:00Z",
+        "artist": "Saweetie",
+        "album": "Best Friend (feat. Doja Cat)",
+        "track": "Best Friend (feat. Doja Cat)"
+    },
+    {
+        "utc_time": "2021-03-05T20:20:00Z",
+        "artist": "blackbear",
+        "album": "deadroses",
+        "track": "4u"
+    },
+    {
+        "utc_time": "2021-03-05T20:16:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "me & ur ghost"
+    },
+    {
+        "utc_time": "2021-03-05T20:13:00Z",
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "track": "That's What I Like"
+    },
+    {
+        "utc_time": "2021-03-05T20:10:00Z",
+        "artist": "blackbear",
+        "album": "everything means nothing",
+        "track": "hot girl bummer"
+    },
+    {
+        "utc_time": "2021-03-05T20:07:00Z",
+        "artist": "Lany",
+        "album": "kinda",
+        "track": "current location"
+    },
+    {
+        "utc_time": "2021-03-05T20:03:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Another Sad Love Song"
+    },
+    {
+        "utc_time": "2021-03-05T20:00:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Beautiful"
+    },
+    {
+        "utc_time": "2021-03-05T19:56:00Z",
+        "artist": "Bazzi",
+        "album": "Soul Searching",
+        "track": "Paradise"
+    },
+    {
+        "utc_time": "2021-03-05T19:51:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Same Drugs"
+    },
+    {
+        "utc_time": "2021-03-05T19:48:00Z",
+        "artist": "SZA",
+        "album": "Z",
+        "track": "Child's Play (feat. Chance The Rapper)"
+    },
+    {
+        "utc_time": "2021-03-05T19:44:00Z",
+        "artist": "SZA",
+        "album": "Ctrl",
+        "track": "Love Galore (feat. Travis Scott)"
+    },
+    {
+        "utc_time": "2021-03-05T19:40:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Saved"
+    },
+    {
+        "utc_time": "2021-03-05T19:36:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Get You (feat. Kali Uchis)"
+    },
+    {
+        "utc_time": "2021-03-05T19:32:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Location"
+    },
+    {
+        "utc_time": "2021-03-05T19:28:00Z",
+        "artist": "Rex Orange County",
+        "album": "Pony",
+        "track": "Face to Face"
+    },
+    {
+        "utc_time": "2021-03-05T19:25:00Z",
+        "artist": "Tiffany Day",
+        "album": "TWFNO",
+        "track": "TWFNO"
+    },
+    {
+        "utc_time": "2021-03-05T19:21:00Z",
+        "artist": "Khalid",
+        "album": "American Teen",
+        "track": "Saved"
+    },
+    {
+        "utc_time": "2021-03-05T19:06:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Juke Jam (feat. Justin Bieber & Towkio)"
+    },
+    {
+        "utc_time": "2021-03-05T19:06:00Z",
+        "artist": "Avenue Beat",
+        "album": "F2020",
+        "track": "F2020"
+    },
+    {
+        "utc_time": "2021-03-05T19:03:00Z",
+        "artist": "Avenue Beat",
+        "album": "F2020",
+        "track": "F2020"
+    },
+    {
+        "utc_time": "2021-03-05T18:39:00Z",
+        "artist": "blackbear",
+        "album": "Help",
+        "track": "Help (feat. Maejor)"
+    },
+    {
+        "utc_time": "2021-03-05T18:28:00Z",
+        "artist": "Lennon Stella",
+        "album": "Bad (Acoustic)",
+        "track": "Bad"
+    },
+    {
+        "utc_time": "2021-03-05T18:25:00Z",
+        "artist": "Niki",
+        "album": "Sugarplum Elegy",
+        "track": "Sugarplum Elegy"
+    },
+    {
+        "utc_time": "2021-03-05T18:22:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Breathe"
+    },
+    {
+        "utc_time": "2021-03-05T17:28:00Z",
+        "artist": "Ariana Grande",
+        "album": "Sweetener",
+        "track": "sweetener"
+    },
+    {
+        "utc_time": "2021-03-05T17:21:00Z",
+        "artist": "blackbear",
+        "album": "deadroses",
+        "track": "waste away (feat. Devon Baldwin)"
+    },
+    {
+        "utc_time": "2021-03-05T17:17:00Z",
+        "artist": "Billie Eilish",
+        "album": "lovely (with Khalid)",
+        "track": "lovely (with Khalid)"
+    },
+    {
+        "utc_time": "2021-03-05T17:13:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hold Me Down"
+    },
+    {
+        "utc_time": "2021-03-05T17:10:00Z",
+        "artist": "Eden",
+        "album": "no future",
+        "track": "hertz"
+    },
+    {
+        "utc_time": "2021-03-05T17:02:00Z",
+        "artist": "The Beatles",
+        "album": "1 (Remastered)",
+        "track": "Hey Jude - Remastered 2015"
+    },
+    {
+        "utc_time": "2021-03-05T12:22:00Z",
+        "artist": "Shannon",
+        "album": "Hatred Farewell",
+        "track": "Hatred Farewell"
+    },
+    {
+        "utc_time": "2021-03-04T17:57:00Z",
+        "artist": "Saba",
+        "album": "Bucket List Project",
+        "track": "Bucket List"
+    },
+    {
+        "utc_time": "2021-03-04T17:54:00Z",
+        "artist": "Y2K",
+        "album": "Lalala",
+        "track": "Lalala"
+    },
+    {
+        "utc_time": "2021-03-04T17:51:00Z",
+        "artist": "Kweku Collins",
+        "album": "Nat Love",
+        "track": "The Last"
+    },
+    {
+        "utc_time": "2021-03-04T17:48:00Z",
+        "artist": "Noname",
+        "album": "Room 25",
+        "track": "Ace"
+    },
+    {
+        "utc_time": "2021-03-04T17:45:00Z",
+        "artist": "Chance the Rapper",
+        "album": "My Own Thing",
+        "track": "My Own Thing"
+    },
+    {
+        "utc_time": "2021-02-28T20:42:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Long Beach"
+    },
+    {
+        "utc_time": "2021-02-28T20:41:00Z",
+        "artist": "Amin\u00e9",
+        "album": "Limbo (Deluxe)",
+        "track": "Zack & Cody (feat. Valee)"
+    },
+    {
+        "utc_time": "2021-02-28T20:39:00Z",
+        "artist": "Charlie Puth",
+        "album": "Nine Track Mind",
+        "track": "One Call Away"
+    },
+    {
+        "utc_time": "2021-02-28T20:36:00Z",
+        "artist": "Halsey",
+        "album": "Without Me",
+        "track": "Without Me"
+    },
+    {
+        "utc_time": "2021-02-28T20:33:00Z",
+        "artist": "Wale",
+        "album": "The Album About Nothing",
+        "track": "The Need to Know (feat. SZA)"
+    },
+    {
+        "utc_time": "2021-02-28T20:29:00Z",
+        "artist": "PARTYNEXTDOOR",
+        "album": "Seven Days",
+        "track": "Damage"
+    },
+    {
+        "utc_time": "2021-02-28T16:30:00Z",
+        "artist": "PARTYNEXTDOOR",
+        "album": "Seven Days",
+        "track": "Damage"
+    },
+    {
+        "utc_time": "2021-02-28T16:30:00Z",
+        "artist": "88Rising",
+        "album": "Head in the Clouds II",
+        "track": "Hopscotch (feat. Barney Bones & Rich Brian)"
+    },
+    {
+        "utc_time": "2021-02-28T16:27:00Z",
+        "artist": "Nvdes",
+        "album": "Vol. 2",
+        "track": "Everyday"
+    },
+    {
+        "utc_time": "2021-02-28T16:23:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-02-28T16:19:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Summerhouse"
+    },
+    {
+        "utc_time": "2021-02-28T16:15:00Z",
+        "artist": "Tiffany Day",
+        "album": "TWFNO",
+        "track": "TWFNO"
+    },
+    {
+        "utc_time": "2021-02-27T19:43:00Z",
+        "artist": "Charlie Puth",
+        "album": "Nine Track Mind",
+        "track": "We Don't Talk Anymore (feat. Selena Gomez)"
+    },
+    {
+        "utc_time": "2021-02-27T19:39:00Z",
+        "artist": "Ariana Grande",
+        "album": "Positions",
+        "track": "34+35"
+    },
+    {
+        "utc_time": "2021-02-27T19:36:00Z",
+        "artist": "88Rising",
+        "album": "Head In The Clouds",
+        "track": "Lover Boy 88"
+    },
+    {
+        "utc_time": "2021-02-27T19:32:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Acid Rap",
+        "track": "NaNa"
+    },
+    {
+        "utc_time": "2021-02-27T18:43:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Chilombo",
+        "track": "B.S. (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-02-27T18:35:00Z",
+        "artist": "Jodi Benson",
+        "album": "Little Mermaid (Special Edition)",
+        "track": "Part of Your World - From \"The Little Mermaid\" / Soundtrack Version"
+    },
+    {
+        "utc_time": "2021-02-27T18:26:00Z",
+        "artist": "Frankie Valli & the Four Seasons",
+        "album": "The Greatest 70's Hits",
+        "track": "December, 1963 (Oh What A Night!)"
+    },
+    {
+        "utc_time": "2021-02-27T18:23:00Z",
+        "artist": "Lauren Ambrose",
+        "album": "My Fair Lady (2018 Broadway Cast Recording)",
+        "track": "I Could Have Danced All Night"
+    },
+    {
+        "utc_time": "2021-02-27T18:08:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Long Beach"
+    },
+    {
+        "utc_time": "2021-02-27T16:48:00Z",
+        "artist": "VALNTN",
+        "album": "Mona Lisa",
+        "track": "Mona Lisa"
+    },
+    {
+        "utc_time": "2021-02-27T16:46:00Z",
+        "artist": "Wingtip",
+        "album": "Space For Us",
+        "track": "Space For Us"
+    },
+    {
+        "utc_time": "2021-02-27T16:42:00Z",
+        "artist": "Bazzi",
+        "album": "Cosmic",
+        "track": "Beautiful"
+    },
+    {
+        "utc_time": "2021-02-27T16:39:00Z",
+        "artist": "Chance the Rapper",
+        "album": "Coloring Book",
+        "track": "Same Drugs"
+    },
+    {
+        "utc_time": "2021-02-27T16:34:00Z",
+        "artist": "Tiffany Young",
+        "album": "Remember Me (From \"Coco\")",
+        "track": "Remember Me (From \"Coco\")"
+    },
+    {
+        "utc_time": "2021-02-27T16:32:00Z",
+        "artist": "Junny",
+        "album": "Thank You",
+        "track": "Thank You"
+    },
+    {
+        "utc_time": "2021-02-27T16:29:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "7 rings"
+    },
+    {
+        "utc_time": "2021-02-27T16:26:00Z",
+        "artist": "Jhen\u00e9 Aiko",
+        "album": "Trip",
+        "track": "While We're Young"
+    },
+    {
+        "utc_time": "2021-02-27T16:20:00Z",
+        "artist": "Elton John",
+        "album": "Elton John",
+        "track": "Your Song"
+    },
+    {
+        "utc_time": "2021-02-27T16:16:00Z",
+        "artist": "MARC WAVY",
+        "album": "Daydreaming",
+        "track": "Daydreaming"
+    },
+    {
+        "utc_time": "2021-02-27T16:13:00Z",
+        "artist": "Emma Watson",
+        "album": "Beauty and the Beast (Original Motion Picture Soundtrack/Deluxe Edition)",
+        "track": "Belle"
+    },
+    {
+        "utc_time": "2021-02-27T16:08:00Z",
+        "artist": "Ariana Grande",
+        "album": "thank u, next",
+        "track": "thank u, next"
+    },
+    {
+        "utc_time": "2021-02-27T16:03:00Z",
+        "artist": "fun.",
+        "album": "Some Nights",
+        "track": "Some Nights"
+    },
+    {
+        "utc_time": "2021-02-27T15:59:00Z",
+        "artist": "Rich the Kid",
+        "album": "The World is Yours",
+        "track": "Plug Walk"
+    },
+    {
+        "utc_time": "2021-02-27T15:56:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "Best Part (feat. H.E.R.)"
+    },
+    {
+        "utc_time": "2021-02-27T15:52:00Z",
+        "artist": "Daniel Caesar",
+        "album": "Freudian",
+        "track": "We Find Love"
+    },
+    {
+        "utc_time": "2021-02-27T15:48:00Z",
+        "artist": "Travie McCoy",
+        "album": "Billionaire (Feat. Bruno Mars)",
+        "track": "Billionaire (feat. Bruno Mars)"
+    },
+    {
+        "utc_time": "2021-02-27T15:45:00Z",
+        "artist": "Bruno Mars",
+        "album": "24K Magic",
+        "track": "Versace on the Floor"
+    },
+    {
+        "utc_time": "2021-02-27T15:40:00Z",
+        "artist": "Matthew James Thomas",
+        "album": "Pippin (New Broadway Cast Recording)",
+        "track": "Corner Of The Sky"
+    },
+    {
+        "utc_time": "2021-02-27T15:37:00Z",
+        "artist": "KOTA The Friend",
+        "album": "EVERYTHING",
+        "track": "Volvo"
+    },
+    {
+        "utc_time": "2021-02-27T15:34:00Z",
+        "artist": "moonmoon",
+        "album": "Life Is Beauty Full",
+        "track": "\ube44\ud589\uc6b4 Contrail"
+    },
+    {
+        "utc_time": "2021-02-27T15:31:00Z",
+        "artist": "Jay Park",
+        "album": "YACHT (k) (Feat. Sik-K)",
+        "track": "Yacht (K) [feat. Sik-K]"
+    },
+    {
+        "utc_time": "2021-02-27T15:23:00Z",
+        "artist": "Tsunari",
+        "album": "Fruity Loops",
+        "track": "Fruity Loops"
+    },
+    {
+        "utc_time": "2021-02-27T15:20:00Z",
+        "artist": "Sky",
+        "album": "something tells me",
+        "track": "something tells me"
+    },
+    {
+        "utc_time": "2021-02-27T15:16:00Z",
+        "artist": "Sam Merkin",
+        "album": "breakups",
+        "track": "breakups"
+    },
+    {
+        "utc_time": "2021-02-27T15:13:00Z",
+        "artist": "Rahmania Astrini",
+        "album": "Adolescent",
+        "track": "Pretty Like You (feat. Monica Karina)"
+    }
+]
