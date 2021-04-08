@@ -535,6 +535,16 @@
           .attr("opacity", "50%")
           .attr("class", this.getAttribute("class"))
          var date = new Date(i.date)
+
+         // display image for top song
+         tooltip.append("image")
+            .attr("xlink:href", function(){
+              return(spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).image || '');
+            })
+            .attr("x", width + 50)
+            .attr("y", 130)
+            .attr("width","145px")                  
+            .attr("height","145px")
           
           //details
           tooltip.append("text")
@@ -715,13 +725,14 @@
           audio.src = spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).audio;
           console.log(audio.src);
           audio.autoplay = true;
+          audio.volume = 0.5;
           audio.type = 'audio/mpeg';
           document.getElementById("tooltip").appendChild(audio);
 
           //details
           tooltip.append("rect")
             .attr("x", width + 20)
-            .attr("y", 240)
+            .attr("y", 290)
             .attr("width", 300)
             .attr("height", 600)
             .attr("fill", "#34383A")
