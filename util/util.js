@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import * as d3 from "d3";
 
 function parseCSV(file) {
@@ -80,8 +79,6 @@ function join(lookupTable, mainTable, lookupKey, mainKey, select) {
 parseCSV('datasets/scrobbles-akerblomman-1617639941.csv');
 
 
-=======
->>>>>>> a4efad87960f504be94e06e65a61a6a42eacc369
 
 // import d3 from "d3";
 // var d3 = d3;
@@ -91,13 +88,13 @@ parseCSV('datasets/scrobbles-akerblomman-1617639941.csv');
 // const mysqlConnection = require('./connection');
 // const fastcsv = require('fast-csv');
 
-var fs = require('fs'); 
+var fs = require('fs');
 var parse = require('csv-parse');
-var parser = parse({columns: true}, function (err, records) {
-	console.log(records);
+var parser = parse({ columns: true }, function (err, records) {
+  console.log(records);
 });
 
-fs.createReadStream(__dirname+'../../datasets/lastfm/scrobbles-mibbie99-1617637884.csv').pipe(parser);
+fs.createReadStream(__dirname + '../../datasets/lastfm/scrobbles-mibbie99-1617637884.csv').pipe(parser);
 
 
 //Hard coded directory has been used.

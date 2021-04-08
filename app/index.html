@@ -25,11 +25,10 @@
 
   var d3 = d3;
 
+
 var username = (window.prompt("Enter your username: "))
   var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
 
-// var name = "carafo_"
-// var username = "carafo_"
   const margin = 40;
   // window.onresize = windowSize;
   var width = (window.innerWidth * 0.8) - 2 * margin;
@@ -38,6 +37,7 @@ var username = (window.prompt("Enter your username: "))
 
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
+
 
   if(window[name] == undefined){
     alert("This username does not exist! Please try again.");
@@ -69,6 +69,73 @@ var username = (window.prompt("Enter your username: "))
 
   var colorScaleOut = ["#B459DE", "#61ECDB", "#3372D2", "#FD3A3E"]
   var colorScaleIn = ["#E0BCF0", "#B6F6EE", "#B0C8ED", "#FED2D2"]
+
+  //return colors to normal function - sharon
+  function returnColors() {
+    d3.selectAll(".purple").attr("fill", "#B459DE")
+    d3.selectAll(".teal").attr("fill", "#61ECDB")
+    d3.selectAll(".blue").attr("fill", "#3372D2")
+    d3.selectAll(".red").attr("fill", "#FD3A3E")
+    d3.selectAll(".lightPurple").attr("fill", "#E0BCF0")
+    d3.selectAll(".lightTeal").attr("fill", "#B6F6EE")
+    d3.selectAll(".lightBlue").attr("fill", "#B0C8ED")
+    d3.selectAll(".lightRed").attr("fill", "#FED2D2")
+    d3.selectAll(".white").attr("fill", "white")
+  }
+  
+  function mouseout() {
+    if (!isClicked){
+      d3.select(this).attr("opacity", 1)
+      returnColors()
+    }
+  }
+  
+  function reset() {
+     returnColors()
+     d3.select(this).attr("fill", "black")
+        d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
+   }
+  
+  //only show certain colors on hover/click - sharon
+  function showRed() {
+    d3.selectAll(".purple,.teal,.blue,.lightPurple,.lightTeal,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showPurple() {
+    d3.selectAll(".teal,.blue,.red,.lightPurple,.lightTeal,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showTeal(){
+    d3.selectAll(".purple,.blue,.red,.lightPurple,.lightTeal,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showBlue(){
+    d3.selectAll(".purple,.teal,.red,.lightPurple,.lightTeal,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showLightRed() {
+    d3.selectAll(".purple,.teal,.blue,.red,.lightPurple,.lightTeal,.lightBlue,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showLightPurple() {
+    d3.selectAll(".purple,.teal,.blue,.red,.lightTeal,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showLightTeal(){
+    d3.selectAll(".purple,.teal,.blue,.red,.lightPurple,.lightBlue,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
+  
+  function showLightBlue(){
+    d3.selectAll(".purple,.teal,.blue,.red,.lightPurple,.lightTeal,.lightRed,.white")
+      .attr("fill", "#000000")
+  }
 
   var chart = svg.append("g")
 
@@ -107,76 +174,269 @@ var username = (window.prompt("Enter your username: "))
     .attr("y", 85)
     .attr("class", "title")
     .text("Mood Waves")
-tgrp.append("text")
+
+  tgrp.append("text")
     .attr("x", width - (username.length * 2))
     .attr("y", 85)
     .attr("class", "heading")
     .text("Welcome, " + username)
+
+  //red legend
   tgrp.append("rect")
-    .attr("x", 0)
-    .attr("y", 300)
-    .attr("width", 30)
-    .attr("height", 30)
-    .attr("fill", "#FD3A3E")
+      .attr("x", 0)
+      .attr("y", 300)
+      .attr("width", 30)
+      .attr("height", 30)
+      .attr("fill", "#FD3A3E")
+      .attr("class","redLegend")
+      .on("mouseover", function() { 
+        if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showRed()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() { 
+        if(!isClicked){
+          isClicked = true; d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+          d3.select(this).attr("opacity", 1)
+          showRed() 
+        }
+      })
+  
+  //light red legend
+  tgrp.append("rect")
+      .attr("x", 0)
+      .attr("y", 315)
+      .attr("width", 30)
+      .attr("height", 15)
+      .attr("fill", "#FED2D2")
+      .attr("class","lightRedLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showLightRed()
+          }
+      })
+      .on("mouseout",mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showLightRed()
+          }
+      })
+  
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 310)
-    .attr("class", "subheading")
+    .attr("class", "quadrant1")
     .text("tense, nervous,")
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 335)
-    .attr("class", "subheading")
+    .attr("class", "quadrant1")
     .text("stressed, upset")
+
+  //purple legend
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 375)
     .attr("width", 30)
     .attr("height", 30)
     .attr("fill", "#B459DE")
+    .attr("class","purpleLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showPurple()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant1,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showPurple()
+          }
+      })
+  
+    //light purple legend
+    tgrp.append("rect")
+      .attr("x", 0)
+      .attr("y", 390)
+      .attr("width", 30)
+      .attr("height", 15)
+      .attr("fill", "#E0BCF0")
+      .attr("class","lightPurpleLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showLightPurple()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant1,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showLightPurple()
+          }
+      })
+  
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 385)
-    .attr("class", "subheading")
+    .attr("class", "quadrant2")
     .text("alert, excited,")
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 410)
-    .attr("class", "subheading")
+    .attr("class", "quadrant2")
     .text("elated, happy")
+
+  //teal legend
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 450)
     .attr("width", 30)
     .attr("height", 30)
     .attr("fill", "#61ECDB")
+    .attr("class","tealLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showTeal()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+          isClicked = true
+            d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showTeal()
+          }
+      })
+  
+    //light teal legend
+    tgrp.append("rect")
+      .attr("x", 0)
+      .attr("y", 465)
+      .attr("width", 30)
+      .attr("height", 15)
+      .attr("fill", "#B6F6EE")
+      .attr("class","lightTealLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showLightTeal()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showLightTeal()
+          }
+      })
+  
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 460)
-    .attr("class", "subheading")
+    .attr("class", "quadrant3")
     .text("content, serene,")
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 485)
-    .attr("class", "subheading")
+    .attr("class", "quadrant3")
     .text("relaxed, calm")
+
+  //blue legend
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 525)
     .attr("width", 30)
     .attr("height", 30)
     .attr("fill", "#3372D2")
+    .attr("class","blueLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showBlue()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.redLegend,.lightRedLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showBlue()
+          }
+      })
+  
+      //light blue legend
+      tgrp.append("rect")
+      .attr("x", 0)
+      .attr("y", 540)
+      .attr("width", 30)
+      .attr("height", 15)
+      .attr("fill", "#B0C8ED")
+      .attr("class","lightBlueLegend")
+      .on("mouseover", function() { 
+          if(!isClicked){
+            d3.select(this).attr("opacity", 0.5)
+            showLightBlue()
+          }
+      })
+      .on("mouseout", mouseout)
+      .on("click", function() {
+          if(!isClicked){
+            isClicked = true
+            d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.redLegend,.lightRedLegend").attr("opacity", 0.2)
+            d3.select(this).attr("opacity", 1)
+            showLightBlue()
+          }
+      })
+  
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 535)
-    .attr("class", "subheading")
+    .attr("class", "quadrant4")
     .text("tired, bored,")
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 560)
-    .attr("class", "subheading")
+    .attr("class", "quadrant4")
     .text("depressed, sad")
 
+  //reset button
+  tgrp.append("rect")
+      .attr("x", 0)
+      .attr("y", 700)
+      .attr("width", 30)
+      .attr("height", 30)
+      .attr("fill", "#000000")
+      .attr("class", "button")
+      .text("reset")
+      .on("click", function(){
+        returnColors()
+       d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
+      isClicked = false
+      })
+      .on("mouseover", function() { 
+            d3.select(this).attr("opacity", 0.5)
+      })
+      .on("mouseout", function() { 
+            d3.select(this).attr("opacity", 1)
+      })
+  
   var x = d3.scaleBand()
     .domain(d3.range(dataset.length))
     .range([margin + 200, width - (margin - 50)])
@@ -193,11 +453,11 @@ tgrp.append("text")
 
   var bars = chart.append('g')
 
-    bars.selectAll("bars")
-      .data(dataset)
-      .enter()
-      .append("rect")
-      .join("rect")
+  bars.selectAll("bars")
+    .data(dataset)
+    .enter()
+    .append("rect")
+    .join("rect")
     .attr("fill", function (d) {
       if (d.quadrant == 1)
         return "#B459DE";
@@ -218,6 +478,26 @@ tgrp.append("text")
       if (d.quadrant == 9)
         return "white";
     })
+    .attr("class", function(d) {
+      if(d.quadrant == 1)
+        return "purple";
+      if(d.quadrant == 2)
+        return "teal";
+      if(d.quadrant == 3)
+        return "blue";
+      if(d.quadrant == 4)
+        return "red";
+      if(d.quadrant == 5)
+        return "lightPurple";
+      if(d.quadrant == 6)
+        return "lightTeal";
+      if(d.quadrant == 7)
+        return "lightBlue";
+      if(d.quadrant == 8)
+        return "lightRed";
+      if(d.quadrant == 9)
+        return "white";
+      })
     .attr("x", (d, i) => x(i))
     .attr("y", d => ((y(d.frequency * 2) + height) / 5) + 100)
     .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
