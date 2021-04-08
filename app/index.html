@@ -34,8 +34,8 @@
   }).responseJSON;
 
   const margin = 40;
-  const width = (screen.availWidth * 0.8) - 2 * margin
-  // const width = 1200 - 2 * margin
+  // window.onresize = windowSize;
+  var width = (window.innerWidth * 0.8) - 2 * margin;
   const height = 800 - 2 * margin
 
   var svg = d3.select('svg')
@@ -51,6 +51,14 @@
     return a.date - b.date;
   })
 
+  window.onresize = function(event) {
+  // update your variables
+      width = (window.innerWidth * 0.8) - 2 * margin;
+      d3.selectAll("svg > *").remove(); 
+      graph();
+  };
+  
+  function graph() {
   //circle chart
   var pie = d3.pie()
   var circ = pie([1, 1, 1, 1])
@@ -65,6 +73,7 @@
   var colorScaleOut = ["#B459DE", "#61ECDB", "#3372D2", "#FD3A3E"]
   var colorScaleIn = ["#E0BCF0", "#B6F6EE", "#B0C8ED", "#FED2D2"]
 
+  var isClicked = false
   //return colors to normal function - sharon
   function returnColors() {
     d3.selectAll(".purple").attr("fill", "#B459DE")
@@ -171,10 +180,17 @@
     .text("Mood Waves")
 
   tgrp.append("text")
-    .attr("x", width - (username.length * 2))
+    .attr("x", width + 50)
     .attr("y", 85)
-    .attr("class", "heading")
-    .text("Welcome, " + username)
+    .attr("text-align", "right")
+    .attr("class", "subheading")
+    .text("Welcome, " + username) 
+
+  tgrp.append("text")
+    .attr("x", 0)
+    .attr("y", 115)
+    .attr("class", "subbody")
+    .text("Please interact with the graph and legend below to explore your music and mood data.")
 
   //red legend
   tgrp.append("rect")
@@ -414,7 +430,7 @@
   //reset button
   tgrp.append("rect")
       .attr("x", 0)
-      .attr("y", 700)
+      .attr("y", 600)
       .attr("width", 30)
       .attr("height", 30)
       .attr("fill", "#000000")
@@ -498,69 +514,28 @@
     .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
     .attr("width", x.bandwidth() + 1)
 
-    //hover capabilities
-    .on("mouseover", function (d, i) {
-      d3.select(this)
-        .attr("opacity", "25%")
+
+    //click capabilities
+    .on("click", function(d, i) {
+          d3.select("#tooltip2").remove();
+          
+          d3.select(this)
+          // console.log(this)
+            .attr("opacity", "25%")
 
       var tooltip = bars.append("g")
-          .attr("id", "tooltip")
+          .attr("id", "tooltip2")
 
-        //  tooltip.append("rect")
-        //     .attr("x", width)
-        //     .attr("y", 100)
-        //     .attr("width", "250px")
-        //     .attr("height", "90%")
-        //     .attr("fill", "#34383A")
-
-           //circle chart
-          //  tooltip.append("circle")
-          //     .attr("cx", 100)
-          //     .attr("cy", 200)
-          //     .attr("r", 5)
-          //     .attr("fill", "white")
-
-          //     tooltip.selectAll("path3")
-          //     .data(circ)
-          //     .enter()
-          //     .append("path")
-          //     .attr("transform", "translate(100,200)")
-          //     .attr("d", arcIn)
-          //     .attr("fill", function(d) {
-          //       return colorScaleIn[d.index];
-          //     })
-
-          //     tooltip.selectAll("path4")
-          //     .data(circ)
-          //     .enter()
-          //     .append("path")
-          //     .attr("transform", "translate(100,200)")
-          //     .attr("d", arcOut)
-          //     .attr("fill", function(d) {
-          //       return colorScaleOut[d.index];
-          //     })
-
+          tooltip.append("rect")
+          .attr("x", this.getAttribute("x"))
+          .attr("y", 120)
+          .attr("width", this.getAttribute("width"))
+          .attr("height", height - 4*margin)
+          .attr("fill", "white")
+          .attr("opacity", "50%")
+          .attr("class", this.getAttribute("class"))
          var date = new Date(i.date)
-
-          // display image for top song
-          tooltip.append("image")
-            .attr("xlink:href", function(){
-              return(spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).image || '');
-            })
-            .attr("x", width + 50)
-            .attr("y", 130)
-            .attr("width","145px")                  
-            .attr("height","145px")
-
-          // play preview of top song
-          var audio = document.createElement("audio");
-          audio.controls = 'controls';
-          audio.src = spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).audio;
-          console.log(audio.src);
-          audio.autoplay = true;
-          audio.type = 'audio/mpeg';
-          document.getElementById("tooltip").appendChild(audio);
-
+          
           //details
           tooltip.append("text")
             .attr("x", width + 50)
@@ -710,33 +685,226 @@
                 return `${i.reflections}`;
             }})
             .attr("dy", 0)
+            .call(wrap, x.bandwidth()); 
+          
+      })
+
+    //hover capabilities
+    .on("mouseover", function (d, i) {
+      d3.select(this)
+        .attr("opacity", "25%")
+
+      var tooltip = bars.append("g")
+          .attr("id", "tooltip")
+
+         var date = new Date(i.date)
+
+          // display image for top song
+          tooltip.append("image")
+            .attr("xlink:href", function(){
+              return(spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).image || '');
+            })
+            .attr("x", width + 50)
+            .attr("y", 130)
+            .attr("width","145px")                  
+            .attr("height","145px")
+
+          // play preview of top song
+          var audio = document.createElement("audio");
+          audio.controls = 'controls';
+          audio.src = spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).audio;
+          console.log(audio.src);
+          audio.autoplay = true;
+          audio.type = 'audio/mpeg';
+          document.getElementById("tooltip").appendChild(audio);
+
+          //details
+          tooltip.append("rect")
+            .attr("x", width + 20)
+            .attr("y", 240)
+            .attr("width", 300)
+            .attr("height", 600)
+            .attr("fill", "#34383A")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 310)
+            .attr("class", "heading")
+            .text(`${date.toLocaleString('default', { month: 'short' })}` + " " + `${date.getDate()}` + ", " + `${date.getFullYear()}`)
+          tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 335)
+            .attr("class", "subbody")
+            .text("You listened to " + `${i.frequency}` + " songs.")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 370)
+            .attr("class", "subheading")
+            .text("top songs")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 390)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[0].name.length <= 35) {
+                return `${i.topsongs[0].name}`;
+              } else {
+                return `${i.topsongs[0].name}`.slice(0,35) + "...";
+              }})
+         tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 405)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[0].singer.length <= 35) {
+                return `${i.topsongs[0].singer}`;
+              } else {
+                return `${i.topsongs[0].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 425)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[1].name.length < 35) {
+                return `${i.topsongs[1].name}`;
+              } else {
+                return `${i.topsongs[1].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 440)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[1].singer.length <= 35) {
+                return `${i.topsongs[1].singer}`;
+              } else {
+                return `${i.topsongs[1].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 460)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[2].name.length < 35) {
+                return `${i.topsongs[2].name}`;
+              } else {
+                return `${i.topsongs[2].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 475)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[2].singer.length <= 35) {
+                return `${i.topsongs[2].singer}`;
+              } else {
+                return `${i.topsongs[2].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 495)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[3].name.length < 35) {
+                return `${i.topsongs[3].name}`;
+              } else {
+                return `${i.topsongs[3].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 510)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[3].singer.length <= 35) {
+                return `${i.topsongs[3].singer}`;
+              } else {
+                return `${i.topsongs[3].singer}`.slice(0,35) + "...";
+              }})
+             tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 530)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[4].name.length < 35) {
+                return `${i.topsongs[4].name}`;
+              } else {
+                return `${i.topsongs[4].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 545)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[4].singer.length <= 35) {
+                return `${i.topsongs[4].singer}`;
+              } else {
+                return `${i.topsongs[4].singer}`.slice(0,35) + "...";
+            }})
+            tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 580)
+            .attr("class", "subheading")
+            .text("mood")
+            tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 600)
+            .attr("class", "subbody")
+            .text(function() {
+               if(i.keywords == null) {
+                return "____";
+              } else if(i.keywords.length <= 40) {
+                return `${i.keywords}`;
+              } else {
+                return `${i.keywords}`.slice(0,40) + "...";
+              }})
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 640)
+            .attr("class", "subheading")
+            .text("reflections")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 660)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.reflections == null) {
+                return "____";
+              } else {
+                return `${i.reflections}`;
+            }})
+            .attr("dy", 0)
             .call(wrap, x.bandwidth());
+          
   			 })
-  			.on("mouseout", function(d) {
+
+      .on("mouseout", function(d) {
   			  d3.select(this)
   			  .transition().duration(250)
   			  .attr("opacity", "100%");
   			  d3.select("#tooltip").remove();
   			});
 
-  //x axis formatting
-  var temp = []
-  var axis = chart.append('g')
+          //x axis formatting
+          var temp = []
+          var axis = chart.append('g')
 
-  axis.append("g")
-    .call(xAxis)
-    .selectAll(".tick text")
-    .attr("fill", "white")
-    .data(dataset)
-    .each(function (d) {
-      var date = new Date(d.date)
-      if (temp[date.toLocaleString('default', { month: 'long' })] == undefined) {
-        temp[date.toLocaleString('default', { month: 'long' })] = 1;
-        return date.toLocaleString('default', { month: 'long' });
-      } else {
-        return d3.select(this).remove();
+          axis.append("g")
+            .call(xAxis)
+            .selectAll(".tick text")
+            .attr("fill", "white")
+            .data(dataset)
+            .each(function (d) {
+              var date = new Date(d.date)
+              if (temp[date.toLocaleString('default', { month: 'long' })] == undefined) {
+                temp[date.toLocaleString('default', { month: 'long' })] = 1;
+                return date.toLocaleString('default', { month: 'long' });
+              } else {
+                return d3.select(this).remove();
+              }
+            })
       }
-    })
+
+  graph()
 
   function wrap(text) {
     text.each(function () {
@@ -746,9 +914,10 @@
         line = [],
         lineNumber = 0,
         lineHeight = 1.1, // ems
+        x = text.attr("x")
         y = text.attr("y"),
         dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", width+50).attr("y", y).attr("dy", dy + "em");
+        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
       while (word = words.pop()) {
         line.push(word);
         tspan.text(line.join(" "));
@@ -756,7 +925,7 @@
           line.pop();
           tspan.text(line.join(" "));
           line = [word];
-          tspan = text.append("tspan").attr("x", width+50).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
         }
       }
     });
