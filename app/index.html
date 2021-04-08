@@ -32,7 +32,6 @@ var username = (window.prompt("Enter your username: "))
   const margin = 40;
   // window.onresize = windowSize;
   var width = (window.innerWidth * 0.8) - 2 * margin;
-
   const height = 800 - 2 * margin
 
   var svg = d3.select('svg')
@@ -419,7 +418,7 @@ var username = (window.prompt("Enter your username: "))
   //reset button
   tgrp.append("rect")
       .attr("x", 0)
-      .attr("y", 700)
+      .attr("y", 600)
       .attr("width", 30)
       .attr("height", 30)
       .attr("fill", "#000000")
@@ -670,28 +669,28 @@ var username = (window.prompt("Enter your username: "))
   			  .attr("opacity", "100%");
   			  d3.select("#tooltip").remove();
   			});
+
+          //x axis formatting
+          var temp = []
+          var axis = chart.append('g')
+
+          axis.append("g")
+            .call(xAxis)
+            .selectAll(".tick text")
+            .attr("fill", "white")
+            .data(dataset)
+            .each(function (d) {
+              var date = new Date(d.date)
+              if (temp[date.toLocaleString('default', { month: 'long' })] == undefined) {
+                temp[date.toLocaleString('default', { month: 'long' })] = 1;
+                return date.toLocaleString('default', { month: 'long' });
+              } else {
+                return d3.select(this).remove();
+              }
+            })
       }
 
   graph()
-
-  //x axis formatting
-  var temp = []
-  var axis = chart.append('g')
-
-  axis.append("g")
-    .call(xAxis)
-    .selectAll(".tick text")
-    .attr("fill", "white")
-    .data(dataset)
-    .each(function (d) {
-      var date = new Date(d.date)
-      if (temp[date.toLocaleString('default', { month: 'long' })] == undefined) {
-        temp[date.toLocaleString('default', { month: 'long' })] = 1;
-        return date.toLocaleString('default', { month: 'long' });
-      } else {
-        return d3.select(this).remove();
-      }
-    })
 
   function wrap(text) {
     text.each(function () {
