@@ -36,18 +36,18 @@ function getImageAndAudio(obj) {
           writeToJSON(object, 'util/spotify.json');
         }, function (err) {
           //console.log('Something went wrong!', err);
-          writeToJSON(obj, 'util/missing.json');
+          writeToJSON(obj, MISSING_FILE);
         });
     },
     function (err) {
       console.log('Something went wrong when retrieving an access token', err);
-      writeToJSON(obj, 'util/missing.json');
+      writeToJSON(obj, MISSING_FILE);
     }
   );
 }
 
 var allSongs = [];
-const allData = require('../app/data.js');
+// const allData = require('../app/data.js');
 
 // retrieve list of all songs played by users 
 function getUniqueSongs(dataset) {
@@ -66,29 +66,74 @@ function getUniqueSongs(dataset) {
           getImageAndAudio(songObj);
         }
       }
-
-      // for (var i = 0; i < 5; i++) {
-      //   if (topsongs[i]) {
-      //     let songObj = {
-      //       name: topsongs[i].name,
-      //       artist: topsongs[i].singer
-      //     }
-      //     let exist = allSongs.some(item => item.name === songObj.name && item.artist === songObj.artist);
-      //     if (!exist) {
-      //       allSongs.push(songObj);
-      //       getImageAndAudio(songObj);
-      //     }
-      //   }
-      // }
     }
   }
 }
 
 // getUniqueSongs(allData);
 
+
+// let getSpotify = async (obj) => {
+//   // Retrieve an access token.
+//   spotifyApi.clientCredentialsGrant().then(
+//     function (data) {
+//       // Save the access token so that it's used in future calls
+//       spotifyApi.setAccessToken(data.body['access_token']);
+//       process.env.ACCESS_TOKEN = data.body['access_token'];
+//       await spotifyApi.searchTracks('track:' + obj.name + ' artist:' + obj.artist, { limit: 1 })
+//         .then(function (data) {
+//           let object = {
+//             name: obj.name,
+//             singer: obj.artist,
+//             image: data.body['tracks'].items[0].album.images[0].url,
+//             audio: data.body['tracks'].items[0].preview_url
+//           };
+//           // console.log(object);
+//           writeToJSON(object, 'util/spotify.json');
+//         }, function (err) {
+//           //console.log('Something went wrong!', err);
+//           writeToJSON(obj, MISSING_FILE);
+//         });
+//     },
+//     function (err) {
+//       console.log('Something went wrong when retrieving an access token', err);
+//       writeToJSON(obj, MISSING_FILE);
+//     }
+//   );
+// }
+
 // while missing.json still has items, then continue to loop through and 
 
+async function getMissing() {
+  return "Hello";
+}
 
+// myFunction().then(
+//   function (value) {
+//     console.log('yay');
+//   }
+// );
+
+const READ_FILE = 'util/missing2.json'
+const MISSING_FILE = 'util/missing3.json';
+
+function retrieveMissing() {
+  var f = fs.readFileSync(READ_FILE);
+  var missing = JSON.parse(f);
+
+  for (const item in missing) {
+    getImageAndAudio(missing[item]);
+    setTimeout(() => { console.log(missing[item]); }, 1);
+  }
+
+}
+
+retrieveMissing();
+
+
+// var dataset = fs.readFileSync('util/missing2.json');
+// var updatedDataset = JSON.parse(dataset);
+// console.log(updatedDataset);
 
 
 // getImageAndAudio("Peaches", "Justin Bieber");
