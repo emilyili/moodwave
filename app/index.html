@@ -542,6 +542,7 @@
 
          var date = new Date(i.date)
 
+          // display image for top song
           tooltip.append("image")
             .attr("xlink:href", function(){
               return(spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).image || '');
@@ -550,6 +551,15 @@
             .attr("y", 130)
             .attr("width","145px")                  
             .attr("height","145px")
+
+          // play preview of top song
+          var audio = document.createElement("audio");
+          audio.controls = 'controls';
+          audio.src = spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).audio;
+          console.log(audio.src);
+          audio.autoplay = true;
+          audio.type = 'audio/mpeg';
+          document.getElementById("tooltip").appendChild(audio);
 
           //details
           tooltip.append("text")
