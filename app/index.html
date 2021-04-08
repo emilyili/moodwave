@@ -10,7 +10,7 @@
 
 <body>
   <div id='container'>
-    <svg id="svg" height=200 width=450></svg>
+    <svg id="svg" height=200 width=90%></svg>
   </div>
   <script src="https://d3js.org/d3.v6.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -28,9 +28,12 @@
 var username = (window.prompt("Enter your username: "))
   var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
 
+// var name = "carafo_"
+// var username = "carafo_"
   const margin = 40;
-  const width = 1200 - 2 * margin
-  const height = 700 - 2 * margin
+  const width = (screen.availWidth * 0.8) - 2 * margin
+  // const width = 1200 - 2 * margin
+  const height = 800 - 2 * margin
 
   var svg = d3.select('svg')
   var svgContainer = d3.select('#container')
@@ -39,20 +42,21 @@ var username = (window.prompt("Enter your username: "))
     alert("This username does not exist! Please try again.");
     window.location.reload();
   }
-    var dataset = window[name].sort(function(a,b) {
-              return a.date - b.date;
-            })
+
+  var dataset = window[name].sort(function(a,b) {
+    return a.date - b.date;
+  })
 
   //circle chart
   var pie = d3.pie()
   var circ = pie([1, 1, 1, 1])
   var arcOut = d3.arc()
-    .innerRadius(25)
-    .outerRadius(50)
+    .innerRadius(30)
+    .outerRadius(60)
 
   var arcIn = d3.arc()
-    .innerRadius(3)
-    .outerRadius(25)
+    .innerRadius(5)
+    .outerRadius(30)
 
   var colorScaleOut = ["#B459DE", "#61ECDB", "#3372D2", "#FD3A3E"]
   var colorScaleIn = ["#E0BCF0", "#B6F6EE", "#B0C8ED", "#FED2D2"]
@@ -63,15 +67,15 @@ var username = (window.prompt("Enter your username: "))
 
   legend.append("circle")
     .attr("cx", 100)
-    .attr("cy", 145)
-    .attr("r", 3)
+    .attr("cy", 200)
+    .attr("r", 5)
     .attr("fill", "white")
 
   legend.selectAll("path")
     .data(circ)
     .enter()
     .append("path")
-    .attr("transform", "translate(100,145)")
+    .attr("transform", "translate(100,200)")
     .attr("d", arcIn)
     .attr("fill", function (d) {
       return colorScaleIn[d.index];
@@ -81,7 +85,7 @@ var username = (window.prompt("Enter your username: "))
     .data(circ)
     .enter()
     .append("path")
-    .attr("transform", "translate(100,145)")
+    .attr("transform", "translate(100,200)")
     .attr("d", arcOut)
     .attr("fill", function (d) {
       return colorScaleOut[d.index];
@@ -90,88 +94,88 @@ var username = (window.prompt("Enter your username: "))
   //legend descriptions
   var tgrp = legend.append("g")
   tgrp.append("text")
-    .attr("x", 25)
-    .attr("y", 50)
+    .attr("x", 0)
+    .attr("y", 85)
     .attr("class", "title")
     .text("Mood Waves")
 tgrp.append("text")
-    .attr("x", 250)
-    .attr("y", 50)
-    .attr("class", "title")
+    .attr("x", width - (username.length * 2))
+    .attr("y", 85)
+    .attr("class", "heading")
     .text("Welcome, " + username)
-  tgrp.append("rect")
-    .attr("x", 0)
-    .attr("y", 240)
-    .attr("width", 30)
-    .attr("height", 30)
-    .attr("fill", "#FD3A3E")
-  tgrp.append("text")
-    .attr("x", 60)
-    .attr("y", 250)
-    .attr("class", "heading")
-    .text("tense, nervous,")
-  tgrp.append("text")
-    .attr("x", 60)
-    .attr("y", 270)
-    .attr("class", "heading")
-    .text("stressed, upset")
   tgrp.append("rect")
     .attr("x", 0)
     .attr("y", 300)
     .attr("width", 30)
     .attr("height", 30)
-    .attr("fill", "#B459DE")
+    .attr("fill", "#FD3A3E")
   tgrp.append("text")
     .attr("x", 60)
     .attr("y", 310)
-    .attr("class", "heading")
+    .attr("class", "subheading")
+    .text("tense, nervous,")
+  tgrp.append("text")
+    .attr("x", 60)
+    .attr("y", 335)
+    .attr("class", "subheading")
+    .text("stressed, upset")
+  tgrp.append("rect")
+    .attr("x", 0)
+    .attr("y", 375)
+    .attr("width", 30)
+    .attr("height", 30)
+    .attr("fill", "#B459DE")
+  tgrp.append("text")
+    .attr("x", 60)
+    .attr("y", 385)
+    .attr("class", "subheading")
     .text("alert, excited,")
   tgrp.append("text")
     .attr("x", 60)
-    .attr("y", 330)
-    .attr("class", "heading")
+    .attr("y", 410)
+    .attr("class", "subheading")
     .text("elated, happy")
   tgrp.append("rect")
     .attr("x", 0)
-    .attr("y", 360)
+    .attr("y", 450)
     .attr("width", 30)
     .attr("height", 30)
     .attr("fill", "#61ECDB")
   tgrp.append("text")
     .attr("x", 60)
-    .attr("y", 370)
-    .attr("class", "heading")
+    .attr("y", 460)
+    .attr("class", "subheading")
     .text("content, serene,")
   tgrp.append("text")
     .attr("x", 60)
-    .attr("y", 390)
-    .attr("class", "heading")
+    .attr("y", 485)
+    .attr("class", "subheading")
     .text("relaxed, calm")
   tgrp.append("rect")
     .attr("x", 0)
-    .attr("y", 420)
+    .attr("y", 525)
     .attr("width", 30)
     .attr("height", 30)
     .attr("fill", "#3372D2")
   tgrp.append("text")
     .attr("x", 60)
-    .attr("y", 430)
-    .attr("class", "heading")
+    .attr("y", 535)
+    .attr("class", "subheading")
     .text("tired, bored,")
   tgrp.append("text")
     .attr("x", 60)
-    .attr("y", 450)
-    .attr("class", "heading")
+    .attr("y", 560)
+    .attr("class", "subheading")
     .text("depressed, sad")
 
   var x = d3.scaleBand()
     .domain(d3.range(dataset.length))
-    .range([margin + 225, width - margin + 100])
+    .range([margin + 200, width - (margin - 50)])
     .padding(0.1)
 
   var y = d3.scaleLinear()
     .domain([0, d3.max(dataset, d => d.frequency)]).nice()
-    .range([height - margin, margin])
+    .range([height - margin, margin + 40])
 
   var xAxis = g => g
     .attr("transform", `translate(0,${height - margin})`)
@@ -218,188 +222,184 @@ tgrp.append("text")
       var tooltip = bars.append("g")
           .attr("id", "tooltip")
 
-         tooltip.append("rect")
-            .attr("width", "249px")
-            .attr("height", "90%")
-            .attr("fill", "#34383A")
-
-          //title
-          tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 50)
-            .attr("class", "title")
-            .text("Mood Waves")
+        //  tooltip.append("rect")
+        //     .attr("x", width)
+        //     .attr("y", 100)
+        //     .attr("width", "250px")
+        //     .attr("height", "90%")
+        //     .attr("fill", "#34383A")
 
            //circle chart
-           tooltip.append("circle")
-              .attr("cx", 100)
-              .attr("cy", 145)
-              .attr("r", 3)
-              .attr("fill", "white")
+          //  tooltip.append("circle")
+          //     .attr("cx", 100)
+          //     .attr("cy", 200)
+          //     .attr("r", 5)
+          //     .attr("fill", "white")
 
-              tooltip.selectAll("path3")
-              .data(circ)
-              .enter()
-              .append("path")
-              .attr("transform", "translate(100,145)")
-              .attr("d", arcIn)
-              .attr("fill", function(d) {
-                return colorScaleIn[d.index];
-              })
-              tooltip.selectAll("path4")
-              .data(circ)
-              .enter()
-              .append("path")
-              .attr("transform", "translate(100,145)")
-              .attr("d", arcOut)
-              .attr("fill", function(d) {
-                return colorScaleOut[d.index];
-              })
+          //     tooltip.selectAll("path3")
+          //     .data(circ)
+          //     .enter()
+          //     .append("path")
+          //     .attr("transform", "translate(100,200)")
+          //     .attr("d", arcIn)
+          //     .attr("fill", function(d) {
+          //       return colorScaleIn[d.index];
+          //     })
+
+          //     tooltip.selectAll("path4")
+          //     .data(circ)
+          //     .enter()
+          //     .append("path")
+          //     .attr("transform", "translate(100,200)")
+          //     .attr("d", arcOut)
+          //     .attr("fill", function(d) {
+          //       return colorScaleOut[d.index];
+          //     })
 
          var date = new Date(i.date)
 
           //details
           tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 250)
+            .attr("x", width + 50)
+            .attr("y", 310)
             .attr("class", "heading")
             .text(`${date.toLocaleString('default', { month: 'short' })}` + " " + `${date.getDate()}` + ", " + `${date.getFullYear()}`)
           tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 270)
-            .attr("class", "body")
+            .attr("x", width+ 50)
+            .attr("y", 335)
+            .attr("class", "subbody")
             .text("You listened to " + `${i.frequency}` + " songs.")
           tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 300)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 370)
+            .attr("class", "subheading")
             .text("top songs")
           tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 325)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 390)
+            .attr("class", "subtitle")
             .text(function() {
-              if(i.topsongs[0].name.length <= 25) {
+              if(i.topsongs[0].name.length <= 35) {
                 return `${i.topsongs[0].name}`;
               } else {
-                return `${i.topsongs[0].name}`.slice(0,22) + "...";
+                return `${i.topsongs[0].name}`.slice(0,35) + "...";
               }})
          tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 340)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 405)
+            .attr("class", "subbody")
             .text(function() {
-              if(i.topsongs[0].singer.length <= 25) {
+              if(i.topsongs[0].singer.length <= 35) {
                 return `${i.topsongs[0].singer}`;
               } else {
-                return `${i.topsongs[0].singer}`.slice(0,22) + "...";
+                return `${i.topsongs[0].singer}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 365)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 425)
+            .attr("class", "subtitle")
             .text(function() {
-              if(i.topsongs[1].name.length < 25) {
+              if(i.topsongs[1].name.length < 35) {
                 return `${i.topsongs[1].name}`;
               } else {
-                return `${i.topsongs[1].name}`.slice(0,22) + "...";
+                return `${i.topsongs[1].name}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 380)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 440)
+            .attr("class", "subbody")
             .text(function() {
-              if(i.topsongs[1].singer.length <= 25) {
+              if(i.topsongs[1].singer.length <= 35) {
                 return `${i.topsongs[1].singer}`;
               } else {
-                return `${i.topsongs[1].singer}`.slice(0,22) + "...";
+                return `${i.topsongs[1].singer}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 405)
-            .attr("class", "heading")
+            .attr("x", width+ 50)
+            .attr("y", 460)
+            .attr("class", "subtitle")
             .text(function() {
-              if(i.topsongs[2].name.length < 25) {
+              if(i.topsongs[2].name.length < 35) {
                 return `${i.topsongs[2].name}`;
               } else {
-                return `${i.topsongs[2].name}`.slice(0,22) + "...";
+                return `${i.topsongs[2].name}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 420)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 475)
+            .attr("class", "subbody")
             .text(function() {
-              if(i.topsongs[2].singer.length <= 25) {
+              if(i.topsongs[2].singer.length <= 35) {
                 return `${i.topsongs[2].singer}`;
               } else {
-                return `${i.topsongs[2].singer}`.slice(0,22) + "...";
+                return `${i.topsongs[2].singer}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 445)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 495)
+            .attr("class", "subtitle")
             .text(function() {
-              if(i.topsongs[3].name.length < 25) {
+              if(i.topsongs[3].name.length < 35) {
                 return `${i.topsongs[3].name}`;
               } else {
-                return `${i.topsongs[3].name}`.slice(0,22) + "...";
+                return `${i.topsongs[3].name}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 460)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 510)
+            .attr("class", "subbody")
             .text(function() {
-              if(i.topsongs[3].singer.length <= 25) {
+              if(i.topsongs[3].singer.length <= 35) {
                 return `${i.topsongs[3].singer}`;
               } else {
-                return `${i.topsongs[3].singer}`.slice(0,22) + "...";
+                return `${i.topsongs[3].singer}`.slice(0,35) + "...";
               }})
              tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 485)
-            .attr("class", "heading")
+            .attr("x", width+ 50)
+            .attr("y", 530)
+            .attr("class", "subtitle")
             .text(function() {
-              if(i.topsongs[4].name.length < 25) {
+              if(i.topsongs[4].name.length < 35) {
                 return `${i.topsongs[4].name}`;
               } else {
-                return `${i.topsongs[4].name}`.slice(0,22) + "...";
+                return `${i.topsongs[4].name}`.slice(0,35) + "...";
               }})
               tooltip.append("text")
-            .attr("x", 65)
-            .attr("y", 500)
-            .attr("class", "body")
+            .attr("x", width+ 50)
+            .attr("y", 545)
+            .attr("class", "subbody")
             .text(function() {
-              if(i.topsongs[4].singer.length <= 25) {
+              if(i.topsongs[4].singer.length <= 35) {
                 return `${i.topsongs[4].singer}`;
               } else {
-                return `${i.topsongs[4].singer}`.slice(0,22) + "...";
+                return `${i.topsongs[4].singer}`.slice(0,35) + "...";
             }})
             tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 530)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 580)
+            .attr("class", "subheading")
             .text("mood")
             tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 550)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 600)
+            .attr("class", "subbody")
             .text(function() {
                if(i.keywords == null) {
                 return "____";
-              } else if(i.keywords.length <= 30) {
+              } else if(i.keywords.length <= 40) {
                 return `${i.keywords}`;
               } else {
-                return `${i.keywords}`.slice(0,30) + "...";
+                return `${i.keywords}`.slice(0,40) + "...";
               }})
           tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 580)
-            .attr("class", "heading")
+            .attr("x", width + 50)
+            .attr("y", 640)
+            .attr("class", "subheading")
             .text("reflections")
           tooltip.append("text")
-            .attr("x", 25)
-            .attr("y", 600)
-            .attr("class", "body")
+            .attr("x", width + 50)
+            .attr("y", 660)
+            .attr("class", "subbody")
             .text(function() {
               if(i.reflections == null) {
                 return "____";
@@ -445,15 +445,15 @@ tgrp.append("text")
         lineHeight = 1.1, // ems
         y = text.attr("y"),
         dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", 25).attr("y", y).attr("dy", dy + "em");
+        tspan = text.text(null).append("tspan").attr("x", width+50).attr("y", y).attr("dy", dy + "em");
       while (word = words.pop()) {
         line.push(word);
         tspan.text(line.join(" "));
-        if (tspan.node().getComputedTextLength() > 200) {
+        if (tspan.node().getComputedTextLength() > 250) {
           line.pop();
           tspan.text(line.join(" "));
           line = [word];
-          tspan = text.append("tspan").attr("x", 25).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+          tspan = text.append("tspan").attr("x", width+50).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
         }
       }
     });
