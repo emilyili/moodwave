@@ -31,8 +31,9 @@ var username = (window.prompt("Enter your username: "))
 // var name = "carafo_"
 // var username = "carafo_"
   const margin = 40;
-  const width = (screen.availWidth * 0.8) - 2 * margin
-  // const width = 1200 - 2 * margin
+  // window.onresize = windowSize;
+  var width = (window.innerWidth * 0.8) - 2 * margin;
+
   const height = 800 - 2 * margin
 
   var svg = d3.select('svg')
@@ -47,6 +48,14 @@ var username = (window.prompt("Enter your username: "))
     return a.date - b.date;
   })
 
+  window.onresize = function(event) {
+  // update your variables
+      width = (window.innerWidth * 0.8) - 2 * margin;
+      d3.selectAll("svg > *").remove(); 
+      graph();
+  };
+  
+  function graph() {
   //circle chart
   var pie = d3.pie()
   var circ = pie([1, 1, 1, 1])
@@ -222,40 +231,6 @@ tgrp.append("text")
       var tooltip = bars.append("g")
           .attr("id", "tooltip")
 
-        //  tooltip.append("rect")
-        //     .attr("x", width)
-        //     .attr("y", 100)
-        //     .attr("width", "250px")
-        //     .attr("height", "90%")
-        //     .attr("fill", "#34383A")
-
-           //circle chart
-          //  tooltip.append("circle")
-          //     .attr("cx", 100)
-          //     .attr("cy", 200)
-          //     .attr("r", 5)
-          //     .attr("fill", "white")
-
-          //     tooltip.selectAll("path3")
-          //     .data(circ)
-          //     .enter()
-          //     .append("path")
-          //     .attr("transform", "translate(100,200)")
-          //     .attr("d", arcIn)
-          //     .attr("fill", function(d) {
-          //       return colorScaleIn[d.index];
-          //     })
-
-          //     tooltip.selectAll("path4")
-          //     .data(circ)
-          //     .enter()
-          //     .append("path")
-          //     .attr("transform", "translate(100,200)")
-          //     .attr("d", arcOut)
-          //     .attr("fill", function(d) {
-          //       return colorScaleOut[d.index];
-          //     })
-
          var date = new Date(i.date)
 
           //details
@@ -415,6 +390,9 @@ tgrp.append("text")
   			  .attr("opacity", "100%");
   			  d3.select("#tooltip").remove();
   			});
+      }
+
+  graph()
 
   //x axis formatting
   var temp = []
