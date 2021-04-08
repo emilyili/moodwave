@@ -33,7 +33,7 @@ function getImageAndAudio(obj) {
             image: data.body['tracks'].items[0].album.images[0].url,
             audio: data.body['tracks'].items[0].preview_url
           };
-          // console.log(object);
+          console.log(data.body['tracks'].items[0]);
           writeToJSON(object, 'util/spotify.json');
         }, function (err) {
           //console.log('Something went wrong!', err);
@@ -134,7 +134,7 @@ retrieveMissing();
 
 // var dataset = fs.readFileSync('util/missing2.json');
 // var updatedDataset = JSON.parse(dataset);
-// console.log(updatedDataset);
+// console.log(updatedDataset.length);
 
 
 // getImageAndAudio("Peaches", "Justin Bieber");
