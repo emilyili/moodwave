@@ -114,16 +114,16 @@ async function getMissing() {
 //   }
 // );
 
-const READ_FILE = 'util/missing2.json';
-const MISSING_FILE = 'util/missing3.json';
+const READ_FILE = 'util/missing.json';
+const MISSING_FILE = 'util/missing.json';
 
 function retrieveMissing() {
   var f = fs.readFileSync(READ_FILE);
   var missing = JSON.parse(f);
 
   for (const item in missing) {
+    setTimeout(() => { console.log(missing[item]); }, 3);
     getImageAndAudio(missing[item]);
-    setTimeout(() => { console.log(missing[item]); }, 1);
   }
 
 }
@@ -131,7 +131,7 @@ function retrieveMissing() {
 retrieveMissing();
 
 
-// var dataset = fs.readFileSync('util/missing2.json');
+// var dataset = fs.readFileSync('util/spotify.json');
 // var updatedDataset = JSON.parse(dataset);
 // console.log(updatedDataset);
 
