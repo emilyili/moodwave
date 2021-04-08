@@ -61,6 +61,9 @@ var username = (window.prompt("Enter your username: "))
   var colorScaleOut = ["#B459DE", "#61ECDB", "#3372D2", "#FD3A3E"]
   var colorScaleIn = ["#E0BCF0", "#B6F6EE", "#B0C8ED", "#FED2D2"]
 
+  var isClicked = false
+  var colorClicked = 0
+
   //return colors to normal function - sharon
   function returnColors() {
     d3.selectAll(".purple").attr("fill", "#B459DE")
@@ -188,8 +191,12 @@ var username = (window.prompt("Enter your username: "))
       })
       .on("mouseout", mouseout)
       .on("click", function() { 
+        console.log("clicked on red")
         if(!isClicked){
-          isClicked = true; d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+          console.log("show only red")
+          isClicked = true
+          colorClicked = 1
+          d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
           d3.select(this).attr("opacity", 1)
           showRed() 
         }
@@ -213,6 +220,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant2,.quadrant3,.quadrant4,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showLightRed()
@@ -248,6 +256,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant1,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showPurple()
@@ -272,6 +281,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant1,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showLightPurple()
@@ -307,9 +317,10 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
           isClicked = true
-            d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
-            d3.select(this).attr("opacity", 1)
-            showTeal()
+          colorClicked = 1;
+          d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
+          d3.select(this).attr("opacity", 1)
+          showTeal()
           }
       })
   
@@ -331,6 +342,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant1,.quadrant2,.quadrant4,.purpleLegend,.lightPurpleLegend,.redLegend,.lightRedLegend,.blueLegend,.lightBlueLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showLightTeal()
@@ -366,6 +378,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.redLegend,.lightRedLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showBlue()
@@ -390,6 +403,7 @@ var username = (window.prompt("Enter your username: "))
       .on("click", function() {
           if(!isClicked){
             isClicked = true
+            colorClicked = 1;
             d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.redLegend,.lightRedLegend").attr("opacity", 0.2)
             d3.select(this).attr("opacity", 1)
             showLightBlue()
@@ -408,25 +422,30 @@ var username = (window.prompt("Enter your username: "))
     .text("depressed, sad")
 
   //reset button
+  tgrp.append("text")
+      .attr("x", 30)
+      .attr("y", 630)
+      .text("reset")
+      .attr("class", "heading")
   tgrp.append("rect")
       .attr("x", 0)
-      .attr("y", 700)
-      .attr("width", 30)
-      .attr("height", 30)
-      .attr("fill", "#000000")
+      .attr("y", 600)
+      .attr("width", 110)
+      .attr("height", 50)
       .attr("class", "button")
       .text("reset")
       .on("click", function(){
-        returnColors()
-       d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
-      isClicked = false
+          returnColors()
+          d3.selectAll(".quadrant1,.quadrant2,.quadrant3,.quadrant4,.redLegend,.lightRedLegend,.purpleLegend,.lightPurpleLegend,.tealLegend,.lightTealLegend,.blueLegend,.lightBlueLegend").attr("opacity", 1)
+          isClicked = false
       })
-      .on("mouseover", function() { 
+        .on("mouseover", function() { 
             d3.select(this).attr("opacity", 0.5)
       })
       .on("mouseout", function() { 
             d3.select(this).attr("opacity", 1)
       })
+    
   
   var x = d3.scaleBand()
     .domain(d3.range(dataset.length))

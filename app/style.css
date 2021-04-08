@@ -7,13 +7,20 @@
   fill: #FFFFFF;
 }
 
-.heading, .quadrant1, .quadrant2, .quadrant3, .quadrant4, .button {
+.heading, .quadrant1, .quadrant2, .quadrant3, .quadrant4 {
  font-family: Montserrat;
  font-style: normal;
  font-weight: bold;
  font-size: 20px;
  line-height: 24px;
  fill: #ffffff;
+}
+
+.button {
+  background-color: #000000;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-size: 20px;
 }
 
 .subheading {
