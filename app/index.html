@@ -14,7 +14,6 @@
   </div>
   <script src="https://d3js.org/d3.v6.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- <script src="app.js" type="text/javascript"></script> -->
   <script src="data.js" type="text/javascript"></script>
 
 </body>
@@ -25,9 +24,14 @@
 
   var d3 = d3;
 
-
-var username = (window.prompt("Enter your username: "))
+  var username = (window.prompt("Enter your username: "))
   var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
+
+  var spotifyAPI = $.ajax({
+    url: "../util/spotify.json",
+    async: false,
+    dataType: 'json'
+  }).responseJSON;
 
   const margin = 40;
   const width = (screen.availWidth * 0.8) - 2 * margin
@@ -537,6 +541,15 @@ var username = (window.prompt("Enter your username: "))
           //     })
 
          var date = new Date(i.date)
+
+          tooltip.append("image")
+            .attr("xlink:href", function(){
+              return(spotifyAPI.find(item => item.name == i.topsongs[0].name && item.singer == i.topsongs[0].singer).image || '');
+            })
+            .attr("x", width + 50)
+            .attr("y", 130)
+            .attr("width","145px")                  
+            .attr("height","145px")
 
           //details
           tooltip.append("text")

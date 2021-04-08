@@ -19,6 +19,10 @@ app.get('/callback', function (req, res) {
   res.sendFile(__dirname + '/app/index.html');
 });
 
+app.get('/util/spotify.json', function (req, res) {
+  res.sendFile(__dirname + '/util/spotify.json');
+});
+
 
 // START SERVER ====================================================
 
