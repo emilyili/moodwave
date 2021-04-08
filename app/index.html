@@ -25,7 +25,6 @@
 
   var d3 = d3;
 
-
 var username = (window.prompt("Enter your username: "))
   var name = username.toLowerCase().replace(/\s/g, '').replace('-', '_');
 
@@ -69,6 +68,7 @@ var username = (window.prompt("Enter your username: "))
   var colorScaleOut = ["#B459DE", "#61ECDB", "#3372D2", "#FD3A3E"]
   var colorScaleIn = ["#E0BCF0", "#B6F6EE", "#B0C8ED", "#FED2D2"]
 
+  var isClicked = false
   //return colors to normal function - sharon
   function returnColors() {
     d3.selectAll(".purple").attr("fill", "#B459DE")
@@ -509,16 +509,28 @@ var username = (window.prompt("Enter your username: "))
     .attr("height", d => (y(0) - y(d.frequency)) * 0.8)
     .attr("width", x.bandwidth() + 1)
 
-    //hover capabilities
-    .on("mouseover", function (d, i) {
-      d3.select(this)
-        .attr("opacity", "25%")
+
+    //click capabilities
+    .on("click", function(d, i) {
+          d3.select("#tooltip2").remove();
+          
+          d3.select(this)
+          // console.log(this)
+            .attr("opacity", "25%")
 
       var tooltip = bars.append("g")
-          .attr("id", "tooltip")
+          .attr("id", "tooltip2")
 
+          tooltip.append("rect")
+          .attr("x", this.getAttribute("x"))
+          .attr("y", 120)
+          .attr("width", this.getAttribute("width"))
+          .attr("height", height - 4*margin)
+          .attr("fill", "white")
+          .attr("opacity", "50%")
+          .attr("class", this.getAttribute("class"))
          var date = new Date(i.date)
-
+          
           //details
           tooltip.append("text")
             .attr("x", width + 50)
@@ -668,9 +680,180 @@ var username = (window.prompt("Enter your username: "))
                 return `${i.reflections}`;
             }})
             .attr("dy", 0)
+            .call(wrap, x.bandwidth()); 
+          
+      })
+
+    //hover capabilities
+    .on("mouseover", function (d, i) {
+      d3.select(this)
+        .attr("opacity", "25%")
+
+      var tooltip = bars.append("g")
+          .attr("id", "tooltip")
+
+         var date = new Date(i.date)
+
+          //details
+          tooltip.append("rect")
+            .attr("x", width + 20)
+            .attr("y", 240)
+            .attr("width", 300)
+            .attr("height", 600)
+            .attr("fill", "#34383A")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 310)
+            .attr("class", "heading")
+            .text(`${date.toLocaleString('default', { month: 'short' })}` + " " + `${date.getDate()}` + ", " + `${date.getFullYear()}`)
+          tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 335)
+            .attr("class", "subbody")
+            .text("You listened to " + `${i.frequency}` + " songs.")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 370)
+            .attr("class", "subheading")
+            .text("top songs")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 390)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[0].name.length <= 35) {
+                return `${i.topsongs[0].name}`;
+              } else {
+                return `${i.topsongs[0].name}`.slice(0,35) + "...";
+              }})
+         tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 405)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[0].singer.length <= 35) {
+                return `${i.topsongs[0].singer}`;
+              } else {
+                return `${i.topsongs[0].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 425)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[1].name.length < 35) {
+                return `${i.topsongs[1].name}`;
+              } else {
+                return `${i.topsongs[1].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 440)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[1].singer.length <= 35) {
+                return `${i.topsongs[1].singer}`;
+              } else {
+                return `${i.topsongs[1].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 460)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[2].name.length < 35) {
+                return `${i.topsongs[2].name}`;
+              } else {
+                return `${i.topsongs[2].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 475)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[2].singer.length <= 35) {
+                return `${i.topsongs[2].singer}`;
+              } else {
+                return `${i.topsongs[2].singer}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 495)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[3].name.length < 35) {
+                return `${i.topsongs[3].name}`;
+              } else {
+                return `${i.topsongs[3].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 510)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[3].singer.length <= 35) {
+                return `${i.topsongs[3].singer}`;
+              } else {
+                return `${i.topsongs[3].singer}`.slice(0,35) + "...";
+              }})
+             tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 530)
+            .attr("class", "subtitle")
+            .text(function() {
+              if(i.topsongs[4].name.length < 35) {
+                return `${i.topsongs[4].name}`;
+              } else {
+                return `${i.topsongs[4].name}`.slice(0,35) + "...";
+              }})
+              tooltip.append("text")
+            .attr("x", width+ 50)
+            .attr("y", 545)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.topsongs[4].singer.length <= 35) {
+                return `${i.topsongs[4].singer}`;
+              } else {
+                return `${i.topsongs[4].singer}`.slice(0,35) + "...";
+            }})
+            tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 580)
+            .attr("class", "subheading")
+            .text("mood")
+            tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 600)
+            .attr("class", "subbody")
+            .text(function() {
+               if(i.keywords == null) {
+                return "____";
+              } else if(i.keywords.length <= 40) {
+                return `${i.keywords}`;
+              } else {
+                return `${i.keywords}`.slice(0,40) + "...";
+              }})
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 640)
+            .attr("class", "subheading")
+            .text("reflections")
+          tooltip.append("text")
+            .attr("x", width + 50)
+            .attr("y", 660)
+            .attr("class", "subbody")
+            .text(function() {
+              if(i.reflections == null) {
+                return "____";
+              } else {
+                return `${i.reflections}`;
+            }})
+            .attr("dy", 0)
             .call(wrap, x.bandwidth());
+          
   			 })
-  			.on("mouseout", function(d) {
+
+      .on("mouseout", function(d) {
   			  d3.select(this)
   			  .transition().duration(250)
   			  .attr("opacity", "100%");
